@@ -3,21 +3,39 @@ import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Eye, EyeOff, ArrowRight, Mail } from "lucide-react";
+import { Eye, EyeOff, ArrowRight, Mail, User, Phone, CheckCircle2 } from "lucide-react";
 import Logo from "@/components/Logo";
 
-const Login = () => {
+const Signup = () => {
   const [showPassword, setShowPassword] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    password: "",
+  });
   const navigate = useNavigate();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Implement actual login logic
-    console.log("Login attempt:", { email, password });
+    // TODO: Implement actual signup logic
+    console.log("Signup attempt:", formData);
     navigate("/");
   };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const benefits = [
+    "Launch your store for just ₹1",
+    "No credit card required",
+    "Free setup assistance",
+    "24/7 customer support",
+  ];
 
   return (
     <div className="min-h-screen flex">
@@ -32,25 +50,26 @@ const Login = () => {
           {/* Header */}
           <div className="mb-8">
             <h1 className="font-display text-3xl font-bold text-foreground mb-2">
-              Welcome back
+              Start your journey
             </h1>
             <p className="text-muted-foreground">
-              Enter your credentials to access your account
+              Create your account and launch your business today
             </p>
           </div>
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-5">
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="name">Full Name</Label>
               <div className="relative">
-                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+                <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
                 <Input
-                  id="email"
-                  type="email"
-                  placeholder="you@example.com"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="John Doe"
+                  value={formData.name}
+                  onChange={handleChange}
                   className="pl-10"
                   required
                 />
@@ -58,19 +77,49 @@ const Login = () => {
             </div>
 
             <div className="space-y-2">
-              <div className="flex items-center justify-between">
-                <Label htmlFor="password">Password</Label>
-                <a href="#" className="text-sm text-primary hover:underline">
-                  Forgot password?
-                </a>
+              <Label htmlFor="email">Email</Label>
+              <div className="relative">
+                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+                <Input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className="pl-10"
+                  required
+                />
               </div>
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="phone">Phone Number</Label>
+              <div className="relative">
+                <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+                <Input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="+91 98765 43210"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  className="pl-10"
+                  required
+                />
+              </div>
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="password">Password</Label>
               <div className="relative">
                 <Input
                   id="password"
+                  name="password"
                   type={showPassword ? "text" : "password"}
-                  placeholder="••••••••"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="Create a strong password"
+                  value={formData.password}
+                  onChange={handleChange}
                   className="pr-10"
                   required
                 />
@@ -84,10 +133,17 @@ const Login = () => {
               </div>
             </div>
 
-            <Button type="submit" className="w-full bg-primary hover:bg-primary/90 group">
-              Sign In
+            <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground group">
+              Create Account
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
+
+            <p className="text-xs text-center text-muted-foreground">
+              By signing up, you agree to our{" "}
+              <a href="#" className="text-primary hover:underline">Terms of Service</a>
+              {" "}and{" "}
+              <a href="#" className="text-primary hover:underline">Privacy Policy</a>
+            </p>
           </form>
 
           {/* Divider */}
@@ -119,40 +175,39 @@ const Login = () => {
             </Button>
           </div>
 
-          {/* Sign Up Link */}
+          {/* Sign In Link */}
           <p className="mt-8 text-center text-sm text-muted-foreground">
-            Don't have an account?{" "}
-            <Link to="/signup" className="text-primary font-medium hover:underline">
-              Sign up for free
+            Already have an account?{" "}
+            <Link to="/login" className="text-primary font-medium hover:underline">
+              Sign in
             </Link>
           </p>
         </div>
       </div>
 
-      {/* Right Side - Image/Branding */}
+      {/* Right Side - Benefits */}
       <div className="hidden lg:flex flex-1 hero-section items-center justify-center p-12">
-        <div className="max-w-lg text-center">
+        <div className="max-w-lg">
           <h2 className="font-display text-4xl font-bold text-white mb-6">
-            Build, Manage, and Grow Your Business
+            Launch Your Website for Just ₹1
           </h2>
           <p className="text-lg text-white/80 mb-8">
-            Join thousands of businesses already growing with CaartZee.
+            Start selling online with CaartZee. No technical hassle. No long-term commitment.
           </p>
-          <div className="flex justify-center gap-4">
-            <div className="text-center">
-              <div className="font-display text-3xl font-bold text-white">5000+</div>
-              <div className="text-sm text-white/60">Businesses</div>
-            </div>
-            <div className="w-px bg-white/20" />
-            <div className="text-center">
-              <div className="font-display text-3xl font-bold text-white">10+</div>
-              <div className="text-sm text-white/60">Years</div>
-            </div>
-            <div className="w-px bg-white/20" />
-            <div className="text-center">
-              <div className="font-display text-3xl font-bold text-white">24/7</div>
-              <div className="text-sm text-white/60">Support</div>
-            </div>
+          
+          <ul className="space-y-4 mb-10">
+            {benefits.map((benefit) => (
+              <li key={benefit} className="flex items-center gap-3">
+                <CheckCircle2 className="w-5 h-5 text-accent" />
+                <span className="text-white/90">{benefit}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div className="p-6 rounded-2xl bg-white/10 backdrop-blur-sm">
+            <div className="text-sm text-white/60 mb-2">Trusted by</div>
+            <div className="font-display text-3xl font-bold text-white">5000+ Businesses</div>
+            <div className="text-white/60 mt-1">across India</div>
           </div>
         </div>
       </div>
@@ -160,4 +215,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signup;
