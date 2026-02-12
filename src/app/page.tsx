@@ -1,5 +1,6 @@
 import About from '@/components/home/About';
 import Feature from '@/components/home/Feature';
+import Features from '@/components/home/Features';
 import Hero from '@/components/home/Hero';
 import Integration from '@/components/home/Integration';
 import Pricing from '@/components/home/Pricing';
@@ -22,7 +23,12 @@ const page = () => {
         <Hero />
         <About />
         <Work />
-        <Feature />
+        {/* <Feature /> */}
+
+        {/* new components */}
+        <Features />
+
+
         <Pricing />
         <Integration />
         <Reviews />
