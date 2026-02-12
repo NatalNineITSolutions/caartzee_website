@@ -27,7 +27,7 @@ export default function RootLayout({
             <Suspense>
               <SmoothScrollProvider>
                 <Navbar />
-                <DemoShowcase activeDemoId={5} />
+                {/* <DemoShowcase activeDemoId={5} /> */}
                 {children}
                 <Footer />
               </SmoothScrollProvider>
