@@ -1,11 +1,12 @@
-import heroShape1 from '@public/images/ns-img-15.png';
-import heroShape2 from '@public/images/ns-img-16.png';
-import heroShape3 from '@public/images/ns-img-17.png';
-import heroShape4 from '@public/images/ns-img-18.png';
-import heroShape5 from '@public/images/ns-img-19.png';
-import heroShape6 from '@public/images/ns-img-20.png';
-import heroShape7 from '@public/images/ns-img-21.png';
-import heroShape8 from '@public/images/ns-img-22.png';
+
+import chatgptIcon from '@public/images/icons/chatgpt.png';
+import amazonIcon from '@public/images/icons/amazon.png';
+import FlipcartIcon from '@public/images/icons/Flipcart-icon.png';
+import instagram from '@public/images/icons/instagram.png';
+import whatapp from '@public/images/icons/whatsapp.png';
+import linkedin from '@public/images/icons/linkedin.png';
+import google from '@public/images/icons/google.png';
+import shopify from '@public/images/icons/shopify.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
@@ -19,7 +20,7 @@ const HeroShapes = () => {
           data-parallax-value="1.8"
           data-parallax-x="1"
           data-parallax-y="0.5">
-          <Image src={heroShape1} alt="Hero shape 1" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={chatgptIcon} alt="Chatgpt Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
       <RevealAnimation delay={0.1}>
@@ -28,7 +29,7 @@ const HeroShapes = () => {
           data-parallax-value="2.4"
           data-parallax-x="1"
           data-parallax-y="1">
-          <Image src={heroShape2} alt="Hero shape 2" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={FlipcartIcon} alt="Flipcart Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
       <RevealAnimation delay={0.1}>
@@ -37,7 +38,7 @@ const HeroShapes = () => {
           data-parallax-value="1.8"
           data-parallax-x="0.7"
           data-parallax-y="-1">
-          <Image src={heroShape3} alt="Hero shape 3" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={amazonIcon} alt="Amazon Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
       <RevealAnimation delay={0.1}>
@@ -46,7 +47,7 @@ const HeroShapes = () => {
           data-parallax-value="1.9"
           data-parallax-x="1"
           data-parallax-y="-0.7">
-          <Image src={heroShape4} alt="Hero shape 4" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={instagram} alt="Instagram Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
 
@@ -57,7 +58,7 @@ const HeroShapes = () => {
           data-parallax-value="1.7"
           data-parallax-x="-0.8"
           data-parallax-y="1">
-          <Image src={heroShape5} alt="Hero shape 5" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={whatapp} alt="WhatsApp Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
       <RevealAnimation delay={0.1}>
@@ -66,7 +67,7 @@ const HeroShapes = () => {
           data-parallax-value="1.7"
           data-parallax-x="1"
           data-parallax-y="0.8">
-          <Image src={heroShape6} alt="Hero shape 6" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={linkedin} alt="LinkedIn Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
       <RevealAnimation delay={0.1}>
@@ -75,7 +76,7 @@ const HeroShapes = () => {
           data-parallax-value="1.7"
           data-parallax-x="-1"
           data-parallax-y="-1">
-          <Image src={heroShape7} alt="Hero shape 7" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={shopify} alt="Shopify Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
       <RevealAnimation delay={0.1}>
@@ -84,7 +85,7 @@ const HeroShapes = () => {
           data-parallax-value="1.7"
           data-parallax-x="0.5"
           data-parallax-y="-1">
-          <Image src={heroShape8} alt="Hero shape 8" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={google} alt="Google Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
     </>

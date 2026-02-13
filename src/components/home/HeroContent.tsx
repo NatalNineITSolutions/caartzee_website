@@ -9,15 +9,14 @@ const HeroContent = () => {
       </RevealAnimation>
       <RevealAnimation delay={0.2}>
         <h1 className="max-[426px]:text-heading-5 max-sm:text-heading-4 mb-4 font-medium max-[426px]:mb-2.5 max-sm:max-w-[450px]">
-          Effortlessly build advanced website
+          Own Your Growth Story, 
           <br className="hidden md:block" />
-          with AI-driven solutions
+          Become the Next Powerhouse
         </h1>
       </RevealAnimation>
       <RevealAnimation delay={0.3}>
         <p className="mb-10 max-w-[625px] max-sm:max-w-[420px] sm:mb-14">
-          Effortlessly build advanced websites with AI-driven solutions that streamline every step of the development
-          process. From intelligent design suggestions to automated
+          Launch quickly, manage effortlessly, and expand with confidence.Your full e-commerce empire—sales, stock, ERP—unlocked for just ₹1.
         </p>
       </RevealAnimation>
       <ul className="mb-7 flex flex-col gap-4 max-md:w-full md:mb-14 md:flex-row">

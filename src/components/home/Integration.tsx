@@ -1,10 +1,11 @@
 import { ArrowIcon } from '@/icons';
 import { cn } from '@/utils/cn';
+import chatgptIcon from '@public/images/icons/chatgpt.png';
+import facebookIcon from '@public/images/icons/facebook-v2.svg';
 import figmaIcon from '@public/images/icons/figma.svg';
+import googleIcon from '@public/images/icons/google.svg';
+import instagramIcon from '@public/images/icons/instagram.png';
 import shopifyIcon from '@public/images/icons/shopify.svg';
-import slackIcon from '@public/images/icons/slack.svg';
-import snapchatIcon from '@public/images/icons/snapchat.svg';
-import tiktokIcon from '@public/images/icons/tiktok.svg';
 import zapierIcon from '@public/images/icons/zapier.svg';
 import integrationBg from '@public/images/ns-img-24.png';
 import Image from 'next/image';
@@ -16,16 +17,16 @@ import LinkButton from '../ui/button/LinkButton';
 const integrationData = [
   {
     id: 1,
-    name: 'Zapier',
+    name: 'ChatGpt',
     category: 'Communication',
-    icon: zapierIcon,
+    icon: chatgptIcon,
     href: '/pricing',
   },
   {
     id: 2,
-    name: 'Snapchat',
-    category: 'Messaging App',
-    icon: snapchatIcon,
+    name: 'Google',
+    category: 'Technology',
+    icon: googleIcon,
     href: '/pricing',
   },
   {
@@ -44,16 +45,16 @@ const integrationData = [
   },
   {
     id: 5,
-    name: 'Slack',
-    category: 'Communication',
-    icon: slackIcon,
+    name: 'Facebook',
+    category: 'Social Media',
+    icon: facebookIcon,
     href: '/pricing',
   },
   {
     id: 6,
-    name: 'Tiktok',
-    category: 'Video Tool',
-    icon: tiktokIcon,
+    name: 'Instagram',
+    category: 'Social Media',
+    icon: instagramIcon,
     href: '/pricing',
   },
 ];
@@ -72,12 +73,12 @@ const Integration = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="text-accent max-[426px]:text-heading-6 mx-auto max-w-[750px]">
-                Link up with your favorite tools.
+                Connect with your favorite tools.
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="text-accent max-[426px]:text-tagline-2 max-w-[510px]">
-                We assist startups in standing out with exceptional messaging that effectively engages their audience.
+                Seamlessly integrate with marketplaces, payment gateways, shipping partners, and accounting software.
               </p>
             </RevealAnimation>
           </div>
@@ -90,16 +91,16 @@ const Integration = () => {
                     className="group-hover:shadow-1 flex justify-between rounded-[20px] bg-white/14 p-4 transition-all duration-500 ease-in-out group-hover:scale-[102%] max-[426px]:rounded-xl max-[426px]:p-3.5 md:p-4 lg:p-8">
                     <div className="flex items-center gap-4">
                       <div className="shrink-0 grow-0 transition-transform duration-500 group-hover:scale-[103%] group-hover:rotate-12">
-                        <span className="size-14 overflow-hidden">
+                        <div className="size-14 overflow-hidden">
                           <Image
                             src={integration.icon}
                             alt={`${integration.name} icon`}
                             className={cn(
-                              'size-full rounded-lg bg-white object-cover',
+                              'size-full rounded-lg bg-white object-cover p-1.5',
                               integration.name === 'Figma' && 'size-14',
                             )}
                           />
-                        </span>
+                        </div>
                       </div>
                       <div className="transform transition-transform duration-500 group-hover:translate-x-1.5">
                         <h5 className="text-accent max-[426px]:text-heading-6">{integration.name}</h5>

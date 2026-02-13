@@ -8,19 +8,23 @@ import LinkButton from '../ui/button/LinkButton';
 const aboutListData = [
   {
     id: 1,
-    text: 'Build and launch effortlessly, no coding skills needed.',
+    text: 'Real-time inventory tracking.',
   },
   {
     id: 2,
-    text: 'Dive right into action and elevate your sales.',
+    text: 'Centralized order management.',
   },
   {
     id: 3,
-    text: 'We accelerate growth with cutting-edge digital solutions.',
+    text: 'Automated financial reports.',
   },
   {
     id: 4,
-    text: 'We grasp the unique requirements of your business.',
+    text: 'Multi-channel sales sync.',
+  },
+   {
+    id: 5,
+    text: 'Smart analytics & insights.',
   },
 ];
 
@@ -34,7 +38,7 @@ const AboutList = () => {
         <div className="grid grid-cols-2 gap-5 px-6 py-14 max-sm:grid-cols-1 max-sm:gap-10 max-sm:px-5 max-sm:py-8 md:px-11">
           <div className="about-content max-w-[500px]">
             <h5 className="text-accent max-sm:text-heading-6 mb-8">
-              Develop a fully functional website that includes engaging content and visuals.
+             Replace scattered tools and manual tracking with one seamless platform that gives you full visibility and control.
             </h5>
             <LinkButton href="/contact-us" className="btn btn-md btn-white hover:btn-white-dark">
               Get started

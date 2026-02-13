@@ -1,8 +1,9 @@
 import About from '@/components/home/About';
-import Feature from '@/components/home/Feature';
 import Features from '@/components/home/Features';
 import Hero from '@/components/home/Hero';
+
 import Integration from '@/components/home/Integration';
+import Integ from '@/components/home/Integ';
 import Pricing from '@/components/home/Pricing';
 import Reviews from '@/components/home/Reviews';
 import Work from '@/components/home/Work';
@@ -31,6 +32,7 @@ const page = () => {
 
         <Pricing />
         <Integration />
+        <Integ />
         <Reviews />
         <VideoModal />
       </main>

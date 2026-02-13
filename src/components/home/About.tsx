@@ -5,19 +5,17 @@ import AboutUserCard from './AboutUserCard';
 
 const About = () => {
   return (
-    <section className="bg-background-3 dark:bg-background-6 relative pt-20 pb-14 max-sm:pt-10 max-sm:pb-10 md:pt-[100px] md:pb-16 lg:pt-[160px] lg:pb-[88px] xl:pt-[200px] xl:pb-[100px]">
+    <section className="bg-background-2 dark:bg-background-6 relative pt-20 pb-14 max-sm:pt-10 max-sm:pb-10 md:pt-[100px] md:pb-16 lg:pt-[160px] lg:pb-[88px] xl:pt-[200px] xl:pb-[100px]">
       <div className="main-container flex flex-col gap-[70px]">
-        <div className="flex flex-col items-center gap-y-4 text-center">
+        <div className="flex flex-col items-center gap-y-2 text-center">
           <RevealAnimation delay={0.1}>
             <h2 className="mx-auto max-w-[750px] max-sm:max-w-[320px]">
-              Create a flawless website down to the last pixel.
+             Build, Manage and Grow your Business, All in One Place
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <p className="max-w-[850px] max-sm:max-w-[300px]">
-              Creating a flawless website down to the last pixel means crafting a digital experience with exceptional
-              attention to detail, where every element is perfectly aligned, visually balanced, and functionally
-              seamless.
+            <p className="max-w-[900px] max-sm:max-w-[300px]">
+              Unify your online stores, inventory, finance, and sales channels within a single intelligent dashboard—designed for businesses ready to scale with speed and control.
             </p>
           </RevealAnimation>
         </div>

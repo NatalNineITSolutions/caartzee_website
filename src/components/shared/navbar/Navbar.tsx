@@ -49,32 +49,11 @@ const Navbar = () => {
             </div>
             <nav className="hidden items-center xl:flex">
               <ul className="flex items-center">
+                
                 <li
                   className="nav-item relative cursor-pointer py-2.5"
                   data-menu="company-mega-menu"
                   onMouseEnter={() => handleMenuHover('company-mega-menu')}>
-                  <Link
-                    href="/"
-                    className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Company</span>
-                    <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="currentColor"
-                        className="size-4">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                      </svg>
-                    </span>
-                  </Link>
-                  <CompanyMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
-                </li>
-                <li
-                  className="nav-item relative cursor-pointer py-2.5"
-                  data-menu="platform-mega-menu"
-                  onMouseEnter={() => handleMenuHover('platform-mega-menu')}>
                   <Link
                     href="/"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
@@ -91,8 +70,35 @@ const Navbar = () => {
                       </svg>
                     </span>
                   </Link>
+                  <CompanyMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                </li>
+                
+                <li
+                  className="nav-item relative cursor-pointer py-2.5"
+                  data-menu="platform-mega-menu"
+
+                  onMouseEnter={() => handleMenuHover('platform-mega-menu')}>
+                  <Link
+                    href="/"
+                    className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                    <span>Features</span>
+                    <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="size-4">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                      </svg>
+                    </span>
+                  </Link>
                   <PlatformMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
                 </li>
+              
+                
+                
                 <li
                   className="nav-item relative cursor-pointer py-2.5"
                   data-menu="resources-dropdown-menu"
@@ -100,7 +106,7 @@ const Navbar = () => {
                   <Link
                     href="/"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Resources</span>
+                    <span>Solutions</span>
                     <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -115,15 +121,24 @@ const Navbar = () => {
                   </Link>
                   <ResourcesMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
                 </li>
+
+                 <li className="nav-item relative cursor-pointer py-2.5">
+                  <Link
+                    href="/pricing"
+                    className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                    <span>Pricing</span>
+                  </Link>
+                </li>
+
                 <li
                   className="nav-item relative cursor-pointer py-2.5"
                   data-menu="plan-and-support-mega-menu"
                   onMouseEnter={() => handleMenuHover('plan-and-support-mega-menu')}>
                   <Link
-                    href="/"
+                    href="/contactMenu"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Plans &amp; Support</span>
-                    <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
+                    <span>Contact</span>
+                    {/* <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -133,17 +148,11 @@ const Navbar = () => {
                         className="size-4">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                       </svg>
-                    </span>
+                    </span> */}
                   </Link>
-                  <PlanAndSupportMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                  {/* <PlanAndSupportMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} /> */}
                 </li>
-                <li className="nav-item relative cursor-pointer py-2.5">
-                  <Link
-                    href="/pricing"
-                    className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Pricing</span>
-                  </Link>
-                </li>
+               
               </ul>
             </nav>
             <div className="hidden items-center justify-center xl:flex">

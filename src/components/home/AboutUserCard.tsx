@@ -48,10 +48,9 @@ const AboutUserCard = () => {
           </div>
         </div>
         <div className="mx-auto max-w-[375px] py-8 text-center max-lg:px-6 max-lg:py-6 max-lg:text-left">
-          <h5 className="max-lg:text-heading-6 mb-2">Content creation powered by AI.</h5>
+          <h5 className="max-lg:text-heading-6 mb-2">Automate Your Workflow</h5>
           <p className="max-lg:text-tagline-2 px-1 sm:px-0">
-            Content creation powered by artificial intelligence (AI) is revolutionizing the way digital content is
-            produced, curated, and delivered.
+           Save time with smart automation for orders, billing, and stock updates.
           </p>
         </div>
       </div>

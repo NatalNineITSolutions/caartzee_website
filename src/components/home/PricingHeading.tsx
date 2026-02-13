@@ -8,7 +8,7 @@ const PricingHeading = ({ isAnnual, setIsAnnual }: { isAnnual: boolean; setIsAnn
       </RevealAnimation>
       <RevealAnimation delay={0.2}>
         <h2 className="mx-auto mb-8 max-w-[650px] max-[426px]:max-w-[320px]">
-          Select the pricing plan that best suits your needs.
+          Choose the plan that fits your growth stage.
         </h2>
       </RevealAnimation>
 
