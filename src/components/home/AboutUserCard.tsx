@@ -11,12 +11,14 @@ const AboutUserCard = () => {
               <Image src={avatar1} alt="avatar" className="max-w-full" />
             </figure>
             <div>
-              <h5 className="text-accent max-sm:text-heading-6">Curious george</h5>
+              <h5 className="text-accent max-sm:text-heading-6">Trusted by Industry Professionals</h5>
 
-              <p className="text-accent/60 max-sm:text-tagline-2">UI UX designer</p>
+              <p className="text-accent/60 max-sm:text-tagline-2 whitespace-nowrap">
+                Built with user-focused design and performance-driven architecture.
+              </p>
             </div>
           </div>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-5">
             <div className="flex items-center gap-2.5">
               <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_244_14392)">
@@ -32,7 +34,10 @@ const AboutUserCard = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <p className="text-accent/60 text-tagline-2 font-medium">40 Task</p>
+              <div>
+                <p className="text-accent/60 text-tagline-2 font-medium">40+ Active Business Processes</p>
+                <p className="text-xs text-gray-500">From sales and billing to inventory</p>
+              </div>
             </div>
             <div className="flex items-center gap-2.5">
               <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,14 +48,17 @@ const AboutUserCard = () => {
                 />
               </svg>
 
-              <p className="text-accent/60 text-tagline-2 font-medium">4.7 (750 Reviews)</p>
+              <div>
+                <p className="text-accent/60 text-tagline-2 font-medium">4.7 (750 Reviews)</p>
+                <p className="text-xs text-gray-500">Highly rated for usability</p>
+              </div>
             </div>
           </div>
         </div>
         <div className="mx-auto max-w-[375px] py-8 text-center max-lg:px-6 max-lg:py-6 max-lg:text-left">
           <h5 className="max-lg:text-heading-6 mb-2">Automate Your Workflow</h5>
           <p className="max-lg:text-tagline-2 px-1 sm:px-0">
-           Save time with smart automation for orders, billing, and stock updates.
+            Save time with smart automation for orders, billing, and stock updates.
           </p>
         </div>
       </div>

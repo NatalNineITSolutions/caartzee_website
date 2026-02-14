@@ -83,7 +83,7 @@ const Features = () => {
                                 <RevealAnimation delay={0.3}>
                                     <div className="relative w-full shrink-0 space-y-1 overflow-hidden rounded-4xl bg-white p-8 lg:h-[221px] lg:p-[42px]">
                                         <h3 className="text-heading-5 text-secondary/80 relative z-20 font-normal">
-                                           Multi-Store Inventory Sync
+                                            Multi-Store Inventory Sync
                                         </h3>
                                         <p>Avoid overselling and stock mismatches across channels.</p>
 
@@ -149,8 +149,9 @@ const Features = () => {
                                     </RevealAnimation>
 
                                     <div className="relative z-20 space-y-1">
-                                        <h3 className="text-heading-5 text-secondary/80 font-normal">Voice cloning</h3>
-                                        <p>Create a custom voice from just a few audio samples.</p>
+                                        <h3 className="text-heading-5 text-secondary/80 font-normal">Smart Inventory Control</h3>
+                                        <p>Stay Stocked. Stay Ahead.
+                                            Monitor inventory levels in real time across all your stores and warehouses.</p>
                                     </div>
 
                                     <div className="flex h-auto w-full flex-col justify-between space-y-2.5 rounded-xl p-4 max-sm:items-center md:max-w-[233px] lg:h-[166px]">
@@ -244,7 +245,7 @@ const Features = () => {
                             <RevealAnimation delay={0.6}>
                                 <div className="col-span-12 h-[450px] w-full space-y-[74px] rounded-4xl bg-white pt-[42px] lg:col-span-4 lg:max-w-[500px] xl:col-span-6 xl:max-w-[642px]">
                                     <div className="space-y-1 px-[42px]">
-                                        <h3 className="text-heading-5 text-secondary/80 font-normal">AI voice changer</h3>
+                                        <h3 className="text-heading-5 text-secondary/80 font-normal">Advanced Business AnalyticsData That Drives Growth.</h3>
                                         <p>Transform any voice into a professional-sounding tone.</p>
                                     </div>
 

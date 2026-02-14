@@ -109,14 +109,14 @@ const CompanyMenu = ({
       <div
         id="company-mega-menu"
         className={cn(
-          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 items-start gap-y-6 rounded-[20px] border bg-white p-4 transition-all duration-300 md:w-[400px] md:gap-x-6 xl:flex dark:border-white/10',
+          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 items-center gap-y-6 rounded-[20px] border bg-white p-4 transition-all duration-300 md:w-[400px] md:gap-x-6 xl:flex dark:border-white/10',
           // when hover show the menu
           menuDropdownId === 'company-mega-menu'
             ? 'translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
         <div className="flex-1 space-y-1">
-          <ul className="space-y-2">
+          <ul className="space-y-2 w-fit mx-auto">
             {aboutLinks.map((link) => (
               <CompanyMenuLink key={link.title} {...link} onClose={handleClose} />
             ))}
@@ -142,13 +142,13 @@ const CompanyMenu = ({
             {/* <figure className="group relative h-[166px] w-full max-w-full overflow-hidden rounded-[14px]">
               <Image src={nsImg422} alt="What’s new" className="h-full w-full rounded-[14px] object-cover" />
               <div className="absolute top-3 bottom-3 left-3 w-full space-y-5 p-2"> */}
-                {/* <div>
+            {/* <div>
                   <p className="text-tagline-1 text-secondary font-normal">Product updates</p>
                   <p className="text-tagline-2 text-secondary/60 w-full max-w-[169px] font-normal">
                     Stay ahead with the latest features and improvements.
                   </p>
                 </div> */}
-                {/* <Link
+            {/* <Link
                   onClick={handleClose}
                   href="/documentation"
                   className="group-hover:bg-primary-500 group bg-secondary relative flex h-9.5 w-16 items-center justify-center space-y-5 overflow-hidden rounded-[40px] px-5 py-2 ring-[6px] ring-white transition-all duration-500 ease-in-out">
@@ -165,7 +165,7 @@ const CompanyMenu = ({
                     />
                   </figure>
                 </Link> */}
-              {/* </div> */}
+            {/* </div> */}
             {/* </figure> */}
           </div>
         </div>

@@ -12,12 +12,12 @@ const CTA = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="mx-auto max-w-[1042px]">
-                NextSaaS – your ultimate email &amp; transactional messaging platform
+                CartZee – your all-in-one e-commerce platform
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[600px]">
-                Drive more engagement. improve deliverability. automate your emails.
+                Unify your stores, orders, inventory, finance, and marketing in one powerful dashboard. Automate more, manage less, and scale faster.
               </p>
             </RevealAnimation>
           </div>
@@ -44,7 +44,7 @@ const CTA = () => {
                   <span className="bg-secondary dark:bg-accent flex size-[18px] items-center justify-center rounded-full">
                     <CheckIcon />
                   </span>
-                  <p className="text-tagline-2">No credit card required</p>
+                  <p className="text-tagline-2">Quick setup</p>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
@@ -52,7 +52,7 @@ const CTA = () => {
                   <span className="bg-secondary dark:bg-accent flex size-[18px] items-center justify-center rounded-full">
                     <CheckIcon />
                   </span>
-                  <p className="text-tagline-2">14-Day free trial</p>
+                  <p className="text-tagline-2">Cancel anytime</p>
                 </li>
               </RevealAnimation>
             </ul>

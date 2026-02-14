@@ -15,7 +15,7 @@ const Testimonial = () => {
           </RevealAnimation>
 
           <RevealAnimation delay={0.2}>
-            <h2 className="mx-auto mb-3 max-w-[750px]">Hear from our customers about their experiences with us</h2>
+            <h2 className="mx-auto mb-3 max-w-[750px] text-heading-3">Hear from our customers about their experience with CartZee</h2>
           </RevealAnimation>
         </div>
       </div>

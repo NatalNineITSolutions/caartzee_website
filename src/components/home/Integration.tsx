@@ -1,12 +1,11 @@
 import { ArrowIcon } from '@/icons';
 import { cn } from '@/utils/cn';
 import chatgptIcon from '@public/images/icons/chatgpt.png';
-import facebookIcon from '@public/images/icons/facebook-v2.svg';
-import figmaIcon from '@public/images/icons/figma.svg';
-import googleIcon from '@public/images/icons/google.svg';
-import instagramIcon from '@public/images/icons/instagram.png';
-import shopifyIcon from '@public/images/icons/shopify.svg';
-import zapierIcon from '@public/images/icons/zapier.svg';
+import geminiIcon from '@public/images/icons/gemini.svg';
+import instagramIcon from '@public/images/icons/instagram.svg';
+import facebookIcon from '@public/images/icons/facebook.svg';
+import whatsappIcon from '@public/images/icons/whatsapp.png';
+import xIcon from '@public/images/icons/x.svg';
 import integrationBg from '@public/images/ns-img-24.png';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -17,44 +16,44 @@ import LinkButton from '../ui/button/LinkButton';
 const integrationData = [
   {
     id: 1,
-    name: 'ChatGpt',
-    category: 'Communication',
+    name: 'ChatGPT',
+    category: 'Conversational AI',
     icon: chatgptIcon,
     href: '/pricing',
   },
   {
     id: 2,
-    name: 'Google',
-    category: 'Technology',
-    icon: googleIcon,
+    name: 'Gemini',
+    category: 'Multimodal AI',
+    icon: geminiIcon,
     href: '/pricing',
   },
   {
     id: 3,
-    name: 'Shopify',
-    category: 'e-commerce',
-    icon: shopifyIcon,
+    name: 'WhatsApp',
+    category: 'Communication',
+    icon: whatsappIcon,
     href: '/pricing',
   },
   {
     id: 4,
-    name: 'Figma',
-    category: 'Design Tool',
-    icon: figmaIcon,
+    name: 'X',
+    category: 'Social Media',
+    icon: xIcon,
     href: '/pricing',
   },
   {
     id: 5,
-    name: 'Facebook',
+    name: 'Instagram',
     category: 'Social Media',
-    icon: facebookIcon,
+    icon: instagramIcon,
     href: '/pricing',
   },
   {
     id: 6,
-    name: 'Instagram',
+    name: 'Facebook',
     category: 'Social Media',
-    icon: instagramIcon,
+    icon: facebookIcon,
     href: '/pricing',
   },
 ];
@@ -67,18 +66,18 @@ const Integration = () => {
           <Image quality={100} src={integrationBg} alt="integration bd bg" className="h-full w-full object-cover" />
         </div>
         <div className="mx-auto max-w-[850px]">
-          <div className="mb-[112px] flex flex-col items-center gap-y-4 text-center max-[426px]:mb-10">
+          <div className="mb-[60px] flex flex-col items-center gap-y-4 text-center max-[426px]:mb-10">
             <RevealAnimation delay={0.1}>
               <span className="badge badge-blur text-ns-yellow mb-5 max-[426px]:mb-3">Integration</span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="text-accent max-[426px]:text-heading-6 mx-auto max-w-[750px]">
-                Connect with your favorite tools.
+                Powerful AI Tools Built for Growth
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
-              <p className="text-accent max-[426px]:text-tagline-2 max-w-[510px]">
-                Seamlessly integrate with marketplaces, payment gateways, shipping partners, and accounting software.
+              <p className="text-accent max-[426px]:text-tagline-2 max-w-[650px]">
+                Smart tools that work for you.
               </p>
             </RevealAnimation>
           </div>

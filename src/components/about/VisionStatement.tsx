@@ -9,17 +9,23 @@ const VisionStatement = () => {
       <div className="main-container space-y-12 md:space-y-16 lg:space-y-[100px]">
         <div className="mx-auto max-w-[780px] space-y-3 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-cyan mb-5">Passion meets purpose</span>
+            <span className="badge badge-cyan mb-5">Passion Meets Purpose</span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <h2 className="font-medium">Built for progress. designed for possibility.</h2>
+            <h2 className="text-heading-3 text-secondary font-medium">Built for Progress. Designed for Possibility.</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
-            <p>
-              At NextSaaS, we believe software should empower people, not overwhelm them. That&apos;s why we&apos;ve
-              created a flexible, intuitive platform that helps teams streamline operations, gain clarity from data, and
-              scale faster, without the complexity.
-            </p>
+            <div className="space-y-4">
+              <p className="text-secondary/80">
+                At CaartZee, we believe technology should simplify business — not complicate it.
+              </p>
+              <p className="text-secondary/80">
+                Built by experts and designed for real businesses, our platform turns complex operations into one seamless experience.
+              </p>
+              <p className="text-secondary/80">
+                With 10+ years of domain expertise, we help modern businesses streamline workflows, boost sales, and scale confidently — all from a single, powerful platform.
+              </p>
+            </div>
           </RevealAnimation>
         </div>
         <article className="flex flex-col gap-8 md:flex-row">

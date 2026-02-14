@@ -4,12 +4,13 @@ import LinkButton from '../ui/button/LinkButton';
 const HeroContent = () => {
   return (
     <div className="main-container z-10 flex flex-col items-center text-center">
+
       <RevealAnimation delay={0.1}>
-        <span className="badge badge-yellow mb-5">Artificial intelligence solutions</span>
+        <span className="badge badge-yellow mb-5">Own Your Market</span>
       </RevealAnimation>
       <RevealAnimation delay={0.2}>
         <h1 className="max-[426px]:text-heading-5 max-sm:text-heading-4 mb-4 font-medium max-[426px]:mb-2.5 max-sm:max-w-[450px]">
-          Own Your Growth Story, 
+          Own Your Growth Story,
           <br className="hidden md:block" />
           Become the Next Powerhouse
         </h1>

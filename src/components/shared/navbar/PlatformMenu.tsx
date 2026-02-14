@@ -111,27 +111,25 @@ const PlatformMenu = ({
       <div
         id="platform-mega-menu"
         className={cn(
-          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 rounded-[20px] border bg-white p-4 transition-all duration-300 lg:w-[650px] xl:flex dark:border-white/10',
+          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 rounded-[20px] border bg-white p-4 transition-all duration-300 lg:w-[500px] xl:flex dark:border-white/10',
           menuDropdownId === 'platform-mega-menu'
             ? 'translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
-        <div className="grid grid-cols-12 items-start gap-y-6 md:gap-x-6">
-          <div className="col-span-12 grid grid-cols-12 gap-x-6 lg:col-span-6">
-            <div className="col-span-12 xl:col-span-6">
+        <div className="grid grid-cols-12 items-center gap-y-6 md:gap-x-6">
+          <div className="col-span-12 grid grid-cols-1 sm:grid-cols-2 gap-x-6 w-full">
+            <div className="flex justify-center">
               <div>
-                {/* <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 p-3 font-medium">Overview</p> */}
-                <ul>
+                <ul className="w-fit">
                   {overviewLinks.map((link) => (
                     <PlatformMenuLink key={link.label} {...link} variant="icon" onClose={handleClose} />
                   ))}
                 </ul>
               </div>
             </div>
-            <div className="col-span-12 xl:col-span-6">
+            <div className="flex justify-center">
               <div>
-                {/* <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 p-3 font-medium">Integrations</p> */}
-                <ul>
+                <ul className="w-fit">
                   {integrationLinks.map((link) => (
                     <PlatformMenuLink key={link.label} {...link} variant="icon" onClose={handleClose} />
                   ))}
