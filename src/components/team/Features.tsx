@@ -48,53 +48,68 @@ const Features = () => {
                 <RevealAnimation delay={0.1}>
                   <span className="badge badge-cyan">Reasons to select us</span>
                 </RevealAnimation>
-                <div className="space-y-3">
+                <div className="space-y-5">
                   <RevealAnimation delay={0.2}>
-                    <h2 className="max-w-[521px]">Easily manage your cash flow.</h2>
+                    <h2>Easily manage your entire business with CartZee</h2>
                   </RevealAnimation>
                   <RevealAnimation delay={0.3}>
                     <p>
-                      Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text nothing Before
-                      &amp; After magazine.
+                      From inventory to sales, marketing, finance, and fulfillment—CartZee brings everything together in one secure, intelligent platform designed for fast-growing businesses.
                     </p>
                   </RevealAnimation>
                 </div>
               </div>
-              <div>
-                <ul className="space-y-2">
-                  <RevealAnimation delay={0.2}>
-                    <li className="flex items-center gap-4 p-2">
-                      <span className="ns-shape-8 text-secondary dark:text-accent text-[36px]" />
-                      <span className="text-tagline-1 text-secondary dark:text-accent font-medium">
-                        A version for offline use is available.
-                      </span>
-                    </li>
-                  </RevealAnimation>
-                  <RevealAnimation delay={0.3}>
-                    <li className="flex items-center gap-4 p-2">
-                      <span className="ns-shape-9 text-secondary dark:text-accent text-[36px]" />
-                      <span className="text-tagline-1 text-secondary dark:text-accent font-medium">
-                        Designed to be both scalable and secure.
-                      </span>
-                    </li>
-                  </RevealAnimation>
-                  <RevealAnimation delay={0.4}>
-                    <li className="flex items-center gap-4 p-2">
-                      <span className="ns-shape-12 text-secondary dark:text-accent text-[36px]" />
-                      <span className="text-tagline-1 text-secondary dark:text-accent font-medium">
-                        Feature powered by artificial intelligence.
-                      </span>
-                    </li>
-                  </RevealAnimation>
-                  <RevealAnimation delay={0.5}>
-                    <li className="flex items-center gap-4 p-2">
-                      <span className="ns-shape-21 text-secondary dark:text-accent text-[36px]" />
-                      <span className="text-tagline-1 text-secondary dark:text-accent font-medium">
-                        It offers both scalability and robust security.
-                      </span>
-                    </li>
-                  </RevealAnimation>
-                </ul>
+              <div className="mx-auto grid max-w-[900px] grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-1 xl:w-full xl:grid-cols-2">
+                <RevealAnimation delay={0.2}>
+                  <div className="flex gap-5">
+                    <div className="bg-background-2 dark:bg-background-8 text-secondary dark:text-accent flex size-[60px] shrink-0 items-center justify-center rounded-full text-4xl">
+                      <span className="ns-monitor" />
+                    </div>
+                    <div>
+                      <h4 className="mb-3 text-xl font-medium">Unified e-commerce + ERP built to work together.</h4>
+                    </div>
+                  </div>
+                </RevealAnimation>
+                <RevealAnimation delay={0.3}>
+                  <div className="flex gap-5">
+                    <div className="bg-background-2 dark:bg-background-8 text-secondary dark:text-accent flex size-[60px] shrink-0 items-center justify-center rounded-full text-4xl">
+                      <span className="ns-shield" />
+                    </div>
+                    <div>
+                      <h4 className="mb-3 text-xl font-medium">Designed to be both scalable and secure.</h4>
+                    </div>
+                  </div>
+                </RevealAnimation>
+                <RevealAnimation delay={0.4}>
+                  <div className="flex gap-5">
+                    <div className="bg-background-2 dark:bg-background-8 text-secondary dark:text-accent flex size-[60px] shrink-0 items-center justify-center rounded-full text-4xl">
+                      <span className="ns-database" />
+                    </div>
+                    <div>
+                      <h4 className="mb-3 text-xl font-medium">Features powered by artificial intelligence</h4>
+                    </div>
+                  </div>
+                </RevealAnimation>
+                <RevealAnimation delay={0.5}>
+                  <div className="flex gap-5">
+                    <div className="bg-background-2 dark:bg-background-8 text-secondary dark:text-accent flex size-[60px] shrink-0 items-center justify-center rounded-full text-4xl">
+                      <span className="ns-rocket" />
+                    </div>
+                    <div>
+                      <h4 className="mb-3 text-xl font-medium">Mobile-first, fast, and optimized for modern businesses</h4>
+                    </div>
+                  </div>
+                </RevealAnimation>
+                <RevealAnimation delay={0.6}>
+                  <div className="flex gap-5">
+                    <div className="bg-background-2 dark:bg-background-8 text-secondary dark:text-accent flex size-[60px] shrink-0 items-center justify-center rounded-full text-4xl">
+                      <span className="ns-store" />
+                    </div>
+                    <div>
+                      <h4 className="mb-3 text-xl font-medium">Suitable for retail, services, manufacturing & online sellers</h4>
+                    </div>
+                  </div>
+                </RevealAnimation>
               </div>
             </div>
           </div>

@@ -6,17 +6,26 @@ import LinkButton from '../ui/button/LinkButton';
 const pricingFeaturesData = [
   {
     id: 1,
-    text: 'Selling on your own conditions',
+    text: 'Unlimited Stores',
     isActive: true,
   },
   {
     id: 2,
-    text: 'Seamless integrations',
+    text: 'Advanced Automation',
     isActive: true,
   },
   {
     id: 3,
-    text: 'Real-time streaming',
+    text: 'Dedicated Account Manager',
+    isActive: false,
+  },
+  {
+    id: 4,
+    text: 'Custom Integrations',
+    isActive: false,
+  },{
+    id: 3,
+    text: 'Premium Support',
     isActive: false,
   },
 ];
@@ -25,24 +34,24 @@ const PricingCardThree = ({ isAnnual }: { isAnnual: boolean }) => {
   return (
     <RevealAnimation delay={0.6}>
       <div className="bg-background-3 dark:bg-background-7 flex-1 rounded-[20px] p-8 max-lg:w-full">
-        <h3 className="text-heading-5 mb-2 font-normal">Enhanced</h3>
+        <h3 className="text-heading-5 mb-2 font-normal">Enterprise</h3>
         <p className="text-secondary/60 dark:text-accent/60 mb-6 max-w-[250px]">
-          For individuals and small teams with unlimited trial access.
+          For large businesses & brands, Custom Pricing
         </p>
 
         {isAnnual ? (
           <div className="price-year mb-7">
             <h4 className="text-heading-4 font-normal">
-              $<span>5800.00</span>
+              ₹<span>5800.00</span>
             </h4>
             <p className="text-secondary">Per Year</p>
           </div>
         ) : (
           <div className="price-month mb-7">
             <h4 className="text-heading-4 font-normal">
-              $<span>4800.00</span>
+              ₹<span>1</span>
             </h4>
-            <p className="text-secondary">Per Month</p>
+            <p className="text-secondary">Start For 1 RS</p>
           </div>
         )}
         <LinkButton

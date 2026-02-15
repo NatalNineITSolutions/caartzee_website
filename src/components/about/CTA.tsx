@@ -9,13 +9,13 @@ const CTA = () => {
         <div className="text-center">
           <RevealAnimation delay={0.1}>
             <h2 className="mx-auto mb-3 max-w-[810px] text-center">
-              Experience a free trial today and watch your business grow.{' '}
-              <span className="text-primary-500">7- day free trial</span>
+              Start today. Experience the difference.{' '}
+              <span className="text-primary-500">Start for Rs1</span>
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <p className="mx-auto mb-8 lg:max-w-[390px]">
-              Sign up today to enhance your customer support with our tools and solutions.
+            <p className="mx-auto mb-8 lg:max-w-[490px]">
+              Sign up today and see how Zee done simplifies business, organizes your team, and helps you scale.
             </p>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
@@ -24,7 +24,7 @@ const CTA = () => {
                 <LinkButton
                   href="/contact-us"
                   className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md text-tagline-2 mx-auto block w-full text-center md:mx-0 md:inline-block md:w-auto">
-                  7- day free trial
+                  Get Started Today
                 </LinkButton>
               </div>
             </div>
@@ -40,11 +40,11 @@ const CTA = () => {
               },
               {
                 id: '2',
-                text: 'free for 30 day trial.',
+                text: 'Easy setup',
               },
               {
                 id: '3',
-                text: 'Money back guarantee.',
+                text: 'Cancel anytime',
               },
             ]}
           />

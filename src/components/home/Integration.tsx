@@ -1,11 +1,11 @@
 import { ArrowIcon } from '@/icons';
 import { cn } from '@/utils/cn';
-import figmaIcon from '@public/images/icons/figma.svg';
-import shopifyIcon from '@public/images/icons/shopify.svg';
-import slackIcon from '@public/images/icons/slack.svg';
-import snapchatIcon from '@public/images/icons/snapchat.svg';
-import tiktokIcon from '@public/images/icons/tiktok.svg';
-import zapierIcon from '@public/images/icons/zapier.svg';
+import chatgptIcon from '@public/images/icons/chatgpt.png';
+import geminiIcon from '@public/images/icons/gemini.svg';
+import instagramIcon from '@public/images/icons/instagram.svg';
+import facebookIcon from '@public/images/icons/facebook.svg';
+import whatsappIcon from '@public/images/icons/whatsapp.png';
+import xIcon from '@public/images/icons/x.svg';
 import integrationBg from '@public/images/ns-img-24.png';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,44 +16,44 @@ import LinkButton from '../ui/button/LinkButton';
 const integrationData = [
   {
     id: 1,
-    name: 'Zapier',
-    category: 'Communication',
-    icon: zapierIcon,
+    name: 'ChatGPT',
+    category: 'Conversational AI',
+    icon: chatgptIcon,
     href: '/pricing',
   },
   {
     id: 2,
-    name: 'Snapchat',
-    category: 'Messaging App',
-    icon: snapchatIcon,
+    name: 'Gemini',
+    category: 'Multimodal AI',
+    icon: geminiIcon,
     href: '/pricing',
   },
   {
     id: 3,
-    name: 'Shopify',
-    category: 'e-commerce',
-    icon: shopifyIcon,
+    name: 'WhatsApp',
+    category: 'Communication',
+    icon: whatsappIcon,
     href: '/pricing',
   },
   {
     id: 4,
-    name: 'Figma',
-    category: 'Design Tool',
-    icon: figmaIcon,
+    name: 'X',
+    category: 'Social Media',
+    icon: xIcon,
     href: '/pricing',
   },
   {
     id: 5,
-    name: 'Slack',
-    category: 'Communication',
-    icon: slackIcon,
+    name: 'Instagram',
+    category: 'Social Media',
+    icon: instagramIcon,
     href: '/pricing',
   },
   {
     id: 6,
-    name: 'Tiktok',
-    category: 'Video Tool',
-    icon: tiktokIcon,
+    name: 'Facebook',
+    category: 'Social Media',
+    icon: facebookIcon,
     href: '/pricing',
   },
 ];
@@ -66,18 +66,18 @@ const Integration = () => {
           <Image quality={100} src={integrationBg} alt="integration bd bg" className="h-full w-full object-cover" />
         </div>
         <div className="mx-auto max-w-[850px]">
-          <div className="mb-[112px] flex flex-col items-center gap-y-4 text-center max-[426px]:mb-10">
+          <div className="mb-[60px] flex flex-col items-center gap-y-4 text-center max-[426px]:mb-10">
             <RevealAnimation delay={0.1}>
               <span className="badge badge-blur text-ns-yellow mb-5 max-[426px]:mb-3">Integration</span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="text-accent max-[426px]:text-heading-6 mx-auto max-w-[750px]">
-                Link up with your favorite tools.
+                Powerful AI Tools Built for Growth
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
-              <p className="text-accent max-[426px]:text-tagline-2 max-w-[510px]">
-                We assist startups in standing out with exceptional messaging that effectively engages their audience.
+              <p className="text-accent max-[426px]:text-tagline-2 max-w-[650px]">
+                Smart tools that work for you.
               </p>
             </RevealAnimation>
           </div>
@@ -90,16 +90,16 @@ const Integration = () => {
                     className="group-hover:shadow-1 flex justify-between rounded-[20px] bg-white/14 p-4 transition-all duration-500 ease-in-out group-hover:scale-[102%] max-[426px]:rounded-xl max-[426px]:p-3.5 md:p-4 lg:p-8">
                     <div className="flex items-center gap-4">
                       <div className="shrink-0 grow-0 transition-transform duration-500 group-hover:scale-[103%] group-hover:rotate-12">
-                        <span className="size-14 overflow-hidden">
+                        <div className="size-14 overflow-hidden">
                           <Image
                             src={integration.icon}
                             alt={`${integration.name} icon`}
                             className={cn(
-                              'size-full rounded-lg bg-white object-cover',
+                              'size-full rounded-lg bg-white object-cover p-1.5',
                               integration.name === 'Figma' && 'size-14',
                             )}
                           />
-                        </span>
+                        </div>
                       </div>
                       <div className="transform transition-transform duration-500 group-hover:translate-x-1.5">
                         <h5 className="text-accent max-[426px]:text-heading-6">{integration.name}</h5>

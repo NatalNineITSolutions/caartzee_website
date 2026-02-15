@@ -41,12 +41,14 @@ const Work = () => {
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
               <h2 className="text-accent max-lg:text-heading-6 mx-auto max-w-[750px]">
-                Simple actions, limitless opportunities
+               Access Powerful Insights
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="text-accent max-lg:text-tagline-2 max-w-[850px]">
-                Armed with concepts, we carefully design and refine every detail to align with your vision and goals.
+                Track performance, revenue, and growth with real-time dashboards.
+                 Scale smarter. Not harder.
+
               </p>
             </RevealAnimation>
           </div>

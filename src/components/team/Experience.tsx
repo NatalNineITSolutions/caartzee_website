@@ -12,52 +12,53 @@ const Experience = () => {
             </RevealAnimation>
             <div className="space-y-3">
               <RevealAnimation delay={0.2}>
-                <h2>Over a decade of experience in this.</h2>
+                <h2>Over a decade of experience in building digital commerce solutions.</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <p>
-                  This extensive experience not only reflects our commitment to excellence but also equips us with the
-                  insight and skills necessary to meet.
+                  Our deep experience in e-commerce, ERP, automation, and retail operations enables us to build technology that simplifies growth for every business. With CartZee, companies gain the tools, insights, and speed needed to stay ahead in today’s competitive markets.
                 </p>
               </RevealAnimation>
             </div>
           </div>
           <div className="grid grow-1 grid-cols-1 gap-8 md:grid-cols-2">
             <RevealAnimation delay={0.2}>
-              <div className="bg-background-2 dark:bg-background-8 flex flex-col justify-between rounded-xl p-8">
-                <div className="flex items-center justify-between">
-                  <h5 className="max-w-[200px]">Relied upon by businesses</h5>
+              <div className="bg-background-2 dark:bg-background-8 flex flex-col justify-between rounded-xl p-8 gap-y-4">
+                <div className="flex items-start justify-between">
+                  <h5 className="max-w-[200px] text-lg font-semibold">Relied upon by businesses</h5>
                   <div className="shrink-0">
-                    <span className="ns-shape-47 text-secondary dark:text-accent text-[52px]" />
+                    <span className="ns-shape-47 text-secondary dark:text-accent text-[42px]" />
                   </div>
                 </div>
-                <div className="space-y-1">
-                  <h3 className="flex items-center gap-1">
+                <div>
+                  <h3 className="flex items-center gap-1 text-4xl font-bold mb-1">
                     <NumberAnimation number={83} speed={1000} interval={180} rooms={2} heightSpaceRatio={2.5}>
                       83
                     </NumberAnimation>
                     %
                   </h3>
-                  <p>Avg. Completed</p>
+                  <p className="text-sm font-medium text-secondary/70 uppercase mb-2">Avg. Completed</p>
+                  <p className="text-secondary/80 text-sm">Businesses trust CartZee to centralize their operations across stores, marketplaces, and sales channels.</p>
                 </div>
               </div>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
-              <div className="bg-background-2 dark:bg-background-8 flex flex-col justify-between rounded-xl p-8">
-                <div className="flex items-center justify-between">
-                  <h5 className="max-w-[200px]">The team at NexSaaS bank</h5>
+              <div className="bg-background-2 dark:bg-background-8 flex flex-col justify-between rounded-xl p-8 gap-y-4">
+                <div className="flex items-start justify-between">
+                  <h5 className="max-w-[200px] text-lg font-semibold">The team behind CartZee</h5>
                   <div className="shrink-0">
-                    <span className="ns-shape-57 text-secondary dark:text-accent text-[52px]" />
+                    <span className="ns-shape-57 text-secondary dark:text-accent text-[42px]" />
                   </div>
                 </div>
-                <div className="space-y-1">
-                  <h3 className="flex items-center gap-1">
+                <div>
+                  <h3 className="flex items-center gap-1 text-4xl font-bold mb-1">
                     <NumberAnimation number={56} speed={1000} interval={180} rooms={2} heightSpaceRatio={2.2}>
                       56
                     </NumberAnimation>
                     %
                   </h3>
-                  <p>Avg. Completed</p>
+                  <p className="text-sm font-medium text-secondary/70 uppercase mb-2">Avg. Completed</p>
+                  <p className="text-secondary/80 text-sm">Our process-driven, results-focused team delivers consistent improvement, updates, and innovation</p>
                 </div>
               </div>
             </RevealAnimation>

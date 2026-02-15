@@ -7,32 +7,27 @@ import LinkButton from '../ui/button/LinkButton';
 const pricingFeaturesData = [
   {
     id: 1,
-    text: 'Unlimited Bandwidth',
+    text: 'Multiple Stores',
     isActive: true,
   },
   {
     id: 2,
-    text: 'Promotional Tools',
+    text: 'Advanced Inventory',
     isActive: true,
   },
   {
     id: 3,
-    text: 'Single Payment',
+    text: 'Finance Dashboard',
     isActive: true,
   },
   {
     id: 4,
-    text: 'Single Payment',
+    text: 'Multi-Channel Integration',
     isActive: true,
   },
   {
     id: 5,
-    text: 'Selling your own items',
-    isActive: false,
-  },
-  {
-    id: 6,
-    text: 'Powerful integration',
+    text: 'Priority Support',
     isActive: false,
   },
 ];
@@ -42,22 +37,22 @@ const PricingCardTwo = ({ isAnnual }: { isAnnual: boolean }) => {
     <RevealAnimation delay={0.5}>
       <div className="w-full flex-1 rounded-[20px] bg-[url('/images/ns-img-26.jpg')] bg-cover bg-center bg-no-repeat p-2.5 max-lg:w-full dark:bg-[url('/images/ns-img-dark-10.png')]">
         <div className="rounded-[12px] bg-white p-5 sm:p-8 dark:bg-black">
-          <h3 className="text-heading-5 mb-2.5 font-normal">Basic</h3>
+          <h3 className="text-heading-5 mb-2.5 font-normal">Growth (Most Popular)</h3>
           <p className="text-secondary/60 dark:text-accent/60 mb-6 max-w-[250px]">
-            For individuals and small teams with unlimited trial access.
+            For scaling businesses
           </p>
 
           {isAnnual ? (
             <div className="price-year mb-7">
               <h4 className="text-heading-4 font-normal">
-                $<span>4420.00</span>
+                ₹<span>41988.00</span>
               </h4>
               <p className="text-secondary dark:text-accent">Per Year</p>
             </div>
           ) : (
             <div className="price-month mb-7">
               <h4 className="text-heading-4 font-normal">
-                $<span>3342.00</span>
+                ₹<span>3,499 .00</span>
               </h4>
               <p className="text-secondary dark:text-accent">Per Month</p>
             </div>

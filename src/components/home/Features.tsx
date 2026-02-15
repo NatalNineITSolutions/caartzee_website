@@ -26,12 +26,13 @@ const Features = () => {
                                     <h2
                                         id="services-heading"
                                         className="mx-auto max-w-[450px] text-center lg:mx-0 lg:max-w-[505px] lg:text-left">
-                                        Powerful <span className="text-ns-linen">AI voice </span> tools built for everyone
+                                        Powerful <span className="text-ns-linen">AI Tools</span>  Built for Growth
+
                                     </h2>
                                 </RevealAnimation>
                                 <RevealAnimation delay={0.3}>
                                     <p className="mx-auto max-w-[400px] text-center lg:mx-0 lg:text-left">
-                                        From creators to enterprises, NextSaaS helps you produce high-quality voiceover without the studio.
+                                        Smart tools that work for you.
                                     </p>
                                 </RevealAnimation>
                             </div>
@@ -56,8 +57,8 @@ const Features = () => {
                             <RevealAnimation delay={0.1}>
                                 <div className="relative h-[350px] w-full max-w-[642px] space-y-[98px] overflow-hidden rounded-4xl bg-white p-8 md:p-[42px] lg:h-[450px]">
                                     <div className="space-y-1">
-                                        <h3 className="text-heading-5 text-secondary/80 font-normal">API integration</h3>
-                                        <p className="max-w-[300px]">Connect NextSaaS with your tools and automate voice workflows.</p>
+                                        <h3 className="text-heading-5 text-secondary/80 font-normal">AI Sales Insights</h3>
+                                        <p className="max-w-[300px]">Predict trends and understand customer behavior.</p>
                                     </div>
 
                                     {/* logo circle  */}
@@ -73,8 +74,8 @@ const Features = () => {
                                 {/* card two  */}
                                 <RevealAnimation delay={0.2}>
                                     <div className="w-full shrink-0 space-y-1 rounded-4xl bg-white p-8 lg:h-[221px] lg:p-[42px]">
-                                        <h3 className="text-heading-5 text-secondary/80 font-normal">Video editor + subtitle Generator</h3>
-                                        <p className="max-w-[230px]">Add voice, visuals, and subtitles all in one place.</p>
+                                        <h3 className="text-heading-5 text-secondary/80 font-normal">Automated Finance Reports</h3>
+                                        <p className="max-w-[230px]">Generate instant profit, expense, and tax-ready reports</p>
                                     </div>
                                 </RevealAnimation>
 
@@ -82,9 +83,9 @@ const Features = () => {
                                 <RevealAnimation delay={0.3}>
                                     <div className="relative w-full shrink-0 space-y-1 overflow-hidden rounded-4xl bg-white p-8 lg:h-[221px] lg:p-[42px]">
                                         <h3 className="text-heading-5 text-secondary/80 relative z-20 font-normal">
-                                            Multilingual & multi-accent voices
+                                            Multi-Store Inventory Sync
                                         </h3>
-                                        <p>100+ languages and regional accents.</p>
+                                        <p>Avoid overselling and stock mismatches across channels.</p>
 
                                         {/* bg img  */}
                                         <RevealAnimation delay={0.4} direction="right" offset={100}>
@@ -110,8 +111,8 @@ const Features = () => {
                                 <div className="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
                                     <div className="flex h-[450px] flex-col items-start justify-between rounded-4xl bg-white p-8 md:p-[42px] xl:w-[317px]">
                                         <div className="space-y-1">
-                                            <h3 className="text-heading-5 text-secondary/80 font-normal">Text to speech</h3>
-                                            <p>Convert your script into ultra realistic speech.</p>
+                                            <h3 className="text-heading-5 text-secondary/80 font-normal">Smart Order Processing</h3>
+                                            <p>Automatically manage order flow from checkout to delivery.</p>
                                         </div>
 
                                         <div className="bg-background-12 flex h-[230px] w-full flex-col justify-between rounded-xl p-4 xl:max-w-[233px]">
@@ -148,8 +149,9 @@ const Features = () => {
                                     </RevealAnimation>
 
                                     <div className="relative z-20 space-y-1">
-                                        <h3 className="text-heading-5 text-secondary/80 font-normal">Voice cloning</h3>
-                                        <p>Create a custom voice from just a few audio samples.</p>
+                                        <h3 className="text-heading-5 text-secondary/80 font-normal">Smart Inventory Control</h3>
+                                        <p>Stay Stocked. Stay Ahead.
+                                            Monitor inventory levels in real time across all your stores and warehouses.</p>
                                     </div>
 
                                     <div className="flex h-auto w-full flex-col justify-between space-y-2.5 rounded-xl p-4 max-sm:items-center md:max-w-[233px] lg:h-[166px]">
@@ -243,7 +245,7 @@ const Features = () => {
                             <RevealAnimation delay={0.6}>
                                 <div className="col-span-12 h-[450px] w-full space-y-[74px] rounded-4xl bg-white pt-[42px] lg:col-span-4 lg:max-w-[500px] xl:col-span-6 xl:max-w-[642px]">
                                     <div className="space-y-1 px-[42px]">
-                                        <h3 className="text-heading-5 text-secondary/80 font-normal">AI voice changer</h3>
+                                        <h3 className="text-heading-5 text-secondary/80 font-normal">Advanced Business AnalyticsData That Drives Growth.</h3>
                                         <p>Transform any voice into a professional-sounding tone.</p>
                                     </div>
 

@@ -20,19 +20,39 @@ type SimpleNavLink = {
   label: string;
   href: string;
   closesMenu?: boolean;
+  icon: ComponentType;
 };
 
 type IntegrationLink = SimpleNavLink & {
   icon: ComponentType;
 };
 
+// const overviewLinks: SimpleNavLink[] = [
+//   { label: 'Sales Navigator',
+//    href: '/features',
+//     closesMenu: true, },
+//   { label: 'Workforce', href: '/process' },
+//   { label: 'Finance', href: '/security' },
+// { label: 'Our Brandkit', href: '/brandkit' },
+// { label: 'Download App', href: '/download' },
+// { label: 'Press', href: '/press' },
+// ];
 const overviewLinks: SimpleNavLink[] = [
-  { label: 'Features & Capabilities', href: '/features', closesMenu: true },
-  { label: 'Process & Workflow', href: '/process' },
-  { label: 'Security & Compliance', href: '/security' },
-  { label: 'Our Brandkit', href: '/brandkit' },
-  { label: 'Download App', href: '/download' },
-  { label: 'Press', href: '/press' },
+  {
+    label: 'SalesNavigator',
+    href: '/features',
+    icon: PricingIcon,
+  },
+  {
+    label: 'Workforce',
+    href: '/process',
+    icon: AnalyticsIconV2,
+  },
+  {
+    label: 'Finance',
+    href: '/security',
+    icon: WhitePaperIconV2,
+  },
 ];
 
 const integrationLinks: IntegrationLink[] = [
@@ -47,25 +67,26 @@ const integrationLinks: IntegrationLink[] = [
     icon: CareerIconV2,
   },
   {
-    label: 'Customer Support',
+    label: 'CustomerSupport',
     href: '/support',
     icon: SupportIconV2,
   },
-  {
-    label: 'Analytics & Reporting',
-    href: '/analytics',
-    icon: AnalyticsIconV2,
-  },
-  {
-    label: 'Whitepaper & Reports',
-    href: '/whitepaper',
-    icon: WhitePaperIconV2,
-  },
-  {
-    label: 'Explore All Integrations',
-    href: '/integration',
-    icon: IntegrationIconV2,
-  },
+
+  // {
+  //   label: 'Analytics & Reporting',
+  //   href: '/analytics',
+  //   icon: AnalyticsIconV2,
+  // },
+  // {
+  //   label: 'Whitepaper & Reports',
+  //   href: '/whitepaper',
+  //   icon: WhitePaperIconV2,
+  // },
+  // {
+  //   label: 'Explore All Integrations',
+  //   href: '/integration',
+  //   icon: IntegrationIconV2,
+  // },
 ];
 
 const PlatformMenu = ({
@@ -81,7 +102,7 @@ const PlatformMenu = ({
     <div>
       <div
         className={cn(
-          '0.3 ease ease fixed top-full left-1/2 z-40 h-3 w-full -translate-x-1/2 bg-transparent transition-opacity duration-300 lg:w-[1290px]',
+          '0.3 ease ease fixed top-full left-1/2 z-40 h-3 w-full -translate-x-1/2 bg-transparent transition-opacity duration-300 lg:w-[8000px]',
           menuDropdownId === 'platform-mega-menu'
             ? '!pointer-events-auto opacity-100'
             : 'pointer-events-none opacity-0',
@@ -90,27 +111,25 @@ const PlatformMenu = ({
       <div
         id="platform-mega-menu"
         className={cn(
-          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 rounded-[20px] border bg-white p-4 transition-all duration-300 lg:w-[1290px] xl:flex dark:border-white/10',
+          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 rounded-[20px] border bg-white p-4 transition-all duration-300 lg:w-[500px] xl:flex dark:border-white/10',
           menuDropdownId === 'platform-mega-menu'
             ? 'translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
-        <div className="grid grid-cols-12 items-start gap-y-6 md:gap-x-6">
-          <div className="col-span-12 grid grid-cols-12 gap-x-6 lg:col-span-6">
-            <div className="col-span-12 xl:col-span-6">
+        <div className="grid grid-cols-12 items-center gap-y-6 md:gap-x-6">
+          <div className="col-span-12 grid grid-cols-1 sm:grid-cols-2 gap-x-6 w-full">
+            <div className="flex justify-center">
               <div>
-                <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 p-3 font-medium">Overview</p>
-                <ul>
+                <ul className="w-fit">
                   {overviewLinks.map((link) => (
-                    <PlatformMenuLink key={link.label} {...link} onClose={handleClose} />
+                    <PlatformMenuLink key={link.label} {...link} variant="icon" onClose={handleClose} />
                   ))}
                 </ul>
               </div>
             </div>
-            <div className="col-span-12 xl:col-span-6">
+            <div className="flex justify-center">
               <div>
-                <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 p-3 font-medium">Integrations</p>
-                <ul>
+                <ul className="w-fit">
                   {integrationLinks.map((link) => (
                     <PlatformMenuLink key={link.label} {...link} variant="icon" onClose={handleClose} />
                   ))}
@@ -118,10 +137,10 @@ const PlatformMenu = ({
               </div>
             </div>
           </div>
-          <div className="col-span-12 grid grid-cols-12 gap-x-6 lg:col-span-6">
-            <div className="col-span-12 xl:col-span-6">
-              <article className="border-stroke-1 dark:border-background-7 group space-y-3 rounded-2xl border p-3">
-                <Link
+          {/* <div className="col-span-12 grid grid-cols-12 gap-x-6 lg:col-span-6">
+            <div className="col-span-12 xl:col-span-6"> */}
+          {/* <article className="border-stroke-1 dark:border-background-7 group space-y-3 rounded-2xl border p-3"> */}
+          {/* <Link
                   onClick={handleClose}
                   href="/blog/building-outstanding-customer-experience-strategies"
                   className="block">
@@ -132,9 +151,9 @@ const PlatformMenu = ({
                       className="h-full w-full rounded-lg object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                     />
                   </figure>
-                </Link>
-                <div className="space-y-14">
-                  <Link href="/blog/building-outstanding-customer-experience-strategies" className="block">
+                </Link> */}
+          {/* <div className="space-y-14"> */}
+          {/* <Link href="/blog/building-outstanding-customer-experience-strategies" className="block">
                     <div>
                       <p className="text-heading-6 text-secondary dark:text-accent font-normal">Merge Unified</p>
                       <p className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
@@ -142,8 +161,8 @@ const PlatformMenu = ({
                         integrations.
                       </p>
                     </div>
-                  </Link>
-                  <div>
+                  </Link> */}
+          {/* <div>
                     <Link
                       href="/blog/building-outstanding-customer-experience-strategies"
                       className="bg-secondary group group-hover:bg-primary-500 ring-background-12 dark:ring-background-7 relative flex h-9.5 w-16 items-center justify-center space-y-5 overflow-hidden rounded-full px-5 py-2 ring-[6px] transition-all duration-500 ease-in-out">
@@ -160,13 +179,13 @@ const PlatformMenu = ({
                         />
                       </figure>
                     </Link>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div className="col-span-12 xl:col-span-6">
-              <article className="border-stroke-1 dark:border-background-7 group space-y-3 rounded-2xl border p-3">
-                <Link onClick={handleClose} href="/blog/building-resilient-business-models" className="block">
+                  </div> */}
+          {/* </div> */}
+          {/* </article> */}
+        </div>
+        {/* <div className="col-span-12 xl:col-span-6"> */}
+        {/* <article className="border-stroke-1 dark:border-background-7 group space-y-3 rounded-2xl border p-3"> */}
+        {/* <Link onClick={handleClose} href="/blog/building-resilient-business-models" className="block">
                   <figure className="overflow-hidden rounded-lg">
                     <Image
                       src={nsImg425}
@@ -174,9 +193,9 @@ const PlatformMenu = ({
                       className="h-full w-full rounded-lg object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
                     />
                   </figure>
-                </Link>
-                <div className="space-y-14">
-                  <Link href="/blog/building-resilient-business-models" className="block">
+                </Link> */}
+        {/* <div className="space-y-14"> */}
+        {/* <Link href="/blog/building-resilient-business-models" className="block">
                     <div>
                       <p className="text-heading-6 text-secondary dark:text-accent font-normal">Combine Unified</p>
                       <p className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
@@ -184,8 +203,8 @@ const PlatformMenu = ({
                         integrations.
                       </p>
                     </div>
-                  </Link>
-                  <div>
+                  </Link> */}
+        {/* <div>
                     <Link
                       href="/blog/building-resilient-business-models"
                       className="bg-secondary group group-hover:bg-primary-500 ring-background-12 dark:ring-background-7 relative flex h-9.5 w-16 items-center justify-center space-y-5 overflow-hidden rounded-full px-5 py-2 ring-[6px] transition-all duration-500 ease-in-out">
@@ -202,13 +221,13 @@ const PlatformMenu = ({
                         />
                       </figure>
                     </Link>
-                  </div>
-                </div>
-              </article>
-            </div>
+                  </div> */}
+      </div>
+      {/* </article> */}
+      {/* </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

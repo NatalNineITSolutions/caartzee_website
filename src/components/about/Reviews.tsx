@@ -19,21 +19,50 @@ const Reviews = () => {
                 />
               </div>
             </RevealAnimation>
-            <figure className="flex flex-col items-center justify-center space-y-4">
+            {/* <figure className="flex flex-col items-center justify-center space-y-4">
               <Image
                 src={avatarImg}
                 alt="Avatar"
                 className="bg-ns-yellow size-10 rounded-full object-cover ring-2 ring-white"
               />
               <figcaption className="text-tagline-2 dark:text-accent font-medium">From our CEO</figcaption>
-            </figure>
-            <p className="max-sm:text-tagline-2 mx-auto mt-6 mb-4 max-w-[626px] text-center text-xl max-sm:px-2">
-              NextSaaS was born from a simple idea: What if the tools we use to run our businesses made things easier?
-              We&apos;re building a platform that scales with you, adapts to your needs, and grows with your team.
+            </figure> */}
+            <h2 className="dark:text-accent mx-auto mt-6 mb-4 max-w-[800px] text-center text-heading-3 font-medium">
+              Values That Shape Everything We Build
+            </h2>
+            <p className="max-sm:text-tagline-2 mx-auto mb-10 max-w-[700px] text-center text-lg text-secondary/80 dark:text-accent/80 max-sm:px-2">
+              Our values guide every decision, feature, and customer interaction:
             </p>
-            <strong className="dark:text-accent text-lg leading-[1.5] font-medium">
-              Daniel Carter, CEO &amp; Co-Founder
-            </strong>
+
+            <ul className="mx-auto mb-12 max-w-[800px] space-y-4 px-4 text-left sm:px-0">
+              <li className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                <span className="font-bold text-secondary dark:text-accent whitespace-nowrap">Clarity Over Clutter –</span>
+                <span className="text-secondary/80 dark:text-accent/80">Simple, intuitive experiences always</span>
+              </li>
+              <li className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                <span className="font-bold text-secondary dark:text-accent whitespace-nowrap">People Before Features –</span>
+                <span className="text-secondary/80 dark:text-accent/80">Real problems first, tech second</span>
+              </li>
+              <li className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                <span className="font-bold text-secondary dark:text-accent whitespace-nowrap">Security as a Standard –</span>
+                <span className="text-secondary/80 dark:text-accent/80">Your data, protected by design</span>
+              </li>
+              <li className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                <span className="font-bold text-secondary dark:text-accent whitespace-nowrap">Growth Mindset –</span>
+                <span className="text-secondary/80 dark:text-accent/80">We evolve as your business evolves</span>
+              </li>
+              <li className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                <span className="font-bold text-secondary dark:text-accent whitespace-nowrap">Customer-Driven Innovation –</span>
+                <span className="text-secondary/80 dark:text-accent/80">Built around your needs</span>
+              </li>
+            </ul>
+
+            <div className="mx-auto max-w-[850px] text-center px-4 pb-10">
+              <h3 className="text-2xl font-semibold text-secondary dark:text-accent mb-4">Powering Modern Businesses with Smart Technology</h3>
+              <p className="text-secondary/80 dark:text-accent/80 text-lg">
+                Whether you’re a startup or an enterprise, CaartZee brings everything together in one scalable platform — helping you move faster, work smarter, and grow stronger.
+              </p>
+            </div>
           </div>
         </RevealAnimation>
       </div>

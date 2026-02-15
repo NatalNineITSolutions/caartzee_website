@@ -67,8 +67,8 @@ const AboutAvatarCard = () => {
             </div>
 
             <p className="text-accent font-medium">
-              Gather worldwide user <br className="hidden sm:block" />
-              data for the current
+             Everything you need to scale — simplified. <br className="hidden sm:block" />
+            
             </p>
           </div>
 
@@ -101,10 +101,9 @@ const AboutAvatarCard = () => {
           </div>
         </div>
         <div className="mx-auto max-w-[375px] py-8 text-center max-lg:px-6 max-lg:py-6 max-lg:text-left">
-          <h5 className="max-lg:text-heading-6 mb-2">An intuitive website creation tool.</h5>
+          <h5 className="max-lg:text-heading-6 mb-2">Create & Manage Stores</h5>
           <p className="max-lg:text-tagline-2">
-            An intuitive website creation tool is designed to simplify the process of building a website, making it
-            accessible even for users
+           Launch and manage multiple online stores from one place.
           </p>
         </div>
       </div>

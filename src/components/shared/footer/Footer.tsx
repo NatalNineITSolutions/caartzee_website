@@ -8,7 +8,7 @@ import instagram from '@public/images/icons/instagram.svg';
 import linkedin from '@public/images/icons/linkedin.svg';
 import youtube from '@public/images/icons/youtube.svg';
 import gradientImg from '@public/images/ns-img-532.png';
-import darkLogo from '@public/images/shared/logo-dark.svg';
+import darkLogo from '@public/images/shared/fav.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import ThemeToggle from '../ThemeToggle';
@@ -31,8 +31,7 @@ const Footer = ({ className }: { className?: string }) => {
                   <Image src={darkLogo} alt="NextSass Logo" />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
-                  Build better products with flexible tools, helpful documentation, and a team that champions your
-                  growth.
+                  Caartzee helps you build better eCommerce businesses with flexible tools, powerful automation, in-depth documentation, and a team dedicated to scaling your growth.
                 </p>
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://www.facebook.com">
@@ -93,7 +92,7 @@ const Footer = ({ className }: { className?: string }) => {
           <FooterDivider className="bg-accent/10 dark:bg-stroke-6" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 text-primary-50 font-normal">
-              Copyright ©Pixels71. NextSaaS – smart application for modern business
+              Copyright ©caartzee. 2026 All rights reserved.
             </p>
           </RevealAnimation>
         </div>

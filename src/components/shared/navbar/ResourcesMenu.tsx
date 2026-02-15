@@ -20,40 +20,40 @@ type ResourceLink = {
 
 const resourceLinks: ResourceLink[] = [
   {
-    label: 'Blog',
+    label: 'Ecommerce',
     href: '/blog',
     icon: BlogIcon,
   },
   {
-    label: 'Tutorial',
+    label: 'Retailers',
     href: '/tutorial',
     icon: TutorialIcon,
   },
   {
-    label: 'FAQ',
+    label: 'Sales',
     href: '/faq',
     icon: FaqIcon,
   },
-  {
-    label: 'Glossary',
-    href: '/glossary',
-    icon: GlossaryIcon,
-  },
-  {
-    label: 'Support',
-    href: '/support',
-    icon: SupportIcon,
-  },
-  {
-    label: 'Contact',
-    href: '/contact-us',
-    icon: ContactIcon,
-  },
-  {
-    label: 'Success Stories',
-    href: '/success-stories',
-    icon: SuccessIcon,
-  },
+  // {
+  //   label: 'Glossary',
+  //   href: '/glossary',
+  //   icon: GlossaryIcon,
+  // },
+  // {
+  //   label: 'Support',
+  //   href: '/support',
+  //   icon: SupportIcon,
+  // },
+  // {
+  //   label: 'Contact',
+  //   href: '/contact-us',
+  //   icon: ContactIcon,
+  // },
+  // {
+  //   label: 'Success Stories',
+  //   href: '/success-stories',
+  //   icon: SuccessIcon,
+  // },
 ];
 
 const ResourcesMenu = ({

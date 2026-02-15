@@ -6,9 +6,9 @@ import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
 const principles = [
-  { id: 1, label: 'Clarity Over Clutter' },
-  { id: 2, label: 'People Before Features' },
-  { id: 3, label: 'Security as a Standard' },
+  { id: 1, label: 'Clarity Over Complexity – Software should be simple and intuitive.' },
+  { id: 2, label: 'People Before Features – We build for real users, not just checklists.' },
+  { id: 3, label: 'Security as a Standard – Your data is protected at every level.' },
 ];
 
 const FinanceIntro = () => {
@@ -41,12 +41,11 @@ const FinanceIntro = () => {
         </div>
         <div className="flex flex-col md:flex-1 lg:items-start lg:text-left">
           <RevealAnimation delay={0.2}>
-            <h2 className="mb-3">Values play a crucial role in shaping our perspective</h2>
+            <h2 className="mb-3">Our Values Shape Everything We Build</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <p className="mb-6">
-              Our values serve as the foundation for how we interpret the world around us. They influence our decisions,
-              guide our actions
+            <p className="mb-6 text-tagline-2 text-secondary/80">
+              To become a globally trusted business management software provider for startups and enterprises alike — delivering innovation, reliability, and measurable impact worldwide.
             </p>
           </RevealAnimation>
           <ul className="mb-10 space-y-2 md:mb-14 md:space-y-3.5">
