@@ -14,7 +14,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'AI Software || NextSaaS',
+  title: 'NextGen Ecomm || Caartzee',
 };
 
 const page = () => {
@@ -30,10 +30,10 @@ const page = () => {
         <Features />
 
 
-        <Pricing />
+        {/* <Pricing /> */}
         <Integration />
         <Integ />
-        <Reviews />
+        {/* <Reviews /> */}
         <VideoModal />
       </main>
     </ModalProvider>

@@ -4,9 +4,11 @@ import { MobileMenuProvider } from '@/context/MobileMenuContext';
 import { mobileMenuData } from '@/data/navbar-data';
 import { useNavbarScroll } from '@/hooks/useScrollHeader';
 import { cn } from '@/utils/cn';
-import logoDark from '@public/images/shared/logo-dark.svg';
-import logo from '@public/images/shared/logo.svg';
-import mainLogo from '@public/images/shared/main-logo.svg';
+// import logoDark from '@public/images/shared/logo-dark.svg';
+import logoDark from '@public/images/shared/fav.png';
+import logo from '@public/images/shared/fav.png';
+// import logo from '@public/images/shared/logo.svg';
+import mainLogo from '@public/images/shared/main.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -39,11 +41,11 @@ const Navbar = () => {
               <Link href="/">
                 <span className="sr-only">Home</span>
                 <figure className="hidden lg:block lg:max-w-[198px]">
-                  <Image src={mainLogo} alt="NextSaaS" className="dark:invert" />
+                  <Image src={mainLogo} alt="Caartzee" className="dark:invert" />
                 </figure>
                 <figure className="block max-w-[44px] lg:hidden">
-                  <Image src={logo} alt="NextSaaS" className="block w-full dark:hidden" />
-                  <Image src={logoDark} alt="NextSaaS" className="hidden w-full dark:block" />
+                  <Image src={logo} alt="Caartzee" className="block w-full dark:hidden" />
+                  <Image src={logoDark} alt="Caartzee" className="hidden w-full dark:block" />
                 </figure>
               </Link>
             </div>
@@ -157,7 +159,7 @@ const Navbar = () => {
             </nav>
             <div className="hidden items-center justify-center xl:flex">
               <Link
-                href="/signup"
+                href="https://cartly.zeedone.com/register"
                 className="btn btn-md hover:btn-white dark:hover:btn-white-dark btn-white-dark dark:btn-white">
                 <span>Get started</span>
               </Link>

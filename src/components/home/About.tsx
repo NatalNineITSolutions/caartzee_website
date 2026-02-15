@@ -22,8 +22,8 @@ const About = () => {
 
         <div className="grid grid-cols-12 gap-[42px] max-sm:gap-x-0 max-sm:gap-y-[42px]">
           <AboutList />
-          <AboutAvatarCard />
-          <AboutUserCard />
+          {/* <AboutAvatarCard />
+          <AboutUserCard /> */}
         </div>
       </div>
     </section>
