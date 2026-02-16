@@ -30,8 +30,9 @@ const Comment = () => {
             </div>
           </div>
           <p>
-            Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It&apos;s not Latin
-            though it looks like nothing.
+            Find everything you need to set up, customize, and master your CaartZee platform.
+This guide covers on boarding, settings, billing, analytics, troubleshooting, and more.
+
           </p>
           <h6 className="text-tagline-1">Reply</h6>
         </div>

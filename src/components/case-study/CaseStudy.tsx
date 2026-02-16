@@ -1,4 +1,4 @@
-import caseStudyImg from '@public/images/ns-img-380.png';
+import caseStudyImg from '@public/images/casestudy.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
@@ -9,13 +9,13 @@ const CaseStudy = () => {
         <div className="space-y-[70px]">
           <div className="max-w-[900px] space-y-3">
             <RevealAnimation delay={0.2}>
-              <h1 className="text-heading-3 md:text-heading-2 font-normal">How leading teams grow with NextSaaS</h1>
+              <h1 className="text-heading-3 md:text-heading-2 font-normal">How Growing Businesses Scale Faster with Caartzee</h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p>
-                From fast-moving startups to established enterprises, businesses around the world use NextSaaS to
-                streamline operations, increase visibility, and accelerate growth. Explore how our platform delivers
-                real-world impact.
+                From fast-growing startups to established enterprises,
+                businesses across industries use Caartzee to simplify operations,
+                increase visibility, and scale confidently.
               </p>
             </RevealAnimation>
           </div>
@@ -28,21 +28,21 @@ const CaseStudy = () => {
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
                   Client:
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    VelocityFinance
+                    Velocity Mart Retail Pvt. Ltd.
                   </span>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.6}>
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
                   Industry:
-                  <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">Fintech</span>
+                  <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">Multi-Channel Retail & Distribution</span>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.7}>
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
                   Use case:
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    Automating financial reporting &amp; real-time analytics
+                    Unifying online stores, inventory, finance &amp; sales channels into one intelligent dashboard The Challenge
                   </span>
                 </li>
               </RevealAnimation>
@@ -65,8 +65,15 @@ const CaseStudy = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="max-w-[705px]">
-                VelocityFinance was managing its financial operations manually, using a combination of spreadsheets and
-                disconnected tools. Their reporting process was slow, error-prone, and difficult to scale.
+                Velocity Mart was managing multiple online stores, offline sales, warehouse inventory,
+                and financial records using separate tools and spreadsheets.
+                <h6>This led to:</h6>
+                <p>•	Stock mismatches between platforms</p>
+                <p>•	Delayed financial reporting</p>
+                <p>•	Manual order processing</p>
+                <p>•	Limited visibility across sales channels</p>
+                <p>•	Slow decision-making</p>
+
               </p>
             </RevealAnimation>
           </div>
@@ -77,28 +84,28 @@ const CaseStudy = () => {
                   <h4 className="text-heading-4">The Solution</h4>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
-                  <p>NextSaaS helped them:</p>
+                  <p> we helped them:</p>
                 </RevealAnimation>
               </div>
               <ul className="space-y-2">
                 <RevealAnimation delay={0.3}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Set up real-time dashboards with custom financial KPIs
+                      Centralize all online stores and marketplaces into one system
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Automate monthly reporting for leadership and investors
+                      •	Sync real-time inventory across channels
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.5}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Integrate their accounting tools and CRM into one platform
+                      •	Automate billing, invoicing, and financial reporting
                     </p>
                   </li>
                 </RevealAnimation>
@@ -110,28 +117,28 @@ const CaseStudy = () => {
                   <h4 className="text-heading-4">The results</h4>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
-                  <p>NextSaaS helped them:</p>
+                  <p>We achieved</p>
                 </RevealAnimation>
               </div>
               <ul className="space-y-2">
                 <RevealAnimation delay={0.3}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      82% reduction in reporting time
+                      80% reduction in manual operational tasks
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      95% accuracy increase across all financial statements
+                      95% inventory accuracy across all sales channels
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.5}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      4x faster decision-making during strategic reviews
+                      3x faster order processing
                     </p>
                   </li>
                 </RevealAnimation>

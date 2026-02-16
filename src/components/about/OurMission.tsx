@@ -22,7 +22,7 @@ const OurMission = () => {
                   <p className="font-medium text-lg">What if managing customers and workflows didn’t feel complicated?</p>
                   <p>
                     We saw businesses struggling with disconnected tools, repetitive tasks, and scattered information. So
-                    we built a platform that brings everything together—CRM, automation, and integrations—in one
+                    we built a platform that brings everything together CRM, automation, and integrations—in one
                     easy-to-use system.
                   </p>
                 </div>

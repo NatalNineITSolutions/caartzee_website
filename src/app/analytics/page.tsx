@@ -20,8 +20,8 @@ const page = () => {
         className="dark:bg-background-5 bg-white"
         badgeText="Get started"
         badgeClass="!badge-cyan-v2"
-        ctaHeading="Build a complete website using the assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
+        ctaHeading="Build a Smarter, Faster, Scalable Business"
+        description="Start your journey with CaartZee today."
         ctaBtnText="Get started"
         btnClass="hover:btn-secondary dark:hover:btn-accent"
       />

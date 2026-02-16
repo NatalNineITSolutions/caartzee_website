@@ -60,7 +60,7 @@ const Reviews = () => {
             <div className="mx-auto max-w-[850px] text-center px-4 pb-10">
               <h3 className="text-2xl font-semibold text-secondary dark:text-accent mb-4">Powering Modern Businesses with Smart Technology</h3>
               <p className="text-secondary/80 dark:text-accent/80 text-lg">
-                Whether you’re a startup or an enterprise, CaartZee brings everything together in one scalable platform — helping you move faster, work smarter, and grow stronger.
+                Whether you’re a startup or an enterprise, CaartZee brings everything together in one scalable platform helping you move faster, work smarter, and grow stronger.
               </p>
             </div>
           </div>

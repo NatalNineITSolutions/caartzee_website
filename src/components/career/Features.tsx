@@ -16,43 +16,43 @@ import RevealAnimation from '../animation/RevealAnimation';
 const data = [
   {
     id: 1,
-    title: 'Smart expense tracking',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Finance & Accounting Management.',
+    description: 'Track income, expenses, invoices, and cash flow from one place with real-time financial visibility.',
     lightImage: featureAsset1,
     darkImage: featureAssetDark1,
   },
   {
     id: 2,
-    title: 'Real-time analytics',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'WhatsApp Product Catalog',
+    description: 'Showcase products directly on WhatsApp and convert conversations into instant sales.',
     lightImage: featureAsset2,
     darkImage: featureAssetDark2,
   },
   {
     id: 3,
-    title: 'Secure payment processing',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Centralized Sales Dashboard',
+    description: 'View all orders, customers, and revenue across channels in one smart dashboard—no more switching platforms.',
     lightImage: featureAsset3,
     darkImage: featureAssetDark3,
   },
   {
     id: 4,
-    title: 'Automated budgeting tools',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Product Upload to Multiple Platforms',
+    description: 'Upload products once and sell everywhere:',
     lightImage: featureAsset4,
     darkImage: featureAssetDark4,
   },
   {
     id: 5,
-    title: 'Multi-currency support',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Sales Analytics & Business Insights',
+    description: 'Track best-selling products, customer behavior, and performance metrics to make smarter decisions faster.',
     lightImage: featureAsset5,
     darkImage: featureAssetDark5,
   },
   {
     id: 6,
-    title: 'Investment portfolio tracking',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Digital Marketing Support',
+    description: 'From lead generation to campaign management—we help drive traffic, boost conversions, and grow your brand online.',
     lightImage: featureAsset6,
     darkImage: featureAssetDark6,
   },
@@ -68,13 +68,13 @@ const Features = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <h2>
-              Managing your money has
+              Powerful Features Built 
               <br className="hidden md:block" />
-              never been easier
+              for Growing Businesses
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <p>Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.</p>
+            <p></p>
           </RevealAnimation>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

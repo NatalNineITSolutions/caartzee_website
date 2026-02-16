@@ -17,8 +17,8 @@ const Success = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="mx-auto max-w-[738px]">
-                Our recent news and insights highlight the latest developments, achievements, and thought leadership
-                shaping our journey forward. From product innovations and strategic partnerships to industry trends
+                See how businesses across industries are transforming operations,
+                 improving efficiency, and scaling faster with CaartZee’s unified commerce and ERP platform.
               </p>
             </RevealAnimation>
           </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Technical Project Manager'
+title: 'Scalable Infrastructure'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 30, 2025'
 location: 'Toronto, Canada (Hybrid)'
@@ -7,7 +7,7 @@ offeredSalary: '$5,500 – $6,500 / month'
 experience: '5+ Years of Project Management Experience'
 qualification: 'Bachelor’s Degree in Engineering, IT, or related field; PMP certification preferred'
 employmentType: [full-time, hybrid]
-shortDescription: 'Lead cross-functional teams to deliver software projects on time and within scope.'
+shortDescription: 'Businesses expanded confidently without tech limitations.'
 jobSkills:
   - Agile/Scrum
   - Jira & Confluence
@@ -20,7 +20,7 @@ jobSkills:
 
 #### Job Description
 
-As a **Technical Project Manager**, you will oversee the planning, execution, and delivery of complex projects across software, IT, and product development teams. You’ll coordinate cross-functional stakeholders, ensure milestones are achieved, and maintain focus on quality and timelines.
+As a **Scalable Infrastructure**, you will oversee the planning, execution, and delivery of complex projects across software, IT, and product development teams. You’ll coordinate cross-functional stakeholders, ensure milestones are achieved, and maintain focus on quality and timelines.
 
 In this role, you will act as a bridge between technical teams and business units. You’ll translate requirements into actionable tasks, manage resources effectively, and ensure alignment at every stage of the project. By applying Agile and Scrum methodologies, you will foster a culture of transparency, accountability, and continuous improvement.
 

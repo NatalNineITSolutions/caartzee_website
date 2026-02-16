@@ -1,4 +1,5 @@
-import vision1Img from '@public/images/ns-img-357.png';
+import about from '@public/images/about.png';
+import about2 from '@public/images/about2.png';
 import vision2Img from '@public/images/ns-img-358.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -17,13 +18,13 @@ const VisionStatement = () => {
           <RevealAnimation delay={0.4}>
             <div className="space-y-4">
               <p className="text-secondary/80">
-                At CaartZee, we believe technology should simplify business — not complicate it.
+                At CaartZee, we believe technology should simplify business not complicate it.
               </p>
               <p className="text-secondary/80">
                 Built by experts and designed for real businesses, our platform turns complex operations into one seamless experience.
               </p>
               <p className="text-secondary/80">
-                With 10+ years of domain expertise, we help modern businesses streamline workflows, boost sales, and scale confidently — all from a single, powerful platform.
+                With 10+ years of domain expertise, we help modern businesses streamline workflows, boost sales, and scale confidently all from a single, powerful platform.
               </p>
             </div>
           </RevealAnimation>
@@ -31,12 +32,12 @@ const VisionStatement = () => {
         <article className="flex flex-col gap-8 md:flex-row">
           <RevealAnimation delay={0.5} instant={true}>
             <figure className="max-w-full overflow-hidden rounded-[20px] md:max-w-[630px]">
-              <Image src={vision1Img} className="h-full w-full object-cover" alt="vision-1" />
+              <Image src={about} className="h-full w-full object-cover" alt="about" />
             </figure>
           </RevealAnimation>
           <RevealAnimation delay={0.6} instant={true}>
             <figure className="max-w-full overflow-hidden rounded-[20px] md:max-w-[630px]">
-              <Image src={vision2Img} className="h-full w-full object-cover" alt="vision-2" />
+              <Image src={about2} className="h-full w-full object-cover" alt="vision-2" />
             </figure>
           </RevealAnimation>
         </article>

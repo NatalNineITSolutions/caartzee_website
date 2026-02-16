@@ -1,5 +1,5 @@
 ---
-title: 'Information Security Specialist'
+title: 'Sales Growth'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 30, 2025'
 location: 'Berlin, Germany'
@@ -7,7 +7,7 @@ offeredSalary: '$4,200 – $5,800 / month'
 experience: '4–6 Years of Experience in Information Security'
 qualification: 'Bachelor’s or Master’s in Information Security, Computer Science, or related field'
 employmentType: [full-time, remote]
-shortDescription: 'Develop and enforce security policies to safeguard company assets and ensure compliance.'
+shortDescription: 'Multi-channel selling increased revenue streams.'
 jobSkills:
   - Security Policies & Governance
   - Risk Management
@@ -20,7 +20,7 @@ jobSkills:
 
 #### Job Description
 
-As an **Information Security Specialist**, you will lead efforts to establish, implement, and maintain security policies that safeguard company assets. You’ll be responsible for developing governance frameworks, conducting risk assessments, and ensuring compliance with global standards such as GDPR and ISO 27001.
+As an **Sales Growth**, you will lead efforts to establish, implement, and maintain security policies that safeguard company assets. You’ll be responsible for developing governance frameworks, conducting risk assessments, and ensuring compliance with global standards such as GDPR and ISO 27001.
 
 Your work will include designing identity and access management protocols, managing audits, and supporting penetration testing initiatives. You’ll collaborate with IT, legal, and compliance teams to mitigate risks and strengthen data protection measures across all departments.
 

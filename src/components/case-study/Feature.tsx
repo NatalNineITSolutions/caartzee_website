@@ -8,23 +8,23 @@ import RevealAnimation from '../animation/RevealAnimation';
 const featureList = [
   {
     id: 1,
-    text: 'Centralized analytics for leadership teams',
+    text: 'Centralized Analytics for Leadership Teams',
   },
   {
     id: 2,
-    text: 'Workflow automation across sales, ops, and product',
+    text: 'Workflow Automation across Sales, Operations & Finance',
   },
   {
     id: 3,
-    text: 'Improved onboarding and client management',
+    text: 'Faster On boarding & Customer Management',
   },
   {
     id: 4,
-    text: 'Marketing attribution and ROI reporting',
+    text: 'Marketing Performance & ROI Tracking',
   },
   {
     id: 5,
-    text: 'Secure and compliant data access',
+    text: 'Secure & Compliant Data Management',
   },
 ];
 
@@ -47,8 +47,10 @@ const Feature = () => {
             <div className="grid grid-cols-2 gap-5 px-6 py-14 max-sm:grid-cols-1 max-sm:gap-10 md:px-11">
               <div className="max-w-[500px]">
                 <h2 className="text-accent text-heading-5 mb-8">
-                  Here are some of the use cases we&apos;ve successfully addressed: optimizing workflow efficiency,
-                  enhancing customer
+                At CaartZee, we don’t just provide software — we solve real operational challenges.
+                Our platform helps businesses streamline workflows, 
+                improve customer experiences, and gain complete visibility across operations.
+
                 </h2>
                 <div>
                   <Link

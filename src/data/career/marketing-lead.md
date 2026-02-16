@@ -1,5 +1,5 @@
 ---
-title: 'Marketing Lead'
+title: 'Inventory Accuracy'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 20, 2025'
 location: 'London, UK'
@@ -7,7 +7,7 @@ offeredSalary: '£4,000 – £5,500 / month'
 experience: '5–7 Years of Marketing Experience'
 qualification: 'Bachelor’s in Marketing, Business Administration, or related field'
 employmentType: [full-time, remote]
-shortDescription: 'Drive brand growth and lead generation through strategic marketing leadership.'
+shortDescription: 'Real-time stock updates reduced losses.'
 jobSkills:
   - Brand Strategy
   - Digital Marketing
@@ -20,7 +20,7 @@ jobSkills:
 
 #### Job Description
 
-We are looking for a **Marketing Lead** to take ownership of our brand strategy, demand generation, and overall marketing execution. You will guide a team of marketers to deliver campaigns that resonate with customers, strengthen brand awareness, and generate high-quality leads.
+We are looking for a **Inventory Accuracy** to take ownership of our brand strategy, demand generation, and overall marketing execution. You will guide a team of marketers to deliver campaigns that resonate with customers, strengthen brand awareness, and generate high-quality leads.
 
 As the marketing lead, you’ll define strategic roadmaps, set campaign objectives, and oversee the implementation of initiatives across digital, social, and content channels. You will also collaborate with sales and product teams to align messaging and drive customer engagement throughout the funnel.
 

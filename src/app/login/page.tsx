@@ -16,8 +16,8 @@ const page = () => {
         className="dark:bg-background-6 bg-white"
         badgeClass="badge-yellow-v2"
         badgeText="Get Started"
-        ctaHeading="Build a complete website using the assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
+        ctaHeading="Build a Smarter, Faster, Scalable Business"
+        description="Start your journey with CaartZee today."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
         ctaBtnText="Get started"
       />

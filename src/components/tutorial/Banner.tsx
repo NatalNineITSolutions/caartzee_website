@@ -1,5 +1,6 @@
 import learnBanner from '@public/images/ns-img-385.png';
 import Image from 'next/image';
+import tutorial from '@public/images/tutorial.png';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
@@ -15,8 +16,8 @@ const Banner = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
                 <p>
-                  NextSaaS is designed to serve a wide range of teams and industries. Whether you’re managing data,
-                  scaling operations, optimizing finances, or streamlining customer experiences—NextSaaS is the platform
+                  Caartzee is designed to serve a wide range of teams and industries. Whether you’re
+                   optimizing finances, or streamlining customer experiences—Caartzee is the platform
                   that grows with you.
                 </p>
               </RevealAnimation>
@@ -34,7 +35,7 @@ const Banner = () => {
           <div className="flex-1">
             <RevealAnimation delay={0.3} instant>
               <figure className="w-full max-w-[596px] overflow-hidden rounded-[20px] opacity-0">
-                <Image src={learnBanner} className="h-full w-full object-cover" alt="learn banner" />
+                <Image src={tutorial} className="h-full w-full object-cover" alt="learn banner" />
               </figure>
             </RevealAnimation>
           </div>

@@ -1,6 +1,7 @@
 import { CheckIcon } from '@/icons';
 import totalEarnImg from '@public/images/ns-img-356.png';
-import roundImageImg from '@public/images/ns-img-73.png';
+import about1 from '@public/images/about1.png';
+import about2 from '@public/images/about2.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
@@ -17,11 +18,11 @@ const FinanceIntro = () => {
       <div className="main-container flex flex-col-reverse items-center gap-x-24 gap-y-12 lg:flex-row">
         <div className="relative flex w-full justify-start overflow-hidden md:flex-1 lg:w-auto">
           <RevealAnimation delay={0.2}>
-            <Image src={roundImageImg} alt="Finance Hero" className="h-auto w-full max-w-[450px]" />
+            <Image src={about1} alt="Finance Hero" className="h-auto w-full max-w-[450px]" />
           </RevealAnimation>
           <RevealAnimation delay={0.3} direction="right" offset={90}>
             <div className="text-heading-4 bg-ns-yellow absolute top-[49%] right-[15%] flex max-h-[70px] max-w-[219px] items-center justify-center rounded-2xl p-4">
-              $
+              ₹
               <div
                 data-counter=""
                 data-number={24545000}
@@ -45,7 +46,7 @@ const FinanceIntro = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mb-6 text-tagline-2 text-secondary/80">
-              To become a globally trusted business management software provider for startups and enterprises alike — delivering innovation, reliability, and measurable impact worldwide.
+              To become a globally trusted business management software provider for startups and enterprises alike delivering innovation, reliability, and measurable impact worldwide.
             </p>
           </RevealAnimation>
           <ul className="mb-10 space-y-2 md:mb-14 md:space-y-3.5">

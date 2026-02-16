@@ -23,7 +23,7 @@ const page = () => {
         badgeClass="hidden"
         ctaHeading="Build a complete website using the"
         spanText="assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
+        description="Start your journey with CaartZee today."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
         ctaBtnText="Get started"
       />

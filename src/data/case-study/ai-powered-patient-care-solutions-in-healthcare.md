@@ -1,8 +1,8 @@
 ---
-title: 'AI-powered patient care solutions in healthcare'
+title: 'Retail Chain Pro – Multi-Store Retail Management'
 thumbnail: '/images/ns-img-405.jpg'
-description: 'Empowering healthcare providers with smart, scalable solutions.'
-result: Improved learning outcomes by 40% and reduced administrative workload by 50%
+description: 'Managing inventory and sales across multiple outlets and online marketplaces led to stock mismatches and delayed reporting.'
+result: 	95% real-time inventory accuracy
 before:
   - 'Low student engagement'
   - 'One-size-fits-all curriculum'

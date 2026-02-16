@@ -1,12 +1,13 @@
 ---
-title: 'Cybersecurity Analyst'
+title: 'Operational Efficiency'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 28, 2025'
 location: 'Austin, Texas, USA'
 offeredSalary: '$4,500 – $6,000 / month'
 experience: '3–5 Years of Professional Experience in Cybersecurity'
 qualification: 'Bachelor’s in Cybersecurity, Computer Science, or related field; Security+ or CEH preferred'
-shortDescription: 'Protect systems and data by monitoring threats and responding to security incidents.'
+shortDescription: 'Processes became faster with automated workflows.'
+
 employmentType: [full-time, onsite]
 jobSkills:
   - Threat Detection
@@ -20,7 +21,7 @@ jobSkills:
 
 #### Job Description
 
-We’re hiring a **Cybersecurity Analyst** to safeguard our digital infrastructure against evolving threats. You will monitor systems for vulnerabilities, detect anomalies, and respond swiftly to incidents that could compromise security. Your role is crucial in protecting sensitive company and customer data.
+We’re hiring a **Operational Efficiency** to safeguard our digital infrastructure against evolving threats. You will monitor systems for vulnerabilities, detect anomalies, and respond swiftly to incidents that could compromise security. Your role is crucial in protecting sensitive company and customer data.
 
 Daily responsibilities include analyzing logs, reviewing security alerts, and coordinating with IT teams to patch vulnerabilities. You’ll also perform penetration testing, simulate attacks, and ensure compliance with internal policies and industry standards. Proactive threat hunting and detailed reporting will be part of your workflow.
 

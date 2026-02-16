@@ -9,8 +9,10 @@ const DocsContent = () => {
       <div className="main-container mb-[70px]">
         <RevealAnimation delay={0.1}>
           <div className="space-y-3 text-center">
-            <h2>Welcome to the NextSaaS documentation</h2>
-            <p>Find everything you need to set up, customize, and master your NextSaaS platform.</p>
+            <h2>Welcome to the CaartZee Documentation</h2>
+            <p>Find everything you need to set up, customize, and master your CaartZee platform.
+              This guide covers on boarding, settings, billing, analytics, troubleshooting, and more
+            </p>
           </div>
         </RevealAnimation>
       </div>
@@ -32,7 +34,7 @@ const DocsContent = () => {
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        Introduction to NextSaaS
+                        What is CaartZee?
                       </Link>
                     </li>
                     <li>
@@ -46,28 +48,28 @@ const DocsContent = () => {
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        Account setup
+                        Creating your account
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        Dashboard overview
+                        Platform walkthrough
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        First steps after signup
+                        First steps after signing up
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        System requirements
+                       Understanding your workspace
                       </Link>
                     </li>
                   </ul>
@@ -84,42 +86,42 @@ const DocsContent = () => {
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        Adding and managing users
+                        Adding and removing users
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        Role-based access control
+                        Role-based access control (RBAC)
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        Setting permissions
+                        Configuring permissions
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        Managing teams and groups
+                        Managing staff, teams & branches
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        First steps after signup
+                        Session and activity logs
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#"
                         className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                        System requirements
+                        Group-level access settings
                       </Link>
                     </li>
                   </ul>
@@ -131,28 +133,28 @@ const DocsContent = () => {
             <div className="space-y-6">
               <div className="space-y-2">
                 <h4>Billing and subscription</h4>
-                <p>Handle your billing, subscriptions, and invoices easily.</p>
+                <p>Handle your billing, plans, usage, and invoices with ease.</p>
               </div>
               <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    How to subscribe
+                    Choosing or upgrading your plan
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Managing your subscription plan
+                    Managing subscriptions
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Payment methods
+                    Managing subscriptions
                   </Link>
                 </li>
                 <li>
@@ -166,7 +168,14 @@ const DocsContent = () => {
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Canceling or upgrading plans
+                    Cancelling or switching plans
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
+                    Understanding usage limits
                   </Link>
                 </li>
               </ul>
@@ -176,42 +185,47 @@ const DocsContent = () => {
             <div className="space-y-6">
               <div className="space-y-2">
                 <h4>Settings &amp; customization</h4>
-                <p>Tailor NextSaaS to fit your business needs.</p>
+                <p>Tailor CaartZee to your business needs.</p>
               </div>
               <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    General settings overview
+                    General platform settings
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Customize your branding
+                    Customizing branding & themes
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Notification settings
+                    Notification and alert settings
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Language and localization options
+                    Language & localization options
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Custom fields and filters
+                    	Setting up tax rules & currency
+                  </Link>
+                  <Link
+                    href="#"
+                    className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
+                    		Custom fields, tags, and filters
                   </Link>
                 </li>
               </ul>
@@ -221,35 +235,49 @@ const DocsContent = () => {
             <div className="space-y-6">
               <div className="space-y-2">
                 <h4>Reporting and analytics</h4>
-                <p>Gain insights and grow with detailed reports.</p>
+                <p>Gain insights that drive smarter decisions.</p>
               </div>
               <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Understanding the analytics dashboard
+                    Introduction to analytics
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Exporting reports
+                   	Understanding your dashboard metrics
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Setting up custom reports
+                    Sales, inventory & finance reports
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    KPI and metrics guide
+                    Exporting and scheduling reports
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
+                    	Creating custom reports
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
+                    	KPI and performance metric guides
                   </Link>
                 </li>
               </ul>
@@ -259,35 +287,49 @@ const DocsContent = () => {
             <div className="space-y-6">
               <div className="space-y-2">
                 <h4>Troubleshooting &amp; FAQs</h4>
-                <p>Solutions for common issues and frequent questions.</p>
+                <p>Quick solutions to common issues.</p>
               </div>
               <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Login issues
+                    Login problems
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Error messages and solutions
+                    Data sync or update issues
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    Data sync issues
+                    Connectivity or speed issues
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="#"
                     className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
-                    General FAQs
+                    Marketplace/API integration issues
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
+                    	Error messages & how to fix them
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="hover:text-secondary dark:hover:text-accent transition-colors duration-500 ease-in-out">
+                    	General FAQs
                   </Link>
                 </li>
               </ul>

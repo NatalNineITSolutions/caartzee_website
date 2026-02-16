@@ -1,5 +1,5 @@
 ---
-title: 'Digital Marketing Specialist'
+title: 'Financial Visibility'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 30, 2025'
 location: 'Dhaka, Bangladesh (Remote Friendly)'
@@ -7,7 +7,7 @@ offeredSalary: '900$ - 1100$ / month'
 employmentType: [full-time, remote]
 experience: '2–4 Years of Professional Experience'
 qualification: 'Bachelor’s Degree in Marketing, Business Administration, or related field'
-shortDescription: 'Plan and execute SEO, ads, and content campaigns to grow brand visibility and drive measurable results.'
+shortDescription: 'Clear reporting replaced manual spreadsheets.'
 jobSkills:
   - SEO
   - Google Ads
@@ -19,7 +19,7 @@ jobSkills:
 
 #### Job Description
 
-As a **Digital Marketing Specialist**, you will play a key role in shaping the online presence and growth of our brand. You will manage campaigns across SEO, paid advertising, and content channels, ensuring strategies align with business objectives and deliver measurable results. Your work will directly impact how we attract, engage, and convert customers globally.
+As a **Financial Visibility**, you will play a key role in shaping the online presence and growth of our brand. You will manage campaigns across SEO, paid advertising, and content channels, ensuring strategies align with business objectives and deliver measurable results. Your work will directly impact how we attract, engage, and convert customers globally.
 
 This role requires a balance of creativity and analytical thinking. From crafting compelling ad copy to interpreting campaign data, you will take ownership of the marketing funnel end-to-end. You’ll work closely with designers and developers to launch high-performing landing pages, email sequences, and paid campaigns that scale.
 

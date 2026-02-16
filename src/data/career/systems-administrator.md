@@ -1,5 +1,5 @@
 ---
-title: 'Systems Administrator'
+title: 'Marketing Performance'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 25, 2025'
 location: 'New York, USA'
@@ -7,7 +7,7 @@ offeredSalary: '$3,500 – $4,500 / month'
 experience: '3–5 Years of Professional Experience'
 qualification: 'Bachelor’s Degree in Computer Science, Information Technology, or related field'
 employmentType: [full-time, onsite]
-shortDescription: 'Ensure smooth IT operations by managing servers, networks, and cloud infrastructure.'
+shortDescription: 'Integrated campaigns delivered better ROI.'
 jobSkills:
   - Windows & Linux Administration
   - Active Directory
@@ -20,7 +20,7 @@ jobSkills:
 
 #### Job Description
 
-We are seeking a **Systems Administrator** to ensure the stability, security, and scalability of our IT infrastructure. You will manage a mix of on-premise servers, cloud platforms, and enterprise applications to keep business operations running smoothly. Your role will involve proactive monitoring, troubleshooting, and optimizing systems performance.
+We are seeking a **Marketing Performance** to ensure the stability, security, and scalability of our IT infrastructure. You will manage a mix of on-premise servers, cloud platforms, and enterprise applications to keep business operations running smoothly. Your role will involve proactive monitoring, troubleshooting, and optimizing systems performance.
 
 Collaboration is key in this role. You will work alongside the IT and engineering teams to implement new technologies, streamline workflows, and strengthen system resilience. From deploying updates to managing user accounts and access controls, you will be at the center of our technology ecosystem.
 

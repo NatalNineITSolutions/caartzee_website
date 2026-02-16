@@ -15,9 +15,9 @@ const Positions = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <h2>
-              Become part of the
+             Business Impact after 
               <br className="hidden md:block" />
-              dream-team
+              CaartZee Implementation
             </h2>
           </RevealAnimation>
         </div>

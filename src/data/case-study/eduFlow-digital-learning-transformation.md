@@ -11,7 +11,7 @@ after:
   - 'Personalized learning paths'
   - 'Automated grading and instant feedback'
   - 'Seamless remote & hybrid learning'
-thumbnail: '/images/ns-img-411.jpg'
+thumbnail: '/images/ns-img-501.png'
 keyFeatures:
   - 'AI-powered personalized learning paths'
   - 'Automated grading and feedback system'
