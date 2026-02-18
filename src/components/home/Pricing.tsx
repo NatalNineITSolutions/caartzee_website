@@ -14,7 +14,7 @@ const Pricing = () => {
         <PricingHeading isAnnual={isAnnual} setIsAnnual={setIsAnnual} />
 
         <div className="relative">
-          <div className="mx-auto grid max-w-[500px] grid-cols-1 items-center gap-y-5 xl:mx-0 xl:max-w-full xl:grid-cols-3 xl:gap-8">
+          <div className="mx-auto grid max-w-[500px] grid-cols-1 items-start gap-y-5 xl:mx-0 xl:max-w-full xl:grid-cols-3 xl:gap-8">
             {/* <!-- Price Card 1 --> */}
             <PricingCardOne isAnnual={isAnnual} />
             {/* <!-- Price Card 2 --> */}

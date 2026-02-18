@@ -72,12 +72,12 @@ const Integration = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="text-accent max-[426px]:text-heading-6 mx-auto max-w-[750px]">
-                Powerful AI Tools Built for Growth
+                One Platform. Endless Possibilities.
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="text-accent max-[426px]:text-tagline-2 max-w-[650px]">
-                Smart tools that work for you.
+                Manage vendors, orders, payments, and growth with fully connected systems built for scale.
               </p>
             </RevealAnimation>
           </div>
