@@ -1,4 +1,5 @@
 import { cn } from '@/utils/cn';
+import PlayIcon from './PlayIcon';
 import { FC } from 'react';
 
 interface ArrowIconProps {
@@ -546,6 +547,18 @@ const StarIconV3 = ({ className }: { className?: string }) => (
   </svg>
 );
 
+const CheckIconV3 = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    className={cn('size-5', className)}
+  >
+    <circle cx="12" cy="12" r="10" fill="currentColor" />
+    <path d="M7.5 12L10.5 15L16.5 9" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
 const XIcon = ({ className }: { className?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -974,11 +987,14 @@ const AndroidIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
+
+
 export {
   AndroidIcon,
   ArrowIcon,
   CalendarIcon,
   CheckIcon,
+  CheckIconV3,
   ChromeExtensionIcon,
   ClockIcon,
   CompanyProgressIcon,
@@ -995,6 +1011,7 @@ export {
   LinkedinIcon,
   MessageIcon,
   NavigationArrow,
+  PlayIcon,
   ProjectAchievementCheckIcon,
   ProjectSatisfiedClientsIcon,
   ProjectTeamMembersIcon,
