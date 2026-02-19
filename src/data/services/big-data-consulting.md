@@ -1,6 +1,6 @@
 ---
-title: 'Big Data Consulting'
-description: 'Unlock the power of big data with tailored consulting services that help businesses harness data for smarter decisions, improved performance, and long-term growth.'
+title: 'Automated Pricing Optimization (₹)'
+description: 'Adjust product pricing intelligently based on demand, competition, and performance data in INR (₹) to maximize profit and stay competitive.'
 image: '/images/ns-img-12.svg'
 imageDark: '/images/ns-img-dark-8.svg'
 imgAlt: 'service-img'

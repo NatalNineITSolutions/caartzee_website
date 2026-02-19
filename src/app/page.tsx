@@ -15,7 +15,7 @@ import Feature from '@/components/home/Feature';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'NextGen Ecomm || Caartzee',
+  title: 'Caartzee',
 };
 
 const page = () => {

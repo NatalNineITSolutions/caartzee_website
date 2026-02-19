@@ -15,7 +15,7 @@ const TestimonialMarquee = () => {
             </RevealAnimation>
             <div className="space-y-3">
               <RevealAnimation delay={0.2}>
-                <h2>Hear from our customers about their experience with CartZee</h2>
+                <h2>Hear from our customers about their experience with CaartZee</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <p className="mx-auto max-w-[600px]">

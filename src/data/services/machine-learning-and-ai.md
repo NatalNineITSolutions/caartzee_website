@@ -1,6 +1,6 @@
 ---
-title: 'Automated Background Replacement'
-description: 'Instantly replace or enhance image backgrounds with AI-powered precision — perfect for product photos, portraits, and creative visuals.'
+title: 'AI Sales Support Assistant'
+description: 'Your 24/7 AI supporter suggests pricing in ₹, identifies growth opportunities, and answers operational questions instantly.'
 image: '/images/ns-img-10.svg'
 imgAlt: 'service-img'
 imageDark: '/images/ns-img-dark-6.svg'

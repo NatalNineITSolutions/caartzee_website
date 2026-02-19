@@ -1,6 +1,6 @@
 ---
-title: 'Business Analysis'
-description: 'Business analysis helps organizations identify needs, optimize processes, and implement data-driven solutions that drive efficiency and growth.'
+title: 'Smart Inventory Management'
+description: 'Monitor stock levels across platforms, receive instant alerts, and automate order processing to ensure smooth fulfillment operations.'
 icon: 'ns-shape-30'
 image: '/images/ns-img-13.svg'
 imageDark: '/images/ns-img-dark-9.svg'
