@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "title": "Basic",
+        "description": "Essential features for small businesses",
+        "priceMonth": 29,
+        "priceYear": 290,
+        "variant": "basic",
+        "features": [
+            {
+                "label": "1 Online Store",
+                "enabled": true
+            },
+            {
+                "label": "Basic Inventory",
+                "enabled": true
+            },
+            {
+                "label": "Order Management",
+                "enabled": false
+            },
+            {
+                "label": "Email Support",
+                "enabled": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Premium",
+        "description": "Advanced features for growing teams",
+        "priceMonth": 59,
+        "priceYear": 590,
+        "variant": "premium",
+        "highlight": "Popular",
+        "features": [
+            {
+                "label": "1 Online Store",
+                "enabled": true
+            },
+            {
+                "label": "Advanced Inventory",
+                "enabled": true
+            },
+            {
+                "label": "Order Management",
+                "enabled": true
+            },
+            {
+                "label": "Priority Email Support",
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Enterprise",
+        "description": "Maximum power and dedicated support",
+        "priceMonth": 99,
+        "priceYear": 990,
+        "variant": "enterprise",
+        "features": [
+            {
+                "label": "Unlimited Online Stores",
+                "enabled": true
+            },
+            {
+                "label": "Full Inventory Control",
+                "enabled": true
+            },
+            {
+                "label": "Automated Management",
+                "enabled": true
+            },
+            {
+                "label": "Dedicated 24/7 Support",
+                "enabled": true
+            }
+        ]
+    }
+]

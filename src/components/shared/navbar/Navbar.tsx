@@ -59,7 +59,7 @@ const Navbar = () => {
                   <Link
                     href="/"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Platform</span>
+                    <span>Products</span>
                     <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +137,7 @@ const Navbar = () => {
                   data-menu="plan-and-support-mega-menu"
                   onMouseEnter={() => handleMenuHover('plan-and-support-mega-menu')}>
                   <Link
-                    href="/contactMenu"
+                    href="/contact-us"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
                     <span>Contact</span>
                     {/* <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">

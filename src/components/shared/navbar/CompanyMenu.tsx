@@ -22,13 +22,13 @@ type CompanyLink = Omit<CompanyMenuLinkProps, 'onClose'>;
 
 const aboutLinks: CompanyLink[] = [
   {
-    title: 'Caartzee zeedone',
+    title: 'Caartzee Zeedone',
     description: '',
-    href: '/about',
+    href: 'https://www.zeedone.com',
     icon: AboutIcon,
   },
   {
-    title: 'CartzeeSalesNavigator',
+    title: 'Cartzee Sales Navigator',
     description: '',
     href: '/team',
     icon: TeamIcon,
@@ -40,9 +40,9 @@ const aboutLinks: CompanyLink[] = [
     icon: CareerIcon,
   },
   {
-    title: 'Cartzee Prize',
+    title: 'Cartzee Crewsync',
     description: '',
-    href: '/why-choose-us',
+    href: '/Caartzee_crewsync',
     icon: WhyChooseUsIcon,
   },
 ];
@@ -102,21 +102,21 @@ const CompanyMenu = ({
     <div>
       <div
         className={cn(
-          '0.3 ease ease fixed top-full left-1/2 z-40 h-3 w-[500px] -translate-x-1/2 bg-transparent transition-opacity duration-300',
+          '0.3 ease ease absolute top-full left-1/2 z-40 h-3 w-[500px] -translate-x-1/2 bg-transparent transition-opacity duration-300',
           menuDropdownId === 'company-mega-menu' ? '!pointer-events-auto opacity-100' : 'pointer-events-none opacity-0',
         )}
       />
       <div
         id="company-mega-menu"
         className={cn(
-          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 items-center gap-y-6 rounded-[20px] border bg-white p-4 transition-all duration-300 md:w-[400px] md:gap-x-6 xl:flex dark:border-white/10',
+          'dark:bg-background-6 border-stroke-1 ease absolute top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 items-center gap-y-6 rounded-[20px] border bg-white p-4 transition-all duration-300 md:w-[400px] md:gap-x-6 xl:flex dark:border-white/10',
           // when hover show the menu
           menuDropdownId === 'company-mega-menu'
             ? 'translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
-        <div className="flex-1 space-y-1">
-          <ul className="space-y-2 w-fit mx-auto">
+        <div className="w-full">
+          <ul className="w-full space-y-3">
             {aboutLinks.map((link) => (
               <CompanyMenuLink key={link.title} {...link} onClose={handleClose} />
             ))}
