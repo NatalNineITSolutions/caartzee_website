@@ -11,6 +11,7 @@ import VideoModal from '@/components/shared/VideoModal';
 import { ModalProvider } from '@/context/ModalContext';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
+import Feature from '@/components/home/Feature';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
@@ -24,16 +25,10 @@ const page = () => {
         <Hero />
         <About />
         <Work />
-        {/* <Feature /> */}
-
-        {/* new components */}
-        <Features />
-
-
-        {/* <Pricing /> */}
+        <Feature />
+        <Pricing />
         <Integration />
-        <Integ />
-        {/* <Reviews /> */}
+        <Reviews />
         <VideoModal />
       </main>
     </ModalProvider>

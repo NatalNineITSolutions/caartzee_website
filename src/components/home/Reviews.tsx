@@ -7,10 +7,10 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import GradientOverlay from '../shared/reviews/GradientOverlay';
-
+import dummy from '@public/images/dummy-avatar.png';
 const Reviews = () => {
   return (
-    <section className="dark:bg-background-6 relative pt-14 pb-24 md:pt-16 md:pb-36 lg:pt-[88px] lg:pb-44 xl:pt-[100px] xl:pb-[200px]">
+    <section className="dark:bg-background-6 relative pt-14 pb-24 md:pt-16 md:pb-36 lg:pt-[88px] lg:pb-44 xl:pt-[100px] xl:pb-[60px]">
       <div className="main-container flex flex-col gap-[70px] max-[426px]:gap-10">
         <div className="flex flex-col items-center text-center">
           <RevealAnimation delay={0.1}>
@@ -23,8 +23,8 @@ const Reviews = () => {
           <RevealAnimation delay={0.3}>
             <p className="max-[426px]:text-tagline-2 max-w-[490px] max-[426px]:max-w-[320px]">
               &quot;Real Businesses. Real Results. &quot;“We reduced manual work by 60% after switching. Everything is now in one place.”
-— Retail Brand Owner
-&quot;
+              — Retail Brand Owner
+              &quot;
             </p>
           </RevealAnimation>
         </div>
@@ -53,7 +53,7 @@ const Reviews = () => {
                       <GradientOverlay />
                       <figure className="dark:ring-background-5 relative inline-block size-14 overflow-hidden rounded-full bg-linear-[156deg,_#FFF_32.92%,_#83E7EE_91%] ring-4 ring-white">
                         <Image
-                          src={review.avatar}
+                          src={dummy}
                           height={100}
                           width={100}
                           quality={100}
@@ -79,11 +79,11 @@ const Reviews = () => {
         </RevealAnimation>
         <RevealAnimation delay={0.5}>
           <div className="text-center">
-            <LinkButton
-              href="/testimonial"
+            {/* <LinkButton
+              href="#"
               className="btn btn-md btn-secondary dark:btn-transparent hover:btn-white w-full sm:w-auto">
               View all reviews
-            </LinkButton>
+            </LinkButton> */}
           </div>
         </RevealAnimation>
       </div>
