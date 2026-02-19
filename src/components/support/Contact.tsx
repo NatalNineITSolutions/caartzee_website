@@ -1,4 +1,4 @@
-import supportContact from '@public/images/ns-img-402.jpg';
+import supportContact from '@public/images/ns-img-402.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -19,8 +19,8 @@ const Contact = () => {
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p className="max-w-[550px]">
-                    Have a question, feedback, or feature request? We’d love to hear from you! Please fill out the form
-                    below, and our support team will get back to you as soon as possible.
+                    Need help with Caartzee CRM? Have a question, feedback, or a feature request?
+Fill out the form and our support team will get back to you as quickly as possible
                   </p>
                 </RevealAnimation>
               </div>

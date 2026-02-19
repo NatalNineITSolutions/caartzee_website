@@ -11,16 +11,15 @@ const Services = () => {
       <div className="main-container">
         <div className="mb-[70px] space-y-5 text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green">Our services</span>
+            <span className="badge badge-green">Support Services</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
-              <h2 className="mx-auto max-w-[810px]">Leading companies around the globe rely on NextSaaS.</h2>
+              <h2 className="mx-auto max-w-[810px]">Growing Businesses Worldwide Trust Caartzee</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[542px]">
-                Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It&apos;s not
-                Latin, though it looks like it
+                From startups to enterprises, teams rely on Caartzee CRM to manage customers, automate workflows, and drive consistent growth.
               </p>
             </RevealAnimation>
           </div>
@@ -41,8 +40,7 @@ const Services = () => {
                 <div className="space-y-2 text-center">
                   <h3 className="text-heading-5">Live chat</h3>
                   <p className="line-clamp-2">
-                    Instant help for pre-sales queries reach us through our live chat for any pre-sale or general
-                    inquiries.
+                    Get instant assistance for sales questions, onboarding support, or quick troubleshooting directly through our live chat
                   </p>
                 </div>
                 <div className="text-center">
@@ -69,8 +67,7 @@ const Services = () => {
                 <div className="space-y-2 text-center">
                   <h3 className="text-heading-5">Support ticket</h3>
                   <p className="line-clamp-2">
-                    In-depth technical assistance submit a ticket for a personalized and detailed solution to your
-                    issue.
+                    Need detailed technical assistance? Submit a ticket and our support team will provide personalized guidance.
                   </p>
                 </div>
                 <div className="text-center">
@@ -97,8 +94,7 @@ const Services = () => {
                 <div className="space-y-2 text-center">
                   <h3 className="text-heading-5">Knowledge base</h3>
                   <p className="line-clamp-2">
-                    Comprehensive guides and documentation find step-by-step instructions and solutions for the most
-                    common topics.
+                    Access step-by-step guides, tutorials, FAQs, and documentation to make the most out of Caartzee CRM.
                   </p>
                 </div>
                 <div className="text-center">

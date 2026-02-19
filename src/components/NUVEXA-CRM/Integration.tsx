@@ -23,12 +23,11 @@ const Integration = () => {
               </RevealAnimation>
               <div className="space-y-3">
                 <RevealAnimation delay={0.3}>
-                  <h2 className="text-accent">Boost productivity with 50+ integrations.</h2>
+                  <h2 className="text-accent">One platform.Endless Possibilities</h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <p className="text-accent/60">
-                    Seamlessly connect your favorite tools and platforms without the usual hassle. Our solution is
-                    designed to make
+                    Manage vendors,orders,payments,and Growth with fully connected systems built for scale
                   </p>
                 </RevealAnimation>
               </div>

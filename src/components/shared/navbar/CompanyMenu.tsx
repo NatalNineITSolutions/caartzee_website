@@ -45,15 +45,16 @@ const aboutLinks: CompanyLink[] = [
     href: '/Caartzee_crewsync',
     icon: WhyChooseUsIcon,
   },
+  {
+    title: 'Caartzee crm',
+    description: '',
+    href: '/nuvexa-crm',
+    icon: ManifestoIcon,
+  },
 ];
 
 // const cultureLinks: CompanyLink[] = [
-//   {
-//     title: 'Our Manifesto',
-//     description: 'Our values and principles',
-//     href: '/our-manifesto',
-//     icon: ManifestoIcon,
-//   },
+//   
 //   {
 //     title: 'Customers',
 //     description: 'Success stories and testimonials',

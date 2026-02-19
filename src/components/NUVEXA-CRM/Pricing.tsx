@@ -3,7 +3,9 @@
 import { cn } from '@/utils/cn';
 import { useState } from 'react';
 import RevealAnimation from '../animation/RevealAnimation';
-import PricingCard from './PricingCard';
+import PricingCardOne from './PricingCardOne';
+import PricingCardThree from './PricingCardThree';
+import PricingCardTwo from './PricingCardTwo';
 
 const Pricing = () => {
   const [isAnnual, setIsAnnual] = useState(false);
@@ -17,7 +19,7 @@ const Pricing = () => {
               <span className="badge badge-primary mb-5"> Our pricing </span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
-              <h2 className="max-w-[650px] mx-auto mb-8">Select the pricing plan that best suits your needs.</h2>
+              <h2 className="max-w-[650px] mx-auto mb-8">Choose the plan that fits yours growth stage.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.9} duration={2} useSpring={true} direction="up" offset={200}>
               <span
@@ -57,8 +59,10 @@ const Pricing = () => {
             </RevealAnimation>
           </div>
           {/* pricing cards */}
-          <div className="relative">
-            <PricingCard isAnnual={isAnnual} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+            <PricingCardOne isAnnual={isAnnual} />
+            <PricingCardTwo isAnnual={isAnnual} />
+            <PricingCardThree isAnnual={isAnnual} />
           </div>
         </div>
       </div>

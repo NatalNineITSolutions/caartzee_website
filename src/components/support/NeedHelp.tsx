@@ -1,4 +1,4 @@
-import support from '@public/images/ns-img-401.jpg';
+import support from '@public/images/ns-img-401.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
@@ -10,12 +10,11 @@ const NeedHelp = () => {
         <div className="mb-[70px] space-y-14 text-center">
           <div className="space-y-3">
             <RevealAnimation delay={0.3}>
-              <h2>Need help with NextSaaS?</h2>
+              <h2>How Can We Help You Today?</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p>
-                Welcome to the NextSaaS Support Center! We&apos;re ready to assist you if you have an issue or a
-                question.
+                At Caartzee CRM, your success is our priority. Whether you need technical support, onboarding guidance, or feature assistance  our experts are ready to assist.
               </p>
             </RevealAnimation>
           </div>

@@ -3,14 +3,14 @@ import roundImageImg from '@public/images/ns-img-73.png';
 import Image from 'next/image';
 import NumberAnimation from '../animation/NumberAnimation';
 import RevealAnimation from '../animation/RevealAnimation';
-import Progress from '../NUVEXA-CRM/Progress';
+import Progress from '../nuvexa-crm/Progress';
 import LinkButton from '../ui/button/LinkButton';
 
 const teamList = [
-  { id: 1, label: 'Sales Teams' },
-  { id: 2, label: 'Marketing Teams' },
-  { id: 3, label: 'Customer Support Teams' },
-  { id: 4, label: 'Small Businesses & Enterprises' },
+  { id: 1, label: 'Close deals faster with smart pipelines, lead tracking & real-time insights.' },
+  { id: 2, label: 'Launch targeted campaigns, track performance & convert leads effortlessly' },
+  { id: 3, label: 'Deliver exceptional support with organized tickets & customer history.' },
+  { id: 4, label: 'Scalable CRM solutions built to grow with your business.' },
 ];
 
 const HowItWork = () => {
@@ -32,7 +32,7 @@ const HowItWork = () => {
                 <figcaption className="flex justify-between gap-2">
                   <span className="text-tagline-1 dark:text-accent font-normal"> Today&apos;s Revenue </span>
                   <span className="text-secondary dark:text-accent flex items-center gap-1 text-lg leading-[1.5] font-medium">
-                    $
+
                     <NumberAnimation number={53224} speed={1000} interval={180} rooms={5} heightSpaceRatio={2.5} />
                   </span>
                 </figcaption>
@@ -43,12 +43,12 @@ const HowItWork = () => {
           {/* right side content  */}
           <div className="mx-auto flex max-w-[595px] flex-col items-start lg:max-w-max">
             <RevealAnimation delay={0.4}>
-              <h2 className="mb-3">Who uses NextSaaS CRM</h2>
+              <h2 className="mb-3">Who Uses Caartzee CRM</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.5}>
               <p className="mb-6">
-                Take control of your finances with us and experience the confidence that comes with smart money
-                management. Whether you&apos;re looking to budget better
+                Power your growth with smart automation and seamless customer management.
+                Caartzee helps teams close faster, market smarter, and support better all in one powerful platform.
               </p>
             </RevealAnimation>
             <ul className="mb-14 space-y-2.5">

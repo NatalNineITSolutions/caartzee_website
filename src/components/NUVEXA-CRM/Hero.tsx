@@ -11,17 +11,16 @@ const Hero = () => {
             <div className="space-y-5 text-center md:text-left">
               <RevealAnimation delay={0.1}>
                 <span className="badge badge-blur dark:!text-ns-green inline-block" id="badge-crm">
-                  Modern CRM
+                  🟣 Modern CRM
                 </span>
               </RevealAnimation>
               <div className="space-y-4">
                 <RevealAnimation delay={0.2}>
-                  <h1 className="text-accent">AI-powered CRM for businesses</h1>
+                  <h1 className="text-accent">AI-Powered CRM for Growing Businesses</h1>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p className="text-accent/60 max-w-[468px] md:w-full">
-                    Automate sales, streamline customer relationships, and scale your business—all in one intuitive
-                    platform.
+                    Automate sales, simplify customer relationships, and accelerate your business growth  all in one powerful, easy to use platform.
                   </p>
                 </RevealAnimation>
               </div>

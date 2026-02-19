@@ -22,8 +22,7 @@ const Faq = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <p className="text-secondary dark:text-accent max-w-[596px] md:w-full mx-auto">
-                  Neque accumsan dolor nullam commodo. Odio massa nisi ullamcorper suspendisse amet amet. Aenean
-                  suspendisse eget est pulvinar. Fames eget eget nascetur ornare
+                  Everything you need to know about Caartzee CRM  features, security, pricing, and integrations.
                 </p>
               </RevealAnimation>
             </div>

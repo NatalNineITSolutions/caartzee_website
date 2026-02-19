@@ -1,7 +1,7 @@
 export const faqData = [
   {
     id: 1,
-    question: 'What is the primary role of a business agency?',
+    question: 'What is Caartzee CRM?',
     answer:
       'When collaborating with a business agency, you can generally expect an extensive array of services designed to not only support your current operations but also to foster growth and innovation within your business. These services often include strategic planning, marketing solutions, financial consulting, and operational improvements.',
   },

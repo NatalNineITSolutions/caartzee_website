@@ -10,22 +10,22 @@ const crmFeatures = [
   {
     id: 1,
     icon: 'ns-shape-8',
-    text: 'A version for offline use is available.',
+    text: 'Work anytime, anywhere  even without internet connectivity.',
   },
   {
     id: 2,
     icon: 'ns-shape-9',
-    text: 'Designed to be both scalable and secure.',
+    text: 'Whether your a startup or an enterprise, Caartzee grows with you.',
   },
   {
     id: 3,
     icon: 'ns-shape-12',
-    text: 'Feature powered by artificial intelligence.',
+    text: 'Automated workflows, lead scoring, and predictive insights to boost productivity.',
   },
   {
     id: 4,
     icon: 'ns-shape-21',
-    text: 'It offers both scalability and robust security.',
+    text: 'Advanced encryption, role-based access, and secure data management.',
   },
 ];
 
@@ -39,16 +39,15 @@ const SelectUs = () => {
             {/* heading  */}
             <div className="max-w-[536px] space-y-5 md:w-full">
               <RevealAnimation delay={0.1}>
-                <span className="badge badge-primary">Reasons to select us</span>
+                <span className="badge badge-primary">Why Choose Caartzee</span>
               </RevealAnimation>
               <div className="space-y-3">
                 <RevealAnimation delay={0.2}>
-                  <h2>Easily manage your cash flow.</h2>
+                  <h2>Easily manage your customers, sales & growth</h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p>
-                    Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text nothing Before
-                    &amp; After magazine.
+                    
                   </p>
                 </RevealAnimation>
               </div>

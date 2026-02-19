@@ -14,48 +14,48 @@ const FEATURES = [
   {
     id: 1,
     headingId: 'sales-management-heading',
-    title: 'Sales & pipeline management',
+    title: 'Smart Sales & Pipeline Management',
     image: {
       light: featureImg01,
       dark: featureImg01Dark,
       alt: 'Sales pipeline management dashboard',
     },
     points: [
-      'Visual sales pipelines for complete deal visibility.',
-      'One-click proposal and contract generation.',
-      'AI-powered lead scoring to prioritize high-value prospects.',
+      'Visual drag-and-drop sales pipelines for complete deal visibility',
+      'Automated lead tracking & follow-up reminders',
+      'AI-powered lead scoring to prioritize high-value prospects',
     ],
     variant: 'default',
   },
   {
     id: 2,
     headingId: 'customer-support-heading',
-    title: 'Omnichannel customer support',
+    title: 'Omnichannel Customer Support',
     image: {
       light: featureImg02,
       dark: featureImg02Dark,
       alt: 'Omnichannel customer support interface',
     },
     points: [
-      'Handle tickets, chat, and calls in one place.',
-      'Chatbots for quick customer replies.',
-      'Customer portal to lower ticket requests.',
+      'Manage chat, email, calls & tickets from a single dashboard',
+      'Smart auto-assign ticket system',
+      'Chatbots for instant customer responses',
     ],
     variant: 'support',
   },
   {
     id: 3,
     headingId: 'marketing-automation-heading',
-    title: 'AI-driven marketing automation',
+    title: 'AI-Driven Marketing Automation',
     image: {
       light: featureImg03,
       dark: featureImg03Dark,
       alt: 'AI-driven marketing automation dashboard',
     },
     points: [
-      'AI-powered email & SMS campaigns.',
-      'Smart customer segmentation & personalized outreach.',
-      'Performance tracking & analytics for marketing ROI.',
+      'Automated email & SMS campaigns',
+      'Advanced customer segmentation',
+      'Real-time analytics & performance tracking',
     ],
     variant: 'marketing',
   },
@@ -74,13 +74,13 @@ export default function CRMFeatures() {
 
             <div className="space-y-3">
               <RevealAnimation delay={0.2}>
-                <h2>Key features of NextSaaS CRM</h2>
+                <h2>Key Features of Caartzee CRM</h2>
               </RevealAnimation>
 
               <RevealAnimation delay={0.3}>
                 <p className="text-secondar dark:text-accent">
-                  NextSaaS CRM is designed to simplify and supercharge your customer relationship management. With a
-                  clean, user-friendly interface and powerful automation tools
+                  Caartzee CRM is built to simplify, automate, and accelerate your customer management.
+Experience a clean interface, smart workflows, and powerful growth tools  all in one place.
                 </p>
               </RevealAnimation>
             </div>
