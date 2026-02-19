@@ -40,7 +40,7 @@ type IntegrationLink = SimpleNavLink & {
 const overviewLinks: SimpleNavLink[] = [
   {
     label: 'Smart Sales Engine',
-    href: '/features',
+    href: '/smart-sales',
     icon: PricingIcon,
   },
   {

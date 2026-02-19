@@ -2,49 +2,49 @@
   {
     "id": 1,
     "quote": "CaartZee helped us unify our online store, marketplace sales, and offline billing into one dashboard. Inventory syncing became seamless, and our team collaboration improved instantly.",
-    "avatar": "/images/ns-avatar-1.png",
-    "name": "Sarah Johnson",
-    "position": "Store Manager",
+    "avatar": "/images/dummy-avatar.png",
+    "name": "Aravind Subramanian",
+    "position": "Store Manager, Chennai",
     "rating": "5.0"
   },
   {
     "id": 2,
     "quote": "The platform’s clean interface and powerful automation tools transformed our workflow. We now manage orders, catalogs, marketing, and finances without switching between apps.",
-    "avatar": "/images/ns-avatar-2.png",
-    "name": "David Chen",
-    "position": "E-commerce Manager",
+    "avatar": "/images/dummy-avatar.png",
+    "name": "Karthik Rajendran",
+    "position": "E-commerce Manager, Coimbatore",
     "rating": "5.0"
   },
   {
     "id": 3,
     "quote": "As a retail business owner, CaartZee has been a lifesaver—especially in tracking stock, optimizing purchase orders, and managing cash flow. The insights it provides are game-changing.",
-    "avatar": "/images/ns-avatar-3.png",
-    "name": "Emily Rodriguez",
-    "position": "Retail Business Owner",
+    "avatar": "/images/dummy-avatar.png",
+    "name": "Meena Lakshmanan",
+    "position": "Retail Business Owner, Madurai",
     "rating": "4.9"
   },
   {
     "id": 4,
-    "quote": "CaartZee helped us unify our online store, marketplace sales, and offline billing into one dashboard. Inventory syncing became seamless, and our team collaboration improved instantly.",
-    "avatar": "/images/ns-avatar-1.png",
-    "name": "Sarah Johnson",
-    "position": "Store Manager",
+    "quote": "Managing multiple vendors used to be complex. With CaartZee’s centralized system, we now control inventory, team roles, and sales analytics effortlessly.",
+    "avatar": "/images/dummy-avatar.png",
+    "name": "Suresh Kumar V",
+    "position": "Operations Head, Tiruppur",
     "rating": "5.0"
   },
   {
     "id": 5,
-    "quote": "The platform’s clean interface and powerful automation tools transformed our workflow. We now manage orders, catalogs, marketing, and finances without switching between apps.",
-    "avatar": "/images/ns-avatar-2.png",
-    "name": "David Chen",
-    "position": "E-commerce Manager",
+    "quote": "The automation in invoicing and order processing reduced manual errors significantly. CaartZee feels like a complete business operating system.",
+    "avatar": "/images/dummy-avatar.png",
+    "name": "Divya Prakash",
+    "position": "Startup Founder, Salem",
     "rating": "5.0"
   },
   {
     "id": 6,
-    "quote": "As a retail business owner, CaartZee has been a lifesaver—especially in tracking stock, optimizing purchase orders, and managing cash flow. The insights it provides are game-changing.",
-    "avatar": "/images/ns-avatar-3.png",
-    "name": "Emily Rodriguez",
-    "position": "Retail Business Owner",
+    "quote": "Real-time revenue insights and performance dashboards helped us scale confidently across multiple sales channels.",
+    "avatar": "/images/dummy-avatar.png",
+    "name": "Vigneshwaran R",
+    "position": "Marketplace Seller, Trichy",
     "rating": "4.9"
   }
 ]
