@@ -40,8 +40,8 @@ const Clients = () => {
         <div className="relative overflow-hidden text-center">
           <RevealAnimation delay={0.1}>
             <h2 id="clients-heading" className="mx-auto mb-14 max-w-[800px] text-center font-normal">
-              Trusted by
-              <span className="text-ns-linen"> 10,000+</span> creators and brands worldwide
+              Build AI Voice Assistants that work for you 
+              <span className="text-ns-linen"> 24/7</span> 
             </h2>
           </RevealAnimation>
 

@@ -3,7 +3,7 @@ import roundImageImg from '@public/images/ns-img-73.png';
 import Image from 'next/image';
 import NumberAnimation from '../animation/NumberAnimation';
 import RevealAnimation from '../animation/RevealAnimation';
-import Progress from '../NUVEXA-CRM/Progress';
+import Progress from './Progress';
 import LinkButton from '../ui/button/LinkButton';
 
 const teamList = [

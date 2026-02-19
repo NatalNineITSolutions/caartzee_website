@@ -22,20 +22,19 @@ const Hero = () => {
                 {/* badge  */}
                 <RevealAnimation instant delay={0.1}>
                   <span className="badge badge-metal text-accent/80" aria-label="Product Hunt announcement badge">
-                    We're live on productHunt
+                    No-code AI Voice Engine
                   </span>
                 </RevealAnimation>
                 {/* main text  */}
                 <RevealAnimation instant delay={0.2}>
-                  <h1 className="text-accent lg:text-heading-1 text-heading-3 mx-auto max-w-[350px] leading-[110%] lg:max-w-[500px]">
-                    Your voice, reinvented by AI.
+                  <h1 className="text-accent lg:text-heading-1 text-heading-3 mx-auto max-w-[350px] leading-[110%] lg:max-w-[800px]">
+                    AI Voice Agents that convert conversations into growth.
                   </h1>
                 </RevealAnimation>
               </div>
               <RevealAnimation instant delay={0.3}>
                 <p className="text-accent/80 mx-auto max-w-[465px]" aria-label="AI Voice Generator description">
-                  Bring your words to life with ultra-realistic AI voices powered by deep learning. Perfect for videos,
-                  podcasts, ads, and more.
+                  Create Human-like AI voice agents to handle outbound and inbound calls, book meetings, and take actions 24/7.Human-like AI voice agents to handle outbound and inbound calls, book meetings, and take actions 24/7.
                 </p>
               </RevealAnimation>
             </div>

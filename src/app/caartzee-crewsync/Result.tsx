@@ -6,9 +6,9 @@ import notionIcon from '@public/images/icons/notion-v2.svg';
 import scapicIcon from '@public/images/icons/scapic.svg';
 import stripeIcon from '@public/images/icons/stripe.svg';
 import avatar32 from '@public/images/ns-avatar-32.png';
-import avatar40 from '@public/images/ns-avatar-40.jpg';
-import avatar41 from '@public/images/ns-avatar-41.jpg';
-import avatar42 from '@public/images/ns-avatar-42.jpg';
+import avatar40 from '@public/images/ns-avatar-40.png';
+import avatar41 from '@public/images/ns-avatar-41.png';
+import avatar42 from '@public/images/ns-avatar-42.png';
 import Image from 'next/image';
 
 const Result = () => {
@@ -20,7 +20,7 @@ const Result = () => {
         <div className="space-y-12 md:space-y-19">
           <RevealAnimation delay={0.1}>
             <h2 className="text-center font-normal lg:text-left">
-              Proven results, <span className="text-ns-linen">real voices</span>
+              Powering growth for ambitious teams <span className="text-ns-linen">win with Caartzee.</span>
             </h2>
           </RevealAnimation>
 
@@ -37,23 +37,23 @@ const Result = () => {
 
                   <div className="space-y-8">
                     <p className="text-secondary dark:text-accent">
-                      We easily converted scripts into natural voices and scaled our ad campaigns faster than ever.
+                      We streamlined our team coordination and reduced operational delays within weeks. CrewSync brought complete visibility across departments.
                     </p>
 
                     <figure className="flex items-center gap-3">
                       <Image
                         src={avatar42}
                         className="size-11 rounded-full object-cover object-center"
-                        alt="Priya S., Creative Director at Sonic Ads"
+                        alt="Riya S.Operations Manager, UrbanFleet"
                         width={44}
                         height={44}
                         loading="lazy"
                       />
 
                       <figure>
-                        <h3 className="text-tagline-1 leading-[150%] font-semibold sm:text-lg">Priya S.</h3>
+                        <h3 className="text-tagline-1 leading-[150%] font-semibold sm:text-lg">Riya.s</h3>
                         <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-normal">
-                          Creative Director, Sonic Ads
+                          Operations Manager, UrbanFleet
                         </p>
                       </figure>
                     </figure>
@@ -70,7 +70,7 @@ const Result = () => {
                     </span>
                     <div className="space-y-8">
                       <p className="text-secondary dark:text-accent pt-16 pb-8">
-                        SoundWave Studios boosts video output by 40% using AI-generated voices.
+                        UrbanFleet improves team efficiency by 42% using Caartzee CrewSync.
                       </p>
 
                       <div className="w-[90%] md:w-auto">
@@ -94,7 +94,7 @@ const Result = () => {
                     </h2>
 
                     <p className="text-accent/60 font-normal">
-                      less time spent on dubbing compared to traditional workflows.
+                      Less time spent on manual coordination compared to traditional workflows.
                     </p>
                   </div>
                 </RevealAnimation>
@@ -113,21 +113,21 @@ const Result = () => {
 
                     <div className="space-y-8">
                       <p className="text-secondary dark:text-accent">
-                        The voice clarity and tone customization blew us away!
+                        The automation and real-time tracking completely changed how our teams operate. We finally have clarity and control.
                       </p>
 
                       <figure className="flex items-center gap-3">
                         <Image
                           src={avatar32}
                           className="size-11 rounded-full object-cover object-center"
-                          alt="Carlos M., Business Owner"
+                          alt="Arjun Mehta, Business Owner"
                           width={44}
                           height={44}
                           loading="lazy"
                         />
 
                         <figure>
-                          <h3 className="text-tagline-1 leading-[150%] font-semibold sm:text-lg">Carlos M.</h3>
+                          <h3 className="text-tagline-1 leading-[150%] font-semibold sm:text-lg">Arjun Mehta</h3>
                           <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-normal">
                             Business Owner
                           </p>
@@ -146,14 +146,14 @@ const Result = () => {
 
                     <div className="space-y-8">
                       <p className="text-secondary dark:text-accent">
-                        We instantly localize our campaigns with natural accents — no extra cost, no delays.
+                        We manage multiple projects across locations, and CrewSync keeps everything aligned without the chaos.
                       </p>
 
                       <figure className="flex items-center gap-3">
                         <Image
                           src={avatar41}
                           className="size-11 rounded-full object-cover object-center"
-                          alt="Nora Kim, Marketing Lead at AdPulse Global"
+                          alt="Nora Kim, Marketing Lead at ScaleBridge"
                           width={44}
                           height={44}
                           loading="lazy"
@@ -162,7 +162,7 @@ const Result = () => {
                         <figure>
                           <h3 className="text-tagline-1 leading-[150%] font-semibold sm:text-lg">Nora Kim</h3>
                           <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-normal">
-                            Marketing Lead, AdPulse Global
+                            Marketing Lead, ScaleBridge
                           </p>
                         </figure>
                       </figure>
@@ -181,7 +181,7 @@ const Result = () => {
                       Case study
                     </span>
                     <p className="pt-5 pb-8 text-white">
-                      SoundWave Studios boosts video output by 40% using AI-generated voices.
+                      BrightMotion scales operations 3x faster with Caartzee’s smart coordination tools.
                     </p>
 
                     <div className="w-[90%] md:w-auto">
@@ -203,15 +203,14 @@ const Result = () => {
 
                     <div className="space-y-8">
                       <p className="text-secondary dark:text-accent">
-                        Our explainer videos now sound professional without hiring multiple voice actors. It's a total
-                        game-changer.
+                        Our campaigns and crew scheduling are finally in sync. No more missed updates or last-minute confusion.
                       </p>
 
                       <figure className="flex items-center gap-3">
                         <Image
                           src={avatar40}
                           className="size-11 rounded-full object-cover object-center"
-                          alt="Liam Brooks, Video Producer at BrightMotion"
+                          alt="Liam Brooks, Head of Operations, BrightMotion"
                           width={44}
                           height={44}
                           loading="lazy"
@@ -220,7 +219,7 @@ const Result = () => {
                         <figure>
                           <h3 className="text-tagline-1 leading-[150%] font-semibold sm:text-lg">Liam Brooks</h3>
                           <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-normal">
-                            Video Producer, BrightMotion
+                            Head of Operations, BrightMotion
                           </p>
                         </figure>
                       </figure>

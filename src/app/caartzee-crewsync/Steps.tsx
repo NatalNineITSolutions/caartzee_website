@@ -16,9 +16,9 @@ const stepsData: StepData[] = [
   {
     id: 'step-1',
     stepNumber: 1,
-    title: 'Write or paste script',
+    title: 'Leads calling Agent',
     description:
-      "Quickly draft your message or drop in your ready-to-go text to get started instantly. Whether you're crafting a new idea, refining existing",
+      "Capture and manage incoming leads effortlessly. Instantly connect prospects with the right agent and keep every conversation organized and actionable.",
     mainImage: stepImage554,
     overlayImage: stepImage555,
     overlayImagePosition: 'right',
@@ -26,25 +26,25 @@ const stepsData: StepData[] = [
   {
     id: 'step-2',
     stepNumber: 2,
-    title: 'Choose your voice style',
+    title: 'Social media',
     description:
-      'Select from natural human-like voices, accents, and tones that fit your content. Browse through our extensive library of professional voices, each designed to match',
+      'Engage your audience across platforms with smart automation and real-time responses. Turn interactions into meaningful conversations that convert.',
     mainImage: stepImage556,
   },
   {
     id: 'step-3',
     stepNumber: 3,
-    title: 'Customize the delivery',
+    title: 'Digital Marketing',
     description:
-      'Adjust speed, pitch, pauses, and emotions for a perfect performance. Fine-tune every aspect of your voiceover to create the exact tone and pacing you need for your project.',
+      'Create high-impact campaigns, automate outreach, and turn engagement into measurable growth. Built for teams that move fast and scale faster.',
     mainImage: stepImage557,
   },
   {
     id: 'step-4',
     stepNumber: 4,
-    title: 'Generate & download',
+    title: 'Digital Campaign Boost',
     description:
-      "Get studio-quality audio in seconds and download instantly. Your professional voiceover is ready to use in any format, whether you're creating content for videos, podcasts, or presentations.",
+      "Launch targeted campaigns, track engagement instantly, and optimize performance with data-driven insights that help you grow faster.",
     mainImage: stepImage558,
     overlayImage: stepImage559,
     overlayImagePosition: 'center',

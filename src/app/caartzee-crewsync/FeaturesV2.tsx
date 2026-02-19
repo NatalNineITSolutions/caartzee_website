@@ -62,13 +62,13 @@ const FeaturesV2 = () => {
         <div className="space-y-3 text-center lg:text-left">
           <RevealAnimation delay={0.1}>
             <h2 id="team-heading" className="mx-auto max-w-[500px] font-normal lg:mx-0" itemProp="name">
-              Tailored for every <span className="text-ns-linen">creator </span>and
-              <span className="text-ns-linen">team</span>
+              Tailored for every <span className="text-ns-linen">creator </span>and 
+              <span className="text-ns-linen"><br></br>team</span>
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <p className="text-tagline-1 mx-auto max-w-[538px] font-normal lg:mx-0" itemProp="description">
-              Whether you're building a course, podcast, ad, or enterprise solution NextSaaS adapts to your needs.
+              Whether you're building a course, podcast, ad, or enterprise solution Caartzee adapts to your needs.
             </p>
           </RevealAnimation>
         </div>
