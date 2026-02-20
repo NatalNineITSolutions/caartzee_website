@@ -10,19 +10,19 @@ const BlogTabList = () => {
           All
         </Tab>
         <Tab index={1} variant="desktop">
-          Finance
+          Product Updates
         </Tab>
         <Tab index={2} variant="desktop">
-          Crypto
+          Ecommerce
         </Tab>
         <Tab index={3} variant="desktop">
-          AI Software
+          Growth
         </Tab>
         <Tab index={4} variant="desktop">
-          Investment
+          Automation
         </Tab>
         <Tab index={5} variant="desktop">
-          Design
+          Tutorials
         </Tab>
       </TabList>
       <TabList variant="mobile">
@@ -30,19 +30,19 @@ const BlogTabList = () => {
           All
         </Tab>
         <Tab index={1} variant="mobile">
-          Finance
+          Product Updates
         </Tab>
         <Tab index={2} variant="mobile">
-          Crypto
+          Ecommerce
         </Tab>
         <Tab index={3} variant="mobile" className="text-nowrap">
-          AI Software
+          Growth
         </Tab>
         <Tab index={4} variant="mobile">
-          Investment
+          Automation
         </Tab>
         <Tab index={5} variant="mobile">
-          Design
+          Tutorials
         </Tab>
       </TabList>
     </Fragment>

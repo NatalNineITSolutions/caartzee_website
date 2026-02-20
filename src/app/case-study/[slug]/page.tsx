@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Case Study Details - AI Software || NextSaaS',
+  title: 'Case Study Details || Caartzee',
 };
 
 interface CaseStudyDetailsPageProps {

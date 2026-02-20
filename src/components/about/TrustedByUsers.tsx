@@ -25,7 +25,7 @@ const TrustedByUsers = () => {
                 <span className="bg-ns-green text-heading-5 mb-4 rounded-full px-7 py-2">40+</span>
                 <h4 className="text-tagline-1 text-white mb-2 font-bold">Active Business Processes Managed</h4>
                 <p className="text-tagline-2 text-white/70 max-w-[250px]">
-                  From sales and billing to inventory and reporting — fully streamlined.
+                  From sales and billing to inventory and reporting fully streamlined.
                 </p>
               </div>
             </RevealAnimation>

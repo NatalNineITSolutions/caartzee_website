@@ -119,7 +119,7 @@ const Integration = () => {
             <div className="text-center">
               <LinkButton
                 href="/integration"
-                className="btn btn-xl btn-white dark:btn-transparent hover:btn-white-dark dark:hover:btn-white max-[526px]:btn-md max-[526px]:w-full">
+                className="btn btn-xl btn-white dark:btn-transparent hover:btn-primary dark:hover:btn-white max-[526px]:btn-md max-[526px]:w-full">
                 See in Action
               </LinkButton>
             </div>

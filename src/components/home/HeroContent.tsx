@@ -25,7 +25,7 @@ const HeroContent = () => {
           <li>
             <LinkButton
               href="https://cartly.zeedone.com/register"
-              className="btn max-md:btn-md btn-xl dark:btn-accent btn-secondary hover:btn-white dark:hover:btn-transparent w-full max-md:mx-auto md:w-auto">
+              className="btn max-md:btn-md btn-xl dark:btn-accent btn-secondary hover:btn-primary dark:hover:btn-transparent w-full max-md:mx-auto md:w-auto">
               Get started
             </LinkButton>
           </li>

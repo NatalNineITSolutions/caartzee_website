@@ -40,7 +40,7 @@ const AboutList = () => {
             <h5 className="text-accent max-sm:text-heading-6 mb-8">
              Replace scattered tools and manual tracking with one seamless platform that gives you full visibility and control.
             </h5>
-            <LinkButton href="/contact-us" className="btn btn-md btn-white hover:btn-white-dark">
+            <LinkButton href="/contact-us" className="btn btn-md btn-white hover:btn-primary">
               Get started
             </LinkButton>
           </div>

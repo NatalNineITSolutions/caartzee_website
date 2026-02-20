@@ -32,7 +32,7 @@ const Features = () => {
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <p className="mx-auto max-w-[400px] text-center lg:mx-0 lg:text-left">
-                    From creators to enterprises, NextSaaS helps you produce high-quality voiceover without the studio.
+                    From creators to enterprises, Caartzee helps you produce high-quality voiceover without the studio.
                   </p>
                 </RevealAnimation>
               </div>
@@ -58,7 +58,7 @@ const Features = () => {
                 <div className="relative h-[350px] w-full max-w-[642px] space-y-[98px] overflow-hidden rounded-4xl bg-white p-8 md:p-[42px] lg:h-[450px]">
                   <div className="space-y-1">
                     <h3 className="text-heading-5 text-secondary/80 font-normal">API integration</h3>
-                    <p className="max-w-[300px]">Connect NextSaaS with your tools and automate voice workflows.</p>
+                    <p className="max-w-[300px]">Connect Caartzee with your tools and automate voice workflows.</p>
                   </div>
 
                   {/* logo circle  */}

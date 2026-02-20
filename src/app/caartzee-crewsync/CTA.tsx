@@ -24,7 +24,7 @@ const CTA = () => {
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
-              <p itemProp="description">Join thousands using NextSaaS to create lifelike voices—no mic, no hassle.</p>
+              <p itemProp="description">Join thousands using Caartzee to create lifelike voices—no mic, no hassle.</p>
             </RevealAnimation>
           </div>
         </div>

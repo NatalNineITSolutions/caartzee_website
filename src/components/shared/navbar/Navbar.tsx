@@ -8,7 +8,7 @@ import { cn } from '@/utils/cn';
 import logoDark from '@public/images/shared/fav.png';
 import logo from '@public/images/shared/fav.png';
 // import logo from '@public/images/shared/logo.svg';
-import mainLogo from '@public/images/shared/main.png';
+import mainLogo from '@public/images/shared/logo-1.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -160,7 +160,7 @@ const Navbar = () => {
             <div className="hidden items-center justify-center xl:flex">
               <Link
                 href="https://cartly.zeedone.com/register"
-                className="btn btn-md hover:btn-white dark:hover:btn-white-dark btn-white-dark dark:btn-white">
+                className="btn btn-md hover:btn-primary dark:hover:btn-white-dark btn-white-dark dark:btn-white">
                 <span>Get started</span>
               </Link>
             </div>

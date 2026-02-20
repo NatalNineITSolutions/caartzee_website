@@ -35,7 +35,7 @@ Modern SaaS/AI marketing template built with **Next.js 16**, **React 19** and **
 
 - 48 total pages including 8 dynamic route types.
 - Dynamic routes: `blog/[slug]`, `case-study/[slug]`, `customer/[slug]`, `services/[slug]`, `team/[slug]`, `career/[slug]`, `whitepaper/[slug]`, `glossary/[slug]`.
-- SEO-ready metadata helpers (`generateMetadata`) with enforced `"<Page Name> - AI Software || Caartzee"` convention.
+- SEO-ready metadata helpers (`generateMetadata`) with enforced `"<Page Name>  || Caartzee"` convention.
 - Global providers for smooth scrolling, modals, tab state and theme switching.
 
 ---
@@ -210,7 +210,7 @@ Recommended workflow: run `yarn lint` + `yarn build` before pushing to catch bun
 ## Customization Notes
 
 - **Branding**: update tokens in `src/styles/variables.css` and fonts in `src/utils/font.ts`.
-- **Metadata**: use `generateMetadata(title, description)` to keep OpenGraph/Twitter tags in sync. Follow the `"<Page Name> - AI Software || Caartzee"` naming format.
+- **Metadata**: use `generateMetadata(title, description)` to keep OpenGraph/Twitter tags in sync. Follow the `"<Page Name>  || Caartzee"` naming format.
 - **Assets**: add images under `public/images`. Leverage Next/Image for optimization.
 - **Reusable layout**: `src/app/layout.tsx` wires SmoothScrollProvider, ThemeProvider, navbar and footer. Add new global providers there.
 - **Markdown schema**: frontmatter fields such as `title`, `slug`, `author`, `thumbnail` are consumed by `getMarkDownData` and `getMarkDownContent` helpers.

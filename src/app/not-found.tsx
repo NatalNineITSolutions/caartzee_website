@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: '404 - AI Software || Caartzee',
+  title: '404  || Caartzee',
 };
 
 const page = () => {
