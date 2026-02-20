@@ -45,7 +45,7 @@ const overviewLinks: SimpleNavLink[] = [
   },
   {
     label: 'Inventory & Stock AI',
-    href: '/process',
+    href: '/inventory',
     icon: AnalyticsIconV2,
   },
   {
