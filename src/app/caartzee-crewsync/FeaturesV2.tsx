@@ -5,6 +5,7 @@ import teamImage548 from '@public/images/ns-img-548.png';
 import teamImage549 from '@public/images/ns-img-549.png';
 import teamImage550 from '@public/images/ns-img-550.png';
 import teamImage551 from '@public/images/ns-img-551.png';
+import socialMedia from '@public/images/social-media.png';
 import { StaticImageData } from 'next/image';
 import Marquee from 'react-fast-marquee';
 import FeatureImgCard from './FeatureImgCard';
@@ -44,9 +45,9 @@ const teamItems: TeamItem[] = [
     imageSrc: teamImage549,
   },
   {
-    id: 'gaming-animation',
-    title: 'Gaming & animation',
-    imageSrc: teamImage550,
+    id: 'Social media',
+    title: 'Social media',
+    imageSrc: socialMedia,
   },
 ];
 
@@ -62,13 +63,13 @@ const FeaturesV2 = () => {
         <div className="space-y-3 text-center lg:text-left">
           <RevealAnimation delay={0.1}>
             <h2 id="team-heading" className="mx-auto max-w-[500px] font-normal lg:mx-0" itemProp="name">
-              Tailored for every <span className="text-ns-linen">creator </span>and
-              <span className="text-ns-linen">team</span>
+              Tailored for every <span className="text-ns-linen">creator </span>and 
+              <span className="text-ns-linen"><br></br>team</span>
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <p className="text-tagline-1 mx-auto max-w-[538px] font-normal lg:mx-0" itemProp="description">
-              Whether you're building a course, podcast, ad, or enterprise solution NextSaaS adapts to your needs.
+              Whether you're building a course, podcast, ad, or enterprise solution Caartzee adapts to your needs.
             </p>
           </RevealAnimation>
         </div>

@@ -21,9 +21,14 @@ const VoiceStyle = () => {
     { flagSrc: '/images/icons/germany-flag.svg', flagAlt: 'Germany flag representing Dutch language', name: 'Dutch' },
     { flagSrc: '/images/icons/china-flag.svg', flagAlt: 'China flag representing Chinese language', name: 'Chinese' },
     {
-      flagSrc: '/images/icons/south-korea-flag.svg',
-      flagAlt: 'South Korea flag representing Korean language',
-      name: 'Korean',
+      flagSrc: '/images/icons/indian-flag.svg',
+      flagAlt: 'indian flag representing Tamil language',
+      name: 'Tamil',
+    },
+    {
+      flagSrc: '/images/icons/indian-flag.svg',
+      flagAlt: 'indian flag representing Malayalam language',
+      name: 'Malayalam',
     },
   ];
 

@@ -42,7 +42,7 @@ const aboutLinks: CompanyLink[] = [
   {
     title: 'CaartZee Crewsync',
     description: '',
-    href: '/Caartzee_crewsync',
+    href: '/caartzee-crewsync',
     icon: WhyChooseUsIcon,
   },
 ];

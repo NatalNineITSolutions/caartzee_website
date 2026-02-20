@@ -1,6 +1,6 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import LinkButton from '@/components/ui/button/Button';
-import avatar39 from '@public/images/ns-avatar-39.png';
+import avatar38 from '@public/images/ns-avatar-38.png';
 import multilingualImage from '@public/images/ns-img-523.png';
 import playIcon from '@public/images/ns-img-552.svg';
 import icon553 from '@public/images/ns-img-553.svg';
@@ -166,7 +166,7 @@ const Features = () => {
                                                 </div>
                                                 <figure className="size-[34px] shrink-0 overflow-hidden rounded-full">
                                                     <Image
-                                                        src={avatar39}
+                                                        src={avatar38}
                                                         alt="voice cloning"
                                                         className="size-full object-cover"
                                                         width={34}
@@ -207,7 +207,7 @@ const Features = () => {
                                                 </div>
                                                 <figure className="size-[34px] shrink-0 overflow-hidden rounded-full">
                                                     <Image
-                                                        src={avatar39}
+                                                        src={avatar38}
                                                         alt="voice cloning"
                                                         className="size-full object-cover"
                                                         width={34}
