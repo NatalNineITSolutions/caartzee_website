@@ -418,5 +418,38 @@ Common Styles all over the sites
 .slider-handle.no-transition .handle-circle {
   transition: none !important;
 }
+.ai-voice-generator-integration-circle {
+  animation: spin 50s linear infinite;
+}
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.voice-sample-item-active {
+  @apply bg-ns-linen;
+}
+
+.team-details-body {
+  @apply space-y-4;
+  h2 {
+    p {
+      @apply space-y-4;
+    }
+  }
+
+  h5 {
+    @apply mt-18;
+  }
+  ul {
+    @apply marker:text-secondary dark:marker:text-accent list-disc space-y-2 ps-5;
+    li {
+      @apply text-secondary/60 dark:text-accent/60;
+    }
+  }
+}
 

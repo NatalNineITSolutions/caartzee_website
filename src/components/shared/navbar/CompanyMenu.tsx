@@ -30,7 +30,7 @@ const aboutLinks: CompanyLink[] = [
   {
     title: 'Cartzee Sales Navigator',
     description: '',
-    href: '/team',
+    href: '/nuvexa-crm',
     icon: TeamIcon,
   },
   {
@@ -42,7 +42,7 @@ const aboutLinks: CompanyLink[] = [
   {
     title: 'Cartzee Crewsync',
     description: '',
-    href: '/Caartzee_crewsync',
+    href: '/caartzee-crewsync',
     icon: WhyChooseUsIcon,
   },
 ];

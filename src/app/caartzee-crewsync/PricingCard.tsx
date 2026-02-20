@@ -53,13 +53,13 @@ const PricingCard = ({
         <div className="border-stroke-10 mt-auto border-t pt-6">
           <div className={cn('mb-6', isYearly ? 'price-year' : 'price-month')}>
             <h4 className="text-heading-4 font-normal">
-              ${price}
+              ₹{price}
               <span className="text-tagline-2">{pricePeriod}</span>
             </h4>
           </div>
           <div className={cn('mb-6 hidden', isYearly ? 'price-month' : 'price-year')}>
             <h4 className="text-heading-4 font-normal">
-              ${isYearly ? monthlyPrice : yearlyPrice}
+              ₹{isYearly ? monthlyPrice : yearlyPrice}
               <span className="text-tagline-2">{isYearly ? '/Month' : '/Year'}</span>
             </h4>
           </div>

@@ -1,4 +1,4 @@
-# AI Voice Generator - NextSaaS Template
+# AI Voice Generator - Caartzee Template
 
 A modern, production-ready Next.js 16 SaaS template built for AI-powered voice generation tools. Features a complete set of pages, components, and functionality with React 19, TypeScript, Tailwind CSS 4, and cutting-edge web technologies.
 

@@ -21,7 +21,7 @@ const Integration = () => {
                   </RevealAnimation>
                   <RevealAnimation delay={0.4}>
                     <p className="mx-auto max-w-[367px] text-center">
-                      Easily connect NextSaaS Ai to Canva, Notion, Adobe, Google Slides, Webflow, and more.
+                      Bring your entire ecosystem into one smart dashboard.No more switching tabs. No more manual updates.
                     </p>
                   </RevealAnimation>
                 </div>

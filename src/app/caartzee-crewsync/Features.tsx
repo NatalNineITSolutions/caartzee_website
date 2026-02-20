@@ -5,9 +5,10 @@ import multilingualImage from '@public/images/ns-img-523.png';
 import playIcon from '@public/images/ns-img-552.svg';
 import icon553 from '@public/images/ns-img-553.svg';
 import Image from 'next/image';
-import TypewriterAnimation from '@/components/animation/TypewriterAnimation';
+
 import FeaturesWave from './FeaturesWave';
 import IntegrationCircle from './IntegrationCircle';
+import TypewriterAnimation from '@/components/animation/TypewriterAnimation';
 
 const Features = () => {
   return (
