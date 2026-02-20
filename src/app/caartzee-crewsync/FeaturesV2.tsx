@@ -5,6 +5,7 @@ import teamImage548 from '@public/images/ns-img-548.png';
 import teamImage549 from '@public/images/ns-img-549.png';
 import teamImage550 from '@public/images/ns-img-550.png';
 import teamImage551 from '@public/images/ns-img-551.png';
+import socialMedia from '@public/images/social-media.png';
 import { StaticImageData } from 'next/image';
 import Marquee from 'react-fast-marquee';
 import FeatureImgCard from './FeatureImgCard';
@@ -44,9 +45,9 @@ const teamItems: TeamItem[] = [
     imageSrc: teamImage549,
   },
   {
-    id: 'gaming-animation',
-    title: 'Gaming & animation',
-    imageSrc: teamImage550,
+    id: 'Social media',
+    title: 'Social media',
+    imageSrc: socialMedia,
   },
 ];
 

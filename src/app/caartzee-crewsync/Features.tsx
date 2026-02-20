@@ -1,13 +1,14 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import LinkButton from '@/components/ui/button/Button';
-import avatar38 from '@public/images/ns-avatar-38.png';
+import avatar39 from '@public/images/ns-avatar-39.png';
 import multilingualImage from '@public/images/ns-img-523.png';
 import playIcon from '@public/images/ns-img-552.svg';
 import icon553 from '@public/images/ns-img-553.svg';
 import Image from 'next/image';
-import TypewriterAnimation from '@/components/animation/TypewriterAnimation';
+
 import FeaturesWave from './FeaturesWave';
 import IntegrationCircle from './IntegrationCircle';
+import TypewriterAnimation from '@/components/animation/TypewriterAnimation';
 
 const Features = () => {
   return (
@@ -57,7 +58,7 @@ const Features = () => {
                 <div className="relative h-[350px] w-full max-w-[642px] space-y-[98px] overflow-hidden rounded-4xl bg-white p-8 md:p-[42px] lg:h-[450px]">
                   <div className="space-y-1">
                     <h3 className="text-heading-5 text-secondary/80 font-normal">API integration</h3>
-                    <p className="max-w-[300px]">Connect Caartzee with your tools and automate voice workflows.</p>
+                    <p className="max-w-[300px]">Connect NextSaaS with your tools and automate voice workflows.</p>
                   </div>
 
                   {/* logo circle  */}
@@ -164,7 +165,7 @@ const Features = () => {
                         </div>
                         <figure className="size-[34px] shrink-0 overflow-hidden rounded-full">
                           <Image
-                            src={avatar38}
+                            src={avatar39}
                             alt="voice cloning"
                             className="size-full object-cover"
                             width={34}
@@ -205,7 +206,7 @@ const Features = () => {
                         </div>
                         <figure className="size-[34px] shrink-0 overflow-hidden rounded-full">
                           <Image
-                            src={avatar38}
+                            src={avatar39}
                             alt="voice cloning"
                             className="size-full object-cover"
                             width={34}

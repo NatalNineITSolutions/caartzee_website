@@ -53,7 +53,7 @@ const Hero = () => {
                     </LinkButton>
                   </div>
                 </RevealAnimation>
-                <RevealAnimation instant delay={0.5} direction="left" offset={50}>
+                {/* <RevealAnimation instant delay={0.5} direction="left" offset={50}>
                   <div className="w-[85%] md:w-auto">
                     <LinkButton
                       href="/pricing"
@@ -61,7 +61,7 @@ const Hero = () => {
                       Download the app
                     </LinkButton>
                   </div>
-                </RevealAnimation>
+                </RevealAnimation> */}
               </div>
               <RevealAnimation instant delay={0.6}>
                 <i className="text-tagline-3 text-accent font-normal" aria-label="Demo information" role="note">

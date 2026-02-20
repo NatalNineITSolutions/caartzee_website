@@ -8,6 +8,7 @@ import stepImage556 from '@public/images/ns-img-556.png';
 import stepImage557 from '@public/images/ns-img-557.png';
 import stepImage558 from '@public/images/ns-img-558.png';
 import stepImage559 from '@public/images/ns-img-559.svg';
+import marketing from '@public/images/digital marketing.png';
 import { useLenis } from 'lenis/react';
 import { useEffect, useRef, useState } from 'react';
 import StepCard, { StepData } from './StepCard';
@@ -37,7 +38,7 @@ const stepsData: StepData[] = [
     title: 'Digital Marketing',
     description:
       'Create high-impact campaigns, automate outreach, and turn engagement into measurable growth. Built for teams that move fast and scale faster.',
-    mainImage: stepImage557,
+    mainImage: marketing,
   },
   {
     id: 'step-4',

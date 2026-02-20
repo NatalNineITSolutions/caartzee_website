@@ -10,63 +10,63 @@ import { useRef } from 'react';
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 interface TypewriterAnimationProps {
-    children: React.ReactNode;
-    typingDuration?: number;
-    start?: string;
-    once?: boolean;
-    className: string;
+  children: React.ReactNode;
+  typingDuration?: number;
+  start?: string;
+  once?: boolean;
+  className: string;
 }
 
 const TypewriterAnimation = ({
-    children,
-    typingDuration = 3,
-    start = 'top 80%',
-    once = true,
-    className,
+  children,
+  typingDuration = 3,
+  start = 'top 80%',
+  once = true,
+  className,
 }: TypewriterAnimationProps) => {
-    const containerRef = useRef<HTMLDivElement>(null);
-    const textRef = useRef<HTMLElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const textRef = useRef<HTMLElement>(null);
 
-    useGSAP(() => {
-        const container = containerRef.current;
-        const typewriterElement = textRef.current;
-        if (!container || !typewriterElement) {
-            return;
-        }
+  useGSAP(() => {
+    const container = containerRef.current;
+    const typewriterElement = textRef.current;
+    if (!container || !typewriterElement) {
+      return;
+    }
 
-        const split = new SplitText(typewriterElement, {
-            type: 'chars',
-            tag: 'span',
-        });
+    const split = new SplitText(typewriterElement, {
+      type: 'chars',
+      tag: 'span',
+    });
 
-        gsap.set(split.chars, { opacity: 0 });
+    gsap.set(split.chars, { opacity: 0 });
 
-        const charDelay = typingDuration / split.chars.length;
-        const tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: container,
-                start: start,
-                once: once,
-            },
-        });
+    const charDelay = typingDuration / split.chars.length;
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: container,
+        start: start,
+        once: once,
+      },
+    });
 
-        split.chars.forEach((char, index) => {
-            tl.to(char, { opacity: 1, duration: 0.01 }, index * charDelay);
-        });
+    split.chars.forEach((char, index) => {
+      tl.to(char, { opacity: 1, duration: 0.01 }, index * charDelay);
+    });
 
-        return () => {
-            tl.kill();
-            split.revert();
-        };
-    }, [typingDuration, start, once]);
+    return () => {
+      tl.kill();
+      split.revert();
+    };
+  }, [typingDuration, start, once]);
 
-    return (
-        <div ref={containerRef} className="overflow-hidden">
-            <span ref={textRef} className={cn(className)}>
-                {children}
-            </span>
-        </div>
-    );
+  return (
+    <div ref={containerRef} className="overflow-hidden">
+      <span ref={textRef} className={cn(className)}>
+        {children}
+      </span>
+    </div>
+  );
 };
 
 export default TypewriterAnimation;

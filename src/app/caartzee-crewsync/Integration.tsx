@@ -21,7 +21,7 @@ const Integration = () => {
                   </RevealAnimation>
                   <RevealAnimation delay={0.4}>
                     <p className="mx-auto max-w-[367px] text-center">
-                      Bring your entire ecosystem into one smart dashboard. No more manual updates.Just smooth,connected operations.
+                      Bring your entire ecosystem into one smart dashboard.No more switching tabs. No more manual updates.
                     </p>
                   </RevealAnimation>
                 </div>
