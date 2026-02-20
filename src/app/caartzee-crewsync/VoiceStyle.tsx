@@ -40,12 +40,12 @@ const VoiceStyle = () => {
             {/* content  */}
             <div className="ml-0 w-full space-y-3 text-center xl:max-w-[398px] xl:text-left">
               <RevealAnimation delay={0.1}>
-                <h2 className="font-normal" id="voice-styles-section-heading">
+                <h2 className="font-normal dark:text-accent" id="voice-styles-section-heading">
                   Choose from the <span className="text-ns-linen">voice</span> styles
                 </h2>
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
-                <p>Select from a diverse range of AI voice styles — from warm narrators to energetic presenters.</p>
+                <p className="dark:text-accent/80">Select from a diverse range of AI voice styles — from warm narrators to energetic presenters.</p>
               </RevealAnimation>
             </div>
 
@@ -63,20 +63,20 @@ const VoiceStyle = () => {
             {/* middle area  */}
             <RevealAnimation delay={0.4}>
               <div
-                className="w-full max-w-[695px] space-y-[89px] rounded-4xl border border-[#F4EFE7] p-6 xl:max-w-[560px]"
+                className="w-full max-w-[695px] space-y-[89px] rounded-4xl border border-[#F4EFE7] dark:border-stroke-6 p-6 xl:max-w-[560px]"
                 aria-labelledby="languages-heading">
                 <div className="space-y-2">
-                  <p className="text-secondary text-tagline-1 font-normal">Voices from around the world</p>
-                  <h3 id="languages-heading" className="text-heading-5 font-normal">
+                  <p className="text-secondary dark:text-accent text-tagline-1 font-normal">Voices from around the world</p>
+                  <h3 id="languages-heading" className="text-heading-5 font-normal dark:text-accent">
                     Engage your audience in 30 languages.
                   </h3>
                 </div>
 
                 {/* marquee  */}
                 <div
-                  className="relative w-full space-y-[14px] overflow-hidden rounded-2xl bg-[#F4EFE7] p-4 xl:max-w-[512px]"
+                  className="relative w-full space-y-[14px] overflow-hidden rounded-2xl bg-[#F4EFE7] dark:bg-background-6 p-4 xl:max-w-[512px]"
                   aria-labelledby="language-marquee-heading">
-                  <h4 id="language-marquee-heading" className="text-heading-6 relative z-20 font-normal">
+                  <h4 id="language-marquee-heading" className="text-heading-6 relative z-20 font-normal dark:text-accent">
                     Language
                   </h4>
 
@@ -98,7 +98,7 @@ const VoiceStyle = () => {
                                 title={`${language.name} language flag`}
                               />
                             </figure>
-                            <p className="text-secondary font-normal">{language.name}</p>
+                            <p className="text-secondary dark:text-secondary font-normal">{language.name}</p>
                           </div>
                         ))}
                       </div>
@@ -108,14 +108,12 @@ const VoiceStyle = () => {
                   {/* left bg  */}
 
                   <div
-                    className="absolute top-0 left-0 z-10 h-36 w-[126px] rotate-180"
-                    style={{ background: 'linear-gradient(270deg, #f4efe7 16.67%, rgba(244, 239, 231, 0) 100%)' }}
+                    className="absolute top-0 left-0 z-10 h-36 w-[126px] rotate-180 bg-[linear-gradient(270deg,#f4efe7_16.67%,rgba(244,239,231,0)_100%)] dark:bg-[linear-gradient(270deg,#0f1217_16.67%,rgba(15,18,23,0)_100%)]"
                   />
                   {/* right bg  */}
 
                   <div
-                    className="absolute top-0 right-0 z-10 h-36 w-[126px]"
-                    style={{ background: 'linear-gradient(270deg, #f4efe7 16.67%, rgba(244, 239, 231, 0) 100%)' }}
+                    className="absolute top-0 right-0 z-10 h-36 w-[126px] bg-[linear-gradient(270deg,#f4efe7_16.67%,rgba(244,239,231,0)_100%)] dark:bg-[linear-gradient(270deg,#0f1217_16.67%,rgba(15,18,23,0)_100%)]"
                   />
                 </div>
               </div>
@@ -134,7 +132,7 @@ const VoiceStyle = () => {
                     title="Podcasting AI voice application"
                   />
                 </figure>
-                <h3 className="text-tagline-1 text-secondary absolute left-1/2 h-10 w-[202px] -translate-x-1/2 translate-y-0 rounded-full bg-white px-4 py-2 opacity-0 backdrop-blur-[15px] transition-all duration-600 ease-in-out group-hover:-translate-y-12 group-hover:opacity-100">
+                <h3 className="text-tagline-1 text-secondary dark:text-secondary absolute left-1/2 h-10 w-[202px] -translate-x-1/2 translate-y-0 rounded-full bg-white px-4 py-2 opacity-0 backdrop-blur-[15px] transition-all duration-600 ease-in-out group-hover:-translate-y-12 group-hover:opacity-100">
                   Podcasting
                 </h3>
               </div>

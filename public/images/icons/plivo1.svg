@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Plivo Icon (simplified speech bubble style) -->
+  <g transform="translate(20,20)">
+    <rect x="0" y="0" width="50" height="35" rx="8" fill="#00ADEF"/>
+    <polygon points="15,35 25,35 20,45" fill="#00ADEF"/>
+    <circle cx="15" cy="17" r="3" fill="white"/>
+    <circle cx="25" cy="17" r="3" fill="white"/>
+    <circle cx="35" cy="17" r="3" fill="white"/>
+  </g>
+
+  <!-- Company Name -->
+  <text x="100" y="50"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="36"
+        font-weight="600"
+        fill="#00ADEF">Plivo</text>
+
+</svg>

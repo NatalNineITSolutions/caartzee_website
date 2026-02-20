@@ -5,10 +5,10 @@ import { cn } from '@/utils/cn';
 import stepImage554 from '@public/images/ns-img-554.png';
 import stepImage555 from '@public/images/ns-img-555.svg';
 import stepImage556 from '@public/images/ns-img-556.png';
-import stepImage557 from '@public/images/ns-img-557.png';
 import stepImage558 from '@public/images/ns-img-558.png';
 import stepImage559 from '@public/images/ns-img-559.svg';
-import marketing from '@public/images/digital marketing.png';
+import marketting1 from '@public/images/marketting1.png';
+
 import { useLenis } from 'lenis/react';
 import { useEffect, useRef, useState } from 'react';
 import StepCard, { StepData } from './StepCard';
@@ -38,7 +38,7 @@ const stepsData: StepData[] = [
     title: 'Digital Marketing',
     description:
       'Create high-impact campaigns, automate outreach, and turn engagement into measurable growth. Built for teams that move fast and scale faster.',
-    mainImage: marketing,
+    mainImage: marketting1,
   },
   {
     id: 'step-4',
@@ -119,14 +119,14 @@ const Steps = () => {
         <div className="flex flex-wrap items-start justify-center gap-y-[58px] lg:flex-nowrap lg:gap-x-[58px] lg:gap-y-0">
           {/* heading  */}
           <RevealAnimation delay={0.1}>
-            <h2 className="top-[156px] max-w-[629px] text-center font-normal lg:sticky lg:text-left">
+            <h2 className="top-[156px] max-w-[629px] text-center font-normal lg:sticky lg:text-left dark:text-accent">
               Create stunning voiceover in <span className="text-ns-linen">4 simple steps</span>
             </h2>
           </RevealAnimation>
 
           {/* bar  */}
           <RevealAnimation delay={0.1}>
-            <div className="bg-ns-ivory sticky top-[156px] hidden h-[564px] w-px lg:block" />
+            <div className="bg-ns-ivory dark:bg-background-6 sticky top-[156px] hidden h-[564px] w-px lg:block" />
           </RevealAnimation>
 
           {/* cards  */}
@@ -153,7 +153,7 @@ const Steps = () => {
                   onClick={() => handleStepClick(step.stepNumber)}
                   className={cn(
                     'step-number text-heading-6 flex h-15 w-[44px] cursor-pointer items-center justify-center rounded-full px-4 py-[15px] font-normal transition-colors duration-300 ease-in-out',
-                    activeStep === step.stepNumber ? 'bg-ns-linen text-accent' : 'bg-ns-ivory text-secondary/40',
+                    activeStep === step.stepNumber ? 'bg-ns-linen text-accent' : 'bg-ns-ivory dark:bg-background-6 text-secondary/40 dark:text-accent/40',
                   )}
                   data-step-number={step.stepNumber}
                   aria-label={`Go to step ${step.stepNumber}`}>

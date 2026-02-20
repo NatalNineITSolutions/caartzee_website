@@ -39,9 +39,9 @@ const Clients = () => {
       <div className="main-container">
         <div className="relative overflow-hidden text-center">
           <RevealAnimation delay={0.1}>
-            <h2 id="clients-heading" className="mx-auto mb-14 max-w-[800px] text-center font-normal">
-              Build AI Voice Assistants that work for you 
-              <span className="text-ns-linen"> 24/7</span> 
+            <h2 id="clients-heading" className="mx-auto mb-14 max-w-[800px] text-center font-normal dark:text-white">
+              Build AI Voice Assistants that work for you
+              <span className="text-ns-linen"> 24/7</span>
             </h2>
           </RevealAnimation>
 
@@ -64,7 +64,7 @@ const Clients = () => {
                         height={logo.height}
                         loading="lazy"
                         decoding="async"
-                        className="h-full w-auto"
+                        className="h-full w-auto dark:brightness-0 dark:invert"
                       />
                     </figure>
                   ))}
@@ -75,16 +75,14 @@ const Clients = () => {
 
           {/* left gradient */}
           <div
-            className="absolute bottom-[0%] left-0 h-[80px] w-[80px] sm:h-[130px] md:w-[150px] xl:left-[-20%] 2xl:w-[455px]"
-            style={{ background: 'linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 39.14%)' }}
+            className="absolute bottom-[0%] left-0 h-[80px] w-[80px] bg-[linear-gradient(270deg,rgba(255,255,255,0)_0%,#fff_39.14%)] dark:bg-[linear-gradient(270deg,rgba(7,11,16,0)_0%,#070b10_39.14%)] sm:h-[130px] md:w-[150px] xl:left-[-20%] 2xl:w-[455px]"
             aria-hidden="true"
             aria-label="Decorative left gradient fade"
           />
 
           {/* right gradient */}
           <div
-            className="absolute right-0 bottom-[0%] h-[80px] w-[80px] rotate-180 sm:h-[130px] md:w-[150px] xl:right-[-20%] 2xl:w-[455px]"
-            style={{ background: 'linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 39.14%)' }}
+            className="absolute right-0 bottom-[0%] h-[80px] w-[80px] rotate-180 bg-[linear-gradient(270deg,rgba(255,255,255,0)_0%,#fff_39.14%)] dark:bg-[linear-gradient(270deg,rgba(7,11,16,0)_0%,#070b10_39.14%)] sm:h-[130px] md:w-[150px] xl:right-[-20%] 2xl:w-[455px]"
             aria-hidden="true"
             aria-label="Decorative right gradient fade"
           />

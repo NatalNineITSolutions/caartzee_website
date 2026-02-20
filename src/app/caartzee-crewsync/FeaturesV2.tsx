@@ -63,7 +63,7 @@ const FeaturesV2 = () => {
         <div className="space-y-3 text-center lg:text-left">
           <RevealAnimation delay={0.1}>
             <h2 id="team-heading" className="mx-auto max-w-[500px] font-normal lg:mx-0" itemProp="name">
-              Tailored for every <span className="text-ns-linen">creator </span>and 
+              Tailored for every <span className="text-ns-linen">creator </span>and
               <span className="text-ns-linen"><br></br>team</span>
             </h2>
           </RevealAnimation>
@@ -87,13 +87,11 @@ const FeaturesV2 = () => {
           </Marquee>
 
           <div
-            className="absolute top-0 left-0 z-10 h-[110%] w-[120px] rotate-180 md:w-[180px] lg:w-[300px] xl:w-[426px]"
-            style={{ background: 'linear-gradient(270deg, #ffffff 16.67%, rgba(244, 239, 231, 0) 100%)' }}
+            className="absolute top-0 left-0 z-10 h-[110%] w-[120px] rotate-180 bg-[linear-gradient(270deg,#ffffff_16.67%,rgba(244,239,231,0)_100%)] dark:bg-[linear-gradient(270deg,#070b10_16.67%,rgba(15,18,23,0)_100%)] md:w-[180px] lg:w-[300px] xl:w-[426px]"
           />
 
           <div
-            className="absolute top-0 right-0 z-10 h-[110%] w-[120px] md:w-[180px] lg:w-[300px] xl:w-[426px]"
-            style={{ background: 'linear-gradient(270deg, #ffffff 16.67%, rgba(244, 239, 231, 0) 100%)' }}
+            className="absolute top-0 right-0 z-10 h-[110%] w-[120px] bg-[linear-gradient(270deg,#ffffff_16.67%,rgba(244,239,231,0)_100%)] dark:bg-[linear-gradient(270deg,#070b10_16.67%,rgba(15,18,23,0)_100%)] md:w-[180px] lg:w-[300px] xl:w-[426px]"
           />
         </div>
       </RevealAnimation>

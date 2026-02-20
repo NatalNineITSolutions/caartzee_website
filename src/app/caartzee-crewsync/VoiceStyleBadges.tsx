@@ -37,7 +37,7 @@ const VoiceStyleBadges = () => {
           {voiceStyleBadges.row1.map((style) => (
             <div
               key={style.name}
-              className="shadow-14 flex min-w-[160px] items-center justify-start gap-x-3 rounded-full border border-[#DFD1C5] bg-white py-1 pr-4 pl-1 lg:min-w-[192px]">
+              className="shadow-14 flex min-w-[160px] items-center justify-start gap-x-3 rounded-full border border-[#DFD1C5] dark:border-stroke-6 bg-white dark:bg-background-6 py-1 pr-4 pl-1 lg:min-w-[192px]">
               <figure className="relative z-10 size-11 overflow-hidden rounded-full sm:size-14">
                 <Image
                   src={style.imgLink}
@@ -51,8 +51,8 @@ const VoiceStyleBadges = () => {
                 </span>
               </figure>
               <div>
-                <p className="text-tagline-1 text-secondary font-normal">{style.name}</p>
-                <p className="text-tagline-2 font-normal text-nowrap">{style.description}</p>
+                <p className="text-tagline-1 text-secondary dark:text-accent font-normal">{style.name}</p>
+                <p className="text-tagline-2 font-normal text-nowrap dark:text-accent/60">{style.description}</p>
               </div>
             </div>
           ))}
@@ -66,7 +66,7 @@ const VoiceStyleBadges = () => {
             <div
               key={style.name}
               className={cn(
-                'shadow-14 flex min-w-[160px] items-center justify-start gap-x-3 rounded-full border border-[#DFD1C5] bg-white py-1 pr-4 pl-1 lg:min-w-[192px]',
+                'shadow-14 flex min-w-[160px] items-center justify-start gap-x-3 rounded-full border border-[#DFD1C5] dark:border-stroke-6 bg-white dark:bg-background-6 py-1 pr-4 pl-1 lg:min-w-[192px]',
                 index === 1 && 'max-[376px]:hidden',
               )}>
               <figure className="relative z-10 size-11 overflow-hidden rounded-full sm:size-14">
@@ -82,8 +82,8 @@ const VoiceStyleBadges = () => {
                 </span>
               </figure>
               <div>
-                <p className="text-tagline-1 text-secondary font-normal">{style.name}</p>
-                <p className="text-tagline-2 font-normal text-nowrap">{style.description}</p>
+                <p className="text-tagline-1 text-secondary dark:text-accent font-normal">{style.name}</p>
+                <p className="text-tagline-2 font-normal text-nowrap dark:text-accent/60">{style.description}</p>
               </div>
             </div>
           ))}
@@ -97,7 +97,7 @@ const VoiceStyleBadges = () => {
             <div
               key={style.name}
               className={cn(
-                'shadow-14 flex min-w-[160px] items-center justify-start gap-x-3 rounded-full border border-[#DFD1C5] bg-white py-1 pr-4 pl-1 lg:min-w-[192px]',
+                'shadow-14 flex min-w-[160px] items-center justify-start gap-x-3 rounded-full border border-[#DFD1C5] dark:border-stroke-6 bg-white dark:bg-background-6 py-1 pr-4 pl-1 lg:min-w-[192px]',
                 index === 0 && 'max-[376px]:hidden',
               )}>
               <figure className="relative z-10 size-11 overflow-hidden rounded-full sm:size-14">
@@ -113,8 +113,8 @@ const VoiceStyleBadges = () => {
                 </span>
               </figure>
               <div>
-                <p className="text-tagline-1 text-secondary font-normal">{style.name}</p>
-                <p className="text-tagline-2 font-normal text-nowrap">{style.description}</p>
+                <p className="text-tagline-1 text-secondary dark:text-accent font-normal">{style.name}</p>
+                <p className="text-tagline-2 font-normal text-nowrap dark:text-accent/60">{style.description}</p>
               </div>
             </div>
           ))}

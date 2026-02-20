@@ -50,7 +50,7 @@ const overviewLinks: SimpleNavLink[] = [
   },
   {
     label: 'Growth Analytics',
-    href: '/security',
+    href: '/growth',
     icon: WhitePaperIconV2,
   },
 ];
@@ -58,12 +58,12 @@ const overviewLinks: SimpleNavLink[] = [
 const integrationLinks: IntegrationLink[] = [
   {
     label: 'GST & Finance Automation',
-    href: '/pricing',
+    href: '/finance',
     icon: PricingIcon,
   },
   {
     label: 'Vendor & Team Control',
-    href: '/career',
+    href: '/team',
     icon: CareerIconV2,
   },
   {
@@ -111,7 +111,7 @@ const PlatformMenu = ({
       <div
         id="platform-mega-menu"
         className={cn(
-          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 rounded-[20px] border bg-white p-4 transition-all duration-300 lg:w-[500px] xl:flex dark:border-white/10',
+          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 rounded-[20px] border bg-white p-4 transition-all duration-300 lg:w-[550px] xl:flex dark:border-white/10',
           menuDropdownId === 'platform-mega-menu'
             ? 'translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-2.5 opacity-0',

@@ -11,6 +11,7 @@ interface PricingPlan {
   features: string[];
   monthlyPrice: number;
   yearlyPrice: number;
+  yearlySavings?: number;
   buttonText: string;
   buttonHref: string;
   highlight: boolean;
@@ -18,54 +19,68 @@ interface PricingPlan {
 
 const pricingPlans: PricingPlan[] = [
   {
-    id: 'free-plan',
-    title: 'Start For 1 Rupees',
-    description: 'Core voice features',
-    features: ['Limited voice time', 'Basic voice styles', 'Watermarked output', 'Customizable voice styles'],
-    monthlyPrice: 1,
-    yearlyPrice: 1,
+    id: 'Starter Plan',
+    title: 'Starter Plan ',
+    description: ' High Margin Entry',
+    features: ['3 AI Agents', '8 Campaigns', '300 Contacts', 'C5 Flow Automations', '5 Knowledge Bases', '3 Phone Numbers', '200 Included Credits', 'Basic Support'],
+    monthlyPrice: 2999,
+    yearlyPrice: 29999,
     buttonText: 'Get started',
-    buttonHref: '/contact',
+    buttonHref: '/contact-us',
     highlight: false,
   },
   {
-    id: 'pro-plan',
-    title: 'Starter',
-    description: 'Advanced features + app publishing',
+    id: 'Growth Plan ',
+    title: 'Growth Plan',
+    description: 'Core Profit Driver',
     features: [
-      '1 online Store',
-      'Premium voice styles',
-      '30+ languages',
-      'No watermarks',
-      'Priority support',
-      'API access',
+      '15 AI Agents',
+      '30 Campaigns',
+      '2,000 Contacts',
+      '15 Flow Automations',
+      '15 Knowledge Bases',
+      '8 Phone Numbers',
+      'Choose Your LLM',
+      '800 Included Credits',
+      'Call Recording + Analytics',
+      'Priority Support',
     ],
-    monthlyPrice: 1999,
-    yearlyPrice: 21999,
+    monthlyPrice: 6999,
+    yearlyPrice: 69999,
+    yearlySavings: 13989,
     buttonText: 'Get started',
-    buttonHref: '/contact',
+    buttonHref: '/contact-us',
     highlight: true,
   },
   {
-    id: 'team-plan',
-    title: 'Growth(Most popular)',
-    description: 'Collaboration, integrations & support',
-    features: ['Multiple Stores','Unlimited voice time', 'All voice styles', '30+ languages', 'Commercial license'],
-    monthlyPrice: 3499,
-    yearlyPrice: 38999,
+    id: 'Scale Plan',
+    title: 'Scale Plan',
+    description: 'Enterprise Margin Expansion',
+    features: ['40 AI Agents', 'Unlimited Campaigns', '10,000 Contacts', 'Unlimited Flow Automations', 'Unlimited Knowledge Bases', '20 Phone Numbers', 'API Access', 'White Label Option', '2,000 Included Credits', 'Dedicated Account Manager', 'Premium Support + SLA'],
+    monthlyPrice: 14999,
+    yearlyPrice: 149999,
+    yearlySavings: 60000,
     buttonText: 'Get started',
-    buttonHref: '/contact',
+    buttonHref: '/contact-us',
     highlight: false,
   },
   {
-    id: 'enterprise-plan',
-    title: 'Enterprise ',
-    description: 'Custom pricing – API access, white-label, and more',
-    features: ['Unlimited voice time', 'Voice cloning', 'Custom voice training', 'White-label solution'],
-    monthlyPrice: 4999,
-    yearlyPrice: 55999,
-    buttonText: 'Get started',
-    buttonHref: '/contact',
+    id: 'usage-and-credits',
+    title: 'Usage & Credits',
+    description: 'Pay as you grow with flexible credits.',
+    features: [
+      '1 Outbound AI Call (1 min) – 1 Credit',
+      '1 Inbound Call (1 min) – 1 Credit',
+      'Call Recording – +0.2 Credit',
+      'Transcription – +0.3 Credit',
+      '500 Credits – ₹999 Top-Up',
+      '1,000 Credits – ₹1,799 Top-Up',
+      '5,000 Credits – ₹7,999 Top-Up'
+    ],
+    monthlyPrice: 0,
+    yearlyPrice: 0,
+    buttonText: 'Contact Sales',
+    buttonHref: '/contact-us',
     highlight: false,
   },
 ];
@@ -81,16 +96,16 @@ const Pricing = () => {
             {/* heading  */}
             <div className="space-y-5 text-center">
               <RevealAnimation delay={0.1}>
-                <span className="badge badge-ivory">Pricing plan</span>
+                <span className="badge badge-ivory dark:bg-background-6 dark:text-accent">Pricing plan</span>
               </RevealAnimation>
               <div className="space-y-3 text-center">
                 <RevealAnimation delay={0.2}>
-                  <h2 className="font-normal">
+                  <h2 className="font-normal dark:text-accent">
                     Flexible <span className="text-ns-linen">pricing</span> for every stage
                   </h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
-                  <p className="text-tagline-1 text-secondary font-normal">
+                  <p className="text-tagline-1 text-secondary dark:text-accent/80 font-normal">
                     Choose a plan that fits your content goals—no hidden fees.
                   </p>
                 </RevealAnimation>
@@ -105,8 +120,8 @@ const Pricing = () => {
                     save 40%
                   </span>
                 </RevealAnimation>
-                <label className="shadow-1 bg-ns-ivory relative z-10 inline-flex cursor-pointer items-center rounded-full px-[57px] py-6">
-                  <span className="pr-2.5 text-base font-normal text-black">Monthly</span>
+                <label className="shadow-1 bg-ns-ivory dark:bg-background-6 relative z-10 inline-flex cursor-pointer items-center rounded-full px-[57px] py-6">
+                  <span className="pr-2.5 text-base font-normal text-black dark:text-white">Monthly</span>
                   <input
                     type="checkbox"
                     id="priceCheck"
@@ -115,8 +130,8 @@ const Pricing = () => {
                     checked={isYearly}
                     onChange={(e) => setIsYearly(e.target.checked)}
                   />
-                  <span className="border-stroke-1/30 after:bg-accent before:bg-secondary relative h-[28px] w-13 rounded-[34px] border bg-transparent before:absolute before:-top-[5px] before:-left-[6px] before:-z-10 before:h-[36px] before:w-[62px] before:rounded-[34px] before:p-[5px] before:transition-all before:content-[''] after:absolute after:start-[2px] after:top-1/2 after:size-6 after:-translate-y-1/2 after:rounded-full after:transition-all after:content-[''] peer-checked:after:start-[2px] peer-checked:after:translate-x-[94%]"></span>
-                  <span className="ps-2.5 text-base font-normal text-black">Yearly</span>
+                  <span className="border-stroke-1/30 dark:border-stroke-6 after:bg-accent before:bg-secondary relative h-[28px] w-13 rounded-[34px] border bg-transparent before:absolute before:-top-[5px] before:-left-[6px] before:-z-10 before:h-[36px] before:w-[62px] before:rounded-[34px] before:p-[5px] before:transition-all before:content-[''] after:absolute after:start-[2px] after:top-1/2 after:size-6 after:-translate-y-1/2 after:rounded-full after:transition-all after:content-[''] peer-checked:after:start-[2px] peer-checked:after:translate-x-[94%]"></span>
+                  <span className="ps-2.5 text-base font-normal text-black dark:text-white">Yearly</span>
                 </label>
               </div>
             </RevealAnimation>
