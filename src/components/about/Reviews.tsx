@@ -19,14 +19,14 @@ const Reviews = () => {
                 />
               </div>
             </RevealAnimation>
-            {/* <figure className="flex flex-col items-center justify-center space-y-4">
+            <figure className="flex flex-col items-center justify-center space-y-4">
               <Image
                 src={avatarImg}
                 alt="Avatar"
                 className="bg-ns-yellow size-10 rounded-full object-cover ring-2 ring-white"
               />
               <figcaption className="text-tagline-2 dark:text-accent font-medium">From our CEO</figcaption>
-            </figure> */}
+            </figure>
             <h2 className="dark:text-accent mx-auto mt-6 mb-4 max-w-[800px] text-center text-heading-3 font-medium">
               Values That Shape Everything We Build
             </h2>

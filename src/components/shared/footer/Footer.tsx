@@ -28,7 +28,7 @@ const Footer = ({ className }: { className?: string }) => {
             <div className="col-span-12 xl:col-span-4">
               <div className="max-w-[306px]">
                 <figure>
-                  <Image className="w-15 h-auto dark:invert" src={darkLogo} alt="NextSass Logo"  />
+                  <Image className="w-15 h-auto dark:invert" src={darkLogo} alt="Caartzee Logo" />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
                   Caartzee helps you build better eCommerce businesses with flexible tools, powerful automation, in-depth documentation, and a team dedicated to scaling your growth.
