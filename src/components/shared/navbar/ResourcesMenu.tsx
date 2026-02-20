@@ -21,17 +21,17 @@ type ResourceLink = {
 const resourceLinks: ResourceLink[] = [
   {
     label: 'Ecommerce',
-    href: '/blog',
+    href: '/ecommerce',
     icon: BlogIcon,
   },
   {
     label: 'Retailers',
-    href: '/tutorial',
+    href: '/retailers',
     icon: TutorialIcon,
   },
   {
     label: 'Sales',
-    href: '/faq',
+    href: '/sales',
     icon: FaqIcon,
   },
   // {
