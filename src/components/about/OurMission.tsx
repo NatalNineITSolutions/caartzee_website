@@ -37,7 +37,7 @@ const OurMission = () => {
               <figure className="relative w-full md:w-[500px]">
                 <RevealAnimation delay={0.4}>
                   <div className="w-full flex justify-center lg:justify-end">
-                    <Image src={darkLogo} alt="Caartzee Logo" className="w-full max-w-[300px] h-auto object-contain" />
+                    <Image src={darkLogo} alt="Caartzee Logo" className="w-full max-w-[300px] h-auto object-contain dark:invert" />
                   </div>
                 </RevealAnimation>
 

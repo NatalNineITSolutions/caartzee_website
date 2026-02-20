@@ -16,43 +16,49 @@ import RevealAnimation from '../animation/RevealAnimation';
 const data = [
   {
     id: 1,
-    title: 'Smart expense tracking',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Ownership & Impact',
+    description:
+      'Work on meaningful products used by real businesses. Your ideas and contributions directly shape the future of Caartzee.',
     lightImage: featureAsset1,
     darkImage: featureAssetDark1,
   },
   {
     id: 2,
-    title: 'Real-time analytics',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Modern Tech Stack',
+    description:
+      'Build with cutting-edge technologies including scalable backend systems, modern frontend frameworks, and cloud infrastructure.',
     lightImage: featureAsset2,
     darkImage: featureAssetDark2,
   },
   {
     id: 3,
-    title: 'Secure payment processing',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Design-Driven Culture',
+    description:
+      'We believe great products are built through thoughtful design, intuitive UX, and attention to detail.',
     lightImage: featureAsset3,
     darkImage: featureAssetDark3,
   },
   {
     id: 4,
-    title: 'Automated budgeting tools',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Collaborative Environment',
+    description:
+      'Work alongside passionate engineers, designers, and strategists who value teamwork and open communication.',
     lightImage: featureAsset4,
     darkImage: featureAssetDark4,
   },
   {
     id: 5,
-    title: 'Multi-currency support',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Growth & Learning',
+    description:
+      'We invest in your growth through mentorship, continuous learning, and opportunities to lead impactful projects.',
     lightImage: featureAsset5,
     darkImage: featureAssetDark5,
   },
   {
     id: 6,
-    title: 'Investment portfolio tracking',
-    description: 'Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.',
+    title: 'Flexible & Remote Friendly',
+    description:
+      'We focus on results, not hours. Enjoy flexibility, autonomy, and a healthy work-life balance.',
     lightImage: featureAsset6,
     darkImage: featureAssetDark6,
   },
@@ -68,13 +74,13 @@ const Features = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <h2>
-              Managing your money has
+              Build impactful products
               <br className="hidden md:block" />
-              never been easier
+              with a world-class team
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <p>Lorem ipsum dolor sit amet consectetur. quis sed duis duis purus quisque.</p>
+            <p>We create tools that empower businesses to launch, scale, and succeed in the digital world.</p>
           </RevealAnimation>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

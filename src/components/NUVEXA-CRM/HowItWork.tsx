@@ -17,7 +17,7 @@ const HowItWork = () => {
   return (
     <section
       className="bg-background-2 dark:bg-background-5 overflow-hidden pt-[100px] pb-[200px]"
-      aria-label="Who uses NextSaaS CRM">
+      aria-label="Who uses Caartzee CRM">
       <div className="main-container">
         <div className="flex flex-col items-center gap-[100px] lg:flex-row">
           {/* left img  */}
@@ -43,7 +43,7 @@ const HowItWork = () => {
           {/* right side content  */}
           <div className="mx-auto flex max-w-[595px] flex-col items-start lg:max-w-max">
             <RevealAnimation delay={0.4}>
-              <h2 className="mb-3">Who uses NextSaaS CRM</h2>
+              <h2 className="mb-3">Who uses Caartzee CRM</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.5}>
               <p className="mb-6">
@@ -68,7 +68,7 @@ const HowItWork = () => {
                 <LinkButton
                   href="/about"
                   className="btn btn-secondary btn-xl hover:btn-primary dark:btn-accent"
-                  aria-label="Learn how NextSaaS CRM works">
+                  aria-label="Learn how Caartzee CRM works">
                   How it works
                 </LinkButton>
               </div>

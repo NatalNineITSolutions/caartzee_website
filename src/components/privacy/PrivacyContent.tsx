@@ -34,32 +34,34 @@ interface FormField {
 const personalInfoSection: PrivacySection = {
   title: 'Personal information we collect',
   content:
-    'When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and cookies installed on your device. Additionally, as you browse the Site, we collect information about the individual pages you view, what websites or search terms referred you to the Site, and how you interact with the Site. We call this automatically-collected information <span class="text-secondary dark:text-accent">"Device Information."</span>',
+    'When you visit Caartzee, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and cookies installed on your device. Additionally, as you browse the platform, we collect information about the pages you view, features you interact with, referral sources, and how you engage with our services. We call this automatically-collected information <span class="text-secondary dark:text-accent">"Device Information."</span>',
 };
 
 const deviceInfoItems: ListItem[] = [
   {
     title: 'Cookies',
     content:
-      'Data files placed on your device, often including an anonymous unique identifier. ( Learn more about cookies and how to disable them: <a href="http://www.allaboutcookies.org" class="text-secondary">http://www.allaboutcookies.org</a> )',
+      'Data files placed on your device, often including an anonymous unique identifier. These help us enhance user experience, remember preferences, and improve platform functionality.',
   },
   {
     title: 'Log Files',
     content:
-      'Track actions on the Site and collect IP address, browser type, ISP, referring/exit pages, and timestamps.',
+      'Track actions occurring on the platform and collect data including IP address, browser type, internet service provider, referring/exit pages, and timestamps.',
   },
   {
     title: 'Web Beacons, Tags, and Pixels',
-    content: 'Electronic files to monitor site usage and interaction.',
+    content:
+      'Electronic files used to record information about how you browse and interact with Caartzee.',
   },
   {
-    title: 'Google Analytics and Pixels',
-    content: 'Collect traffic-related information and interaction behavior.',
+    title: 'Analytics Tools',
+    content:
+      'We use analytics services such as Google Analytics to understand user behavior and improve performance.',
   },
 ];
 
 const orderInfoText =
-  'When you make or attempt to purchase through the Site, we collect information such as your name, email address, billing address, shipping address, payment details, and any other relevant data necessary to process your order.';
+  'When you create an account, subscribe to a plan, or purchase services through Caartzee, we collect information such as your name, email address, billing address, company details, payment information, and any other relevant data necessary to provide and manage our services.';
 
 const formFields: FormField[] = [
   {
@@ -94,44 +96,52 @@ const formFields: FormField[] = [
 
 const useInfoSection: ListSection = {
   title: 'How we use your personal information',
-  description: 'We use the collected Order Information to:',
+  description: 'We use the collected Personal Information to:',
   items: [
-    { content: 'Process your orders, payments, and generate invoices' },
-    { content: 'Communicate with you' },
-    { content: 'Screen for potential fraud or risks' },
-    {
-      content: 'Provide you with information or promotions related to our services, when aligned with your preferences',
-    },
+    { content: 'Provide, operate, and maintain the Caartzee platform' },
+    { content: 'Process subscriptions, payments, and invoices' },
+    { content: 'Communicate with you regarding your account or support requests' },
+    { content: 'Improve platform performance and user experience' },
+    { content: 'Prevent fraud, abuse, and security threats' },
   ],
 };
 
 const deviceInfoUsage: ListItem[] = [
-  { content: 'Improve and optimize the Site experience' },
-  { content: 'Analyze customer interactions for performance tracking' },
-  { content: 'Screen for potential risk and fraud' },
+  { content: 'Improve and optimize the platform experience' },
+  { content: 'Analyze usage patterns and engagement metrics' },
+  { content: 'Enhance security and prevent unauthorized access' },
 ];
 
 const sharingInfoSection: ListSection = {
   title: 'Sharing your personal information',
   description:
-    'We share your Personal Information with trusted third-party service providers to help us operate effectively:',
+    'We share your Personal Information only with trusted third-party service providers necessary to operate our services:',
   items: [
     {
       content:
-        'Google Analytics: To understand customer interactions and optimize experience (Learn more: <a href="#" class="text-secondary dark:text-accent">Google Privacy Policy</a>)',
+        'Analytics providers (e.g., Google Analytics) to understand user interactions and improve performance.',
     },
-    { content: 'Payment processors (PayPal, Stripe)' },
+    {
+      content:
+        'Payment processors (e.g., Stripe, PayPal) to securely process transactions.',
+    },
+    {
+      content:
+        'Cloud hosting and infrastructure providers to deliver and secure our services.',
+    },
   ],
 };
 
 const rightsSection: ListSection = {
   title: 'Your rights',
-  description: 'If you are a resident of the European Economic Area (EEA):',
+  description: 'Depending on your location, you may have the right to:',
   items: [
-    { content: 'You have the right to access, update, or delete your personal information.' },
+    { content: 'Access the personal information we hold about you' },
+    { content: 'Request correction or deletion of your data' },
+    { content: 'Object to certain types of data processing' },
     {
       content:
-        'If you wish to exercise these rights, please contact us at <a href="mailto:support@nextsaas.com" class="text-secondary dark:text-accent">support@nextsaas.com</a>',
+        'Request a copy of your personal data by contacting us at <a href="mailto:support@caartzee.com" class="text-secondary dark:text-accent">support@caartzee.com</a>',
     },
   ],
 };
@@ -140,20 +150,22 @@ const simpleSections: PrivacySection[] = [
   {
     title: 'Do not track',
     content:
-      'Please note, we do not alter our Site\'s data collection practices when we detect a "Do Not Track" signal from your browser.',
+      'Please note that we do not alter our data collection practices when we detect a "Do Not Track" signal from your browser.',
   },
   {
     title: 'Data retention',
-    content: 'We will retain your Order Information for our records unless you ask us to delete this information.',
+    content:
+      'We retain your Personal Information for as long as necessary to provide our services and comply with legal obligations, unless you request deletion.',
   },
   {
     title: 'Minors',
-    content: 'Our Site is not intended for individuals under the age of 18.',
+    content:
+      'Our platform is not intended for individuals under the age of 18. We do not knowingly collect personal data from minors.',
   },
   {
     title: 'Changes',
     content:
-      'We may update this Privacy Policy periodically to reflect changes to our practices or for other operational, legal, or regulatory reasons.',
+      'We may update this Privacy Policy from time to time to reflect operational, legal, or regulatory changes. Updates will be posted on this page.',
   },
 ];
 
@@ -162,36 +174,40 @@ const PrivacyContent = () => {
     <section className="pt-32 pb-[100px] sm:pt-36 md:pt-42 xl:pt-[180px]">
       <div className="main-container">
         <div className="privacy-policy space-y-[75px]">
-          {/* Header Section */}
+
           <div className="space-y-2">
             <RevealAnimation delay={0.1}>
               <h2>Data protection guidelines</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p>
-                <span className="text-secondary dark:text-accent">NextSaaS</span> is a product operated by
-                <span className="text-secondary dark:text-accent">NextSaaS Technologies LLC</span>. We specialize in
-                property management solutions, empowering businesses worldwide to streamline their operations
-                efficiently. We are committed to protecting your privacy and handling your information transparently.
+                <span className="text-secondary dark:text-accent">Caartzee</span> is a SaaS
+                platform operated by
+                <span className="text-secondary dark:text-accent">
+                  Caartzee Technologies LLC
+                </span>.
+                We provide digital commerce tools, automation systems, analytics dashboards,
+                and integrations that help businesses launch, manage, and scale their online
+                operations. We are committed to protecting your privacy and handling your
+                information transparently and securely.
               </p>
             </RevealAnimation>
           </div>
 
-          {/* Policy Intro */}
           <RevealAnimation delay={0.3}>
             <div className="space-y-2">
-              <h4>NextSaaS privacy policy</h4>
+              <h4>Caartzee privacy policy</h4>
               <p>
                 This Privacy Policy describes how your personal information is collected, used, and shared when you
                 visit, subscribe, register, or make a purchase from
-                <Link href="https://nextsaas.com" className="text-secondary dark:text-accent">
-                  https://nextsaas.com
+                <Link href="https://Caartzee.com" className="text-secondary dark:text-accent">
+                  https://Caartzee.com
                 </Link>
                 (the &quot;Site&quot;).
               </p>
             </div>
           </RevealAnimation>
-          {/* Personal Information Collection */}
+
           <div className="space-y-6">
             <RevealAnimation delay={0.4}>
               <div className="space-y-2">
@@ -210,7 +226,7 @@ const PrivacyContent = () => {
               </ul>
             </RevealAnimation>
           </div>
-          {/* Order Information Section with Form */}
+
           <div>
             <div className="grid grid-cols-12 gap-y-[100px] lg:gap-[100px]">
               <div className="col-span-12 lg:col-span-6">
@@ -225,6 +241,7 @@ const PrivacyContent = () => {
                   </figure>
                 </RevealAnimation>
               </div>
+
               <RevealAnimation delay={0.8}>
                 <div className="col-span-12 lg:col-span-6">
                   <form className="dark:bg-background-8 rounded-[20px] bg-white p-6 lg:p-[42px]">
@@ -274,62 +291,6 @@ const PrivacyContent = () => {
               </RevealAnimation>
             </div>
           </div>
-          {/* How We Use Information */}
-          <RevealAnimation delay={0.5}>
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <h4>{useInfoSection.title}</h4>
-                <p>{useInfoSection.description}</p>
-              </div>
-              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                {useInfoSection.items.map((item, index) => (
-                  <li key={index + 1}>{item.content}</li>
-                ))}
-              </ul>
-              <div>
-                <p className="text-secondary dark:text-accent">We use the collected Device Information to:</p>
-                <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                  {deviceInfoUsage.map((item, index) => (
-                    <li key={index + 1}>{item.content}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </RevealAnimation>
-
-          {/* Sharing Information */}
-          <RevealAnimation delay={0.6}>
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <h4>Sharing your personal information</h4>
-                <p>
-                  We share your Personal Information with trusted third-party service providers to help us operate
-                  effectively:
-                </p>
-              </div>
-              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                {sharingInfoSection.items.map((item, index) => (
-                  <li key={index + 1} dangerouslySetInnerHTML={{ __html: item.content }} />
-                ))}
-              </ul>
-            </div>
-          </RevealAnimation>
-
-          {/* Your Rights */}
-          <RevealAnimation delay={0.8}>
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <h4>{rightsSection.title}</h4>
-                <p>{rightsSection.description}</p>
-              </div>
-              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                {rightsSection.items.map((item, index) => (
-                  <li key={index + 1} dangerouslySetInnerHTML={{ __html: item.content }} />
-                ))}
-              </ul>
-            </div>
-          </RevealAnimation>
-
           {/* Simple Sections */}
           {simpleSections.map((section, index) => (
             <RevealAnimation key={section.title} delay={0.7 + index * 0.1}>
