@@ -1,6 +1,6 @@
 ---
-title: 'Business Continuity Management'
-description: 'Protect your organization from disruptions with comprehensive business continuity management services that ensure resilience, minimize downtime, and maintain critical operations.'
+title: 'Marketplace Integration'
+description: 'Seamlessly connect Amazon, Flipkart, and your CaartZee store in one dashboard. Sync inventory, manage orders, and prevent overselling in real time.'
 image: '/images/ns-img-12.svg'
 imageDark: '/images/ns-img-dark-8.svg'
 imgAlt: 'service-img'

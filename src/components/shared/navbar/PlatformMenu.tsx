@@ -39,17 +39,17 @@ type IntegrationLink = SimpleNavLink & {
 // ];
 const overviewLinks: SimpleNavLink[] = [
   {
-    label: 'SalesNavigator',
-    href: '/features',
+    label: 'Smart Sales Engine',
+    href: '/smart-sales',
     icon: PricingIcon,
   },
   {
-    label: 'Workforce',
+    label: 'Inventory & Stock AI',
     href: '/process',
     icon: AnalyticsIconV2,
   },
   {
-    label: 'Finance',
+    label: 'Growth Analytics',
     href: '/security',
     icon: WhitePaperIconV2,
   },
@@ -57,17 +57,17 @@ const overviewLinks: SimpleNavLink[] = [
 
 const integrationLinks: IntegrationLink[] = [
   {
-    label: 'Pricing',
+    label: 'GST & Finance Automation',
     href: '/pricing',
     icon: PricingIcon,
   },
   {
-    label: 'HR & Payroll',
+    label: 'Vendor & Team Control',
     href: '/career',
     icon: CareerIconV2,
   },
   {
-    label: 'CustomerSupport',
+    label: 'Unified Customer Inbox',
     href: '/support',
     icon: SupportIconV2,
   },

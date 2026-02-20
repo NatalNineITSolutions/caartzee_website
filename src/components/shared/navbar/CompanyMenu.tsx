@@ -28,9 +28,9 @@ const aboutLinks: CompanyLink[] = [
     icon: AboutIcon,
   },
   {
-    title: 'Cartzee Sales Navigator',
+    title: 'CaartZee Sales Navigator',
     description: '',
-    href: '/nuvexa-crm',
+    href: '/sales-navigator',
     icon: TeamIcon,
   },
   {
@@ -40,7 +40,7 @@ const aboutLinks: CompanyLink[] = [
     icon: CareerIcon,
   },
   {
-    title: 'Cartzee Crewsync',
+    title: 'CaartZee Crewsync',
     description: '',
     href: '/caartzee-crewsync',
     icon: WhyChooseUsIcon,

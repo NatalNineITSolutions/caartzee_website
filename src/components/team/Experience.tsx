@@ -16,7 +16,7 @@ const Experience = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <p>
-                  Our deep experience in e-commerce, ERP, automation, and retail operations enables us to build technology that simplifies growth for every business. With CartZee, companies gain the tools, insights, and speed needed to stay ahead in today’s competitive markets.
+                  Our deep experience in e-commerce, ERP, automation, and retail operations enables us to build technology that simplifies growth for every business. With CaartZee, companies gain the tools, insights, and speed needed to stay ahead in today’s competitive markets.
                 </p>
               </RevealAnimation>
             </div>
@@ -38,14 +38,14 @@ const Experience = () => {
                     %
                   </h3>
                   <p className="text-sm font-medium text-secondary/70 uppercase mb-2">Avg. Completed</p>
-                  <p className="text-secondary/80 text-sm">Businesses trust CartZee to centralize their operations across stores, marketplaces, and sales channels.</p>
+                  <p className="text-secondary/80 text-sm">Businesses trust CaartZee to centralize their operations across stores, marketplaces, and sales channels.</p>
                 </div>
               </div>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <div className="bg-background-2 dark:bg-background-8 flex flex-col justify-between rounded-xl p-8 gap-y-4">
                 <div className="flex items-start justify-between">
-                  <h5 className="max-w-[200px] text-lg font-semibold">The team behind CartZee</h5>
+                  <h5 className="max-w-[200px] text-lg font-semibold">The team behind CaartZee</h5>
                   <div className="shrink-0">
                     <span className="ns-shape-57 text-secondary dark:text-accent text-[42px]" />
                   </div>

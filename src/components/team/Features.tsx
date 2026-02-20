@@ -50,11 +50,11 @@ const Features = () => {
                 </RevealAnimation>
                 <div className="space-y-5">
                   <RevealAnimation delay={0.2}>
-                    <h2>Easily manage your entire business with CartZee</h2>
+                    <h2>Easily manage your entire business with CaartZee</h2>
                   </RevealAnimation>
                   <RevealAnimation delay={0.3}>
                     <p>
-                      From inventory to sales, marketing, finance, and fulfillment—CartZee brings everything together in one secure, intelligent platform designed for fast-growing businesses.
+                      From inventory to sales, marketing, finance, and fulfillment—CaartZee brings everything together in one secure, intelligent platform designed for fast-growing businesses.
                     </p>
                   </RevealAnimation>
                 </div>

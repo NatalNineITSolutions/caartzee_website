@@ -12,7 +12,7 @@ const CTA = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="mx-auto max-w-[1042px]">
-                CartZee – your all-in-one e-commerce platform
+                CaartZee – your all-in-one e-commerce platform
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>

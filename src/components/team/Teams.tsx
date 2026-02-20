@@ -25,7 +25,7 @@ const Teams = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="text-tagline-2 text-secondary/80">
-                  At CartZee, our people power our platform. Our innovative and dynamic team brings together expertise across e-commerce, ERP, design, engineering, and business strategy. Together, we build solutions that help businesses scale with speed, efficiency, and complete control.
+                  At CaartZee, our people power our platform. Our innovative and dynamic team brings together expertise across e-commerce, ERP, design, engineering, and business strategy. Together, we build solutions that help businesses scale with speed, efficiency, and complete control.
                 </p>
               </RevealAnimation>
             </div>

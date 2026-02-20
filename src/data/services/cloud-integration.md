@@ -1,6 +1,6 @@
 ---
-title: 'Cloud Integration'
-description: 'Enable seamless connectivity between applications, platforms, and data systems with secure and scalable cloud integration services.'
+title: 'AI Image Enhancement & 3D Preview'
+description: 'Upload a product image and let CaartZee AI enhance quality, remove backgrounds, optimize lighting, and generate realistic 3D previews that improve conversions.'
 image: '/images/ns-img-12.svg'
 imageDark: '/images/ns-img-dark-8.svg'
 imgAlt: 'service-img'
