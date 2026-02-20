@@ -3,7 +3,7 @@ title: 'Digital Marketing Specialist'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 30, 2025'
 location: 'Dhaka, Bangladesh (Remote Friendly)'
-offeredSalary: '900$ - 1100$ / month'
+offeredSalary: '₹900 - ₹1100 / month'
 employmentType: [full-time, remote]
 experience: '2–4 Years of Professional Experience'
 qualification: 'Bachelor’s Degree in Marketing, Business Administration, or related field'

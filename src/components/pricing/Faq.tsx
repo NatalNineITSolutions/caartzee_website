@@ -1,5 +1,5 @@
-import faqImg from '@public/images/ns-img-52.png';
-import faqImgDark from '@public/images/ns-img-dark-31.png';
+import faqImg from '@public/images/2.png';
+import faqImgDark from '@public/images/1.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';

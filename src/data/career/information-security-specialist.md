@@ -3,7 +3,7 @@ title: 'Information Security Specialist'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 30, 2025'
 location: 'Berlin, Germany'
-offeredSalary: '$4,200 – $5,800 / month'
+offeredSalary: '₹4,200 – ₹5,800 / month'
 experience: '4–6 Years of Experience in Information Security'
 qualification: 'Bachelor’s or Master’s in Information Security, Computer Science, or related field'
 employmentType: [full-time, remote]
