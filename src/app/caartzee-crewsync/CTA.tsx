@@ -13,18 +13,18 @@ const CTA = () => {
       <div className="main-container">
         <div className="space-y-5 text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-ivory uppercase" aria-label="Call to action section badge" itemProp="name">
+            <span className="badge badge-ivory dark:bg-background-6 dark:text-accent uppercase" aria-label="Call to action section badge" itemProp="name">
               CTA
             </span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
-              <h2 id="cta-heading" className="mx-auto max-w-[689px] text-center font-medium" itemProp="headline">
+              <h2 id="cta-heading" className="mx-auto max-w-[689px] text-center font-medium dark:text-accent" itemProp="headline">
                 Start creating <span className="text-ns-linen">stunning voiceover</span> today
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
-              <p itemProp="description">Join thousands using NextSaaS to create lifelike voices—no mic, no hassle.</p>
+              <p itemProp="description">Join thousands using Caartzee to create lifelike voices—no mic, no hassle.</p>
             </RevealAnimation>
           </div>
         </div>

@@ -88,9 +88,8 @@ const VoiceSampleItem = memo(({ data, index, isPlaying, onPlayPause }: VoiceSamp
     <RevealAnimation delay={0.1 + index * 0.1}>
       <div
         ref={itemRef}
-        className={`group flex w-full max-w-[417px] items-center justify-between gap-x-3 rounded-full p-2 transition-colors duration-500 ease-in-out ${
-          isPlaying ? 'bg-ns-linen' : 'bg-ns-ivory'
-        }`}
+        className={`group flex w-full max-w-[417px] items-center justify-between gap-x-3 rounded-full p-2 transition-colors duration-500 ease-in-out ${isPlaying ? 'bg-ns-linen' : 'bg-ns-ivory dark:bg-background-7'
+          }`}
         aria-label={`Voice sample: ${name}`}>
         <div className="flex flex-auto items-center justify-start gap-x-3">
           <figure className="size-[56px] shrink-0 overflow-hidden rounded-full">
@@ -105,8 +104,8 @@ const VoiceSampleItem = memo(({ data, index, isPlaying, onPlayPause }: VoiceSamp
           </figure>
           <div className="relative w-full max-w-[257px] overflow-hidden">
             <div ref={contentRef} className="voice-sample-item-content relative">
-              <h3 className="text-tagline-1 font-normal">{name}</h3>
-              <p className="text-tagline-3 font-normal">{description}</p>
+              <h3 className="text-tagline-1 font-normal dark:text-accent">{name}</h3>
+              <p className="text-tagline-3 font-normal dark:text-accent/60">{description}</p>
             </div>
             {/* Voice visualization SVG */}
             <div
@@ -119,7 +118,7 @@ const VoiceSampleItem = memo(({ data, index, isPlaying, onPlayPause }: VoiceSamp
         </div>
         <button
           onClick={handleClick}
-          className="relative flex size-16 cursor-pointer items-center justify-center rounded-full bg-white p-4 transition-transform duration-300 ease-in-out group-hover:scale-107 focus:outline-none"
+          className="relative flex size-16 cursor-pointer items-center justify-center rounded-full bg-white dark:bg-background-6 p-4 transition-transform duration-300 ease-in-out group-hover:scale-107 focus:outline-none"
           aria-label={isPlaying ? `Pause voice sample for ${name}` : `Play voice sample for ${name}`}
           aria-pressed={isPlaying}>
           <div className="relative size-7 overflow-hidden">

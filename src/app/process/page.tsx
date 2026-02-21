@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Process - AI Software || NextSaaS',
+  title: 'Process  || Caartzee',
 };
 
 const Process02 = () => {

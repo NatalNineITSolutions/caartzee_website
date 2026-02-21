@@ -6,48 +6,41 @@ import LinkButton from '../ui/button/LinkButton';
 
 const teamMembers = [
   {
-    name: 'Darrell Steward',
-    location: 'Monaco',
-    image: '/images/ns-avatar-2.png',
+    name: 'Nivetha Muralidharan',
+    location: 'Co-Founder & Ecommerce Growth Strategist',
+    image: '/images/nivetha-muralidharan.jpg',
     social: {
-      facebook: 'https://www.facebook.com',
-      dribble: 'https://dribbble.com',
-      github: 'https://github.com',
-      linkedin: 'https://bd.linkedin.com/company',
+      facebook: 'https://www.facebook.com/NivethaNewgen',
+      linkedin: 'https://in.linkedin.com/in/nivethamuralidharan',
     },
     delay: '0.4',
   },
   {
-    name: 'Wade Warren',
-    location: 'Tajikistan',
-    image: '/images/ns-avatar-3.png',
+    name: 'Megavarnan Govindaswamy',
+    location: 'Strategic Advisor',
+    image: '/images/Megavarnan-Govindaswamy.webp',
     social: {
-      facebook: 'https://www.facebook.com',
-      dribble: 'https://dribbble.com',
-      github: 'https://github.com',
-      linkedin: 'https://bd.linkedin.com/company',
+      linkedin: 'https://in.linkedin.com/in/megavarnan',
     },
     delay: '0.5',
   },
   {
-    name: 'Kathryn Murphy',
-    location: 'Palestine, State of',
-    image: '/images/ns-avatar-4.png',
+    name: 'Akhil Jinu',
+    location: 'CEO & Founder',
+    image: '/images/dummy-avatar.png',
     social: {
       facebook: 'https://www.facebook.com',
-      dribble: 'https://dribbble.com',
       github: 'https://github.com',
       linkedin: 'https://bd.linkedin.com/company',
     },
     delay: '0.6',
   },
   {
-    name: 'Brooklyn Simmons',
-    location: 'Palestine, State of',
-    image: '/images/ns-avatar-5.png',
+    name: 'Lenin Royal',
+    location: 'CTO & Founder',
+    image: '/images/dummy-avatar.png',
     social: {
       facebook: 'https://www.facebook.com',
-      dribble: 'https://dribbble.com',
       github: 'https://github.com',
       linkedin: 'https://bd.linkedin.com/company',
     },
@@ -72,8 +65,7 @@ const Team = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p>
-                Our experienced and forward-thinking team drives innovation at every level. Each
-                member contributes deep marketplace and AI expertise
+               Our experienced and forward-thinking leadership team drives innovation at every level combining ecommerce expertise, technology, and growth strategy to empower retailers worldwide.
               </p>
             </RevealAnimation>
           </div>
@@ -85,7 +77,7 @@ const Team = () => {
                   {/* team member image */}
                   <figure className="mx-auto flex size-[156px] items-center justify-center overflow-hidden rounded-full bg-[#d5dbe3]">
                     <Image
-                      src="/images/dummy-avatar.png"
+                      src={member.image}
                       className="size-full object-cover"
                       alt={`${member.name} profile img`}
                       loading="lazy"
@@ -130,7 +122,7 @@ const Team = () => {
             ))}
           </div>
           {/* team btn  */}
-          <RevealAnimation delay={0.8}>
+          {/* <RevealAnimation delay={0.8}>
             <div className="flex items-center justify-center">
               <LinkButton
                 href="/team"
@@ -138,7 +130,7 @@ const Team = () => {
                 View all members
               </LinkButton>
             </div>
-          </RevealAnimation>
+          </RevealAnimation> */}
         </div>
       </div>
     </section>

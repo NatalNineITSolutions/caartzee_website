@@ -12,7 +12,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Nuvexa CRM - NextSaaS',
+  title: 'Nuvexa CRM - Caartzee',
 };
 
 const nuvexaCrm = () => {

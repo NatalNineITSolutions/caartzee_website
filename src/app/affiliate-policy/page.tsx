@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Affiliate Policy - AI Software || NextSaaS',
+  title: 'Affiliate Policy - AI Software ||',
 };
 
 const page = () => {
@@ -18,7 +18,7 @@ const page = () => {
         className="dark:bg-background-5 bg-white"
         badgeClass="!badge-yellow-v2"
         badgeText="Get Started"
-        ctaHeading="Ready to start earning with NextSaaS?"
+        ctaHeading="Ready to start earning with Caartzee?"
         description="If you have any questions, feel free to reach out to our team."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
         ctaBtnText="Get started"

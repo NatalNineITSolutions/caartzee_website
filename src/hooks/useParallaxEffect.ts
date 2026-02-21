@@ -115,7 +115,7 @@ export const useParallaxEffect = () => {
         const moveY = relativeY * depth * directionY * movementScale;
 
         // Use transform3d for hardware acceleration and smoothness
-        element.style.transform = `translate3d(${moveX.toFixed(2)}px, ${moveY.toFixed(2)}px, 0)`;
+        element.style.transform = `translate3d({moveX.toFixed(2)}px, ${moveY.toFixed(2)}px, 0)`;
       });
     };
 

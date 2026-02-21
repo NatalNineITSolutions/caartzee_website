@@ -14,11 +14,11 @@ export interface VoiceSample {
 const VoiceSamples = () => {
   const voiceSamples: VoiceSample[] = [
     {
-      id: 'marie-curie',
-      imgLink: '/images/ns-avatar-30.png',
-      name: 'Marie Curie',
-      description: 'Japanese Female – Calm & Intelligent',
-      audioPath: '/audio/ai-voice-generator-voice-sample.mp3',
+      id: 'meera',
+      imgLink: '/images/ns-avatar-28.png',
+      name: 'Meera',
+      description: 'Tamil Female – Calm & Intelligent',
+      audioPath: '/audio/meera-voice-sample.mp3',
     },
     {
       id: 'rosalind-franklin',
@@ -123,12 +123,12 @@ const VoiceSamples = () => {
             </RevealAnimation>
             <div className="space-y-3">
               <RevealAnimation delay={0.2}>
-                <h2 id="voice-samples-heading" className="font-normal">
+                <h2 id="voice-samples-heading" className="font-normal dark:text-accent">
                   Hear the <span className="text-ns-linen">difference</span>
                 </h2>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
-                <p className="text-secondary mx-auto max-w-[450px] lg:mx-0">
+                <p className="text-secondary dark:text-accent/80 mx-auto max-w-[450px] lg:mx-0">
                   Browse our voice library and listen to realistic, expressive voices in different tones and accents.
                 </p>
               </RevealAnimation>

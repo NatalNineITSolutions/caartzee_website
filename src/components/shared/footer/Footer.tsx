@@ -8,7 +8,7 @@ import instagram from '@public/images/icons/instagram.svg';
 import linkedin from '@public/images/icons/linkedin.svg';
 import youtube from '@public/images/icons/youtube.svg';
 import gradientImg from '@public/images/ns-img-532.png';
-import darkLogo from '@public/images/shared/fav.png';
+import darkLogo from '@public/images/shared/main-1.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import ThemeToggle from '../ThemeToggle';
@@ -19,7 +19,8 @@ const Footer = ({ className }: { className?: string }) => {
     <footer className={cn('bg-secondary dark:bg-background-8 relative z-0 overflow-hidden', className)}>
       <RevealAnimation delay={0.3} offset={50} direction="up">
         <figure className="pointer-events-none absolute -top-[1320px] left-1/2 -z-1 size-[1635px] -translate-x-1/2 select-none">
-          <Image src={gradientImg} alt="footer-four-gradient" className="size-full object-cover" />
+          {/* <Image src={gradientImg} alt="footer-four-gradient" className="size-full object-cover" /> */}
+          <Image className="w-15 h-auto dark:invert" src={darkLogo} alt="Caartzee Logo" />
         </figure>
       </RevealAnimation>
       <div className="main-container px-5">
@@ -28,7 +29,7 @@ const Footer = ({ className }: { className?: string }) => {
             <div className="col-span-12 xl:col-span-4">
               <div className="max-w-[306px]">
                 <figure>
-                  <Image src={darkLogo} alt="NextSass Logo" />
+                  <Image className="w-15 h-auto dark:invert" src={darkLogo} alt="Caartzee Logo" />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
                   Caartzee helps you build better eCommerce businesses with flexible tools, powerful automation, in-depth documentation, and a team dedicated to scaling your growth.

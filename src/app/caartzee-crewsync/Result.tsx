@@ -1,9 +1,9 @@
 import NumberAnimation from '@/components/animation/NumberAnimation';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import LinkButton from '@/components/ui/button/Button';
-import hotjarIcon from '@public/images/icons/hotjar.svg';
-import notionIcon from '@public/images/icons/notion-v2.svg';
-import scapicIcon from '@public/images/icons/scapic.svg';
+import twilio1 from '@public/images/icons/twilio1.svg';
+import pilvo1 from '@public/images/icons/plivo1.svg';
+import elevenlabs from '@public/images/icons/elevenlabs.svg';
 import stripeIcon from '@public/images/icons/stripe.svg';
 import avatar32 from '@public/images/ns-avatar-32.png';
 import avatar40 from '@public/images/ns-avatar-40.png';
@@ -14,12 +14,12 @@ import Image from 'next/image';
 const Result = () => {
   return (
     <section
-      className="bg-ns-ivory py-[80px] md:py-[120px] lg:py-[156px]"
+      className="bg-ns-ivory dark:bg-background-8 py-[80px] md:py-[120px] lg:py-[156px]"
       aria-label="AI voice generator results and customer testimonials">
       <div className="main-container">
         <div className="space-y-12 md:space-y-19">
           <RevealAnimation delay={0.1}>
-            <h2 className="text-center font-normal lg:text-left">
+            <h2 className="text-center font-normal lg:text-left dark:text-accent">
               Powering growth for ambitious teams <span className="text-ns-linen">win with Caartzee.</span>
             </h2>
           </RevealAnimation>
@@ -32,12 +32,12 @@ const Result = () => {
               <RevealAnimation delay={0.2}>
                 <div className="dark:bg-background-5 flex h-[370px] w-full max-w-[316px] flex-col justify-between rounded-4xl bg-white p-6">
                   <figure>
-                    <Image src={hotjarIcon} alt="Hotjar company logo" />
+                    <Image src={twilio1} alt="Twilio company logo" />
                   </figure>
 
                   <div className="space-y-8">
                     <p className="text-secondary dark:text-accent">
-                      We streamlined our team coordination and reduced operational delays within weeks. CrewSync brought complete visibility across departments.
+                      We centralized customer communication across SMS and voice without adding complexity. With Twilio integrated into CrewSync, our support and operations teams respond faster and stay perfectly aligned.
                     </p>
 
                     <figure className="flex items-center gap-3">
@@ -141,12 +141,12 @@ const Result = () => {
                 <RevealAnimation delay={0.3}>
                   <div className="dark:bg-background-5 flex h-[370px] w-full max-w-[317px] flex-col justify-between rounded-4xl bg-white p-6">
                     <figure>
-                      <Image src={notionIcon} alt="Notion company logo" />
+                      <Image src={pilvo1} alt="Pilvo company logo" />
                     </figure>
 
                     <div className="space-y-8">
                       <p className="text-secondary dark:text-accent">
-                        We manage multiple projects across locations, and CrewSync keeps everything aligned without the chaos.
+                        Managing global messaging used to be fragmented. With Plivo and CrewSync working together, our campaigns, alerts, and team coordination now run seamlessly in real time.
                       </p>
 
                       <figure className="flex items-center gap-3">
@@ -198,12 +198,12 @@ const Result = () => {
                 <RevealAnimation delay={0.2}>
                   <div className="dark:bg-background-5 flex h-[370px] w-full max-w-[317px] flex-col justify-between rounded-4xl bg-white p-6">
                     <figure>
-                      <Image src={scapicIcon} alt="Scapic company logo" />
+                      <Image src={elevenlabs} alt="ElevenLabs company logo" />
                     </figure>
 
                     <div className="space-y-8">
                       <p className="text-secondary dark:text-accent">
-                        Our campaigns and crew scheduling are finally in sync. No more missed updates or last-minute confusion.
+                        Voice production and scheduling are now perfectly aligned. With ElevenLabs and CrewSync working together, our content pipeline moves faster without delays or last-minute fixes.
                       </p>
 
                       <figure className="flex items-center gap-3">
