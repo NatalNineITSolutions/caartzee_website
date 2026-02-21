@@ -11,16 +11,16 @@ const Integration = () => {
             <div className="mt-[180px] space-y-[76px] md:mt-[200px] lg:mt-[280px]">
               <div className="space-y-4 text-center">
                 <RevealAnimation delay={0.2}>
-                  <span className="badge badge-ivory">Integration</span>
+                  <span className="badge badge-ivory dark:bg-background-6 dark:text-accent">Integration</span>
                 </RevealAnimation>
                 <div className="space-y-3">
                   <RevealAnimation delay={0.3}>
                     <h2>
-                      Seamless tool <span className="text-ns-linen">integration</span>
+                      <span className="dark:text-accent">Seamless tool </span><span className="text-ns-linen">integration</span>
                     </h2>
                   </RevealAnimation>
                   <RevealAnimation delay={0.4}>
-                    <p className="mx-auto max-w-[367px] text-center">
+                    <p className="mx-auto max-w-[367px] text-center dark:text-accent/80">
                       Bring your entire ecosystem into one smart dashboard.No more switching tabs. No more manual updates.
                     </p>
                   </RevealAnimation>
@@ -48,8 +48,7 @@ const Integration = () => {
 
           {/* bottom gradient overlay  */}
           <div
-            className="lp:-bottom-5 absolute bottom-0 z-0 h-[258px] w-full rotate-180"
-            style={{ background: 'linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #fff 49.16%)' }}
+            className="lp:-bottom-5 absolute bottom-0 z-0 h-[258px] w-full rotate-180 bg-[linear-gradient(0deg,rgba(255,255,255,0)_0%,#fff_49.16%)] dark:bg-[linear-gradient(0deg,rgba(7,11,16,0)_0%,#070b10_49.16%)]"
           />
         </div>
       </RevealAnimation>

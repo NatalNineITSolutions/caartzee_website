@@ -1,6 +1,6 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import LinkButton from '@/components/ui/button/Button';
-import avatar39 from '@public/images/ns-avatar-39.png';
+import avatar39 from '@public/images/ns-avatar-38.png';
 import multilingualImage from '@public/images/ns-img-523.png';
 import playIcon from '@public/images/ns-img-552.svg';
 import icon553 from '@public/images/ns-img-553.svg';
@@ -12,21 +12,21 @@ import TypewriterAnimation from '@/components/animation/TypewriterAnimation';
 
 const Features = () => {
   return (
-    <section className="bg-ns-ivory py-[80px] md:py-[120px] lg:py-[176px]">
+    <section className="bg-ns-ivory dark:bg-background-8 py-[80px] md:py-[120px] lg:py-[176px]">
       <div className="main-container">
         <div className="space-y-[76px]">
           <div className="flex flex-col items-center justify-between gap-y-5 lg:flex-row">
             {/* content  */}
             <div className="space-y-5 text-center lg:text-left">
               <RevealAnimation delay={0.1}>
-                <span className="badge badge-white text-secondary bg-white font-medium">Features</span>
+                <span className="badge badge-white text-secondary bg-white dark:bg-background-6 dark:text-accent font-medium">Features</span>
               </RevealAnimation>
 
               <div className="space-y-3">
                 <RevealAnimation delay={0.2}>
                   <h2
                     id="services-heading"
-                    className="mx-auto max-w-[450px] text-center lg:mx-0 lg:max-w-[505px] lg:text-left">
+                    className="mx-auto max-w-[450px] text-center lg:mx-0 lg:max-w-[505px] lg:text-left dark:text-accent">
                     Powerful <span className="text-ns-linen">AI voice </span> tools built for everyone
                   </h2>
                 </RevealAnimation>
@@ -55,7 +55,7 @@ const Features = () => {
             <div className="flex flex-col items-center gap-y-4 md:flex-row md:gap-x-2 md:gap-y-0">
               {/* card one  */}
               <RevealAnimation delay={0.1}>
-                <div className="relative h-[350px] w-full max-w-[642px] space-y-[98px] overflow-hidden rounded-4xl bg-white p-8 md:p-[42px] lg:h-[450px]">
+                <div className="relative h-[350px] w-full max-w-[642px] space-y-[98px] overflow-hidden rounded-4xl bg-white dark:bg-background-6 p-8 md:p-[42px] lg:h-[450px]">
                   <div className="space-y-1">
                     <h3 className="text-heading-5 text-secondary/80 font-normal">API integration</h3>
                     <p className="max-w-[300px]">Connect Caartzee with your tools and automate voice workflows.</p>
@@ -73,19 +73,19 @@ const Features = () => {
               <div className="flex w-full max-w-[640px] flex-col items-center justify-center gap-y-4 sm:gap-y-2">
                 {/* card two  */}
                 <RevealAnimation delay={0.2}>
-                  <div className="w-full shrink-0 space-y-1 rounded-4xl bg-white p-8 lg:h-[221px] lg:p-[42px]">
-                    <h3 className="text-heading-5 text-secondary/80 font-normal">Video editor + subtitle Generator</h3>
-                    <p className="max-w-[230px]">Add voice, visuals, and subtitles all in one place.</p>
+                  <div className="w-full shrink-0 space-y-1 rounded-4xl bg-white dark:bg-background-6 p-8 lg:h-[221px] lg:p-[42px]">
+                    <h3 className="text-heading-5 text-secondary/80 dark:text-accent/80 font-normal">Video editor + subtitle Generator</h3>
+                    <p className="max-w-[230px] dark:text-accent/60">Add voice, visuals, and subtitles all in one place.</p>
                   </div>
                 </RevealAnimation>
 
                 {/* card three  */}
                 <RevealAnimation delay={0.3}>
-                  <div className="relative w-full shrink-0 space-y-1 overflow-hidden rounded-4xl bg-white p-8 lg:h-[221px] lg:p-[42px]">
-                    <h3 className="text-heading-5 text-secondary/80 relative z-20 font-normal">
+                  <div className="relative w-full shrink-0 space-y-1 overflow-hidden rounded-4xl bg-white dark:bg-background-6 p-8 lg:h-[221px] lg:p-[42px]">
+                    <h3 className="text-heading-5 text-secondary/80 dark:text-accent/80 relative z-20 font-normal">
                       Multilingual & multi-accent voices
                     </h3>
-                    <p>100+ languages and regional accents.</p>
+                    <p className="dark:text-accent/60">100+ languages and regional accents.</p>
 
                     {/* bg img  */}
                     <RevealAnimation delay={0.4} direction="right" offset={100}>
@@ -109,14 +109,14 @@ const Features = () => {
               {/* card four  */}
               <RevealAnimation delay={0.4}>
                 <div className="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3">
-                  <div className="flex h-[450px] flex-col items-start justify-between rounded-4xl bg-white p-8 md:p-[42px] xl:w-[317px]">
+                  <div className="flex h-[450px] flex-col items-start justify-between rounded-4xl bg-white dark:bg-background-6 p-8 md:p-[42px] xl:w-[317px]">
                     <div className="space-y-1">
-                      <h3 className="text-heading-5 text-secondary/80 font-normal">Text to speech</h3>
-                      <p>Convert your script into ultra realistic speech.</p>
+                      <h3 className="text-heading-5 text-secondary/80 dark:text-accent/80 font-normal">Text to speech</h3>
+                      <p className="dark:text-accent/60">Convert your script into ultra realistic speech.</p>
                     </div>
 
-                    <div className="bg-background-12 flex h-[230px] w-full flex-col justify-between rounded-xl p-4 xl:max-w-[233px]">
-                      <TypewriterAnimation className="text-secondary/40 text-tagline-2">
+                    <div className="bg-background-12 dark:bg-background-7 flex h-[230px] w-full flex-col justify-between rounded-xl p-4 xl:max-w-[233px]">
+                      <TypewriterAnimation className="text-secondary/40 dark:text-accent/40 text-tagline-2">
                         Describe the text you want to create, in any voice.
                       </TypewriterAnimation>
 
@@ -134,7 +134,7 @@ const Features = () => {
 
               {/* card five  */}
               <RevealAnimation delay={0.5}>
-                <div className="relative col-span-12 flex h-[450px] flex-col items-center justify-between overflow-hidden rounded-4xl bg-white p-8 md:col-span-6 md:p-[42px] lg:col-span-4 xl:col-span-3 xl:w-[317px]">
+                <div className="relative col-span-12 flex h-[450px] flex-col items-center justify-between overflow-hidden rounded-4xl bg-white dark:bg-background-6 p-8 md:col-span-6 md:p-[42px] lg:col-span-4 xl:col-span-3 xl:w-[317px]">
                   {/* bg gradient img  */}
                   <RevealAnimation delay={0.6} direction="left" offset={100}>
                     <figure className="pointer-events-none absolute top-[-188px] left-[-190px] z-10 size-[400px] rotate-[-75deg] select-none">
@@ -149,8 +149,8 @@ const Features = () => {
                   </RevealAnimation>
 
                   <div className="relative z-20 space-y-1">
-                    <h3 className="text-heading-5 text-secondary/80 font-normal">Voice cloning</h3>
-                    <p>Create a custom voice from just a few audio samples.</p>
+                    <h3 className="text-heading-5 text-secondary/80 dark:text-accent/80 font-normal">Voice cloning</h3>
+                    <p className="dark:text-accent/60">Create a custom voice from just a few audio samples.</p>
                   </div>
 
                   <div className="flex h-auto w-full flex-col justify-between space-y-2.5 rounded-xl p-4 max-sm:items-center md:max-w-[233px] lg:h-[166px]">
@@ -242,10 +242,10 @@ const Features = () => {
 
               {/* card six  */}
               <RevealAnimation delay={0.6}>
-                <div className="col-span-12 h-[450px] w-full space-y-[74px] rounded-4xl bg-white pt-[42px] lg:col-span-4 lg:max-w-[500px] xl:col-span-6 xl:max-w-[642px]">
+                <div className="col-span-12 h-[450px] w-full space-y-[74px] rounded-4xl bg-white dark:bg-background-6 pt-[42px] lg:col-span-4 lg:max-w-[500px] xl:col-span-6 xl:max-w-[642px]">
                   <div className="space-y-1 px-[42px]">
-                    <h3 className="text-heading-5 text-secondary/80 font-normal">AI voice changer</h3>
-                    <p>Transform any voice into a professional-sounding tone.</p>
+                    <h3 className="text-heading-5 text-secondary/80 dark:text-accent/80 font-normal">AI voice changer</h3>
+                    <p className="dark:text-accent/60">Transform any voice into a professional-sounding tone.</p>
                   </div>
 
                   {/* mic and wave   */}

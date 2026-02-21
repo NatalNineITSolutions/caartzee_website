@@ -1,6 +1,6 @@
 import Clients from './Clients';
 import CTA from './CTA';
-import Features from '@/components/home/Features';
+import Features from './Features';
 import FeaturesV2 from './FeaturesV2';
 import Hero from './Hero';
 import Integration from './Integration';
@@ -14,12 +14,12 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'AI Voice Generator - Caartzee',
+  title: 'AI Voice Generator - Caartzee Crewsync',
 };
 
 const page = () => {
   return (
-    <main className="bg-white">
+    <main className="bg-white dark:bg-background-8">
       <Hero />
       <Clients />
       <VoiceStyle />

@@ -24,7 +24,7 @@ const VoiceStyleLeftCards = () => {
                 title="E-learning AI voice application"
               />
             </figure>
-            <h3 className="text-tagline-1 text-secondary absolute left-1/2 h-10 w-[80%] -translate-x-1/2 -translate-y-12 rounded-full bg-white px-4 py-2 backdrop-blur-[15px] transition-all duration-600 ease-in-out md:w-[202px] lg:-translate-y-2 lg:opacity-0 lg:group-hover:-translate-y-12 lg:group-hover:opacity-100">
+            <h3 className="text-tagline-1 text-secondary dark:text-white absolute left-1/2 h-10 w-[80%] -translate-x-1/2 -translate-y-12 rounded-full bg-white dark:bg-background-8 px-4 py-2 backdrop-blur-[15px] transition-all duration-600 ease-in-out md:w-[202px] lg:-translate-y-2 lg:opacity-0 lg:group-hover:-translate-y-12 lg:group-hover:opacity-100">
               E-learning
             </h3>
           </div>
@@ -42,7 +42,7 @@ const VoiceStyleLeftCards = () => {
                 title="Customer Support AI voice application"
               />
             </figure>
-            <h3 className="text-tagline-1 text-secondary absolute bottom-2 left-1/2 h-10 w-[80%] -translate-x-1/2 translate-y-0 rounded-full bg-white px-4 py-2 backdrop-blur-[15px] transition-all duration-600 ease-in-out md:w-[202px] lg:translate-y-8 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
+            <h3 className="text-tagline-1 text-secondary dark:text-white absolute bottom-2 left-1/2 h-10 w-[80%] -translate-x-1/2 translate-y-0 rounded-full bg-white dark:bg-background-8 px-4 py-2 backdrop-blur-[15px] transition-all duration-600 ease-in-out md:w-[202px] lg:translate-y-8 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100">
               Customer Support
             </h3>
           </div>
@@ -61,7 +61,7 @@ const VoiceStyleLeftCards = () => {
               title="Video Narration AI voice application"
             />
           </figure>
-          <h3 className="text-tagline-1 text-secondary absolute left-1/2 h-10 w-[80%] -translate-x-1/2 -translate-y-12 rounded-full bg-white px-4 py-2 backdrop-blur-[15px] transition-all duration-600 ease-in-out md:w-[202px] lg:translate-y-0 lg:opacity-0 lg:group-hover:-translate-y-12 lg:group-hover:opacity-100">
+          <h3 className="text-tagline-1 text-secondary dark:text-white absolute left-1/2 h-10 w-[80%] -translate-x-1/2 -translate-y-12 rounded-full bg-white dark:bg-background-8 px-4 py-2 backdrop-blur-[15px] transition-all duration-600 ease-in-out md:w-[202px] lg:translate-y-0 lg:opacity-0 lg:group-hover:-translate-y-12 lg:group-hover:opacity-100">
             Video Narration
           </h3>
         </div>
@@ -80,7 +80,7 @@ const VoiceStyleLeftCards = () => {
               title="Podcasting AI voice application"
             />
           </figure>
-          <h3 className="text-tagline-1 text-secondary absolute left-1/2 h-10 w-[80%] -translate-x-1/2 -translate-y-12 rounded-full bg-white px-4 py-2 backdrop-blur-[15px] transition-all duration-600 ease-in-out md:w-[202px] lg:translate-y-0 lg:opacity-0 lg:group-hover:-translate-y-12 lg:group-hover:opacity-100">
+          <h3 className="text-tagline-1 text-secondary dark:text-white absolute left-1/2 h-10 w-[80%] -translate-x-1/2 -translate-y-12 rounded-full bg-white dark:bg-background-8 px-4 py-2 backdrop-blur-[15px] transition-all duration-600 ease-in-out md:w-[202px] lg:translate-y-0 lg:opacity-0 lg:group-hover:-translate-y-12 lg:group-hover:opacity-100">
             Podcasting
           </h3>
         </div>

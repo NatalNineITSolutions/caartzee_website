@@ -26,7 +26,7 @@ const PlatformMenuLink = ({
         <Link href={href} onClick={onClose} className="group relative flex items-center gap-2 p-3">
           <HoverBgTransform className="group-hover:opacity-100" />
           <span className="relative z-10">{Icon && <Icon />}</span>
-          <span className="text-tagline-1 text-secondary dark:text-accent relative z-10 font-normal">{label}</span>
+          <span className="text-tagline-1 text-secondary dark:text-accent relative z-10 font-normal whitespace-nowrap">{label}</span>
         </Link>
       </li>
     );
@@ -36,7 +36,7 @@ const PlatformMenuLink = ({
     <li>
       <Link href={href} onClick={onClose} className="group relative block p-3">
         <HoverBgTransform className="group-hover:opacity-100" />
-        <span className="text-tagline-1 text-secondary dark:text-accent relative z-10 font-normal">{label}</span>
+        <span className="text-tagline-1 text-secondary dark:text-accent relative z-10 font-normal whitespace-nowrap">{label}</span>
       </Link>
     </li>
   );
