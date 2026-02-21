@@ -3,7 +3,7 @@ title: 'Systems Administrator'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 25, 2025'
 location: 'New York, USA'
-offeredSalary: '$3,500 – $4,500 / month'
+offeredSalary: '₹3,500 – ₹4,500 / month'
 experience: '3–5 Years of Professional Experience'
 qualification: 'Bachelor’s Degree in Computer Science, Information Technology, or related field'
 employmentType: [full-time, onsite]

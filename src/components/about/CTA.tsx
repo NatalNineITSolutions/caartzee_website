@@ -10,7 +10,7 @@ const CTA = () => {
           <RevealAnimation delay={0.1}>
             <h2 className="mx-auto mb-3 max-w-[810px] text-center">
               Start today. Experience the difference.{' '}
-              <span className="text-primary-500">Start for Rs1</span>
+              <span className="text-primary-500">Start for ₹1</span>
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>

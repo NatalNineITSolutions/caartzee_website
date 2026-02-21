@@ -3,7 +3,7 @@ import Banner from '@/components/tutorial/Banner';
 import Blog from '@/components/tutorial/Blog';
 import Community from '@/components/tutorial/Community';
 import Features from '@/components/tutorial/Features';
-import Integration from '@/components/tutorial/Integration';
+import Integration from '@/components/home/Integration';
 import Services from '@/components/tutorial/Services';
 import Tutorials from '@/components/tutorial/Tutorials';
 import { defaultMetadata } from '@/utils/generateMetaData';
@@ -11,7 +11,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Tutorial - AI Software || NextSaaS',
+  title: 'Tutorial || Caartzee',
 };
 
 const Tutorial = () => {
@@ -20,7 +20,7 @@ const Tutorial = () => {
       <Banner />
       <Blog />
       <Features />
-      <Tutorials />
+      {/* <Tutorials /> */}
       <Services />
       <Integration />
       <Community />
@@ -28,7 +28,7 @@ const Tutorial = () => {
         className="dark:bg-background-6 bg-white"
         badgeClass="badge-green"
         badgeText="Get Started"
-        ctaHeading="Ready to start earning with NextSaaS?"
+        ctaHeading="Ready to start earning with Caartzee?"
         description="If you have any questions, feel free to reach out to our team."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
         ctaBtnText="Get started"

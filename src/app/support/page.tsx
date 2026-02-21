@@ -7,7 +7,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Support - AI Software || NextSaaS',
+  title: 'Support || Caartzee',
 };
 
 const Support = () => {
@@ -20,7 +20,7 @@ const Support = () => {
         className="dark:bg-background-5 bg-white"
         badgeClass="badge-green"
         badgeText="Get Started"
-        ctaHeading="Ready to start earning with NextSaaS?"
+        ctaHeading="Ready to start earning with Caartzee?"
         description="If you have any questions, feel free to reach out to our team."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
         ctaBtnText="Get started"

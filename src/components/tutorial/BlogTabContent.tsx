@@ -13,56 +13,62 @@ import LinkButton from '../ui/button/LinkButton';
 const blogs = [
   {
     id: 1,
-    title: 'Getting started guide',
-    subtitle: 'A step-by-step walkthrough of how to set up your workspace and get your first results.',
-    time: '25 Hours',
-    readTime: '25 Hours',
-    tag: 'Finance',
+    title: 'Getting Started with Caartzee',
+    subtitle:
+      'Learn how to set up your store, configure settings, and launch your first product in minutes.',
+    time: 'Beginner',
+    readTime: '5 min read',
+    tag: 'Tutorials',
     image: blog1,
   },
   {
     id: 2,
-    title: 'Product tour',
-    subtitle: 'A visual overview of everything you can do inside NextSaaS.',
-    time: '25 Hours',
-    readTime: '25 Hours',
-    tag: 'Crypto',
+    title: 'Introducing Smart Automation Workflows',
+    subtitle:
+      'Discover how automation can reduce manual work and increase operational efficiency.',
+    time: 'Intermediate',
+    readTime: '6 min read',
+    tag: 'Automation',
     image: blog2,
   },
   {
     id: 3,
-    title: 'Setting up your dashboard',
-    subtitle: 'Customize your experience and create a system that works for you.',
-    time: '25 Hours',
-    readTime: '25 Hours',
-    tag: 'Finance',
+    title: 'Optimizing Your Product Pages for Conversions',
+    subtitle:
+      'Practical tips to improve user experience and increase your online sales performance.',
+    time: 'Growth',
+    readTime: '7 min read',
+    tag: 'E-commerce',
     image: blog3,
   },
   {
     id: 4,
-    title: 'Getting started guide',
-    subtitle: 'A step-by-step walkthrough of how to set up your workspace and get your first results.',
-    time: '25 Hours',
-    readTime: '25 Hours',
-    tag: 'Design',
+    title: 'Behind the Scenes: Platform Performance Upgrades',
+    subtitle:
+      'A deep dive into the latest backend improvements that make Caartzee faster and more reliable.',
+    time: 'Update',
+    readTime: '4 min read',
+    tag: 'Product Updates',
     image: blog4,
   },
   {
     id: 5,
-    title: 'Product tour',
-    subtitle: 'A visual overview of everything you can do inside NextSaaS.',
-    time: '25 Hours',
-    readTime: '25 Hours',
-    tag: 'AI software',
+    title: 'Scaling Your Store with Data-Driven Insights',
+    subtitle:
+      'Use real-time analytics to make smarter decisions and accelerate growth.',
+    time: 'Advanced',
+    readTime: '8 min read',
+    tag: 'Growth',
     image: blog5,
   },
   {
     id: 6,
-    title: 'Setting up your dashboard',
-    subtitle: 'Customize your experience and create a system that works for you.',
-    time: '25 Hours',
-    readTime: '25 Hours',
-    tag: 'Investment',
+    title: 'Integrating Third-Party Tools Seamlessly',
+    subtitle:
+      'Connect payment gateways, CRMs, and marketing tools in just a few clicks.',
+    time: 'Tutorial',
+    readTime: '6 min read',
+    tag: 'Automation',
     image: blog6,
   },
 ];
@@ -76,11 +82,11 @@ const BlogTabContent = () => {
     }
 
     const tagMap = {
-      1: 'Finance',
-      2: 'Crypto',
-      3: 'Investment',
-      4: 'AI software',
-      5: 'Design',
+      1: 'Product Updates',
+      2: 'E-commerce',
+      3: 'Growth',
+      4: 'Automation',
+      5: 'Tutorials',
     };
 
     const selectedTag = tagMap[activeTab as keyof typeof tagMap];

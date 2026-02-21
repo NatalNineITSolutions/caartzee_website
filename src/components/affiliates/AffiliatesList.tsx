@@ -12,15 +12,15 @@ const affiliateSectionsData: AffiliateSection[] = [
     id: '1',
     title: 'Affiliate benefits',
     description:
-      "Joining our affiliate program comes with a host of valuable perks designed to reward your efforts and grow with your success. As an affiliate, you'll earn competitive commissions for every sale you refer, with no caps on your potential earnings.",
+   "Joining our retailer program gives you access to a large customer base, marketing support, and fast payouts.",
     items: [
       'Earn up to $200 from a single sale',
       'Ready-to-use creatives (banners, social media kits, templates)',
-      'Mentorship from affiliate marketing experts',
+      'Access to thousands of customers',
       'Weekly tips and updates via email',
-      'Exclusive offers and promotional campaigns',
-      'Real-time sales tracking dashboard',
-      'Dedicated support for affiliates',
+      'Transparent sales dashboard',
+      'Fast payouts',
+      'Dedicated retailer support team',
     ],
   },
   {
@@ -30,9 +30,9 @@ const affiliateSectionsData: AffiliateSection[] = [
       'No matter where you are or what your background is, there are meaningful ways to make a difference. Start by educating yourself on the issues that matter to you. Stay informed, and speak up, and make others aware.',
     items: [
       'Engage with business and tech communities and recommend valuable solutions',
-      'Share blogs, tutorials, or product reviews (social/podcast)',
-      'Share product comparisons, demos, and videos',
-      'Your guide to community and use cases on your channels',
+      'Upload accurate product listings',
+      'Participate in Caartzee promotions',
+      'Maintain quality standards',
     ],
   },
   {
@@ -42,10 +42,10 @@ const affiliateSectionsData: AffiliateSection[] = [
       "While we offer flexibility in how we can be promoted, it's just as important to recognize our limitations. Understanding what you can't do isn't a sign of weakness—it's a step toward growth, responsibility and clarity.",
     items: [
       'Spam links in irrelevant discussions',
-      'Use incorrect URLs or expired promotional methods',
+      'No counterfeit or restricted items',
       'Spread false or exaggerated information about NextSaaS',
-      'Promote NextSaaS alongside direct competitors',
-      'List our deals on coupon/discount-only websites',
+      'No misleading product descriptions',
+      'Follow Caartzee’s quality policies',
     ],
   },
 ];

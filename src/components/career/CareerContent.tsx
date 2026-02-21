@@ -9,7 +9,7 @@ const CareerContent = () => {
         <div className="mb-[70px] space-y-3 text-center">
           <RevealAnimation delay={0.3}>
             <h2>
-              We&apos;re building the future of NextSaaS— <br className="hidden md:block" />
+              We&apos;re building the future of Caartzee <br className="hidden md:block" />
               come build It with us.
             </h2>
           </RevealAnimation>
@@ -21,42 +21,33 @@ const CareerContent = () => {
         </RevealAnimation>
         <RevealAnimation delay={0.5}>
           <div className="mx-auto max-w-[840px] space-y-8">
-            <h4>Become part of a passionate community fueled by common interests.</h4>
+            <h4>Join a team redefining how modern businesses launch and grow online.</h4>
+
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam enim eu. Adipiscing viverra
-              vulputate curabitur est.
+              At Caartzee, we’re building more than just a platform — we’re creating the infrastructure that empowers
+              startups, creators, and businesses to turn ideas into scalable digital products. Our mission is simple:
+              make powerful technology accessible, beautiful, and effortless to use.
             </p>
+
             <p>
-              Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed
-              accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium.
-              Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit.
+              We believe great products are built by passionate people who care deeply about user experience,
+              performance, and innovation. From intuitive interfaces to scalable backend systems, everything we
+              design is crafted with intention and precision.
             </p>
+
             <p>
-              Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus
-              magna augue adipiscing.Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec
-              auctor nibh vel mi blandit. Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam
-              enim eu. Adipiscing viverra vulputate curabitur est.
+              As part of the Caartzee team, you’ll work on meaningful challenges — building tools that help businesses
+              sell smarter, launch faster, and grow sustainably. We value creativity, ownership, and collaboration.
+              Every voice matters here.
             </p>
+
             <p>
-              Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed
-              accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium.
-              Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit.
+              We move fast, experiment boldly, and continuously improve. If you’re excited about SaaS, modern web
+              technologies, design systems, and creating products that genuinely make an impact, you’ll feel right at home.
             </p>
+
             <p>
-              Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus
-              magna augue adipiscing.Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec
-              auctor nibh vel mi blandit. Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam
-              enim eu. Adipiscing viverra vulputate curabitur est.
-            </p>
-            <p>
-              Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed
-              accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium.
-              Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit.
-            </p>
-            <p>
-              Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus
-              magna augue adipiscing.Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec
-              auctor nibh vel mi blandit.
+              Come build the future with us. Let’s shape the next generation of digital commerce together.
             </p>
           </div>
         </RevealAnimation>

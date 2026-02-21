@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Team Details - AI Software || NextSaaS',
+  title: 'Team Details  || Caartzee',
 };
 
 const page = async ({ params }: { params: Promise<{ slug: string }> }) => {

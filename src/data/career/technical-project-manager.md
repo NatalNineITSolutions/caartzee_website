@@ -3,7 +3,7 @@ title: 'Technical Project Manager'
 datePosted: 'August 30, 2025'
 expirationDate: 'September 30, 2025'
 location: 'Toronto, Canada (Hybrid)'
-offeredSalary: '$5,500 – $6,500 / month'
+offeredSalary: '₹5,500 – ₹6,500 / month'
 experience: '5+ Years of Project Management Experience'
 qualification: 'Bachelor’s Degree in Engineering, IT, or related field; PMP certification preferred'
 employmentType: [full-time, hybrid]

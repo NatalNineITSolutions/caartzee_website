@@ -3,6 +3,8 @@ import Image from 'next/image';
 import NumberAnimation from '../animation/NumberAnimation';
 import RevealAnimation from '../animation/RevealAnimation';
 import Progress from './Progress';
+import darkLogo from '@public/images/shared/main-1.png';
+
 
 const OurMission = () => {
   return (
@@ -12,18 +14,19 @@ const OurMission = () => {
           <div className="col-span-12 lg:col-span-6">
             <div className="space-y-3">
               <RevealAnimation delay={0.2}>
-                <span className="badge badge-cyan mb-5">Why We Built Zeedone</span>
+                <span className="badge badge-cyan mb-5">Why We Built Caartzee</span>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
-                <h2>Zeedone was created with one simple question:</h2>
+                <h2>Caartzee Was Created With One Simple Question:</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <div>
-                  <p className="font-medium text-lg">What if managing customers and workflows didn’t feel complicated?</p>
+                  <p className="font-medium text-lg">What if launching and scaling an ecommerce business didn’t feel complicated?</p>
                   <p>
-                    We saw businesses struggling with disconnected tools, repetitive tasks, and scattered information. So
-                    we built a platform that brings everything together—CRM, automation, and integrations—in one
-                    easy-to-use system.
+                    We saw retailers struggling with disconnected tools, manual workflows, and rising software costs.
+                    So we built Caartzee a unified ecommerce ecosystem that brings everything together:
+                    Store creation, CRM, marketing automation, AI sales tools, and analytics all in one easy-to-use platform.
+                    Our goal is simple: Help retailers sell more with less effort.
                   </p>
                 </div>
               </RevealAnimation>
@@ -34,7 +37,7 @@ const OurMission = () => {
               <figure className="relative w-full md:w-[500px]">
                 <RevealAnimation delay={0.4}>
                   <div className="w-full flex justify-center lg:justify-end">
-                    <Image src={feature1Img} alt="Zeedone Cartly Logo" className="w-full max-w-[400px] h-auto object-contain" />
+                    <Image src={darkLogo} alt="Caartzee Logo" className="w-full max-w-[300px] h-auto object-contain dark:invert" />
                   </div>
                 </RevealAnimation>
 

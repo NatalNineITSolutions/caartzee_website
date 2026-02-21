@@ -4,7 +4,7 @@ import Springer from '@/utils/springer';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import React, { ReactElement, Ref, cloneElement, useRef } from 'react';
+import React, { ReactElement, Ref, cloneElement, useEffect, useRef } from 'react';
 
 // Register GSAP plugins
 if (typeof window !== 'undefined') {
@@ -45,6 +45,31 @@ const RevealAnimation = ({
   className = '',
 }: RevealAnimationProps) => {
   const elementRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+  const elements = document.querySelectorAll('.parallax-effect');
+
+  const move = (e: MouseEvent) => {
+    elements.forEach((el: any) => {
+      const speed = el.getAttribute('data-parallax-value') || 1.5;
+      const x = (window.innerWidth / 2 - e.clientX) * speed * 0.01;
+      const y = (window.innerHeight / 2 - e.clientY) * speed * 0.01;
+
+      gsap.to(el, {
+        x,
+        y,
+        duration: 0.5,
+        ease: "power2.out"
+      });
+    });
+  };
+
+  window.addEventListener('mousemove', move);
+
+  return () => {
+    window.removeEventListener('mousemove', move);
+  };
+}, []);
 
   useGSAP(() => {
     const element = elementRef.current;

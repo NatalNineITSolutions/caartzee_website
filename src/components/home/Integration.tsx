@@ -2,8 +2,8 @@ import { ArrowIcon } from '@/icons';
 import { cn } from '@/utils/cn';
 import chatgptIcon from '@public/images/icons/chatgpt.png';
 import geminiIcon from '@public/images/icons/gemini.svg';
-import instagramIcon from '@public/images/icons/instagram.svg';
-import facebookIcon from '@public/images/icons/facebook.svg';
+import instagramIcon from '@public/images/icons/instagram.png';
+import facebookIcon from '@public/images/icons/facebook-v2 copy.svg';
 import whatsappIcon from '@public/images/icons/whatsapp.png';
 import xIcon from '@public/images/icons/x.svg';
 import integrationBg from '@public/images/ns-img-24.png';
@@ -119,7 +119,7 @@ const Integration = () => {
             <div className="text-center">
               <LinkButton
                 href="/integration"
-                className="btn btn-xl btn-white dark:btn-transparent hover:btn-white-dark dark:hover:btn-white max-[526px]:btn-md max-[526px]:w-full">
+                className="btn btn-xl btn-white dark:btn-transparent hover:btn-primary dark:hover:btn-white max-[526px]:btn-md max-[526px]:w-full">
                 See in Action
               </LinkButton>
             </div>
