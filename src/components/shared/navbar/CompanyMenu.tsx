@@ -36,7 +36,7 @@ const aboutLinks: CompanyLink[] = [
   {
     title: 'Caatzee Snap',
     description: '',
-    href: '/career',
+    href: '/caartzee-snap',
     icon: CareerIcon,
   },
   {

@@ -19,7 +19,8 @@ const Footer = ({ className }: { className?: string }) => {
     <footer className={cn('bg-secondary dark:bg-background-8 relative z-0 overflow-hidden', className)}>
       <RevealAnimation delay={0.3} offset={50} direction="up">
         <figure className="pointer-events-none absolute -top-[1320px] left-1/2 -z-1 size-[1635px] -translate-x-1/2 select-none">
-          <Image src={gradientImg} alt="footer-four-gradient" className="size-full object-cover" />
+          {/* <Image src={gradientImg} alt="footer-four-gradient" className="size-full object-cover" /> */}
+          <Image className="w-15 h-auto dark:invert" src={darkLogo} alt="Caartzee Logo" />
         </figure>
       </RevealAnimation>
       <div className="main-container px-5">

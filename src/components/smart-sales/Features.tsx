@@ -32,8 +32,7 @@ const Features = () => {
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[734px]">
                 Caartzee powers your entire selling ecosystem from multi channel commerce 
-                and intelligent automation to real-time analytics and operational control.
-                Everything you need to scale, unified in one platform.
+
               </p>
             </RevealAnimation>
           </div>
