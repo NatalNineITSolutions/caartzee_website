@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 
 export const DEFAULT_URL = 'https://caartzee.com/';
-export const DEFAULT_TITLE = 'Caartzee - The Ultimate SaaS Template for Startups and Businesses';
+export const DEFAULT_TITLE = 'Caartzee – Ecommerce Platform to Accelerate Retailer Sales';
+
 export const DEFAULT_DESCRIPTION =
-  'Caartzee - The Ultimate SaaS Template for Startups and Businesses. Built with Next.js, Tailwind CSS, and TypeScript. Fully responsive, SEO optimized, and packed with features to help you launch your SaaS product quickly and efficiently.';
+  'Caartzee is a powerful ecommerce platform designed to accelerate retailer sales. Launch your online store in minutes with built-in payments, marketing tools, inventory management, order tracking, and growth analytics all in one complete ecosystem built for modern retail businesses.';
 export const DEFAULT_IMAGE_URL = 'https://caartzee.com/og-image.png';
 
 const defaultMetadata: Metadata = {
