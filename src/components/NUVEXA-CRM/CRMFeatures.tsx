@@ -1,7 +1,7 @@
 'use client';
 
 import { cn } from '@/utils/cn';
-import featureImg01 from '@public/images/ns-img-256.png';
+import featureImg01 from '@public/images/ns-img-dark-172.png';
 import featureImg02 from '@public/images/ns-img-257.png';
 import featureImg03 from '@public/images/ns-img-258.png';
 import featureImg01Dark from '@public/images/ns-img-dark-171.png';

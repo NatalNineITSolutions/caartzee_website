@@ -1,5 +1,5 @@
-import RetailerContent from '@/components/retailer-policy/RetailerContent';
-import RetailerGuideline from '@/components/retailer-policy/RetailerGuideline';
+// import RetailerContent from '@/components/retailer-policy/RetailerContent';
+// import RetailerGuideline from '@/components/retailer-policy/RetailerGuideline';
 import CTA from '@/components/shared/cta/CTA';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <main className="bg-background-3 dark:bg-background-7">
-      <RetailerGuideline />
-      <RetailerContent />
+      {/* <RetailerGuideline />
+      <RetailerContent /> */}
       <CTA
         className="dark:bg-background-5 bg-white"
         badgeClass="!badge-yellow-v2"

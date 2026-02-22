@@ -1,11 +1,11 @@
-import CRMFeatures from '@/components/nuvexa-crm/CRMFeatures';
-import Faq from '@/components/nuvexa-crm/Faq';
+import CRMFeatures from '@/components/NUVEXA-CRM/CRMFeatures';
+import Faq from '@/components/NUVEXA-CRM/Faq';
 import Hero from '@/components/home/Hero';
-import HowItWork from '@/components/nuvexa-crm/HowItWork';
+import HowItWork from '@/components/NUVEXA-CRM/HowItWork';
 import Integration from '@/components/home/Integration';
 import Pricing from '@/components/home/Pricing';
-import SelectUs from '@/components/nuvexa-crm/SelectUs';
-import Testimonial from '@/components/nuvexa-crm/Testimonial';
+import SelectUs from '@/components/NUVEXA-CRM/SelectUs';
+import Testimonial from '@/components/NUVEXA-CRM/Testimonial';
 import CTA from '@/components/shared/cta/CTA';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';

@@ -1,6 +1,7 @@
 import Navbar from '@/components/shared/navbar/Navbar';
 import { ArrowRight, TrendingUp, Target, BarChart, Megaphone, RefreshCw, PieChart, Check } from 'lucide-react';
 import Link from 'next/link';
+import Footer from '../shared/footer/Footer';
 
 const features = [
   { icon: Target, title: 'Smart Sales Engine', desc: 'Manage orders, payments, and fulfillment in real time with intelligent tracking powered by CaartZee Sales Navigator.' },
@@ -41,7 +42,7 @@ const SolutionSales = () => (
           Caartzee's Smart Sales Engine powers your entire revenue ecosystem — from storefront to marketplace, automation to conversion. All on autopilot.
         </p>
         <Link
-          to="/get-started"
+          href="/get-started"
           className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-sm font-semibold bg-foreground text-background hover:opacity-90 transition-opacity"
         >
           Supercharge your sales <ArrowRight className="w-4 h-4" />
@@ -104,7 +105,7 @@ const SolutionSales = () => (
               Smart Sales Engine powers your entire revenue ecosystem from storefront to marketplace, automation to conversion.
             </h2>
             <Link
-              to="/get-started"
+              href="/get-started"
               className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-semibold border border-border text-foreground hover:bg-secondary transition-colors"
             >
               Explore smart sales
@@ -133,7 +134,7 @@ const SolutionSales = () => (
             Start with Caartzee and watch your conversion rates soar. Launch for just ₹1.
           </p>
           <Link
-            to="/get-started"
+            href="/get-started"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-sm font-semibold bg-foreground text-background hover:opacity-90 transition-opacity"
           >
             Get started free <ArrowRight className="w-4 h-4" />
