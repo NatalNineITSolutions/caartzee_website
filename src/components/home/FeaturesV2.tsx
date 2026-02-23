@@ -69,19 +69,20 @@ const FeaturesV2 = () => {
         <div className="space-y-3 text-center lg:text-left">
           <RevealAnimation delay={0.1}>
             <h2 id="team-heading" className="mx-auto max-w-[500px] font-normal lg:mx-0" itemProp="name">
-              Tailored for every{' '}
+              Designed for every{' '}
               <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
-                creator
+                brand
               </span>{' '}
               and
               <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
-                <br />team
+                <br />business
               </span>
             </h2>
           </RevealAnimation>
+
           <RevealAnimation delay={0.2}>
             <p className="text-tagline-1 mx-auto max-w-[538px] font-normal lg:mx-0 text-secondary/70 dark:text-accent/70" itemProp="description">
-              Whether you're building a course, podcast, ad, or enterprise solution Caartzee adapts to your needs.
+              Discover beautifully crafted themes built to showcase your products, tell your story, and create an engaging experience for your audience.
             </p>
           </RevealAnimation>
         </div>
