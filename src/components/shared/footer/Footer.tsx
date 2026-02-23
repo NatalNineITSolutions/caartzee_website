@@ -54,16 +54,16 @@ const Footer = ({ className }: { className?: string }) => {
                     <span className="sr-only">LinkedIn</span>
                     <Image className="size-6" src={linkedin} alt="LinkedIn" />
                   </Link>
-                  <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://www.dribbble.com">
+                  {/* <div className="bg-stroke-1/20 h-6 w-px" /> */}
+                  {/* <Link target="_blank" href="https://www.dribbble.com">
                     <span className="sr-only">Dribbble</span>
                     <Image className="size-6" src={dribbble} alt="Dribbble" />
-                  </Link>
-                  <div className="bg-stroke-1/20 h-6 w-px" />
+                  </Link> */}
+                  {/* <div className="bg-stroke-1/20 h-6 w-px" />
                   <Link target="_blank" href="https://www.behance.net">
                     <span className="sr-only">Behance</span>
                     <Image className="size-6" src={behance} alt="Behance" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

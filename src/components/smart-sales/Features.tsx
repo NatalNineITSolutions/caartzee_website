@@ -8,7 +8,7 @@ import cardThreeImg from '@public/images/ns-img-92.png';
 import cardThreeImgDark from '@public/images/ns-img-dark-65.png';
 
 import cardFourImg from '@public/images/ns-img-93.png';
-import cardFourImgDark from '@public/images/ns-img-dark-66.png';
+import cardFourImgDark from '@public/images/ns-img-dark-93.png';
 
 import cardFiveImg from '@public/images/ns-img-94.png';
 import cardFiveImgDark from '@public/images/ns-img-dark-67.png';
@@ -21,7 +21,7 @@ const Features = () => {
     <section className="pt-[100px] pb-[100px] md:pt-[160px]" aria-label="Features">
       <div className="main-container">
         <div className="space-y-[70px]">
-          
+
           {/* Feature Heading */}
           <div className="space-y-3 text-center">
             <RevealAnimation delay={0.3}>
@@ -31,7 +31,7 @@ const Features = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[734px]">
-                Caartzee powers your entire selling ecosystem from multi channel commerce 
+                Caartzee powers your entire selling ecosystem from multi channel commerce
 
               </p>
             </RevealAnimation>

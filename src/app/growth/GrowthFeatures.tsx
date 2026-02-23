@@ -30,13 +30,13 @@ const features = [
 
 const GrowthFeatures = () => {
   return (
-    <section className="bg-[#FAFAFA] py-[120px]">
+    <section className="bg-[#FAFAFA] dark:bg-background-8 py-[120px]">
       <div className="main-container">
         <div className="text-center">
-          <h2 className="text-heading-2 font-normal">
+          <h2 className="text-heading-2 font-normal dark:text-accent">
             Powerful Analytics. Simplified.
           </h2>
-          <p className="mt-4 text-secondary">
+          <p className="mt-4 text-secondary dark:text-accent/80">
             Everything you need to measure, optimize, and scale.
           </p>
         </div>

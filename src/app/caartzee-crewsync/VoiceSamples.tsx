@@ -22,7 +22,7 @@ const VoiceSamples = () => {
     },
     {
       id: 'rosalind-franklin',
-      imgLink: '/images/ns-avatar-18.png',
+      imgLink: '/images/ns-avatar-42.png',
       name: 'Rosalind Franklin',
       description: 'Japanese Female – Calm & Intelligent',
       audioPath: '/audio/ai-voice-generator-voice-sample.mp3',
@@ -43,7 +43,7 @@ const VoiceSamples = () => {
     },
     {
       id: 'isaac-newton',
-      imgLink: '/images/ns-avatar-19.png',
+      imgLink: '/images/ns-avatar-30.png',
       name: 'Isaac Newton',
       description: 'Japanese Female – Calm & Intelligent',
       audioPath: '/audio/ai-voice-generator-voice-sample.mp3',

@@ -1,29 +1,28 @@
 'use client';
 
+import LinkButton from '@/components/ui/button/LinkButton';
 import Image from 'next/image';
 
 const GrowthHero = () => {
   return (
-    <section className="bg-ns-ivory py-[120px]">
+    <section className="bg-ns-ivory dark:bg-background-8 py-[120px]">
       <div className="main-container text-center">
 
-        <h1 className="text-heading-1 font-normal">
+        <h1 className="text-heading-1 font-normal dark:text-accent">
           Growth Analytics that{' '}
           <span className="text-ns-linen">Drive Smarter Decisions</span>
         </h1>
 
-        <p className="mx-auto mt-6 max-w-[650px] text-secondary">
+        <p className="mx-auto mt-6 max-w-[650px] text-secondary dark:text-accent/80">
           Monitor revenue, campaign performance, inventory flow, and team
           productivity in one intelligent dashboard.
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
-          <button className="rounded-full bg-black px-6 py-3 text-white">
+          <LinkButton href="/signup" className="rounded-full bg-black px-6 py-3 text-white dark:bg-white dark:text-black hover:bg-black/80 dark:hover:bg-white/80 transition-colors">
             Get Started
-          </button>
-          <button className="rounded-full border border-black px-6 py-3">
-            View Demo
-          </button>
+          </LinkButton>
+          
         </div>
 
         {/* Dashboard Preview */}

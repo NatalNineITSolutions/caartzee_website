@@ -1,20 +1,19 @@
 import { cn } from '@/utils/cn';
-import confluenceIcon from '@public/images/icons/confluence.svg';
-import edgeIcon from '@public/images/icons/edge.svg';
-import figmaIcon from '@public/images/icons/figma.svg';
-import framerIcon from '@public/images/icons/framer.svg';
-import gmailIcon from '@public/images/icons/gmail.svg';
-import googleMeetIcon from '@public/images/icons/google-meet.svg';
+import paypalIcon from '@public/images/icons/paypal.png';
+import whatsappIcon from '@public/images/icons/whatsapp.png';
+import instagramIcon from '@public/images/icons/instagram.png';
+import tidioIcon from '@public/images/icons/tidio.png';
+import paytm1Icon from '@public/images/icons/paytm1.png';
+import razorpayIcon from '@public/images/icons/razorpay.png';
 import googleIcon from '@public/images/icons/google.svg';
-import marvelDarkIcon from '@public/images/icons/marvel-dark.svg';
-import marvelIcon from '@public/images/icons/marvel.svg';
+import dhlDarkIcon from '@public/images/icons/dhl.png';
+import dhlIcon from '@public/images/icons/dhl.png';
 import microsoftIcon from '@public/images/icons/microsoft.svg';
-import yammerDarkIcon from '@public/images/icons/ms_yammer-dark.svg';
-import yammerIcon from '@public/images/icons/ms_yammer.svg';
-import slackIcon from '@public/images/icons/slack.svg';
-import snapchatIcon from '@public/images/icons/snapchat.svg';
-import vlWhiteIcon from '@public/images/icons/vl-white.svg';
-import vlIcon from '@public/images/icons/vl.svg';
+import googleanalyticsIcon from '@public/images/icons/Googleanalytics.png';
+import slackIcon from '@public/images/icons/facebook-v2.svg';
+import shiprocketIcon from '@public/images/icons/shiprocket.png';
+import flutterwaveIcon from '@public/images/icons/flutterwave.png';
+import flutterdarkIcon from '@public/images/icons/flutterwave.png';
 import Image from 'next/image';
 import Marquee from 'react-fast-marquee';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -35,12 +34,13 @@ const Integration = ({ className, badgeClass }: IntegrationProps) => {
             </RevealAnimation>
             <div className="space-y-3">
               <RevealAnimation delay={0.3}>
-                <h2>Enhance your productivity effortlessly with over 50 integrations.</h2>
+                <h2>Connect Everything. Run Your Business Smoothly.</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="mx-auto max-w-[582px]">
-                  Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It&apos;s not
-                  Latin though it looks like nothing.
+                  Boost your productivity with 50+ powerful integrations.
+                  Sync your online stores, marketplaces, payments, shipping, accounting, and marketing tools all in one place.
+                  No more switching between apps. No more manual updates.
                 </p>
               </RevealAnimation>
             </div>
@@ -62,22 +62,22 @@ const Integration = ({ className, badgeClass }: IntegrationProps) => {
                       <Image src={slackIcon} alt="Slack logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={confluenceIcon} alt="Confluence logo" loading="lazy" className="size-12" />
+                      <Image src={paypalIcon} alt="Confluence logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={snapchatIcon} alt="Snapchat logo" loading="lazy" className="size-12" />
+                      <Image src={shiprocketIcon} alt="Shiprocket logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={yammerIcon} alt="Yammer logo" loading="lazy" className="size-12 dark:hidden" />
+                      <Image src={googleanalyticsIcon} alt="Google Analytics logo" loading="lazy" className="size-12 dark:hidden" />
                       <Image
-                        src={yammerDarkIcon}
-                        alt="Yammer logo"
+                        src={googleanalyticsIcon}
+                        alt="Google Analytics logo"
                         loading="lazy"
-                        className="hidden dark:inline-block"
+                        className="hidden size-12 dark:inline-block"
                       />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={figmaIcon} alt="Figma logo" loading="lazy" className="size-12" />
+                      <Image src={instagramIcon} alt="Figma logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
                       <Image src={microsoftIcon} alt="Microsoft logo" loading="lazy" className="size-12" />
@@ -92,32 +92,32 @@ const Integration = ({ className, badgeClass }: IntegrationProps) => {
                 <Marquee autoFill direction="right" speed={40}>
                   <div className="flex items-center justify-center gap-[34px]">
                     <figure className="dark:bg-background-6 ml-8 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={googleMeetIcon} alt="Google Meet logo" loading="lazy" className="size-12" />
+                      <Image src={razorpayIcon} alt="Razorpay logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={edgeIcon} alt="Microsoft Edge logo" width={48} height={48} loading="lazy" />
+                      <Image src={whatsappIcon} alt="WhatsApp logo" width={48} height={48} loading="lazy" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={vlIcon} alt="LV logo" loading="lazy" className="size-12 dark:hidden" />
-                      <Image src={vlWhiteIcon} alt="LV logo" loading="lazy" className="hidden dark:inline-block" />
+                      <Image src={flutterdarkIcon} alt="Flutterwave dark logo" loading="lazy" className="size-12 dark:hidden" />
+                      <Image src={flutterwaveIcon} alt="Flutterwave logo" loading="lazy" className="hidden size-12 dark:inline-block" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={framerIcon} alt="Framer logo" loading="lazy" className="size-12" />
+                      <Image src={tidioIcon} alt="Framer logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={marvelIcon} alt="Marvel logo" loading="lazy" className="size-12 dark:hidden" />
+                      <Image src={dhlIcon} alt="Marvel logo" loading="lazy" className="size-12 dark:hidden" />
                       <Image
-                        src={marvelDarkIcon}
+                        src={dhlDarkIcon}
                         alt="Marvel logo"
                         loading="lazy"
-                        className="hidden dark:inline-block"
+                        className="hidden size-12 dark:inline-block"
                       />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={confluenceIcon} alt="Confluence logo" loading="lazy" className="size-12" />
+                      <Image src={paypalIcon} alt="PayPal logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="dark:bg-background-6 flex size-[70px] items-center justify-center rounded-full bg-white md:size-[100px]">
-                      <Image src={gmailIcon} alt="Gmail logo" loading="lazy" className="size-12" />
+                      <Image src={paytm1Icon} alt="Paytm logo" loading="lazy" className="size-12" />
                     </figure>
                   </div>
                 </Marquee>

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import HeroDotBg from '../shared/HeroDotBg';
 import HeroShapes from './HeroShapes';
+import LinkButton from '../ui/button/LinkButton';
 
 export interface HeroShapesProps {
   className?: string;
@@ -43,11 +44,11 @@ Not just automation. A smarter way to grow.
               autoComplete="email"
               className="bg-background-1 dark:bg-background-6 placeholder:text-secondary/40 text-secondary/60 dark:text-accent/60 text-tagline-1 border-stroke-3 dark:border-stroke-7 dark:shadow-1 dark:bg-dark-200 focus:border-primary-500 dark:focus:border-primary-500 h-12 w-[90%] rounded-[360px] border px-[18px] py-3 font-normal transition-all duration-300 outline-none placeholder:font-normal focus:outline-none md:max-w-[345px] md:min-w-[345px] dark:placeholder:text-white/40"
             />
-            <button
-              type="submit"
+            <LinkButton
+              href="https://cartly.zeedone.com/register"
               className="btn btn-xl btn-primary flex h-12 w-[90%] items-center justify-center md:w-auto">
               <span>Get started</span>
-            </button>
+            </LinkButton>
           </form>
         </RevealAnimation>
         {/* Features images */}
