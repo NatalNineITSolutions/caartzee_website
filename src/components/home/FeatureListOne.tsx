@@ -51,7 +51,7 @@ const FeatureListOne = () => {
       <RevealAnimation delay={0.6}>
         <LinkButton
           href="/features"
-          className="btn btn-white btn-lg sm:btn-xl dark:btn-transparent hover:btn-primary dark:hover:btn-accent w-full sm:w-auto">
+          className="btn btn-primary hover:btn-secondary btn-lg sm:btn-xl dark:btn-transparent dark:hover:btn-accent w-full sm:w-auto">
           Explore Platform
         </LinkButton>
       </RevealAnimation>

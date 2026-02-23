@@ -1,0 +1,113 @@
+import RevealAnimation from '@/components/animation/RevealAnimation';
+import teamImage546 from '@public/images/ns-img-546.png';
+import teamImage547 from '@public/images/ns-img-547.png';
+import teamImage548 from '@public/images/ns-img-548.png';
+import teamImage549 from '@public/images/ns-img-549.png';
+import teamImage550 from '@public/images/ns-img-550.png';
+import teamImage551 from '@public/images/ns-img-551.png';
+import socialMedia from '@public/images/social-media.png';
+import { StaticImageData } from 'next/image';
+import Marquee from 'react-fast-marquee';
+import FeatureImgCard from './FeatureImgCard';
+
+interface TeamItem {
+  id: string;
+  title: string;
+  imageSrc: string;
+  href: string;
+  className?: string;
+}
+
+const teamItems: TeamItem[] = [
+  {
+    id: '11-11palette',
+    title: '11-11 Palette',
+    imageSrc: '/images/theme1.png',
+    href: 'https://11-11palette.com/',
+    className: 'ml-6',
+  },
+  {
+    id: 'freezenfry',
+    title: 'Freezenfry',
+    imageSrc: '/images/theme2.png',
+    href: 'https://freezenfry.com/',
+  },
+  {
+    id: 'leaders-white',
+    title: 'Leaders White',
+    imageSrc: '/images/theme3.png',
+    href: 'https://leaderswhite.com/',
+  },
+  {
+    id: 'kiddy-ai',
+    title: 'Kiddy.Ai',
+    imageSrc: '/images/theme4.png',
+    href: 'https://kiddyai.com/',
+  },
+  {
+    id: 'v-trends',
+    title: 'V-Trends',
+    imageSrc: '/images/theme5.png',
+    href: 'https://vtrends.net/',
+  },
+  {
+    id: 'kasadini',
+    title: 'Kasadini',
+    imageSrc: '/images/theme6.png',
+    href: 'https://kasadini.in/',
+  },
+];
+
+const FeaturesV2 = () => {
+  return (
+    <section
+      className="space-y-[76px] overflow-hidden bg-background-1 dark:bg-background-6 py-[80px] md:py-[120px] lg:py-[154px]"
+      aria-labelledby="team-heading"
+      itemScope
+      itemType="https://schema.org/ItemList">
+      <div className="main-container">
+        <div className="space-y-3 text-center lg:text-left">
+          <RevealAnimation delay={0.1}>
+            <h2 id="team-heading" className="mx-auto max-w-[500px] font-normal lg:mx-0" itemProp="name">
+              Tailored for every{' '}
+              <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
+                creator
+              </span>{' '}
+              and
+              <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
+                <br />team
+              </span>
+            </h2>
+          </RevealAnimation>
+          <RevealAnimation delay={0.2}>
+            <p className="text-tagline-1 mx-auto max-w-[538px] font-normal lg:mx-0 text-secondary/70 dark:text-accent/70" itemProp="description">
+              Whether you're building a course, podcast, ad, or enterprise solution Caartzee adapts to your needs.
+            </p>
+          </RevealAnimation>
+        </div>
+      </div>
+
+      <RevealAnimation delay={0.3}>
+        <div className="relative" aria-label="Voice styles for creators and teams">
+          <Marquee autoFill speed={50}>
+            <div className="flex items-center justify-center gap-x-6 py-6">
+              {teamItems.map((item) => (
+                <FeatureImgCard key={item.id} {...item} />
+              ))}
+            </div>
+          </Marquee>
+
+          <div
+            className="absolute top-0 left-0 z-10 h-[110%] w-[120px] rotate-180 bg-[linear-gradient(270deg,var(--background-1)_20%,transparent_100%)] dark:bg-[linear-gradient(270deg,var(--background-6)_20%,transparent_100%)] md:w-[180px] lg:w-[300px] xl:w-[426px]"
+          />
+
+          <div
+            className="absolute top-0 right-0 z-10 h-[110%] w-[120px] bg-[linear-gradient(270deg,var(--background-1)_20%,transparent_100%)] dark:bg-[linear-gradient(270deg,var(--background-6)_20%,transparent_100%)] md:w-[180px] lg:w-[300px] xl:w-[426px]"
+          />
+        </div>
+      </RevealAnimation>
+    </section>
+  );
+};
+
+export default FeaturesV2;

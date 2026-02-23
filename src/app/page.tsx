@@ -12,6 +12,7 @@ import { ModalProvider } from '@/context/ModalContext';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 import Feature from '@/components/home/Feature';
+import FeaturesV2 from '@/components/home/FeaturesV2';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
@@ -26,6 +27,7 @@ const page = () => {
         <About />
         <Work />
         <Feature />
+        <FeaturesV2 />
         <Pricing />
         <Integration />
         <Reviews />

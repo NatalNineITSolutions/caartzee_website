@@ -11,9 +11,9 @@ export interface VoiceStyleCard {
 
 const voiceStyleBadges: { row1: VoiceStyleCard[]; row2: VoiceStyleCard[]; row3: VoiceStyleCard[] } = {
   row1: [
-    { imgLink: '/images/ns-avatar-16.png', name: 'Ava', description: 'Soft & natural' },
-    { imgLink: '/images/ns-avatar-15.png', name: 'Liam', description: 'Bold & energetic' },
-    { imgLink: '/images/ns-avatar-17.png', name: 'Maya', description: 'Warm & calm' },
+    { imgLink: '/images/ns-avatar-41.png', name: 'Ava', description: 'Soft & natural' },
+    { imgLink: '/images/ns-avatar-40.png', name: 'Liam', description: 'Bold & energetic' },
+    { imgLink: '/images/ns-avatar-42.png', name: 'Maya', description: 'Warm & calm' },
   ],
   row2: [
     { imgLink: '/images/ns-avatar-29.png', name: 'Ethan', description: 'Clear' },

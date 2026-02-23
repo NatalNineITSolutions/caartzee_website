@@ -3,64 +3,88 @@ import { FooterOneData } from '@/interface';
 
 export const mobileMenuData: MobileMenuGroup[] = [
   {
+    id: 'products',
+    title: 'Products',
+    submenu: [
+      { id: 'caartzee-zeedone', label: 'Caartzee Zeedone', href: 'https://www.zeedone.com' },
+      { id: 'caartzee-sales-navigator', label: 'CaartZee Sales Navigator', href: '/sales-navigator' },
+      { id: 'caatzee-snap', label: 'Caatzee Snap', href: '/caartzee-snap' },
+      { id: 'caartzee-crewsync', label: 'CaartZee Crewsync', href: '/caartzee-crewsync' },
+    ],
+  },
+
+  {
+    id: 'features',
+    title: 'Features',
+    submenu: [
+      { id: 'smart-sales-engine', label: 'Smart Sales Engine', href: '/smart-sales' },
+      { id: 'gst-finance-automation', label: 'GST & Finance Automation', href: '/growth' },
+      { id: 'inventory-stock-ai', label: 'Inventory & Stock AI', href: '/inventory' },
+      { id: 'vendor-team-control', label: 'Vendor & Team Control', href: '/team' },
+      { id: 'growth-analytics', label: 'Growth Analytics', href: '/growth' },
+      { id: 'unified-customer-inbox', label: 'Unified Customer Inbox', href: '/support' },
+    ],
+  },
+
+  {
+    id: 'solutions',
+    title: 'Solutions',
+    submenu: [
+      { id: 'ecommerce', label: 'Ecommerce', href: './ecommerce' },
+      { id: 'retailers', label: 'Retailers', href: './retailers' },
+      { id: 'sales', label: 'Sales', href: './sales' },
+    ],
+  },
+
+  {
+    id: 'pricing',
+    title: 'Pricing',
+    submenu: [
+      { id: 'pricing-page', label: 'Pricing', href: '/pricing' },
+    ],
+  },
+
+  {
+    id: 'contact',
+    title: 'Contact',
+    submenu: [
+      { id: 'contact-page', label: 'Contact', href: '/contact-us' },
+    ],
+  },
+
+  // Footer Sections Added Below
+
+  {
     id: 'company',
     title: 'Company',
     submenu: [
-      { id: 'about-us', label: 'About Us', href: './about' },
-      { id: 'services', label: 'Services', href: './services' },
-      { id: 'team', label: 'Our Team', href: './team' },
-      { id: 'career', label: 'Career', href: './career' },
-      { id: 'our-manifesto', label: 'Our Manifesto', href: './our-manifesto' },
-      { id: 'why-choose-us', label: 'Why Choose Us', href: './why-choose-us' },
-      { id: 'customers', label: 'Customers', href: './customer' },
-      { id: 'use-cases', label: 'Use Cases', href: './use-case' },
-      { id: 'case-studies', label: 'Case Studies', href: './case-study' },
-      { id: 'testimonials', label: 'Testimonials', href: './testimonial' },
+      { id: 'about-us', label: 'About Us', href: '/about' },
+      { id: 'career', label: 'Career', href: '/career' },
+      { id: 'case-studies', label: 'Case Studies', href: '/case-study' },
+      { id: 'contact-us-footer', label: 'Contact Us', href: '/contact-us' },
     ],
   },
 
   {
-    id: 'platform',
-    title: 'Platform',
+    id: 'support-footer',
+    title: 'Support',
     submenu: [
-      { id: 'features', label: 'Features', href: './features' },
-      { id: 'integrations', label: 'Integrations', href: './integration' },
-      { id: 'process', label: 'Process', href: './process' },
-      { id: 'analytics', label: 'Analytics', href: './analytics' },
-      { id: 'security', label: 'Security', href: './security' },
-      { id: 'whitepaper', label: 'Whitepaper', href: './whitepaper' },
-      { id: 'build-overview', label: 'Build overview', href: './signup' },
-      { id: 'brandkit', label: 'Brandkit', href: './brandkit' },
-      { id: 'download', label: 'Download', href: './download' },
+      { id: 'faq', label: 'FAQ', href: '/faq' },
+      { id: 'documentation', label: 'Documentation', href: '/documentation' },
+      { id: 'tutorial', label: 'Tutorial', href: '/tutorial' },
+      { id: 'community', label: 'Community', href: '/community' },
     ],
   },
 
   {
-    id: 'resources',
-    title: 'Resources',
+    id: 'legal-policies',
+    title: 'Legal Policies',
     submenu: [
-      { id: 'blog', label: 'Blog', href: './blog' },
-      { id: 'tutorial', label: 'Tutorial', href: './tutorial' },
-      { id: 'faq', label: 'FAQ', href: './faq' },
-      { id: 'glossary', label: 'Glossary', href: './glossary' },
-    ],
-  },
-
-  {
-    id: 'plans-support',
-    title: 'Plans & Support',
-    submenu: [
-      { id: 'pricing', label: 'Pricing', href: './pricing' },
-      { id: 'login', label: 'Login', href: './login' },
-      { id: 'create-account', label: 'Create Account', href: './signup' },
-      { id: 'referral-program', label: 'Referral Program', href: './referral-program' },
-      { id: 'affiliate', label: 'Affiliate', href: './affiliates' },
-      { id: 'affiliate-policy', label: 'Affiliate Policy', href: './affiliate-policy' },
-      { id: 'terms-conditions', label: 'Terms & Conditions', href: './terms-conditions' },
-      { id: 'privacy-policy', label: 'Privacy Policy', href: './privacy-policy' },
-      { id: 'refund-policy', label: 'Refund Policy', href: './refund-policy' },
-      { id: 'gdpr', label: 'GDPR', href: './gdpr' },
-      { id: 'legal', label: 'Legal', href: './legal' },
+      { id: 'terms-conditions', label: 'Terms & Conditions', href: '/terms-conditions' },
+      { id: 'privacy-policy', label: 'Privacy Policy', href: '/privacy-policy' },
+      { id: 'refund-policy', label: 'Refund Policy', href: '/refund-policy' },
+      { id: 'gdpr', label: 'GDPR Compliance', href: '/gdpr' },
+      { id: 'affiliate-policy', label: 'Affiliate Policy', href: '/affiliate-policy' },
     ],
   },
 ];
@@ -90,8 +114,8 @@ export const footerData: FooterOneData[] = [
       { label: 'Terms & Conditions', href: '/terms-conditions' },
       { label: 'Privacy Policy', href: '/privacy-policy' },
       { label: 'Refund Policy', href: '/refund-policy' },
-      { label: 'GDPR Compliance', href: '/gdpr' },
-      { label: 'Affiliate Policy', href: '/affiliate-policy' },
+      // { label: 'GDPR Compliance', href: '/gdpr' },
+      // { label: 'Affiliate Policy', href: '/affiliate-policy' },
     ],
   },
 ];

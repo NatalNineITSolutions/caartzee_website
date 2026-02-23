@@ -8,6 +8,7 @@ import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import GradientOverlay from '../shared/reviews/GradientOverlay';
 import dummy from '@public/images/dummy-avatar.png';
+
 const Reviews = () => {
   return (
     <section className="dark:bg-background-6 relative pt-14 pb-24 md:pt-16 md:pb-36 lg:pt-[88px] lg:pb-44 xl:pt-[100px] xl:pb-[60px]">
@@ -41,6 +42,20 @@ const Reviews = () => {
               autoplay={{
                 delay: 3000,
                 disableOnInteraction: false,
+              }}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+                640: {
+                  slidesPerView: 1.5,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
               }}
               modules={[Autoplay]}
               navigation={false}
