@@ -1,5 +1,5 @@
-import faqImg from '@public/images/ns-img-52.png';
-import faqImgDark from '@public/images/ns-img-dark-31.png';
+import faqImg from '@public/images/p11.png';
+import faqImgDark from '@public/images/p12.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import FaqAccordion from './FaqAccordion1';

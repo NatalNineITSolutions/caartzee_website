@@ -41,7 +41,7 @@ const overviewLinks: SimpleNavLink[] = [
   {
     label: 'Smart Sales Engine',
     href: '/smart-sales',
-    icon: PricingIcon,
+    icon: IntegrationIconV2,
   },
   {
     label: 'Inventory & Stock AI',

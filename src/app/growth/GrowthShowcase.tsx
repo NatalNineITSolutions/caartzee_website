@@ -9,16 +9,16 @@ const GrowthShowcase = () => {
 
         {/* Text */}
         <div>
-          <h2 className="text-heading-2 font-normal">
+          <h2 className="text-heading-2 font-normal dark:text-accent">
             See Your Business in Real Time
           </h2>
 
-          <p className="mt-6 text-secondary">
+          <p className="mt-6 text-secondary dark:text-accent/80">
             Track revenue growth, campaign ROI, and operational efficiency
             through live dashboards powered by AI-driven analytics.
           </p>
 
-          <ul className="mt-8 space-y-4 text-secondary">
+          <ul className="mt-8 space-y-4 text-secondary dark:text-accent/80">
             <li>✔ Real-time performance monitoring</li>
             <li>✔ Predictive demand forecasting</li>
             <li>✔ Unified data from all departments</li>

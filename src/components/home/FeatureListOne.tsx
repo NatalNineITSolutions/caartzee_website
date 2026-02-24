@@ -5,15 +5,23 @@ import LinkButton from '../ui/button/LinkButton';
 const featureListData = [
   {
     id: 1,
-    text: 'Manage vendors and products from one powerful dashboard.',
+    text: 'Product management ',
   },
   {
     id: 2,
-    text: 'Track orders, payments, and fulfillment in real time.',
+    text: 'Inventory management ',
   },
   {
     id: 3,
-    text: 'Smart analytics to scale your marketplace faster.',
+    text: 'Order processing & tracking ',
+  },
+  {
+    id: 4,
+    text: 'Pricing configuration  ',
+  },
+  {
+    id: 5,
+    text: 'Storefront management ',
   },
 ];
 

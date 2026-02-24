@@ -1,4 +1,4 @@
-import avatar5 from '@public/images/ns-avatar-5.png';
+import avatar1 from '@public/images/ns-avatar-1.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
@@ -26,7 +26,7 @@ const SalesTestimonial = () => {
             <RevealAnimation delay={0.2}>
               <figure>
                 <Image
-                  src={avatar5}
+                  src={avatar1}
                   alt="seller testimonial"
                   className="inline-block size-14 rounded-full bg-linear-[156deg,#ffffff_0%,#83E7EE_100%]"
                 />
