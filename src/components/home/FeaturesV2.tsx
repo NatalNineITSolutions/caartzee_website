@@ -42,7 +42,7 @@ const teamItems: TeamItem[] = [
     id: 'kiddy-ai',
     title: 'Kiddy.Ai',
     imageSrc: '/images/theme4.png',
-    href: 'https://kiddyai.com/',
+    href: 'https://kiddyai.in/',
   },
   {
     id: 'v-trends',
@@ -56,6 +56,18 @@ const teamItems: TeamItem[] = [
     imageSrc: '/images/theme6.png',
     href: 'https://kasadini.in/',
   },
+  {
+    id: 'metshop',
+    title: 'MetShop',
+    imageSrc: '/images/theme7.png',
+    href: 'https://metsho.site/',
+  },
+  {
+    id: 'nammabasket',
+    title: 'NammaBasket',
+    imageSrc: '/images/theme8.png',
+    href: 'https://nammabasket.shop/',
+  },
 ];
 
 const FeaturesV2 = () => {
@@ -67,31 +79,33 @@ const FeaturesV2 = () => {
       itemType="https://schema.org/ItemList">
       <div className="main-container">
         <div className="space-y-3 text-center lg:text-left">
-          <RevealAnimation delay={0.1}>
-            <h2 id="team-heading" className="mx-auto max-w-[500px] font-normal lg:mx-0" itemProp="name">
-              Designed for every{' '}
-              <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
-                brand
-              </span>{' '}
-              and
-              <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
-                <br />business
-              </span>
-            </h2>
-          </RevealAnimation>
+          <div className="main-container">
+            <RevealAnimation delay={0.1}>
+              <h2 id="team-heading" className="mx-auto max-w-[500px] font-normal lg:mx-0" itemProp="name">
+                Designed for every{' '}
+                <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
+                  brand
+                </span>{' '}
+                and
+                <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
+                  <br />business
+                </span>
+              </h2>
+            </RevealAnimation>
 
-          <RevealAnimation delay={0.2}>
-            <p className="text-tagline-1 mx-auto max-w-[538px] font-normal lg:mx-0 text-secondary/70 dark:text-accent/70" itemProp="description">
-              Discover beautifully crafted themes built to showcase your products, tell your story, and create an engaging experience for your audience.
-            </p>
-          </RevealAnimation>
+            <RevealAnimation delay={0.2}>
+              <p className="text-tagline-1 mx-auto max-w-[538px] font-normal lg:mx-0 text-secondary/70 dark:text-accent/70" itemProp="description">
+                Discover beautifully crafted themes built to showcase your products, tell your story, and create an engaging experience for your audience.
+              </p>
+            </RevealAnimation>
+          </div>
         </div>
       </div>
 
       <RevealAnimation delay={0.3}>
         <div className="relative" aria-label="Voice styles for creators and teams">
-          <Marquee autoFill speed={50}>
-            <div className="flex items-center justify-center gap-x-6 py-6">
+          <Marquee autoFill speed={50} gradient={false}>
+            <div className="flex items-center gap-x-8">
               {teamItems.map((item) => (
                 <FeatureImgCard key={item.id} {...item} />
               ))}
