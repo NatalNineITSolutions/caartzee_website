@@ -52,41 +52,41 @@ export const mobileMenuData: MobileMenuGroup[] = [
     ],
   },
 
-  // Footer Sections Added Below
+  // // Footer Sections Added Below
 
-  {
-    id: 'company',
-    title: 'Company',
-    submenu: [
-      { id: 'about-us', label: 'About Us', href: '/about' },
-      { id: 'career', label: 'Career', href: '/career' },
-      { id: 'case-studies', label: 'Case Studies', href: '/case-study' },
-      { id: 'contact-us-footer', label: 'Contact Us', href: '/contact-us' },
-    ],
-  },
+  // {
+  //   id: 'company',
+  //   title: 'Company',
+  //   submenu: [
+  //     { id: 'about-us', label: 'About Us', href: '/about' },
+  //     // { id: 'career', label: 'Career', href: '/career' },
+  //     { id: 'case-studies', label: 'Case Studies', href: '/case-study' },
+  //     { id: 'contact-us-footer', label: 'Contact Us', href: '/contact-us' },
+  //   ],
+  // },
 
-  {
-    id: 'support-footer',
-    title: 'Support',
-    submenu: [
-      { id: 'faq', label: 'FAQ', href: '/faq' },
-      { id: 'documentation', label: 'Documentation', href: '/documentation' },
-      { id: 'tutorial', label: 'Tutorial', href: '/tutorial' },
-      { id: 'community', label: 'Community', href: '/community' },
-    ],
-  },
+  // {
+  //   id: 'support-footer',
+  //   title: 'Support',
+  //   submenu: [
+  //     { id: 'faq', label: 'FAQ', href: '/faq' },
+  //     // { id: 'documentation', label: 'Documentation', href: '/documentation' },
+  //     { id: 'tutorial', label: 'Tutorial', href: '/tutorial' },
+  //     { id: 'community', label: 'Community', href: '/community' },
+  //   ],
+  // },
 
-  {
-    id: 'legal-policies',
-    title: 'Legal Policies',
-    submenu: [
-      { id: 'terms-conditions', label: 'Terms & Conditions', href: '/terms-conditions' },
-      { id: 'privacy-policy', label: 'Privacy Policy', href: '/privacy-policy' },
-      { id: 'refund-policy', label: 'Refund Policy', href: '/refund-policy' },
-      { id: 'gdpr', label: 'GDPR Compliance', href: '/gdpr' },
-      { id: 'affiliate-policy', label: 'Affiliate Policy', href: '/affiliate-policy' },
-    ],
-  },
+  // {
+  //   id: 'legal-policies',
+  //   title: 'Legal Policies',
+  //   submenu: [
+  //     { id: 'terms-conditions', label: 'Terms & Conditions', href: '/terms-conditions' },
+  //     { id: 'privacy-policy', label: 'Privacy Policy', href: '/privacy-policy' },
+  //     { id: 'refund-policy', label: 'Refund Policy', href: '/refund-policy' },
+  //     // { id: 'gdpr', label: 'GDPR Compliance', href: '/gdpr' },
+  //     // { id: 'affiliate-policy', label: 'Affiliate Policy', href: '/affiliate-policy' },
+  //   ],
+  // },
 ];
 
 export const footerData: FooterOneData[] = [

@@ -22,11 +22,11 @@ export interface MobileMenuGroup {
 }
 
 const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
-  const { isOpen } = useMobileMenuContext();
+  const { isOpen, closeMenu } = useMobileMenuContext();
   return (
     <aside
       className={cn(
-        'dark:bg-background-8 scroll-bar fixed top-0 right-0 z-[9999] h-screen w-full translate-x-full bg-white transition-all duration-300 sm:w-1/2 sm:rounded-l-3xl xl:hidden',
+        'dark:bg-background-8 scroll-bar fixed top-0 right-0 z-[9999] flex h-screen w-full flex-col bg-white transition-all duration-300 sm:w-1/2 sm:rounded-l-3xl xl:hidden',
         isOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0',
       )}>
       <div className="space-y-4 p-5 sm:p-8 lg:p-9">
@@ -43,7 +43,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
         </div>
 
         {/* menu items list  */}
-        <div className="scroll-bar mt-6 h-[85vh] w-full overflow-x-hidden pb-10">
+        <div className="scroll-bar mt-6 flex-1 overflow-y-auto overflow-x-hidden pb-10">
           <p className="text-secondary dark:text-accent text-tagline-1 before:bg-stroke-4 dark:before:bg-stroke-6 relative mb-2 block font-normal before:absolute before:top-1/2 before:-right-16 before:h-px before:w-full before:-translate-y-1/2 before:content-['']">
             Menu
           </p>
@@ -57,6 +57,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
                       <Link
                         href={subItem.href}
                         onClick={() => {
+                          closeMenu();
                           document.body.style.overflow = '';
                         }}
                         className="text-tagline-1 text-secondary dark:text-accent ml-4 block py-2.5 text-left font-normal transition-all duration-200">

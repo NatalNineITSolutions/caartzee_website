@@ -13,8 +13,10 @@ const FeatureImgCard = ({ title, imageSrc, href, className }: FeatureImgCardProp
   return (
     <Link
       href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className={cn(
-        'group block w-[320px] shrink-0 space-y-4',
+        'group block w-[343px] shrink-0 space-y-4',
         className
       )}
     >

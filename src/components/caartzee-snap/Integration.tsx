@@ -1,4 +1,4 @@
-import matrixRightArrow from '@public/images/icons/sqare-matrix-right-arrow.svg';
+import logoIcon from '@public/images/shared/main-1.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import Marquee from 'react-fast-marquee';
@@ -48,7 +48,7 @@ const Integration = () => {
               <p className="mb-8 lg:max-w-[596px]">
                 From payment gateways to customer management tools, Caartzee Snap integrates smoothly into your existing ecosystem.
 
-Fast setup. Zero friction. Maximum efficiency.
+                Fast setup. Zero friction. Maximum efficiency.
               </p>
             </RevealAnimation>
 
@@ -67,8 +67,13 @@ Fast setup. Zero friction. Maximum efficiency.
             <div className="relative flex w-full flex-col items-center space-y-6 lg:w-1/2">
               <Link href="/integration" aria-label="View integrations page">
                 <span className="sr-only">View integrations page</span>
-                <div className="bg-primary-500 hover:shadow-primary-500/20 absolute top-1/2 left-1/2 z-10 flex size-[100px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full transition-transform duration-200 ease-in hover:scale-[103%] hover:perspective-origin-top md:size-[140px]">
-                  <Image src={matrixRightArrow} alt="arrow" />
+                <div className="absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 transition-transform duration-200 ease-in hover:scale-[103%]">
+                  <Image
+                    src={logoIcon}
+                    alt="Caartzee logo"
+                    className="w-[120px] md:w-[180px] dark:invert"
+                    priority
+                  />
                 </div>
               </Link>
               <div className="from-background-2 dark:from-background-5 absolute top-0 left-0 z-40 h-full w-[15%] bg-gradient-to-r to-transparent md:w-[20%]" />
