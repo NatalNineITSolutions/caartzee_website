@@ -1,11 +1,11 @@
 import { ArrowIcon } from '@/icons';
 import { cn } from '@/utils/cn';
-import chatgptIcon from '@public/images/icons/chatgpt.png';
-import geminiIcon from '@public/images/icons/gemini.svg';
+import shiprocketIcon from '@public/images/icons/shiprocket.png';
+import dhlIcon from '@public/images/icons/dhl.png';
 import instagramIcon from '@public/images/icons/instagram.png';
-import facebookIcon from '@public/images/icons/facebook-v2 copy.svg';
+import googleanalyticsIcon from '@public/images/icons/Googleanalytics.png';
 import whatsappIcon from '@public/images/icons/whatsapp.png';
-import xIcon from '@public/images/icons/x.svg';
+import razorIcon from '@public/images/icons/razorpay.png';
 import integrationBg from '@public/images/ns-img-24.png';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,16 +16,16 @@ import LinkButton from '../ui/button/LinkButton';
 const integrationData = [
   {
     id: 1,
-    name: 'ChatGPT',
-    category: 'Conversational AI',
-    icon: chatgptIcon,
+    name: 'Shiprocket',
+    category: 'Shipping',
+    icon: shiprocketIcon,
     href: '/pricing',
   },
   {
     id: 2,
-    name: 'Gemini',
-    category: 'Multimodal AI',
-    icon: geminiIcon,
+    name: 'DHL',
+    category: 'Shipping',
+    icon: dhlIcon,
     href: '/pricing',
   },
   {
@@ -37,9 +37,9 @@ const integrationData = [
   },
   {
     id: 4,
-    name: 'X',
-    category: 'Social Media',
-    icon: xIcon,
+    name: 'Razorpay',
+    category: 'Payment',
+    icon: razorIcon,
     href: '/pricing',
   },
   {
@@ -51,9 +51,9 @@ const integrationData = [
   },
   {
     id: 6,
-    name: 'Facebook',
-    category: 'Social Media',
-    icon: facebookIcon,
+    name: 'google analytics',
+    category: 'Marketing & Analytics ',
+    icon: googleanalyticsIcon,
     href: '/pricing',
   },
 ];
@@ -72,12 +72,12 @@ const Integration = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="text-accent max-[426px]:text-heading-6 mx-auto max-w-[750px]">
-                One Platform. Endless Possibilities.
+                One Platform Endless Possibilities.
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="text-accent max-[426px]:text-tagline-2 max-w-[650px]">
-                Manage vendors, orders, payments, and growth with fully connected systems built for scale.
+                Manage Order, Shipping, Payments and growth with fully connected system built for scale
               </p>
             </RevealAnimation>
           </div>

@@ -31,7 +31,7 @@ const InventoryCTA = () => {
           <button
             className="group px-10 py-4 rounded-full bg-purple-600 hover:bg-purple-700 
                        text-white font-extrabold transition-all duration-300 
-                       shadow-xl shadow-purple-600/20 hover:shadow-purple-600/40 
+                        
                        flex items-center justify-center gap-2 text-lg"
           >
             Start Managing Smarter

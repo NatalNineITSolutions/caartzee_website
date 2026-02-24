@@ -1,3 +1,4 @@
+import LinkButton from "@/components/ui/button/Button";
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 
@@ -17,7 +18,7 @@ const InventoryHeader = () => {
         <div className="flex justify-center mb-8">
           <span className="flex items-center gap-2 px-5 py-2 text-xs font-bold tracking-widest uppercase rounded-full 
                          bg-purple-100 dark:bg-purple-500/10 text-purple-700 dark:text-purple-400 border border-purple-200 dark:border-purple-500/20 backdrop-blur-md">
-            <Sparkles className="w-4 h-4" />
+
             New: Predictive Restocking AI
           </span>
         </div>
@@ -35,23 +36,17 @@ const InventoryHeader = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button
+          <LinkButton
+            href="https://cartly.zeedone.com/register"
             className="group px-10 py-4 rounded-full bg-purple-600 hover:bg-purple-700 
                        text-white font-semibold transition-all duration-300 
-                       shadow-xl shadow-purple-600/30 hover:shadow-purple-600/50 
+                        hover:shadow-purple-600/50 
                        flex items-center justify-center gap-3 text-lg"
           >
             Start Managing Free
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
 
-          <button
-            className="px-10 py-4 rounded-full border border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-white/5
-                       hover:bg-slate-100 dark:hover:bg-white/10 hover:border-slate-300 dark:hover:border-white/20
-                       text-slate-700 dark:text-gray-300 transition-all duration-300 text-lg shadow-sm"
-          >
-            Watch Intelligence Demo
-          </button>
+          </LinkButton>
+
         </div>
 
         {/* Trust Indicators */}

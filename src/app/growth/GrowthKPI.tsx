@@ -12,10 +12,10 @@ const GrowthKPI = () => {
         {stats.map((item, index) => (
           <div
             key={index}
-            className="rounded-2xl bg-ns-ivory p-8 text-center"
+            className="rounded-2xl bg-ns-ivory dark:bg-background-6 p-8 text-center shadow-sm"
           >
             <h3 className="text-heading-3 text-ns-linen">{item.value}</h3>
-            <p className="mt-2 text-secondary">{item.label}</p>
+            <p className="mt-2 text-secondary dark:text-accent/80">{item.label}</p>
           </div>
         ))}
       </div>

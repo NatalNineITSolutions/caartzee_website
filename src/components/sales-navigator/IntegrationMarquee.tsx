@@ -17,7 +17,7 @@ const logos: Logo[] = [
     isDark: false,
   },
   {
-    src: '/images/icons/flipkart.svg',
+    src: '/images/icons/Flipcart-icon.png',
     alt: 'Flipkart logo',
     isDark: false,
   },
@@ -56,7 +56,7 @@ const IntegrationMarquee = () => {
                         src={Array.isArray(logo.src) ? logo.src[1] : logo.src}
                         alt={logo.alt}
                         loading="lazy"
-                        className="hidden dark:inline-block"
+                        className="hidden size-12 object-cover dark:inline-block"
                         width={100}
                         height={100}
                       />
@@ -103,7 +103,7 @@ const IntegrationMarquee = () => {
                         loading="lazy"
                         width={100}
                         height={100}
-                        className="hidden dark:inline-block"
+                        className="hidden size-12 object-cover dark:inline-block"
                       />
                     </>
                   ) : (

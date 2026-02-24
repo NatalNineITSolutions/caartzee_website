@@ -1,5 +1,5 @@
 
-import chatgptIcon from '@public/images/icons/chatgpt.png';
+import dhlIcon from '@public/images/icons/dhl.png';
 import amazonIcon from '@public/images/icons/amazon.png';
 import FlipcartIcon from '@public/images/icons/Flipcart-icon.png';
 import instagram from '@public/images/icons/instagram.png';
@@ -20,7 +20,7 @@ const HeroShapes = () => {
           data-parallax-value="1.8"
           data-parallax-x="1"
           data-parallax-y="0.5">
-          <Image src={chatgptIcon} alt="Chatgpt Icon" className="size-11 rounded-full max-[426px]:size-8" />
+          <Image src={dhlIcon} alt="Chatgpt Icon" className="size-11 rounded-full max-[426px]:size-8" />
         </figure>
       </RevealAnimation>
       <RevealAnimation delay={0.1}>

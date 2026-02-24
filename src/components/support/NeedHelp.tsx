@@ -1,4 +1,4 @@
-import support from '@public/images/ns-img-401.jpg';
+import support from '@public/images/ns-img-370.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';

@@ -3,8 +3,8 @@ import shopifyIcon from '@public/images/icons/shopify.png';
 import amazonIcon from '@public/images/icons/amazon.png';
 import googleIcon from '@public/images/icons/google.png';
 import gmailIcon from '@public/images/icons/gmail.svg';
-import figmaIcon from '@public/images/icons/figma.svg';
-import slackIcon from '@public/images/icons/slack.svg';
+import dhlIcon from '@public/images/icons/dhl.png';
+import flipcartIcon from '@public/images/icons/Flipcart-icon.png';
 import Image from 'next/image';
 import Marquee from 'react-fast-marquee';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -29,7 +29,7 @@ const EcommerceHero = ({ className, badgeClass }: EcommerceHeroProps) => {
             </RevealAnimation>
             <div className="space-y-3">
               <RevealAnimation delay={0.3}>
-                <h2>Sell smarter with Caartzee — connect to top ecommerce platforms.</h2>
+                <h2>Sell smarter with Caartzee connect to top ecommerce platforms.</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="mx-auto max-w-[582px]">
@@ -58,10 +58,10 @@ const EcommerceHero = ({ className, badgeClass }: EcommerceHeroProps) => {
                       <Image src={gmailIcon} alt="Gmail logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="flex size-[70px] items-center justify-center rounded-full bg-white dark:bg-background-6 md:size-[100px]">
-                      <Image src={figmaIcon} alt="Figma logo" loading="lazy" className="size-12" />
+                      <Image src={dhlIcon} alt="Figma logo" loading="lazy" className="size-12" />
                     </figure>
                     <figure className="flex size-[70px] items-center justify-center rounded-full bg-white dark:bg-background-6 md:size-[100px]">
-                      <Image src={slackIcon} alt="Slack logo" loading="lazy" className="size-12" />
+                      <Image src={flipcartIcon} alt="Flipcart logo" loading="lazy" className="size-12" />
                     </figure>
                   </div>
                 </Marquee>

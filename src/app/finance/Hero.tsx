@@ -5,7 +5,7 @@ import figmaImage from '@public/images/icons/figma.svg';
 import slackImage from '@public/images/icons/slack.svg';
 import zapierImage from '@public/images/icons/zapier.svg';
 import authorAvatarBgImage from '@public/images/ns-author-avatar-bg.png';
-import avatar1Image from '@public/images/ns-avatar-30.png';
+import avatar1Image from '@public/images/ns-avatar-1.png';
 import avatar2Image from '@public/images/ns-avatar-2.png';
 import avatar3Image from '@public/images/ns-avatar-3.png';
 import gradient4Image from '@public/images/ns-img-496.png';
@@ -17,6 +17,7 @@ import Link from 'next/link';
 
 import OurAchievements from '@/components/shared/OurAchievements';
 import RevealAnimation from '@/components/animation/RevealAnimation';
+import LinkButton from '@/components/ui/button/Button';
 
 
 const Hero = () => {
@@ -66,11 +67,11 @@ const Hero = () => {
                   autoComplete="email"
                   className="bg-background-1 dark:bg-background-6 placeholder:text-secondary/40 text-secondary/60 text-tagline-1 border-stroke-3 dark:bg-dark-200 focus:border-primary-500 dark:focus:border-primary-500 h-12 min-w-[325px] rounded-[360px] border px-[18px] py-3 font-normal transition-all duration-300 outline-none placeholder:font-normal focus:outline-none sm:min-w-[340px] dark:border-[#31332F] dark:placeholder:text-white/40"
                 />
-                <button
-                  type="submit"
+                <LinkButton
+                  href="/contact-us"
                   className="btn btn-primary hover:btn-secondary dark:hover:btn-accent btn-md h-12 max-sm:w-full">
                   <span>Get started</span>
-                </button>
+                </LinkButton>
               </div>
             </form>
           </RevealAnimation>
@@ -122,7 +123,7 @@ const Hero = () => {
                   <div className="mb-8 flex justify-between">
                     <div>
                       <h5 className="text-secondary dark:text-accent mb-1">GST Tax Report</h5>
-                      <p className="text-secondary/60 dark:text-accent">$3500.20</p>
+                      <p className="text-secondary/60 dark:text-accent">Rs.3500.20</p>
                     </div>
                     <p className="text-[#A0AEC0]">20%</p>
                   </div>
