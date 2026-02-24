@@ -2,8 +2,8 @@
 'use client';
 import { useMobileMenuContext } from '@/context/MobileMenuContext';
 import { cn } from '@/utils/cn';
-import logoDark from '@public/images/shared/logo-dark.svg';
-import logoIcon from '@public/images/shared/logo.svg';
+import logoDark from '@public/images/shared/main-1.png';
+import logoIcon from '@public/images/shared/main-1.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import MenuCloseButton from './MenuCloseButton';
@@ -34,8 +34,8 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
           <Link href="/">
             <span className="sr-only">Home</span>
             <figure className="max-w-[44px]">
-              <Image src={logoIcon} alt="Caartzee" className="block w-full dark:hidden" />
-              <Image src={logoDark} alt="Caartzee" className="hidden w-full dark:block" />
+              <Image src={logoIcon} alt="Caartzee" className="block w-full dark:hidden dark:invert" />
+              <Image src={logoDark} alt="Caartzee" className="hidden w-full dark:block dark:invert" />
             </figure>
           </Link>
           {/* close btn  */}
@@ -56,6 +56,9 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
                     <li key={subItem.id}>
                       <Link
                         href={subItem.href}
+                        onClick={() => {
+                          document.body.style.overflow = '';
+                        }}
                         className="text-tagline-1 text-secondary dark:text-accent ml-4 block py-2.5 text-left font-normal transition-all duration-200">
                         {subItem.label}
                       </Link>
