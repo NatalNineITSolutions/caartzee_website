@@ -20,7 +20,7 @@ const Result = () => {
         <div className="space-y-12 md:space-y-19">
           <RevealAnimation delay={0.1}>
             <h2 className="text-center font-normal lg:text-left dark:text-accent">
-              Powering growth for ambitious teams <span className="text-ns-linen">win with Caartzee.</span>
+              Powering growth for ambitious teams <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">win with Caartzee.</span>
             </h2>
           </RevealAnimation>
 

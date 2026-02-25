@@ -27,7 +27,7 @@ const Features = () => {
                   <h2
                     id="services-heading"
                     className="mx-auto max-w-[450px] text-center lg:mx-0 lg:max-w-[505px] lg:text-left dark:text-accent">
-                    Powerful <span className="text-ns-linen">AI voice </span> tools built for everyone
+                    Powerful <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">AI voice </span> tools built for everyone
                   </h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>

@@ -120,7 +120,7 @@ const Steps = () => {
           {/* heading  */}
           <RevealAnimation delay={0.1}>
             <h2 className="top-[156px] max-w-[629px] text-center font-normal lg:sticky lg:text-left dark:text-accent">
-              Create stunning voiceover in <span className="text-ns-linen">4 simple steps</span>
+              Create stunning voiceover in <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">4 simple steps</span>
             </h2>
           </RevealAnimation>
 

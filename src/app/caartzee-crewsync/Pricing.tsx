@@ -101,7 +101,7 @@ const Pricing = () => {
               <div className="space-y-3 text-center">
                 <RevealAnimation delay={0.2}>
                   <h2 className="font-normal dark:text-accent">
-                    Flexible <span className="text-ns-linen">pricing</span> for every stage
+                    Flexible <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">pricing</span> for every stage
                   </h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>

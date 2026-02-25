@@ -73,7 +73,7 @@ const teamItems: TeamItem[] = [
 const FeaturesV2 = () => {
   return (
     <section
-      className="space-y-[76px] overflow-hidden bg-background-1 dark:bg-background-6 py-[80px] md:py-[120px] lg:py-[154px]"
+      className="space-y-[76px] overflow-hidden py-[80px] md:py-[120px] lg:py-[154px]"
       aria-labelledby="team-heading"
       itemScope
       itemType="https://schema.org/ItemList">
@@ -103,22 +103,20 @@ const FeaturesV2 = () => {
       </div>
 
       <RevealAnimation delay={0.3}>
-        <div className="relative" aria-label="Voice styles for creators and teams">
-          <Marquee autoFill speed={50} gradient={false}>
-            <div className="flex items-center gap-x-8">
+        <div className="relative overflow-hidden">
+          <Marquee autoFill speed={50}>
+            <div className="flex items-center gap-x-6">
               {teamItems.map((item) => (
                 <FeatureImgCard key={item.id} {...item} />
               ))}
             </div>
           </Marquee>
 
-          <div
-            className="absolute top-0 left-0 z-10 h-[110%] w-[120px] rotate-180 bg-[linear-gradient(270deg,var(--background-1)_20%,transparent_100%)] dark:bg-[linear-gradient(270deg,var(--background-6)_20%,transparent_100%)] md:w-[180px] lg:w-[300px] xl:w-[426px]"
-          />
+          {/* LEFT FADE */}
+          <div className="pointer-events-none absolute left-0 top-0 z-20 h-full w-[120px] md:w-[180px] lg:w-[260px] bg-gradient-to-r from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent" />
 
-          <div
-            className="absolute top-0 right-0 z-10 h-[110%] w-[120px] bg-[linear-gradient(270deg,var(--background-1)_20%,transparent_100%)] dark:bg-[linear-gradient(270deg,var(--background-6)_20%,transparent_100%)] md:w-[180px] lg:w-[300px] xl:w-[426px]"
-          />
+          {/* RIGHT FADE */}
+          <div className="pointer-events-none absolute right-0 top-0 z-20 h-full w-[120px] md:w-[180px] lg:w-[260px] bg-gradient-to-l from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent" />
         </div>
       </RevealAnimation>
     </section>

@@ -124,7 +124,7 @@ const VoiceSamples = () => {
             <div className="space-y-3">
               <RevealAnimation delay={0.2}>
                 <h2 id="voice-samples-heading" className="font-normal dark:text-accent">
-                  Hear the <span className="text-ns-linen">difference</span>
+                  Hear the <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">difference</span>
                 </h2>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>

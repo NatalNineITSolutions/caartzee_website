@@ -20,7 +20,7 @@ const CTA = () => {
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
               <h2 id="cta-heading" className="mx-auto max-w-[689px] text-center font-medium dark:text-accent" itemProp="headline">
-                Start creating <span className="text-ns-linen">stunning voiceover</span> today
+                Start creating <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">stunning voiceover</span> today
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>

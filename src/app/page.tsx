@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <ModalProvider>
-      <main>
+      <main className="bg-white dark:bg-background-8">
         <Hero />
         <About />
         <Work />

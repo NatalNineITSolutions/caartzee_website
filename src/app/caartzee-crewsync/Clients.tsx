@@ -41,7 +41,7 @@ const Clients = () => {
           <RevealAnimation delay={0.1}>
             <h2 id="clients-heading" className="mx-auto mb-14 max-w-[800px] text-center font-normal dark:text-white">
               Build AI Voice Assistants that work for you
-              <span className="text-ns-linen"> 24/7</span>
+              <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent"> 24/7</span>
             </h2>
           </RevealAnimation>
 
