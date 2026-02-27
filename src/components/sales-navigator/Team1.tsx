@@ -17,7 +17,7 @@ const teamMembers = [
   },
   {
     name: 'Megavarnan Govindaswamy',
-    location: 'Strategic Advisor',
+    location: 'Co-Founder & Strategic Advisor',
     image: '/images/Megavarnan-Govindaswamy.webp',
     social: {
       linkedin: 'https://in.linkedin.com/in/megavarnan',

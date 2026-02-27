@@ -16,7 +16,7 @@ const Integration = () => {
                 <div className="space-y-3">
                   <RevealAnimation delay={0.3}>
                     <h2>
-                      <span className="dark:text-accent">Seamless tool </span><span className="text-ns-linen">integration</span>
+                      <span className="dark:text-accent">Seamless tool </span><span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">integration</span>
                     </h2>
                   </RevealAnimation>
                   <RevealAnimation delay={0.4}>
