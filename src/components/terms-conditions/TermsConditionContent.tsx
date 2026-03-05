@@ -3,167 +3,160 @@ import RevealAnimation from '../animation/RevealAnimation';
 
 const TermsConditionContent = () => {
   return (
-    <section className="pt-32 pb-14 sm:pt-36 md:pt-42 md:pb-16 lg:pb-[88px] xl:pt-[180px] xl:pb-[200px]">
+    <section className="pt-32 pb-[100px] sm:pt-36 md:pt-42 xl:pt-[180px]">
       <div className="main-container">
-        <RevealAnimation delay={0.3}>
-          <div className="space-y-3">
-            <h2>Terms &amp; conditions</h2>
-            <div className="space-y-7">
-              <p>
-                This site, Caartzee.com (hereafter referred to as Caartzee, site, or website) is owned and operated by
-                Caartzee Technologies LLC (hereafter referred to as Caartzee, we, or company).
-              </p>
-              <p>
-                Please carefully read, review, and understand our Terms and Conditions before using any services or
-                products from Caartzee.com. Your access to and use of this website and its products indicate that you
-                accept and agree to be bound by these terms and conditions.
-              </p>
-              <p>
-                If you do not agree with these terms, you should leave the site immediately and not use any of the
-                materials or services available here.
-              </p>
-            </div>
+        <div className="terms-conditions space-y-[75px]">
+          
+          <div className="space-y-4">
+            <RevealAnimation delay={0.1}>
+              <h2>Terms & Conditions</h2>
+            </RevealAnimation>
+            <RevealAnimation delay={0.2}>
+              <div className="space-y-4 font-normal text-secondary/60 dark:text-accent/60">
+                <p>
+                  <span className="text-secondary dark:text-accent font-medium">Welcome to Caartzee,</span> These Terms and Conditions govern your access to and use of the Caartzee website, platform, and services provided by Caartzee.
+                </p>
+                <p>
+                  Caartzee is an eCommerce platform that allows businesses to <span className="text-secondary dark:text-accent font-medium">create, manage, and scale online stores</span> through automation tools, integrations, analytics dashboards, and digital commerce solutions.
+                </p>
+                <p>
+                  By accessing or using the Caartzee website or services, you agree to comply with and be bound by these Terms. If you do not agree with these Terms, you should not use our services.
+                </p>
+              </div>
+            </RevealAnimation>
           </div>
-        </RevealAnimation>
-        <article className="terms-conditions-body">
-          <RevealAnimation delay={0.4}>
-            <div className="space-y-6">
-              <h3>1. Limitation of liability</h3>
-              <p>
-                To the maximum extent permitted by law, Caartzee shall not be liable
-                for any indirect, incidental, special, consequential, or punitive
-                damages arising from your use of or inability to use the Platform.
-              </p>
-              <p>
-                This includes, but is not limited to, loss of revenue, profits,
-                business opportunities, data, or goodwill. Your use of Caartzee
-                is at your own risk.
-              </p>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.5}>
-            <div className="space-y-6">
-              <h3>2. License</h3>
-              <p>
-                Access to Caartzee is provided under a subscription-based license.
-                Your subscription grants you limited, non-exclusive,
-                non-transferable access to use the Platform during the active
-                subscription period.
-              </p>
-              <p>
-                You may not copy, reproduce, resell, sublicense, distribute,
-                or exploit any part of the Platform without prior written consent.
-              </p>
 
-              <p>
-                Continued access to premium features, updates, and support requires
-                an active subscription.
-              </p>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.6}>
-            <div className="space-y-6">
-              <h3>3. Ownership and liability</h3>
-              <p>
-                All content, trademarks, software, designs, and intellectual
-                property associated with Caartzee remain the exclusive property
-                of Caartzee Technologies.
-              </p>
-              <p>
-                Nothing in these Terms grants you ownership rights to the Platform.
-                You retain ownership of the data you upload, but you grant Caartzee
-                the necessary rights to process and store that data to provide
-                our services.
-              </p>
-              <p>
-                User accounts and product licenses are
-                <strong className="!text-secondary dark:!text-accent font-bold"> non-transferable </strong>. For
-                agencies and development partners: Please ensure your clients purchase their own licenses if they
-                require direct support access.
-              </p>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.3}>
-            <div className="space-y-6">
-              <h3>4. Refund policy</h3>
-              <p>
-                We offer a 14-day refund policy for new subscriptions. If you are
-                not satisfied with Caartzee, you may request a refund within 14 days
-                of your initial purchase.
-              </p>
+          
+          <div className="space-y-6">
+            <RevealAnimation delay={0.3}>
+              <div className="space-y-4">
+                <h3>Services Provided</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">Caartzee provides a platform that enables users to build and manage eCommerce businesses. Our services may include:</p>
+                <ul className="space-y-2 mt-4 font-normal text-secondary/60 dark:text-accent/60">
+                  <li> • Online store creation and management tools</li>
+                  <li> • Product catalog management</li>
+                  <li> • Order and inventory management</li>
+                  <li> • Analytics and performance tracking</li>
+                  <li> • Marketing automation tools</li>
+                  <li> • Integrations with payment gateways and third-party applications</li>
+                </ul>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">The exact features available may depend on your subscription plan or service agreement.</p>
+              </div>
+            </RevealAnimation>
+          </div>
 
-              <p>
-                Refund requests submitted after 14 days may not be eligible.
-                We reserve the right to refuse refund requests that violate
-                our terms or demonstrate misuse of the Platform.
-              </p>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.4}>
-            <Link href="/refund-policy" className="btn btn-xl dark:btn-accent hover:btn-primary btn-secondary">
-              <span>Learn more about our refund policy</span>
-            </Link>
-          </RevealAnimation>
-          <RevealAnimation delay={0.5}>
-            <div className="space-y-6">
-              <h3>5. Service Availability & Warranty</h3>
-              <p>
-                Caartzee is provided on an “as is” and “as available” basis.
-                While we strive for high availability and performance, we do not
-                guarantee uninterrupted or error-free operation.
-              </p>
+          
+          <div className="space-y-6">
+            <RevealAnimation delay={0.4}>
+              <div className="space-y-4">
+                <h3>Use of Website and Services</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">By using Caartzee, you agree to use the platform only for lawful and legitimate business purposes. You agree that you will not:</p>
+                <ul className="space-y-2 mt-4 font-normal text-secondary/60 dark:text-accent/60">
+                  <li> • Attempt to gain unauthorized access to the platform or servers</li>
+                  <li> • Interfere with or disrupt the functionality of the services</li>
+                  <li> • Upload malicious software or harmful content</li>
+                  <li> • Use the platform for illegal, fraudulent, or misleading activities</li>
+                </ul>
+              </div>
+            </RevealAnimation>
+          </div>
 
-              <p>
-                We are not responsible for incompatibility with third-party tools,
-                integrations, or external systems beyond our control.
-              </p>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.6}>
-            <div className="space-y-6">
-              <h3>6. Account termination and suspension</h3>
-              <p>
-                We reserve the right to suspend or terminate accounts that:
-              </p>
+          
+          <div className="space-y-6">
+            <RevealAnimation delay={0.5}>
+              <div className="space-y-4">
+                <h3>Intellectual Property</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">All content, software, branding, trademarks, logos, and platform features provided through Caartzee are the intellectual property of Natal Nine IT Solutions Private Limited its licensors. You may not:</p>
+                <ul className="space-y-2 mt-4 font-normal text-secondary/60 dark:text-accent/60">
+                  <li> • Copy or distribute Caartzee software or materials</li>
+                  <li> • Modify or reproduce platform features</li>
+                  <li> • Use Caartzee branding without written permission</li>
+                  <li> • Using the platform does not grant ownership rights over Caartzee technology or software.</li>
+                </ul>
+              </div>
+            </RevealAnimation>
+          </div>
 
-              <ul>
-                <li>Violate these Terms</li>
-                <li>Engage in fraudulent or illegal activities</li>
-                <li>Attempt unauthorized access or security breaches</li>
-                <li>Abuse or harass other users or our staff</li>
-              </ul>
+          
+          <div className="space-y-6">
+            <RevealAnimation delay={0.6}>
+              <div className="space-y-4">
+                <h3>User Responsibilities</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">Users are responsible for maintaining the security of their accounts. You agree to:</p>
+                <ul className="space-y-2 mt-4 font-normal text-secondary/60 dark:text-accent/60">
+                  <li> • Keep your login credentials secure</li>
+                  <li> • Provide accurate account information</li>
+                  <li> • Ensure your store content complies with applicable laws</li>
+                  <li> • Be responsible for all activities conducted under your account</li>
+                </ul>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">Caartzee is not responsible for losses resulting from unauthorized access caused by user negligence.</p>
+              </div>
+            </RevealAnimation>
+          </div>
 
-              <p>
-                Termination may result in the loss of access to your data.
-                We recommend exporting important data regularly.
-              </p>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.3}>
-            <div className="space-y-6">
-              <h3>7. Privacy policy</h3>
-              <p>
-                Your privacy is important to us. Caartzee collects and processes
-                data in accordance with our Privacy Policy.
-              </p>
+          
+          <div className="space-y-6">
+            <RevealAnimation delay={0.7}>
+              <div className="space-y-4">
+                <h3>Third-Party Services</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">Caartzee may integrate with third-party applications, payment processors, or external services. We are not responsible for the availability, security, or performance of these third-party providers. Users should review the terms and privacy policies of third-party providers before using their services.</p>
+              </div>
+            </RevealAnimation>
+          </div>
 
-              <p>
-                We do not sell personal data. Data is used solely for providing,
-                improving, and securing our services.
-              </p>
+          
+          <div className="space-y-6">
+            <RevealAnimation delay={0.8}>
+              <div className="space-y-4">
+                <h3>Limitation of Liability</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">To the fullest extent permitted by law, Caartzee shall not be liable for:</p>
+                <ul className="space-y-2 mt-4 font-normal text-secondary/60 dark:text-accent/60">
+                  <li> • Indirect or consequential damages</li>
+                  <li> • Loss of revenue, data, or business opportunities</li>
+                  <li> • Service interruptions caused by external factors</li>
+                </ul>
+              </div>
+            </RevealAnimation>
+          </div>
 
-              <p>
-                By using Caartzee, you consent to the collection and processing
-                of information as described in our Privacy Policy.
-              </p>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.4}>
-            <Link href="/privacy-policy" className="btn btn-xl dark:btn-accent hover:btn-primary btn-secondary">
-              <span>Read our detailed privacy policy</span>
-            </Link>
-          </RevealAnimation>
-        </article>
+          
+          <div className="space-y-6">
+            <RevealAnimation delay={0.9}>
+              <div className="space-y-4">
+                <h3>Amendments</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">Caartzee reserves the right to update or modify these Terms and Conditions at any time.</p>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">Any changes will become effective once published on this page. Users are encouraged to review the Terms periodically. Continued use of the platform after changes indicates acceptance of the updated Terms.</p>
+              </div>
+            </RevealAnimation>
+          </div>
+
+          
+          <div className="space-y-6">
+            <RevealAnimation delay={1.0}>
+              <div className="space-y-6">
+                <h3>Contact Us</h3>
+                <div className="space-y-4 font-normal text-secondary/60 dark:text-accent/60">
+                  <p>If you have any questions regarding these Terms & Conditions, please contact us:</p>
+                  <p className="text-[20px] md:text-[24px] text-secondary dark:text-accent font-medium">Caartzee</p>
+                  <div className="space-y-2">
+                    <p>
+                      <span className="text-secondary dark:text-accent font-medium">Phone: </span>
+                      <Link href="tel:+919655804621" className="hover:text-primary-500">+919655804621</Link>
+                    </p>
+                    <p>
+                      <span className="text-secondary dark:text-accent font-medium">Email: </span>
+                      <Link href="mailto:info@natalnine.com" className="hover:text-primary-500">info@natalnine.com</Link>
+                    </p>
+                    <p>
+                      <span className="text-secondary dark:text-accent font-medium">Website: </span>
+                      <Link href="https://caartzee.com" className="hover:text-primary-500" target="_blank" rel="noopener noreferrer">https://caartzee.com</Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </RevealAnimation>
+          </div>
+        </div>
       </div>
     </section>
   );
