@@ -19,7 +19,7 @@ const GrowthHero = () => {
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
-          <LinkButton href="/signup" className="rounded-full bg-black px-6 py-3 text-white dark:bg-white dark:text-black hover:bg-black/80 dark:hover:bg-white/80 transition-colors">
+          <LinkButton href="https://cartly.zeedone.com/register" className="rounded-full bg-black px-6 py-3 text-white dark:bg-white dark:text-black hover:bg-black/80 dark:hover:bg-white/80 transition-colors">
             Get Started
           </LinkButton>
           

@@ -2,19 +2,21 @@ import { FooterData } from '@/interface';
 
 export const footerLinks: FooterData[] = [
   {
-    title: 'Company',
+    title: 'Products',
     links: [
-      { label: 'About Us', href: '/about' },
-      { label: 'Case Studies', href: '/case-study' },
-      { label: 'Contact Us', href: '/contact-us' },
+      { label: 'Caartzee themes', href: '/themes' },
+      { label: 'Caartzee delivery', href: '/delivery' },
+      { label: 'Caartzee plugins', href: '/plugins' },
+      { label: 'Business tools', href: '/business-tools' },
+      { label: 'Free tools', href: '/business-tools' },
     ],
   },
   {
-    title: 'Support',
+    title: 'Company',
     links: [
-      { label: 'FAQ', href: '/faq' },
-      { label: 'Tutorial', href: '/tutorial' },
-      { label: 'Support', href: '/support' },
+      { label: 'About Us', href: '/about' },
+      { label: 'Careers', href: '/career' },
+      { label: 'Contact Us', href: '/contact-us' },
     ],
   },
   {
@@ -23,8 +25,6 @@ export const footerLinks: FooterData[] = [
       { label: 'Terms & Conditions', href: '/terms-conditions' },
       { label: 'Privacy Policy', href: '/privacy-policy' },
       { label: 'Refund Policy', href: '/refund-policy' },
-      // { label: 'GDPR Compliance', href: '/gdpr' },
-      // { label: 'Affiliate Policy', href: '/affiliate-policy' },
     ],
   },
 ];

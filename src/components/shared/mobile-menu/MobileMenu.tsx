@@ -69,6 +69,26 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
               </MobileMenuItem>
             ))}
           </ul>
+          <div className="mt-8 flex flex-col gap-4">
+            <Link
+              href="https://cartly.zeedone.com/login"
+              onClick={() => {
+                closeMenu();
+                document.body.style.overflow = '';
+              }}
+              className="text-tagline-1 text-secondary dark:text-accent block py-2.5 text-center font-medium transition-all duration-300">
+              Sign in
+            </Link>
+            <Link
+              href="https://cartly.zeedone.com/register"
+              onClick={() => {
+                closeMenu();
+                document.body.style.overflow = '';
+              }}
+              className="btn btn-md btn-primary block w-full text-center">
+              <span>Start free</span>
+            </Link>
+          </div>
         </div>
       </div>
     </aside>

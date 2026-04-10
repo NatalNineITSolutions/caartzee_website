@@ -54,8 +54,8 @@ const Navbar = () => {
                 
                 <li
                   className="nav-item relative cursor-pointer py-2.5"
-                  data-menu="company-mega-menu"
-                  onMouseEnter={() => handleMenuHover('company-mega-menu')}>
+                  data-menu="platform-mega-menu"
+                  onMouseEnter={() => handleMenuHover('platform-mega-menu')}>
                   <Link
                     href="/"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
@@ -72,18 +72,17 @@ const Navbar = () => {
                       </svg>
                     </span>
                   </Link>
-                  <CompanyMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                  <PlatformMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
                 </li>
                 
                 <li
                   className="nav-item relative cursor-pointer py-2.5"
-                  data-menu="platform-mega-menu"
-
-                  onMouseEnter={() => handleMenuHover('platform-mega-menu')}>
+                  data-menu="company-mega-menu"
+                  onMouseEnter={() => handleMenuHover('company-mega-menu')}>
                   <Link
                     href="/"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Features</span>
+                    <span>Company</span>
                     <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +95,7 @@ const Navbar = () => {
                       </svg>
                     </span>
                   </Link>
-                  <PlatformMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                  <CompanyMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
                 </li>
               
                 
@@ -108,7 +107,7 @@ const Navbar = () => {
                   <Link
                     href="/"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Solutions</span>
+                    <span>Resources</span>
                     <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -132,36 +131,20 @@ const Navbar = () => {
                   </Link>
                 </li>
 
-                <li
-                  className="nav-item relative cursor-pointer py-2.5"
-                  data-menu="plan-and-support-mega-menu"
-                  onMouseEnter={() => handleMenuHover('plan-and-support-mega-menu')}>
-                  <Link
-                    href="/contact-us"
-                    className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Contact</span>
-                    {/* <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="currentColor"
-                        className="size-4">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                      </svg>
-                    </span> */}
-                  </Link>
-                  {/* <PlanAndSupportMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} /> */}
-                </li>
+
                
               </ul>
             </nav>
-            <div className="hidden items-center justify-center xl:flex">
+            <div className="hidden items-center justify-center gap-6 xl:flex">
+              <Link
+                href="https://cartly.zeedone.com/login"
+                className="text-tagline-1 text-secondary hover:text-primary-500 font-medium transition-all duration-300">
+                Sign in
+              </Link>
               <Link
                 href="https://cartly.zeedone.com/register"
                 className="btn btn-md btn-primary hover:btn-secondary dark:hover:btn-white-dark dark:btn-white">
-                <span>Get started</span>
+                <span>Start free</span>
               </Link>
             </div>
             <MobileMenuButton />

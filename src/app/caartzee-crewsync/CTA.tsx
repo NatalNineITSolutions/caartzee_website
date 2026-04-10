@@ -32,7 +32,7 @@ const CTA = () => {
         <RevealAnimation delay={0.4}>
           <div className="mx-auto mt-[76px] w-[90%] text-center md:w-auto">
             <LinkButton
-              href="/signup"
+              href="https://cartly.zeedone.com/register"
               btnClass="btn-xl-v2 btn-secondary-v2 group-hover/btn-v2:btn-primary-v2"
               aria-label="Book your free strategy call - Navigate to signup page">
               Book your free strategy call

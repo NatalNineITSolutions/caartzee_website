@@ -27,66 +27,30 @@ type IntegrationLink = SimpleNavLink & {
   icon: ComponentType;
 };
 
-// const overviewLinks: SimpleNavLink[] = [
-//   { label: 'Sales Navigator',
-//    href: '/features',
-//     closesMenu: true, },
-//   { label: 'Workforce', href: '/process' },
-//   { label: 'Finance', href: '/security' },
-// { label: 'Our Brandkit', href: '/brandkit' },
-// { label: 'Download App', href: '/download' },
-// { label: 'Press', href: '/press' },
-// ];
 const overviewLinks: SimpleNavLink[] = [
   {
-    label: 'Smart Sales Engine',
-    href: '/smart-sales',
-    icon: IntegrationIconV2,
-  },
-  {
-    label: 'Inventory & Stock AI',
-    href: '/inventory',
-    icon: AnalyticsIconV2,
-  },
-  {
-    label: 'Growth Analytics',
-    href: '/growth',
+    label: 'Caartzee themes',
+    href: '/themes',
     icon: WhitePaperIconV2,
+  },
+  {
+    label: 'Caartzee delivery',
+    href: '/delivery',
+    icon: IntegrationIconV2,
   },
 ];
 
 const integrationLinks: IntegrationLink[] = [
   {
-    label: 'GST & Finance Automation',
-    href: '/finance',
+    label: 'Caartzee plugins',
+    href: '/plugins',
     icon: PricingIcon,
   },
   {
-    label: 'Vendor & Team Control',
-    href: '/team',
-    icon: CareerIconV2,
-  },
-  {
-    label: 'Unified Customer Inbox',
-    href: '/support',
+    label: 'Business tools',
+    href: '/business-tools',
     icon: SupportIconV2,
   },
-
-  // {
-  //   label: 'Analytics & Reporting',
-  //   href: '/analytics',
-  //   icon: AnalyticsIconV2,
-  // },
-  // {
-  //   label: 'Whitepaper & Reports',
-  //   href: '/whitepaper',
-  //   icon: WhitePaperIconV2,
-  // },
-  // {
-  //   label: 'Explore All Integrations',
-  //   href: '/integration',
-  //   icon: IntegrationIconV2,
-  // },
 ];
 
 const PlatformMenu = ({
