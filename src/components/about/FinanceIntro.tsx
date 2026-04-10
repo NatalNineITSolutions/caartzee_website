@@ -63,7 +63,7 @@ const FinanceIntro = () => {
           <RevealAnimation delay={0.7}>
             <div>
               <LinkButton
-                href="/signup"
+                href="https://cartly.zeedone.com/register"
                 className="btn btn-secondary hover:btn-white dark:btn-white-dark btn-xl mx-auto block w-full md:inline-block md:w-auto">
                 Get started
               </LinkButton>

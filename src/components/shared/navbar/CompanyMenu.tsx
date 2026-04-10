@@ -22,28 +22,16 @@ type CompanyLink = Omit<CompanyMenuLinkProps, 'onClose'>;
 
 const aboutLinks: CompanyLink[] = [
   {
-    title: 'Caartzee Zeedone',
-    description: '',
-    href: 'https://www.zeedone.com',
-    icon: AboutIcon,
-  },
-  {
-    title: 'CaartZee Sales Navigator',
-    description: '',
-    href: '/sales-navigator',
-    icon: TeamIcon,
-  },
-  {
-    title: 'Caatzee Snap',
-    description: '',
-    href: '/caartzee-snap',
+    title: 'Careers',
+    description: 'Join the team and be a part of the rocketship.',
+    href: '/career',
     icon: CareerIcon,
   },
   {
-    title: 'CaartZee Crewsync',
-    description: '',
-    href: '/caartzee-crewsync',
-    icon: WhyChooseUsIcon,
+    title: 'About',
+    description: 'The who, what, and why of Caartzee.',
+    href: '/about',
+    icon: AboutIcon,
   },
 ];
 

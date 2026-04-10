@@ -6,36 +6,30 @@ export const mobileMenuData: MobileMenuGroup[] = [
     id: 'products',
     title: 'Products',
     submenu: [
-      { id: 'caartzee-zeedone', label: 'Caartzee Zeedone', href: 'https://www.zeedone.com' },
-      { id: 'caartzee-sales-navigator', label: 'CaartZee Sales Navigator', href: '/sales-navigator' },
-      { id: 'caatzee-snap', label: 'Caatzee Snap', href: '/caartzee-snap' },
-      { id: 'caartzee-crewsync', label: 'CaartZee Crewsync', href: '/caartzee-crewsync' },
+      { id: 'caartzee-themes', label: 'Caartzee themes', href: '/themes' },
+      { id: 'caartzee-delivery', label: 'Caartzee delivery', href: '/delivery' },
+      { id: 'caartzee-plugins', label: 'Caartzee plugins', href: '/plugins' },
+      { id: 'business-tools', label: 'Business tools', href: '/business-tools' },
     ],
   },
-
   {
-    id: 'features',
-    title: 'Features',
+    id: 'company',
+    title: 'Company',
     submenu: [
-      { id: 'smart-sales-engine', label: 'Smart Sales Engine', href: '/smart-sales' },
-      { id: 'gst-finance-automation', label: 'GST & Finance Automation', href: '/growth' },
-      { id: 'inventory-stock-ai', label: 'Inventory & Stock AI', href: '/inventory' },
-      { id: 'vendor-team-control', label: 'Vendor & Team Control', href: '/team' },
-      { id: 'growth-analytics', label: 'Growth Analytics', href: '/growth' },
-      { id: 'unified-customer-inbox', label: 'Unified Customer Inbox', href: '/support' },
+      { id: 'careers', label: 'Careers', href: '/career' },
+      { id: 'about', label: 'About', href: '/about' },
     ],
   },
-
   {
-    id: 'solutions',
-    title: 'Solutions',
+    id: 'resources',
+    title: 'Resources',
     submenu: [
-      { id: 'ecommerce', label: 'Ecommerce', href: './ecommerce' },
-      { id: 'retailers', label: 'Retailers', href: './retailers' },
-      { id: 'sales', label: 'Sales', href: './sales' },
+      { id: 'blog', label: 'Blog', href: '/blog' },
+      { id: 'community', label: 'Community', href: '/community' },
+      { id: 'videos', label: 'Videos', href: '/videos' },
+      { id: 'help-center', label: 'Help center', href: '/help-center' },
     ],
   },
-
   {
     id: 'pricing',
     title: 'Pricing',
@@ -43,50 +37,6 @@ export const mobileMenuData: MobileMenuGroup[] = [
       { id: 'pricing-page', label: 'Pricing', href: '/pricing' },
     ],
   },
-
-  {
-    id: 'contact',
-    title: 'Contact',
-    submenu: [
-      { id: 'contact-page', label: 'Contact', href: '/contact-us' },
-    ],
-  },
-
-  // // Footer Sections Added Below
-
-  // {
-  //   id: 'company',
-  //   title: 'Company',
-  //   submenu: [
-  //     { id: 'about-us', label: 'About Us', href: '/about' },
-  //     // { id: 'career', label: 'Career', href: '/career' },
-  //     { id: 'case-studies', label: 'Case Studies', href: '/case-study' },
-  //     { id: 'contact-us-footer', label: 'Contact Us', href: '/contact-us' },
-  //   ],
-  // },
-
-  // {
-  //   id: 'support-footer',
-  //   title: 'Support',
-  //   submenu: [
-  //     { id: 'faq', label: 'FAQ', href: '/faq' },
-  //     // { id: 'documentation', label: 'Documentation', href: '/documentation' },
-  //     { id: 'tutorial', label: 'Tutorial', href: '/tutorial' },
-  //     { id: 'community', label: 'Community', href: '/community' },
-  //   ],
-  // },
-
-  // {
-  //   id: 'legal-policies',
-  //   title: 'Legal Policies',
-  //   submenu: [
-  //     { id: 'terms-conditions', label: 'Terms & Conditions', href: '/terms-conditions' },
-  //     { id: 'privacy-policy', label: 'Privacy Policy', href: '/privacy-policy' },
-  //     { id: 'refund-policy', label: 'Refund Policy', href: '/refund-policy' },
-  //     // { id: 'gdpr', label: 'GDPR Compliance', href: '/gdpr' },
-  //     // { id: 'affiliate-policy', label: 'Affiliate Policy', href: '/affiliate-policy' },
-  //   ],
-  // },
 ];
 
 export const footerData: FooterOneData[] = [

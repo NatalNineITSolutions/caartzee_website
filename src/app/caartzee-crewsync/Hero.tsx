@@ -47,7 +47,7 @@ const Hero = () => {
                 <RevealAnimation instant delay={0.4} direction="left" offset={50}>
                   <div className="w-[85%] md:w-auto">
                     <LinkButton
-                      href="/signup"
+                      href="https://cartly.zeedone.com/register"
                       btnClass="btn-lg-v2 lg:btn-xl-v2 btn-v2-white border-0 group-hover/btn-v2:btn-primary-v2">
                       Get started
                     </LinkButton>
