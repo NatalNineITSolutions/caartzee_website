@@ -1,7 +1,6 @@
 'use client';
 import Link from 'next/link';
 import type { ComponentType } from 'react';
-import HoverBgTransform from '../hover-bg-transform';
 
 type CompanyMenuLinkProps = {
   title: string;
@@ -12,16 +11,23 @@ type CompanyMenuLinkProps = {
 };
 
 const CompanyMenuLink = ({ title, description, href, icon: Icon, onClose }: CompanyMenuLinkProps) => (
-  <li>
-    <Link href={href} onClick={onClose} className="group relative flex items-center gap-2 rounded-[10px] p-3">
-      <HoverBgTransform className="group-hover:opacity-100" />
-      <div className="border-stroke-1 relative z-10 flex size-7 shrink-0 items-center justify-center rounded-lg border p-1 dark:border-white/10">
+  <li className="w-full">
+    <Link 
+      href={href} 
+      onClick={onClose} 
+      className="group relative flex items-start gap-4 rounded-2xl p-4 transition-all hover:bg-black/5 dark:hover:bg-white/5"
+    >
+      <div className="flex size-14 shrink-0 items-center justify-center rounded-xl bg-primary-50 dark:bg-primary-500/10 transition-colors group-hover:bg-white dark:group-hover:bg-primary-500/20 shadow-sm border border-transparent group-hover:border-primary-500/10">
         <Icon />
       </div>
-      <div className="relative z-10">
-        <p className="text-tagline-1 text-secondary dark:text-accent font-normal">{title}</p>
+      <div className="flex flex-col gap-1">
+        <span className="text-[17px] font-bold text-secondary dark:text-accent group-hover:text-primary-500 transition-colors leading-tight">
+          {title}
+        </span>
         {description && (
-          <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-normal">{description}</p>
+          <span className="text-[14px] leading-relaxed text-secondary/60 dark:text-accent/50 font-normal">
+            {description}
+          </span>
         )}
       </div>
     </Link>

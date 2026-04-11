@@ -15,7 +15,7 @@ const DeliveryHero = () => {
               <p className="mb-10 max-w-[500px] text-lg text-secondary/70 dark:text-accent/70">
                 Ship your products with the best in-house courier services. Reach 26,000+ pin codes with automated shipping.
               </p>
-              <LinkButton href="https://cartly.zeedone.com/register" variant="primary" className="btn-xl">
+              <LinkButton href="https://cartly.zeedone.com/register" className="btn-xl text-white">
                 Get started
               </LinkButton>
             </div>

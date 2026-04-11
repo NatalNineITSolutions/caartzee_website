@@ -13,14 +13,13 @@ const FeatureListTwo = () => {
         <RevealAnimation delay={0.3} direction="up">
           <div className="dark:bg-background-6 w-full rounded-2xl bg-white p-6 sm:w-3/5">
             <h5 className="mb-4">
-              Live Order <br className="hidden lg:block" />
-              Management
+              Manage Better
             </h5>
 
             <div className="mb-6 space-y-2">
-              <h5>Order #CZ-2026-1042</h5>
+              <h5>Order tracking from checkout to delivery.</h5>
               <p className="text-sm text-secondary/60 dark:text-accent/60">
-                Vendor: ElectroHub • Payment: Completed
+                Bulk actions on orders, vendors, members.
               </p>
             </div>
 
@@ -40,7 +39,7 @@ const FeatureListTwo = () => {
         {/* Revenue Overview Card */}
         <RevealAnimation delay={0.3}>
           <div className="dark:bg-background-6 w-full rounded-2xl bg-white p-6 sm:w-2/5">
-            <h5 className="mb-4">Revenue Overview</h5>
+            <h5 className="mb-4">In-depth business analytics</h5>
 
             <div className="flex flex-col gap-4">
               <div>
@@ -100,7 +99,7 @@ const FloatingVendorCard = () => {
         `}
       >
         <h5 className="text-accent mb-1">
-          Top Performing Vendors
+          Automated profit calculations.
         </h5>
         <p className="text-accent/60 text-sm">
           126 Active • 43 Orders Today

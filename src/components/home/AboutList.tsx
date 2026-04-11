@@ -8,23 +8,23 @@ import LinkButton from '../ui/button/LinkButton';
 const aboutListData = [
   {
     id: 1,
-    text: 'Real-time inventory tracking.',
+    text: 'Fully responsive ecommerce website & mobile app',
   },
   {
     id: 2,
-    text: 'Centralized order management.',
+    text: 'Launch faster than existing solutions',
   },
   {
     id: 3,
-    text: 'Automated financial reports.',
+    text: 'Upload products and start inventory in hours',
   },
   {
     id: 4,
-    text: 'Multi-channel sales sync.',
+    text: 'Integrated payment gateways',
   },
    {
     id: 5,
-    text: 'Smart analytics & insights.',
+    text: 'Easily customizable themes',
   },
 ];
 
@@ -38,7 +38,7 @@ const AboutList = () => {
         <div className="grid grid-cols-2 gap-5 px-6 py-14 max-sm:grid-cols-1 max-sm:gap-10 max-sm:px-5 max-sm:py-8 md:px-11">
           <div className="about-content max-w-[500px]">
             <h5 className="text-accent max-sm:text-heading-6 mb-8">
-             Replace scattered tools and manual tracking with one seamless platform that gives you full visibility and control.
+              Launch Fast
             </h5>
             <LinkButton href="/contact-us" className="btn btn-md btn-primary hover:btn-secondary">
               Get started

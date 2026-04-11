@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex flex-col items-center gap-y-2 text-center">
           <RevealAnimation delay={0.1}>
             <h2 className="mx-auto max-w-[750px] max-sm:max-w-[320px]">
-             Build, Manage and Grow your Business, All in One Place
+             Whether you&apos;re a startup or an established business, here&apos;s why Caartzee is your best choice
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>

@@ -28,6 +28,7 @@ interface RevealAnimationProps {
   rotation?: number;
   animationType?: 'from' | 'to';
   className?: string;
+  scale?: number;
 }
 
 const RevealAnimation = ({
@@ -43,6 +44,7 @@ const RevealAnimation = ({
   rotation = 0,
   animationType = 'from',
   className = '',
+  scale,
 }: RevealAnimationProps) => {
   const elementRef = useRef<HTMLElement>(null);
 
@@ -101,6 +103,11 @@ const RevealAnimation = ({
       if (rotation !== 0) {
         animationProps.rotation = rotation;
       }
+
+      // Add scale if specified
+      if (scale !== undefined) {
+        animationProps.scale = scale;
+      }
     } else {
       // gsap.from() - animate FROM the specified values to normal
       animationProps = {
@@ -114,6 +121,11 @@ const RevealAnimation = ({
       // Add rotation if specified
       if (rotation !== 0) {
         animationProps.rotation = rotation;
+      }
+
+      // Add scale if specified
+      if (scale !== undefined) {
+        animationProps.scale = scale;
       }
     }
 

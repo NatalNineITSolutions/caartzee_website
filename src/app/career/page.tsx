@@ -1,8 +1,8 @@
-import CareerContent from '@/components/career/CareerContent';
-import Features from '@/components/career/Features';
-import Positions from '@/components/career/Positions';
+import CareerJobBoard from '@/components/career/CareerJobBoard';
 import CTA from '@/components/shared/cta/CTA';
+import { IPosition } from '@/interface';
 import { defaultMetadata } from '@/utils/generateMetaData';
+import getMarkDownData from '@/utils/getMarkDownData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
+  const positions = getMarkDownData<IPosition & { [key: string]: unknown }>('src/data/career');
+
   return (
-    <main className="bg-background-3 dark:bg-background-5">
-      <CareerContent />
-      <Features />
-      <Positions />
+    <main>
+      <CareerJobBoard positions={positions} />
       <CTA
         className="dark:bg-background-6 bg-white"
         badgeClass="badge-green"

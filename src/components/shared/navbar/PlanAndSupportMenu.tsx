@@ -26,6 +26,9 @@ type PlanSupportLink = {
 };
 
 const accountLinks: PlanSupportLink[] = [
+  {
+    title: 'Login',
+    description: 'Access your account',
     href: 'https://cartly.zeedone.com/login',
     icon: LoginIcon,
   },

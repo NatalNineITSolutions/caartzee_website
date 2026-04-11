@@ -8,22 +8,43 @@ const workStepsData = [
     id: 1,
     step: '1',
     badgeColor: 'bg-ns-yellow',
-    title: 'Create your complimentary account today',
-    description: 'Get started quickly by creating a free is of account with just your email address.',
+    title: 'Site Speed',
+    description: 'Incredibly fast load times. Built with next-gen tech. Just like a leading site should be.',
   },
   {
     id: 2,
     step: '2',
     badgeColor: 'bg-ns-green',
-    title: 'Customize and improve your experience',
-    description: 'Discover our user-friendly customization tools. Designs, add your personal flair.',
+    title: 'Built-in SEO',
+    description: 'Pre-set structured data for search engine. Optimization made easy.',
   },
   {
     id: 3,
     step: '3',
     badgeColor: 'bg-ns-cyan',
-    title: 'Accelerate the growth of your business',
-    description: 'watching your vision come to life as a stunning digital masterpiece..',
+    title: 'Optimized Checkouts',
+    description: 'Offer a seamless checkout experience optimized for high-speed conversion development rates.',
+  },
+  {
+    id: 4,
+    step: '4',
+    badgeColor: 'bg-ns-yellow',
+    title: 'Bulk Actions',
+    description: 'Manage items, categories and vendors in one click. Just fast automation scales results.',
+  },
+  {
+    id: 5,
+    step: '5',
+    badgeColor: 'bg-ns-green',
+    title: 'Android App',
+    description: 'The store is always in sync. Just manage from mobile app. Keep customers with your mobile app.',
+  },
+  {
+    id: 6,
+    step: '6',
+    badgeColor: 'bg-ns-cyan',
+    title: 'Advanced Analytics',
+    description: 'Drive decisions deeper with live insights, traffic reports and conversion rate data for your online store.',
   },
 ];
 
@@ -36,19 +57,17 @@ const Work = () => {
         </div>
         <div className="mb-[112px] flex flex-col items-center space-y-5 gap-y-4 text-center max-lg:mb-12 max-lg:space-y-3">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-blur-light text-ns-yellow">How It Works</span>
+            <span className="badge badge-blur-light text-ns-yellow">Essential Tools</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
               <h2 className="text-accent max-lg:text-heading-6 mx-auto max-w-[750px]">
-               Access Powerful Insights
+               E-commerce Simplified, Success Amplified
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="text-accent max-lg:text-tagline-2 max-w-[850px]">
-                Track performance, revenue, and growth with real-time dashboards.
-                 Scale smarter. Not harder.
-
+                Empower your online business growth with all the essential tools.
               </p>
             </RevealAnimation>
           </div>

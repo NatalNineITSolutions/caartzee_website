@@ -72,12 +72,12 @@ const Integration = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="text-accent max-[426px]:text-heading-6 mx-auto max-w-[750px]">
-                One Platform Endless Possibilities.
+                Enhance your site&apos;s functionality with plugins
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="text-accent max-[426px]:text-tagline-2 max-w-[650px]">
-                Manage Order, Shipping, Payments and growth with fully connected system built for scale
+                Choose from 150+ plugins. Built for flexibility, manage everything from sub-total to taxes. There&apos;s a plugin for everything.
               </p>
             </RevealAnimation>
           </div>

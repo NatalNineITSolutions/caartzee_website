@@ -51,7 +51,7 @@ const Navbar = () => {
             </div>
             <nav className="hidden items-center xl:flex">
               <ul className="flex items-center">
-                
+
                 <li
                   className="nav-item relative cursor-pointer py-2.5"
                   data-menu="platform-mega-menu"
@@ -74,7 +74,7 @@ const Navbar = () => {
                   </Link>
                   <PlatformMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
                 </li>
-                
+
                 <li
                   className="nav-item relative cursor-pointer py-2.5"
                   data-menu="company-mega-menu"
@@ -97,9 +97,9 @@ const Navbar = () => {
                   </Link>
                   <CompanyMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
                 </li>
-              
-                
-                
+
+
+
                 <li
                   className="nav-item relative cursor-pointer py-2.5"
                   data-menu="resources-dropdown-menu"
@@ -123,7 +123,7 @@ const Navbar = () => {
                   <ResourcesMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
                 </li>
 
-                 <li className="nav-item relative cursor-pointer py-2.5">
+                <li className="nav-item relative cursor-pointer py-2.5">
                   <Link
                     href="/pricing"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
@@ -132,7 +132,7 @@ const Navbar = () => {
                 </li>
 
 
-               
+
               </ul>
             </nav>
             <div className="hidden items-center justify-center gap-6 xl:flex">

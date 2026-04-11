@@ -19,13 +19,11 @@ const Reviews = () => {
           </RevealAnimation>
 
           <RevealAnimation delay={0.2}>
-            <h2 className="mx-auto mb-4 max-w-[750px] max-[426px]:mb-3">Real apps. Real results.</h2>
+            <h2 className="mx-auto mb-4 max-w-[750px] max-[426px]:mb-3">Hear from our satisfied customers</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="max-[426px]:text-tagline-2 max-w-[490px] max-[426px]:max-w-[320px]">
-              &quot;Real Businesses. Real Results. &quot;“We reduced manual work by 60% after switching. Everything is now in one place.”
-              Retail Brand Owner
-              &quot;
+              Real Businesses. Real Results. &quot;Retailers worldwide. Brands. Everywhere trust Caartzee!&quot;
             </p>
           </RevealAnimation>
         </div>

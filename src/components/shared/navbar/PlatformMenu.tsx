@@ -1,53 +1,43 @@
 'use client';
 import {
-  AnalyticsIconV2,
-  CareerIconV2,
   IntegrationIconV2,
   PricingIcon,
   SupportIconV2,
   WhitePaperIconV2,
 } from '@/icons/menu-icon';
 import { cn } from '@/utils/cn';
-import newArrowWhite from '@public/images/icons/new-arrow-white.svg';
-import nsImg424 from '@public/images/ns-img-424.jpg';
-import nsImg425 from '@public/images/ns-img-425.jpg';
-import Image from 'next/image';
-import Link from 'next/link';
 import type { ComponentType } from 'react';
 import PlatformMenuLink from './PlatformMenuLink';
 
 type SimpleNavLink = {
   label: string;
+  description: string;
   href: string;
-  closesMenu?: boolean;
   icon: ComponentType;
 };
 
-type IntegrationLink = SimpleNavLink & {
-  icon: ComponentType;
-};
-
-const overviewLinks: SimpleNavLink[] = [
+const productLinks: SimpleNavLink[] = [
   {
     label: 'Caartzee themes',
+    description: 'Beautiful, high-converting storefront themes for your business.',
     href: '/themes',
     icon: WhitePaperIconV2,
   },
   {
     label: 'Caartzee delivery',
+    description: 'Streamline your logistics and shipping with our delivery engine.',
     href: '/delivery',
     icon: IntegrationIconV2,
   },
-];
-
-const integrationLinks: IntegrationLink[] = [
   {
     label: 'Caartzee plugins',
+    description: 'Extend your store functionality with powerful third-party integrations.',
     href: '/plugins',
     icon: PricingIcon,
   },
   {
     label: 'Business tools',
+    description: 'Free specialized tools to help you run and grow your retail brand.',
     href: '/business-tools',
     icon: SupportIconV2,
   },
@@ -66,7 +56,7 @@ const PlatformMenu = ({
     <div>
       <div
         className={cn(
-          '0.3 ease ease fixed top-full left-1/2 z-40 h-3 w-full -translate-x-1/2 bg-transparent transition-opacity duration-300 lg:w-[8000px]',
+          '0.3 ease ease absolute top-full left-1/2 z-40 h-3 w-[700px] -translate-x-1/2 bg-transparent transition-opacity duration-300',
           menuDropdownId === 'platform-mega-menu'
             ? '!pointer-events-auto opacity-100'
             : 'pointer-events-none opacity-0',
@@ -75,123 +65,17 @@ const PlatformMenu = ({
       <div
         id="platform-mega-menu"
         className={cn(
-          'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 rounded-[20px] border bg-white p-4 transition-all duration-300 lg:w-[550px] xl:flex dark:border-white/10',
+          'dark:bg-background-6 border-stroke-1 ease absolute top-full left-1/2 z-50 mt-5 hidden w-[700px] -translate-x-1/2 rounded-[32px] border bg-white p-6 shadow-2xl transition-all duration-300 xl:block dark:border-white/10',
           menuDropdownId === 'platform-mega-menu'
             ? 'translate-y-0 opacity-100'
-            : 'pointer-events-none translate-y-2.5 opacity-0',
+            : 'pointer-events-none translate-y-3 opacity-0',
         )}>
-        <div className="grid grid-cols-12 items-center gap-y-6 md:gap-x-6">
-          <div className="col-span-12 grid grid-cols-1 sm:grid-cols-2 gap-x-6 w-full">
-            <div className="flex justify-center">
-              <div>
-                <ul className="w-fit">
-                  {overviewLinks.map((link) => (
-                    <PlatformMenuLink key={link.label} {...link} variant="icon" onClose={handleClose} />
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <div className="flex justify-center">
-              <div>
-                <ul className="w-fit">
-                  {integrationLinks.map((link) => (
-                    <PlatformMenuLink key={link.label} {...link} variant="icon" onClose={handleClose} />
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* <div className="col-span-12 grid grid-cols-12 gap-x-6 lg:col-span-6">
-            <div className="col-span-12 xl:col-span-6"> */}
-          {/* <article className="border-stroke-1 dark:border-background-7 group space-y-3 rounded-2xl border p-3"> */}
-          {/* <Link
-                  onClick={handleClose}
-                  href="/blog/building-outstanding-customer-experience-strategies"
-                  className="block">
-                  <figure className="overflow-hidden rounded-lg">
-                    <Image
-                      src={nsImg424}
-                      alt="Featured"
-                      className="h-full w-full rounded-lg object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                    />
-                  </figure>
-                </Link> */}
-          {/* <div className="space-y-14"> */}
-          {/* <Link href="/blog/building-outstanding-customer-experience-strategies" className="block">
-                    <div>
-                      <p className="text-heading-6 text-secondary dark:text-accent font-normal">Merge Unified</p>
-                      <p className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                        One API. Countless product <br />
-                        integrations.
-                      </p>
-                    </div>
-                  </Link> */}
-          {/* <div>
-                    <Link
-                      href="/blog/building-outstanding-customer-experience-strategies"
-                      className="bg-secondary group group-hover:bg-primary-500 ring-background-12 dark:ring-background-7 relative flex h-9.5 w-16 items-center justify-center space-y-5 overflow-hidden rounded-full px-5 py-2 ring-[6px] transition-all duration-500 ease-in-out">
-                      <figure className="relative size-6 items-center justify-center overflow-hidden">
-                        <Image
-                          src={newArrowWhite}
-                          alt="new-arrow"
-                          className="absolute inset-0 size-full -translate-x-6 object-cover transition-transform duration-400 ease-in-out group-hover:translate-x-1"
-                        />
-                        <Image
-                          src={newArrowWhite}
-                          alt="new-arrow"
-                          className="size-full object-cover transition-transform duration-400 ease-in-out group-hover:translate-x-6"
-                        />
-                      </figure>
-                    </Link>
-                  </div> */}
-          {/* </div> */}
-          {/* </article> */}
-        </div>
-        {/* <div className="col-span-12 xl:col-span-6"> */}
-        {/* <article className="border-stroke-1 dark:border-background-7 group space-y-3 rounded-2xl border p-3"> */}
-        {/* <Link onClick={handleClose} href="/blog/building-resilient-business-models" className="block">
-                  <figure className="overflow-hidden rounded-lg">
-                    <Image
-                      src={nsImg425}
-                      alt="Featured"
-                      className="h-full w-full rounded-lg object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                    />
-                  </figure>
-                </Link> */}
-        {/* <div className="space-y-14"> */}
-        {/* <Link href="/blog/building-resilient-business-models" className="block">
-                    <div>
-                      <p className="text-heading-6 text-secondary dark:text-accent font-normal">Combine Unified</p>
-                      <p className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                        One API. Countless product <br />
-                        integrations.
-                      </p>
-                    </div>
-                  </Link> */}
-        {/* <div>
-                    <Link
-                      href="/blog/building-resilient-business-models"
-                      className="bg-secondary group group-hover:bg-primary-500 ring-background-12 dark:ring-background-7 relative flex h-9.5 w-16 items-center justify-center space-y-5 overflow-hidden rounded-full px-5 py-2 ring-[6px] transition-all duration-500 ease-in-out">
-                      <figure className="relative size-6 items-center justify-center overflow-hidden">
-                        <Image
-                          src={newArrowWhite}
-                          alt="new-arrow"
-                          className="absolute inset-0 size-full -translate-x-6 object-cover transition-transform duration-400 ease-in-out group-hover:translate-x-1"
-                        />
-                        <Image
-                          src={newArrowWhite}
-                          alt="new-arrow"
-                          className="size-full object-cover transition-transform duration-400 ease-in-out group-hover:translate-x-6"
-                        />
-                      </figure>
-                    </Link>
-                  </div> */}
+        <ul className="grid grid-cols-2 gap-4">
+          {productLinks.map((link) => (
+            <PlatformMenuLink key={link.label} {...link} variant="icon" onClose={handleClose} />
+          ))}
+        </ul>
       </div>
-      {/* </article> */}
-      {/* </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

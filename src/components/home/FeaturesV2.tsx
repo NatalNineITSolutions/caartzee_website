@@ -68,6 +68,12 @@ const teamItems: TeamItem[] = [
     imageSrc: '/images/theme8.png',
     href: 'https://nammabasket.shop/',
   },
+  {
+    id: 'dhaanyas',
+    title: 'Dhaanyas',
+    imageSrc: '/images/theme9.png',
+    href: 'https://dhaanyas.com/',
+  },
 ];
 
 const FeaturesV2 = () => {
@@ -81,14 +87,10 @@ const FeaturesV2 = () => {
         <div className="space-y-3 text-center lg:text-left">
           <div className="main-container">
             <RevealAnimation delay={0.1}>
-              <h2 id="team-heading" className="mx-auto max-w-[500px] font-normal lg:mx-0" itemProp="name">
-                Designed for every{' '}
+              <h2 id="team-heading" className="mx-auto max-w-[600px] font-normal lg:mx-0" itemProp="name">
+                Kickstart your online store with these{' '}
                 <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
-                  brand
-                </span>{' '}
-                and
-                <span className="bg-gradient-to-r from-[#7C3AED] to-[#A855F7] bg-clip-text text-transparent">
-                  <br />business
+                  themes
                 </span>
               </h2>
             </RevealAnimation>

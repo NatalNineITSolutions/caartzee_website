@@ -83,10 +83,16 @@ const ToolDetailPage = () => {
                   value={`faq-${index}`}
                   className="bg-gray-50 dark:bg-background-7 rounded-xl border border-stroke-1 dark:border-white/10 overflow-hidden"
                 >
-                  <AccordionTrigger className="px-6 py-4 text-lg font-bold text-secondary dark:text-accent hover:text-primary-500 transition-colors">
+                  <AccordionTrigger 
+                    value={`faq-${index}`}
+                    className="px-6 py-4 text-lg font-bold text-secondary dark:text-accent hover:text-primary-500 transition-colors"
+                  >
                     {faq.question}
                   </AccordionTrigger>
-                  <AccordionContent className="px-6 pb-6 pt-0">
+                  <AccordionContent 
+                    value={`faq-${index}`}
+                    className="px-6 pb-6 pt-0"
+                  >
                     <p className="text-secondary/60 dark:text-accent/60 leading-relaxed">
                       {faq.answer}
                     </p>

@@ -10,7 +10,14 @@ import {
   Image as ImageIcon,
   MousePointer2,
   Settings2,
-  Download
+  Download,
+  Boxes,
+  Compass,
+  Camera,
+  Activity,
+  Zap,
+  RefreshCw,
+  Users
 } from 'lucide-react';
 
 export interface FAQ {
@@ -33,292 +40,122 @@ export interface BusinessTool {
   icon: any;
   color: string;
   bgColor: string;
+  link: string;
   faqs?: FAQ[];
   howItWorks?: HowItWorksStep[];
 }
 
 export const businessTools: BusinessTool[] = [
   {
-    id: 'privacy-policy-generator',
-    slug: 'privacy-policy-generator',
-    title: 'Privacy Policy Generator',
-    description: 'Generate free Privacy Policy statements for your website.',
-    shortDescription: 'Free and professional privacy policy generator for your business.',
-    icon: ShieldCheck,
-    color: '#00BA9D',
-    bgColor: 'bg-[#E6F8F5]',
-    howItWorks: [
-      {
-        title: 'Enter details',
-        description: 'Provide your company name, website URL, and contact information.',
-        icon: Edit3,
-      },
-      {
-        title: 'Download free Privacy Policy',
-        description: 'Get your professional privacy policy in multiple formats.',
-        icon: FileText,
-      },
-      {
-        title: 'Upload to your website',
-        description: 'Add the privacy policy to your website to ensure compliance.',
-        icon: ShieldCheck,
-      },
-    ],
-    faqs: [
-      {
-        question: 'What is a privacy policy?',
-        answer: 'A privacy policy is a document that explains how your website or app collects, uses, and protects user data.',
-      },
-      {
-        question: 'Is this privacy policy generator free?',
-        answer: 'Yes, our privacy policy generator is completely free for all businesses.',
-      },
-    ],
-  },
-  {
-    id: 'slogan-maker',
-    slug: 'slogan-maker',
-    title: 'Free Slogan Maker',
-    description: 'Create tagline for own business with FREE Slogan Maker.',
-    shortDescription: 'Build your brand identity with catchy slogans.',
-    icon: Type,
+    id: 'caartzee-zeedone',
+    slug: 'caartzee-zeedone',
+    title: 'Caartzee Zeedone',
+    description: 'The ultimate branding and identity suite. Create logos, QR codes, and brand kits that make your business unforgettable.',
+    shortDescription: 'Build a world-class brand identity in minutes with Zeedone.',
+    icon: Boxes,
     color: '#146EB4',
     bgColor: 'bg-[#E8F1F8]',
+    link: 'https://cartly.zeedone.com/login',
     howItWorks: [
       {
-        title: 'Enter a keyword',
-        description: 'Type a word that describes your business or product.',
-        icon: Type,
+        title: 'Define your style',
+        description: 'Choose from hundreds of brand archetypes and styles tailored for your niche.',
+        icon: Zap,
       },
       {
-        title: 'Search slogans',
-        description: 'Our AI will generate hundreds of slogans for you.',
-        icon: Calculator,
-      },
-      {
-        title: 'Select and use',
-        description: 'Choose the one that fits your brand perfectly.',
-        icon: ShieldCheck,
-      },
-    ],
-    faqs: [
-      {
-        question: 'How do I use the slogan maker?',
-        answer: 'Simply enter a keyword related to your business and click on Generate.',
-      },
-    ],
-  },
-  {
-    id: 'terms-and-conditions-generator',
-    slug: 'terms-and-conditions-generator',
-    title: 'Terms and Conditions Generator',
-    description: 'Generate free Terms and Conditions statements for your website.',
-    shortDescription: 'Protect your business with professional terms and conditions.',
-    icon: FileText,
-    color: '#E11D48',
-    bgColor: 'bg-[#FEE2E2]',
-    howItWorks: [
-      {
-        title: 'Enter details',
-        description: 'Provide your company name and website URL.',
+        title: 'Customize identity',
+        description: 'Use our AI editor to refine logos, colors, and typography.',
         icon: Edit3,
       },
       {
-        title: 'Customize',
-        description: 'Add specific terms that apply to your business services.',
-        icon: Settings2,
-      },
-      {
-        title: 'Generate',
-        description: 'Get your legally compliant terms and conditions instantly.',
-        icon: FileText,
-      },
-    ],
-    faqs: [
-      {
-        question: 'Why do I need terms and conditions?',
-        answer: 'They establish the rules for using your website and help protect you legally.',
-      },
-    ],
-  },
-  {
-    id: 'invoice-generator',
-    slug: 'invoice-generator',
-    title: 'Invoice Generator',
-    description: 'Generate free invoices for your business.',
-    shortDescription: 'Professional invoices in seconds.',
-    icon: Receipt,
-    color: '#0EA5E9',
-    bgColor: 'bg-[#E0F2FE]',
-    howItWorks: [
-      {
-        title: 'Add business details',
-        description: 'Enter your business name, logo, and contact information.',
-        icon: Edit3,
-      },
-      {
-        title: 'Add customer info',
-        description: 'Input the customer name and the items/services provided.',
-        icon: Type,
-      },
-      {
-        title: 'Download and send',
-        description: 'Generate a professional PDF invoice ready to be sent.',
+        title: 'Go Live',
+        description: 'Download your brand assets in all formats and launch your identity.',
         icon: Download,
       },
     ],
   },
   {
-    id: 'qr-code-generator',
-    slug: 'qr-code-generator',
-    title: 'Free QR Code Generator Online',
-    description: 'Upgrade your business with a QR Code Generator. Increase your brand visibility and accessibility with QR codes.',
-    shortDescription: 'Create custom QR codes for your brand to drive engagement.',
-    icon: QrCode,
-    color: '#F59E0B',
-    bgColor: 'bg-[#FEF3C7]',
+    id: 'caartzee-sales-navigator',
+    slug: 'sales-navigator',
+    title: 'Caartzee Sales Navigator',
+    description: 'Scale your outreach with high-precision sales tools. Manage leads, track conversions, and close deals faster.',
+    shortDescription: 'Advanced CRM and outreach tools for fast-growing retail teams.',
+    icon: Compass,
+    color: '#00BA9D',
+    bgColor: 'bg-[#E6F8F5]',
+    link: '/sales-navigator',
     howItWorks: [
       {
-        title: 'Enter your URL',
-        description: 'Type or paste your website URL in the input field above.',
-        icon: MousePointer2,
+        title: 'Import Leads',
+        description: 'Sync your customer data or upload lead lists directly into the navigator.',
+        icon: Users,
       },
       {
-        title: 'Create your QR Code',
-        description: 'Click on the "Generate QR Code" button and our system will create a custom QR code for you.',
-        icon: QrCode,
+        title: 'Analyze Performance',
+        description: 'Use real-time heatmaps to see which products are driving the most interest.',
+        icon: Activity,
       },
       {
-        title: 'Download your free QR Code',
-        description: 'Once generated, you can download your QR code in high-quality format.',
-        icon: Download,
-      },
-    ],
-    faqs: [
-      {
-        question: 'What is a QR Code?',
-        answer: 'A QR code (Quick Response code) is a type of barcode that can be scanned with a smartphone to access information.',
-      },
-      {
-        question: 'How do I create a QR Code for free?',
-        answer: 'Simply enter your URL in the input field above and click on "Generate QR Code".',
-      },
-      {
-        question: 'Can I customize my QR Code for my brand?',
-        answer: 'Yes, our generator creates professional QR codes that you can use across all your marketing materials.',
-      },
-      {
-        question: 'What are the advantages of QR codes?',
-        answer: 'They bridge the gap between offline and online worlds, making it easy for customers to access information instantly.',
-      },
-      {
-        question: 'How can I improve my business with a QR Code generator?',
-        answer: 'You can use QR codes on business cards, posters, and products to drive traffic to your website or social media.',
+        title: 'Automate Outreach',
+        description: 'Set up smart email and notification flows to nurture your leads.',
+        icon: Zap,
       },
     ],
   },
   {
-    id: 'background-remover',
-    slug: 'background-remover',
-    title: 'Background Remover',
-    description: 'Do you want to remove background from images? It\'s very easy with our AI-powered tool.',
-    shortDescription: 'Instant background removal with AI for professional product photos.',
-    icon: Scissors,
+    id: 'caartzee-snap',
+    slug: 'snap',
+    title: 'Caartzee Snap',
+    description: 'Transform your product photography with AI. remove backgrounds, enhance lighting, and get studio-quality photos instantly.',
+    shortDescription: 'AI-powered studio photography in the palm of your hand.',
+    icon: Camera,
     color: '#6366F1',
     bgColor: 'bg-[#EEF2FF]',
+    link: '/caartzee-snap',
     howItWorks: [
       {
-        title: 'Select your Image',
-        description: 'Upload your photo from your device.',
-        icon: ImageIcon,
+        title: 'Capture or Upload',
+        description: 'Snap a photo of your product using any smartphone camera.',
+        icon: Camera,
       },
       {
-        title: 'Image Processing',
-        description: 'Our AI will remove the background in seconds.',
-        icon: Settings2,
+        title: 'AI Enhancement',
+        description: 'Our AI removes backgrounds and balances lighting automatically.',
+        icon: Zap,
       },
       {
-        title: 'Download your image',
-        description: 'Save your image in high quality with a transparent background.',
+        title: 'Publish to Store',
+        description: 'Upload your professional product photos directly to your Caartzee store.',
         icon: Download,
       },
     ],
-    faqs: [
-      {
-        question: 'What image formats are supported?',
-        answer: 'We support JPG, PNG, and WebP formats.',
-      },
-      {
-        question: 'Is the background removal automatic?',
-        answer: 'Yes, our AI detects the subject and removes the background automatically without any manual work.',
-      },
-    ],
   },
   {
-    id: 'gst-calculator',
-    slug: 'gst-calculator',
-    title: 'GST Calculator',
-    description: 'Calculate GST online easily with GST Calculator. Perfect for business owners and accountants.',
-    shortDescription: 'Simple and fast GST calculation tool for business compliance.',
-    icon: Calculator,
-    color: '#A855F7',
-    bgColor: 'bg-[#F3E8FF]',
-    howItWorks: [
-      {
-        title: 'Select Category',
-        description: 'Choose your business category or the specific GST rate.',
-        icon: MousePointer2,
-      },
-      {
-        title: 'Enter Amount',
-        description: 'Type the amount of your product or service.',
-        icon: Type,
-      },
-      {
-        title: 'Get results',
-        description: 'Calculate GST and total amount instantly.',
-        icon: Calculator,
-      },
-    ],
-    faqs: [
-      {
-        question: 'How do I calculate GST?',
-        answer: 'Select the rate, enter the amount, and choose whether it\'s inclusive or exclusive of GST.',
-      },
-    ],
-  },
-  {
-    id: 'product-description-generator',
-    slug: 'product-description-generator',
-    title: 'Product Description Generator',
-    description: 'Generate high-quality product descriptions for free using our AI tool.',
-    shortDescription: 'AI-powered product descriptions that sell and improve SEO.',
-    icon: Edit3,
+    id: 'caartzee-prime',
+    slug: 'prime',
+    title: 'Caartzee Prime',
+    description: 'The real-time operational hub for your entire team. Sync tasks, manage staff performance, and streamline workflows.',
+    shortDescription: 'Unified team operations and real-time activity syncing.',
+    icon: Activity,
     color: '#EF4444',
     bgColor: 'bg-[#FEF2F2]',
+    link: '/caartzee-crewsync',
     howItWorks: [
       {
-        title: 'Enter product details',
-        description: 'Type the name and category of your product.',
+        title: 'Assing Tasks',
+        description: 'Create and assign operational tasks to your crew members in real-time.',
         icon: Edit3,
       },
       {
-        title: 'Choose the tone',
-        description: 'Pick the tone that fits your brand (e.g., professional, friendly).',
-        icon: Type,
+        title: 'Live Syncing',
+        description: 'Monitor progress and status updates as they happen in your hub.',
+        icon: RefreshCw,
       },
       {
-        title: 'Generate description',
-        description: 'Get your professional product description instantly.',
-        icon: Scissors,
+        title: 'Analyze Ops',
+        description: 'Generate performance reports to identify and remove bottlenecks.',
+        icon: Activity,
       },
     ],
-    faqs: [
-      {
-        question: 'Is the content unique?',
-        answer: 'Yes, our AI generates unique descriptions for every product based on your input.',
-      },
-    ],
-  },
   },
 ];
