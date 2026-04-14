@@ -1,8 +1,5 @@
-import privacy from '@public/images/ns-img-391.png';
-import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
-import CTA from '@/components/shared/cta/CTA';
 
 const PrivacyContent = () => {
   return (
@@ -10,220 +7,248 @@ const PrivacyContent = () => {
       <div className="main-container">
         <div className="privacy-policy space-y-[75px]">
 
+          {/* Header Section */}
           <div className="space-y-4">
             <RevealAnimation delay={0.1}>
-              <h2>Privacy policy</h2>
+              <h2 className="text-4xl md:text-5xl font-bold">Privacy Policy</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
-              <div className="space-y-4 font-normal text-secondary/60 dark:text-accent/60">
+              <div className="space-y-6 font-normal text-secondary/60 dark:text-accent/60 lg:text-lg max-w-4xl">
                 <p>
-                  <span className="text-secondary dark:text-accent font-medium">Welcome to Caartzee website</span> (Caartzee or we). We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit or use the{' '}
-                  <span className="text-secondary dark:text-accent font-medium">Caartzee eCommerce platform, website, and services.</span>
+                  <span className="text-secondary dark:text-accent font-medium">Welcome to Caartzee.</span> NatalNine IT Solutions ("us", "we", or "our") operates the <span className="text-secondary dark:text-accent font-medium">Caartzee.com</span> website and the Caartzee mobile application (hereinafter referred to as the "Service").
                 </p>
                 <p>
-                  Caartzee provides tools and services that help businesses <span className="text-secondary dark:text-accent font-medium">create, manage, and scale their online stores,</span> including automation tools, analytics dashboards, and integrations.
+                  Our Privacy Policy explains how we collect, use, disclose, and protect information that applies to our Service, and your choices about the collection and use of your information. This policy sets out how Caartzee collects and uses the information that we collect about you when you use the Caartzee services. This policy also explains the choices that you can make about the way that we use your information.
                 </p>
                 <p>
-                  By accessing or using Caartzee’s website or services, you agree to the terms outlined in this Privacy Policy.
+                  By using the Website and/or registering yourself at <span className="text-secondary dark:text-accent font-medium">caartzee.com</span> you authorize us to contact you via email or phone call or SMS and offer you our services, imparting product knowledge, offer promotional offers running on the website & offers offered by the associated third parties, for which reasons, personally identifiable information may be collected. And irrespective of the fact that you have also registered yourself under DND or DNC or NCPR service, you still authorize us to give you a call from Caartzee for the above-mentioned purposes till 365 days of your registration with us.
                 </p>
               </div>
             </RevealAnimation>
           </div>
 
-
-          <div className="space-y-4">
-            <RevealAnimation delay={0.3}>
-              <div className="space-y-4">
-                <h4>Table of Contents</h4>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">Our Privacy Policy includes the following sections:</p>
-                <div className="space-y-6 mt-4">
-                  {[
-                    { num: '1', title: 'Information We Collect', desc: 'We may collect several types of information when you interact with the Caartzee platform.' },
-                    { num: '2', title: 'How We Use Your Information', desc: 'We may use the information we collect Provide and maintain the Caartzee platform.' },
-                    { num: '3', title: 'Sharing of Information', desc: 'Caartzee does not sell or rent your personal information to third parties.' },
-                    { num: '4', title: 'Cookies and Tracking Technologies', desc: 'Caartzee uses cookies and similar technologies to improve the user experience and analyze platform performance.' },
-                    { num: '5', title: 'Data Security', desc: 'We implement industry-standard security measures to protect your information from unauthorized access, misuse, or disclosure.' },
-                    { num: '6', title: 'Your Rights', desc: 'You have certain rights regarding your personal data, including Access and Update.' },
-                    { num: '7', title: 'Third-Party Services', desc: 'Disclaimer about external links and their independent privacy policies.' },
-                    { num: '8', title: 'Changes to This Privacy Policy', desc: 'How we notify you about updates to our privacy practices.' },
-                    { num: '9', title: 'Contact Us', desc: 'get in touch for questions or concerns about this policy.' },
-                  ].map((item) => (
-                    <div key={item.num} className="font-normal text-secondary/60 dark:text-accent/60">
-                      <span className="text-secondary dark:text-accent font-medium">{item.num}. {item.title}</span>
-                      <p>{item.desc}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </RevealAnimation>
-          </div>
-
-
+          {/* Definitions Section */}
           <div className="space-y-6">
-            <RevealAnimation delay={0.4}>
-              <h3>Information We Collect</h3>
+            <RevealAnimation delay={0.3}>
+              <h3 className="text-2xl md:text-3xl font-semibold">Definitions</h3>
             </RevealAnimation>
-            <RevealAnimation delay={0.5}>
-              <ul className="space-y-3 font-normal text-secondary/60 dark:text-accent/60">
+            <RevealAnimation delay={0.4}>
+              <ul className="space-y-4 font-normal text-secondary/60 dark:text-accent/60">
                 <li>
-                  <span className="text-secondary dark:text-accent font-medium">Personal Information – </span>
-                  When you create an account, subscribe to a plan, or purchase services, we may collect: Full name, Email address, Phone number, Billing and shipping address, Payment information, Account login credentials.
+                  <span className="text-secondary dark:text-accent font-medium">Personal Data:</span> Personal Data means data about a living individual who can be identified from those data.
                 </li>
                 <li>
-                  <span className="text-secondary dark:text-accent font-medium">Non-Personal Information – </span>
-                  We may automatically collect certain technical information such as Browser type and version, Device information, IP address, Time zone, Pages visited on the website, Referring websites or search queries.
+                  <span className="text-secondary dark:text-accent font-medium">Usage Data:</span> Usage Data is data collected automatically either generated by the use of the Service or from the Service infrastructure itself.
                 </li>
                 <li>
-                  <span className="text-secondary dark:text-accent font-medium">Store and Platform Data – </span>
-                  When using Caartzee to run an online store, we may collect operational data such as Store settings and configurations, Product listings and store content, Order and transaction data, Customer interaction data within the platform.
+                  <span className="text-secondary dark:text-accent font-medium">Cookies:</span> Cookies are small pieces stored on your device (computer or mobile device).
                 </li>
               </ul>
             </RevealAnimation>
           </div>
 
-
-          <div className="space-y-6">
-            <RevealAnimation delay={0.6}>
+          {/* Information Collection Section */}
+          <div className="space-y-8">
+            <RevealAnimation delay={0.5}>
+              <h3 className="text-2xl md:text-3xl font-semibold">Information we collect and its use</h3>
+            </RevealAnimation>
+            <div className="grid gap-10 md:grid-cols-2">
+              <RevealAnimation delay={0.6}>
+                <div className="space-y-4">
+                  <h4 className="text-xl font-medium text-secondary dark:text-accent">Information you provide us directly</h4>
+                  <p className="font-normal text-secondary/60 dark:text-accent/60">
+                    While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include Email Address, Phone Number, Business Name, First and Last Name, Cookies and Usage Data.
+                  </p>
+                </div>
+              </RevealAnimation>
+              <RevealAnimation delay={0.7}>
+                <div className="space-y-4">
+                  <h4 className="text-xl font-medium text-secondary dark:text-accent">Usage Data</h4>
+                  <p className="font-normal text-secondary/60 dark:text-accent/60">
+                    We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device. This may include IP address, browser type, version, pages visited, time spent, and unique device identifiers.
+                  </p>
+                </div>
+              </RevealAnimation>
+            </div>
+            <RevealAnimation delay={0.8}>
               <div className="space-y-4">
-                <h3>How We Use Your Information</h3>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">We may use the information we collect for the following purposes:</p>
-                <ul className="space-y-2 mt-4 font-normal text-secondary/60 dark:text-accent/60">
+                <h4 className="text-xl font-medium text-secondary dark:text-accent">Cookies Information</h4>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">
+                  We use cookies and similar tracking technologies to track the activity on our Service and we hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+                </p>
+              </div>
+            </RevealAnimation>
+          </div>
+
+          {/* Use of Data Section */}
+          <div className="space-y-6">
+            <RevealAnimation delay={0.9} offset={40}>
+              <h3 className="text-2xl md:text-3xl font-semibold">Use of Data</h3>
+            </RevealAnimation>
+            <RevealAnimation delay={1.0} offset={40}>
+              <div className="space-y-4">
+                <p className="font-normal text-secondary/60 dark:text-accent/60 mb-6">
+                  NatalNine IT Solutions uses the collected data for various purposes:
+                </p>
+                <ul className="grid sm:grid-cols-2 gap-4 font-normal text-secondary/60 dark:text-accent/60">
                   {[
-                    'Provide and maintain the Caartzee platform',
-                    'Create and manage user accounts',
-                    'Process payments and subscriptions',
-                    'Enable eCommerce store management tools',
-                    'Improve platform functionality and user experience',
-                    'Provide customer support and respond to inquiries',
-                    'Send service updates, notifications, and important information',
-                    'Prevent fraud and unauthorized activities',
-                  ].map((item, i) => (
-                    <li key={i}> {item}</li>
+                    "To provide and maintain our Service.",
+                    "To notify you about changes to our Service.",
+                    "To allow you to participate in interactive features.",
+                    "To provide customer support.",
+                    "To gather analysis to improve our Service.",
+                    "To monitor the usage of our Service.",
+                    "To detect and prevent technical issues.",
+                    "To provide news, special offers and general info."
+                  ].map((item, index) => (
+                    <li key={index} className="flex items-start gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-primary-500 mt-2 shrink-0" />
+                      <span>{item}</span>
+                    </li>
                   ))}
                 </ul>
               </div>
             </RevealAnimation>
           </div>
 
+          {/* Retention & Transfer Section */}
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="space-y-6">
+              <RevealAnimation delay={1.1} offset={40}>
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-semibold">Retention of Data</h3>
+                  <p className="font-normal text-secondary/60 dark:text-accent/60 leading-relaxed">
+                    NatalNine IT Solutions will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your data to comply with legal obligations, resolve disputes, and enforce our agreements.
+                  </p>
+                </div>
+              </RevealAnimation>
+            </div>
+            <div className="space-y-6">
+              <RevealAnimation delay={1.2} offset={40}>
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-semibold">Transfer of Data</h3>
+                  <p className="font-normal text-secondary/60 dark:text-accent/60 leading-relaxed">
+                    Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, or country. Your consent to this Privacy Policy represents your agreement to that transfer.
+                  </p>
+                </div>
+              </RevealAnimation>
+            </div>
+          </div>
 
-          <div className="space-y-6">
-            <RevealAnimation delay={0.7}>
+          {/* Deletion of Data Section */}
+          <div className="space-y-6 bg-secondary/5 dark:bg-accent/5 p-8 rounded-2xl border border-secondary/10 dark:border-accent/10">
+            <RevealAnimation delay={1.3} offset={40}>
               <div className="space-y-4">
-                <h3>Sharing of Information</h3>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">Caartzee does not sell or rent your personal information to third parties.</p>
-                <ul className="space-y-3 mt-4 font-normal text-secondary/60 dark:text-accent/60">
-                  <li>
-                    <span className="text-secondary dark:text-accent font-medium">Service Providers: </span>
-                    We may share information with trusted third-party vendors who help operate our services.
-                  </li>
-                  <li>
-                    <span className="text-secondary dark:text-accent font-medium">Legal Authorities: </span>
-                    Comply with legal obligations, Respond to lawful requests from authorities, Protect the rights, safety, and security of Caartzee or its users.
-                  </li>
-                </ul>
+                <h3 className="text-2xl font-semibold">Deletion of Data</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">
+                  You can request deletion of your Personal Data directly by deleting your account within your Account section. If you are unable to perform this action yourself, you can contact us at{' '}
+                  <Link href="mailto:info@natalnine.com" className="text-primary-500 hover:underline font-medium">info@natalnine.com</Link>
+                </p>
               </div>
             </RevealAnimation>
           </div>
 
+          {/* Legal Sections */}
+          <div className="space-y-8">
+            <RevealAnimation delay={1.4} offset={40}>
+              <h3 className="text-2xl md:text-3xl font-semibold">Disclosure & Legal Requirements</h3>
+            </RevealAnimation>
+            <div className="grid md:grid-cols-2 gap-8">
+              <RevealAnimation delay={1.5} offset={40}>
+                <div className="space-y-4">
+                  <h4 className="text-xl font-medium text-secondary dark:text-accent">Business Transaction</h4>
+                  <p className="font-normal text-secondary/60 dark:text-accent/60">
+                    If NatalNine IT Solutions is involved in a merger, acquisition or asset sale, your Personal Data may be transferred. We will provide notice before transfer.
+                  </p>
+                </div>
+              </RevealAnimation>
+              <RevealAnimation delay={1.6} offset={40}>
+                <div className="space-y-4">
+                  <h4 className="text-xl font-medium text-secondary dark:text-accent">Law Enforcement</h4>
+                  <p className="font-normal text-secondary/60 dark:text-accent/60">
+                    Under certain circumstances, we may be required to disclose your Content if required to do so by law or in response to valid requests by public authorities.
+                  </p>
+                </div>
+              </RevealAnimation>
+            </div>
+          </div>
 
-          <div className="space-y-6">
-            <RevealAnimation delay={0.8}>
+          {/* Security & Service Providers */}
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="space-y-6">
+              <RevealAnimation delay={1.7} offset={40}>
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-semibold">Security of Data</h3>
+                  <p className="font-normal text-secondary/60 dark:text-accent/60">
+                    The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure.
+                  </p>
+                </div>
+              </RevealAnimation>
+            </div>
+            <div className="space-y-6">
+              <RevealAnimation delay={1.8} offset={40}>
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-semibold">Service Providers</h3>
+                  <p className="font-normal text-secondary/60 dark:text-accent/60">
+                    We may employ third party companies and individuals to facilitate our Service, provide the Service on our behalf, or assist us in analysing how our Service is used.
+                  </p>
+                </div>
+              </RevealAnimation>
+            </div>
+          </div>
+
+          {/* Analytics & Children Section */}
+          <div className="space-y-16">
+            <RevealAnimation delay={1.9} offset={40}>
               <div className="space-y-4">
-                <h3>Cookies and Tracking Technologies</h3>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">Caartzee uses cookies and similar technologies to improve the user experience and analyze platform performance. Cookies help us:</p>
-                <ul className="space-y-2 mt-4 font-normal text-secondary/60 dark:text-accent/60">
-                  <li> Remember login sessions and user preferences</li>
-                  <li> Understand how users interact with the platform</li>
-                  <li> Improve website performance and functionality</li>
-                </ul>
+                <h3 className="text-2xl font-semibold">Analytics</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">
+                  We use Google Analytics to monitor and analyse the use of our Service. Google tracks and reports website traffic, and this data is shared with other Google services.
+                </p>
+              </div>
+            </RevealAnimation>
+            <RevealAnimation delay={2.0} offset={40}>
+              <div className="space-y-4">
+                <h3 className="text-2xl font-semibold">Children's Privacy</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">
+                  Caartzee does not knowingly collect or solicit personal information from children under the age of 18. If we learn we have collected such info without verification of parental consent, we will delete it as quickly as possible.
+                </p>
               </div>
             </RevealAnimation>
           </div>
 
-
-          <div className="space-y-6">
-            <RevealAnimation delay={0.9}>
+          {/* Updates & Contact Section */}
+          <div className="pt-10 border-t border-secondary/10 dark:border-accent/10 grid md:grid-cols-2 gap-12">
+            <RevealAnimation delay={2.1}>
               <div className="space-y-4">
-                <h3>Data Security</h3>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">We implement industry-standard security measures to protect your information from unauthorized access, misuse, or disclosure.</p>
+                <h3 className="text-2xl font-semibold">Updates to Policy</h3>
+                <p className="font-normal text-secondary/60 dark:text-accent/60">
+                  We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective. Please review this Privacy Policy periodically for any changes.
+                </p>
               </div>
             </RevealAnimation>
-          </div>
-
-
-          <div className="space-y-6">
-            <RevealAnimation delay={1.0}>
-              <div className="space-y-4">
-                <h3>Your Rights</h3>
-                <ul className="space-y-4 mt-4 font-normal text-secondary/60 dark:text-accent/60">
-                  <li>
-                    <span className="text-secondary dark:text-accent font-medium">Access and Update: </span>
-                    You may access and update your account information through your Caartzee dashboard.
-                  </li>
-                  <li>
-                    <span className="text-secondary dark:text-accent font-medium">Opt-Out: </span>
-                    You may opt out of receiving marketing emails or promotional communications.
-                  </li>
-                  <li>
-                    <span className="text-secondary dark:text-accent font-medium">Data Deletion: </span>
-                    You may request deletion of your personal information, subject to legal and contractual requirements.
-                  </li>
-                </ul>
-              </div>
-            </RevealAnimation>
-          </div>
-
-          
-          <div className="space-y-6">
-            <RevealAnimation delay={1.1}>
-              <div className="space-y-4">
-                <h3>Third-Party Services</h3>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">The Caartzee platform may integrate with third-party services such as payment gateways, analytics tools, or external applications.</p>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">Caartzee is not responsible for the privacy practices of these third-party services. We encourage users to review their respective privacy policies.</p>
-              </div>
-            </RevealAnimation>
-          </div>
-
-          
-          <div className="space-y-6">
-            <RevealAnimation delay={1.2}>
-              <div className="space-y-4">
-                <h3>Changes to This Privacy Policy</h3>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">We may update this Privacy Policy from time to time to reflect changes in our services, legal requirements, or operational practices.</p>
-                <p className="font-normal text-secondary/60 dark:text-accent/60">Any updates will be posted on this page, and we encourage users to review this policy periodically.</p>
-              </div>
-            </RevealAnimation>
-          </div>
-
-          
-          <div className="space-y-6">
-            <RevealAnimation delay={1.3}>
+            <RevealAnimation delay={2.2}>
               <div className="space-y-6">
-                <h3>Contact Us</h3>
+                <h3 className="text-2xl font-semibold">Contact Us</h3>
                 <div className="space-y-4 font-normal text-secondary/60 dark:text-accent/60">
-                  <p>If you have any questions about this Privacy Policy or how your information is handled, please contact us</p>
+                  <p>For any questions about this Privacy Policy, please contact us:</p>
                   <div className="space-y-2">
-                    <p>
-                      <span className="text-secondary dark:text-accent font-medium">Phone: </span>
-                      <Link href="tel:+919655804621" className="hover:text-primary-500">+919655804621</Link>
+                    <p className="flex items-center gap-3">
+                      <span className="text-secondary dark:text-accent font-medium">Email:</span>
+                      <Link href="mailto:info@natalnine.com" className="text-primary-500 hover:underline">info@natalnine.com</Link>
                     </p>
-                    <p>
-                      <span className="text-secondary dark:text-accent font-medium">Email: </span>
-                      <Link href="mailto:info@natalnine.com" className="hover:text-primary-500">info@natalnine.com</Link>
-                    </p>
-                    <p>
-                      <span className="text-secondary dark:text-accent font-medium">Website: </span>
-                      <Link href="https://caartzee.com" className="hover:text-primary-500" target="_blank" rel="noopener noreferrer">https://caartzee.com</Link>
+                    <p className="flex items-center gap-3">
+                      <span className="text-secondary dark:text-accent font-medium">Phone:</span>
+                      <Link href="tel:+919655804621" className="text-primary-500 hover:underline">+91 96558 04621</Link>
                     </p>
                   </div>
                 </div>
               </div>
             </RevealAnimation>
           </div>
+
         </div>
       </div>
-
-
     </section>
   );
 };
