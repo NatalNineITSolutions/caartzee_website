@@ -6,21 +6,21 @@ const features = [
     step: 'STEP 1',
     title: 'Select pickup time & delivery partner',
     description: 'Choose from a variety of reliable courier partners based on cost, speed, and service quality ratings.',
-    image: '/images/delivery/ui1_v2.png',
+    image: '/images/delivery/d1.png',
     reverse: false,
   },
   {
     step: 'STEP 2',
-    title: 'Add shipment weight',
-    description: 'Enter weight and dimensions to get accurate shipping estimates. Our system automatically calculates the best route.',
-    image: '/images/delivery/ui2_v2.png',
+    title: 'Manage & track shipments',
+    description: 'Easily manage all your shipments, update delivery status, and track orders in real-time from a single dashboard.',
+    image: '/images/delivery/d2.png',
     reverse: true,
   },
   {
     step: 'STEP 3',
-    title: 'Pay & request delivery',
-    description: 'Confirm your shipment details, pay securely, and schedule your pickup in just a few clicks.',
-    image: '/images/delivery/ui3_v2.png',
+    title: 'Configure shipping methods',
+    description: 'Set up shipping rules, pricing, and delivery options to control how orders are fulfilled across different regions.',
+    image: '/images/delivery/d3.png',
     reverse: false,
   },
 ];
@@ -50,11 +50,11 @@ const DeliveryFeatures = () => {
               <div className="flex-1">
                 <RevealAnimation delay={0.3} direction="up">
                   <div className="overflow-hidden rounded-3xl shadow-2xl transition-transform hover:scale-[1.02]">
-                    <Image 
-                      src={feature.image} 
-                      alt={feature.title} 
-                      width={600} 
-                      height={400} 
+                    <Image
+                      src={feature.image}
+                      alt={feature.title}
+                      width={600}
+                      height={400}
                       className="h-auto w-full"
                     />
                   </div>

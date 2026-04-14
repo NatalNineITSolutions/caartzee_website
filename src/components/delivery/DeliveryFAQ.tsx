@@ -2,20 +2,20 @@ import RevealAnimation from '../animation/RevealAnimation';
 
 const faqs = [
   {
-    question: 'How do I activate Caartzee Delivery?',
-    answer: 'You can activate Caartzee Delivery directly from your dashboard under the Shipping menu. Just one click to enable the best courier partners.',
+    question: 'What is Caartzee Delivery?',
+    answer: 'Caartzee Delivery is our built-in logistics solution that lets you manage shipments, track orders, and configure shipping all from a single dashboard without relying on external tools.',
   },
   {
-    question: 'What are the delivery charges?',
-    answer: 'Our charges depend on the weight and distance of the shipment. Use our Shipping Calculator above for an instant estimate.',
+    question: 'How are delivery charges calculated?',
+    answer: 'Delivery charges are calculated based on shipment weight, dimensions, delivery location, and selected courier partner. You can get real-time estimates using our integrated shipping system.',
   },
   {
-    question: 'How many courier partners are integrated?',
-    answer: 'We have integrated 15+ top-tier courier partners like BlueDart, Delhivery, and Ecom Express to ensure max coverage.',
+    question: 'Can I manage multiple courier partners?',
+    answer: 'Yes, Caartzee allows you to integrate and manage multiple courier partners, giving you flexibility to choose the best option based on cost, speed, and serviceability.',
   },
   {
-    question: 'Is COD supported?',
-    answer: 'Yes, both Cash on Delivery (COD) and Prepaid shipments are fully supported with automated reconciliation.',
+    question: 'Does Caartzee support COD and prepaid orders?',
+    answer: 'Yes, Caartzee supports both Cash on Delivery (COD) and prepaid shipments, with easy tracking and status updates directly from your dashboard.',
   },
 ];
 

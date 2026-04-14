@@ -8,23 +8,23 @@ import LinkButton from '../ui/button/LinkButton';
 const aboutListData = [
   {
     id: 1,
-    text: 'Fully responsive ecommerce website & mobile app',
+    text: 'Studio-quality product shots with AI-powered Caartzee Snap',
   },
   {
     id: 2,
-    text: 'Launch faster than existing solutions',
+    text: 'Scale lead generation with Caartzee Sales Navigator',
   },
   {
     id: 3,
-    text: 'Upload products and start inventory in hours',
+    text: 'Instant brand kits and identity suites via Zeedone',
   },
   {
     id: 4,
-    text: 'Integrated payment gateways',
+    text: 'Unified team sync and operation hubs with CrewSync',
   },
    {
     id: 5,
-    text: 'Easily customizable themes',
+    text: 'Advanced cross-border logistics and global fulfillment',
   },
 ];
 
@@ -38,7 +38,7 @@ const AboutList = () => {
         <div className="grid grid-cols-2 gap-5 px-6 py-14 max-sm:grid-cols-1 max-sm:gap-10 max-sm:px-5 max-sm:py-8 md:px-11">
           <div className="about-content max-w-[500px]">
             <h5 className="text-accent max-sm:text-heading-6 mb-8">
-              Launch Fast
+              The All-in-One Commerce Ecosystem 
             </h5>
             <LinkButton href="/contact-us" className="btn btn-md btn-primary hover:btn-secondary">
               Get started

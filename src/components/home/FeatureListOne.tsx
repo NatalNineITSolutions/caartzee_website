@@ -5,23 +5,23 @@ import LinkButton from '../ui/button/LinkButton';
 const featureListData = [
   {
     id: 1,
-    text: 'Guaranteed 99.9% uptime for your store - 24/7 online boost for business. ',
+    text: 'Guaranteed 99.9% uptime with enterprise-grade cloud architecture.',
   },
   {
     id: 2,
-    text: '150+ Premium plugins. ',
+    text: 'Instantly generate 1-click Brand Kits with Zeedone.',
   },
   {
     id: 3,
-    text: 'Marketing tools and above-the-fold drive opportunities. ',
+    text: 'Automated AI background removal and lighting for product photos.',
   },
   {
     id: 4,
-    text: 'International shipping across different areas.  ',
+    text: 'Integrated international fulfillment and custom logistics flows.',
   },
   {
     id: 5,
-    text: 'Multi-store management, national and international. ',
+    text: 'Real-time multi-store sync across web and mobile applications.',
   },
 ];
 

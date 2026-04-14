@@ -37,9 +37,9 @@ const page = () => {
         {/* <BlogShowcase /> */}
         <Reviews />
         <CTA 
-          ctaHeading="Start selling online."
-          description="Join thousands of thriving businesses on Caartzee and grow your brand today."
-          ctaBtnText="Get Started"
+          ctaHeading="Ready to scale your commerce empire?"
+          description="Join thousands of thriving brands using the Caartzee ecosystem to automate sales, branding, and operations. Start your journey today."
+          ctaBtnText="Get Started for Free"
           btnClass="btn-primary"
         />
         <VideoModal />

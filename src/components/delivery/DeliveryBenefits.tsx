@@ -2,7 +2,7 @@ import RevealAnimation from '../animation/RevealAnimation';
 
 const benefits = [
   {
-    title: '26k+ Pincodes',
+    title: '29k+ Pincodes',
     description: 'Deliver across India with our extensive network coverage.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="size-6 text-primary-500">

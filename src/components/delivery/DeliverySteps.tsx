@@ -3,8 +3,8 @@ import RevealAnimation from '../animation/RevealAnimation';
 const steps = [
   {
     number: 1,
-    title: 'Select pickup time',
-    description: '& delivery partner',
+    title: 'Select pickup time & delivery partner',
+    description: '& other carrier',
   },
   {
     number: 2,
@@ -13,7 +13,7 @@ const steps = [
   },
   {
     number: 3,
-    title: 'Pay & request',
+    title: 'Pay Amount',
     description: 'for delivery',
   },
 ];
@@ -48,7 +48,7 @@ const DeliverySteps = () => {
             {steps.map((step, index) => (
               <RevealAnimation key={step.number} delay={0.2 + index * 0.1}>
                 <div className="relative flex flex-col items-center text-center">
-                  <div className="z-10 mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-primary-500 text-2xl font-bold text-white shadow-lg shadow-primary-500/30">
+                  <div className="z-10 mb-6 flex h-16 w-16 items-center justify-center rounded-full dark:invert bg-primary-500 text-2xl font-bold text-white shadow-lg shadow-primary-500/30">
                     {step.number}
                   </div>
                   <h3 className="mb-2 text-xl font-medium text-secondary dark:text-accent">

@@ -17,9 +17,9 @@ const FeatureListTwo = () => {
             </h5>
 
             <div className="mb-6 space-y-2">
-              <h5>Order tracking from checkout to delivery.</h5>
+              <h5>Sync every movement from checkout to delivery.</h5>
               <p className="text-sm text-secondary/60 dark:text-accent/60">
-                Bulk actions on orders, vendors, members.
+                Bulk manage vendors and team tasks via CrewSync.
               </p>
             </div>
 
@@ -39,7 +39,7 @@ const FeatureListTwo = () => {
         {/* Revenue Overview Card */}
         <RevealAnimation delay={0.3}>
           <div className="dark:bg-background-6 w-full rounded-2xl bg-white p-6 sm:w-2/5">
-            <h5 className="mb-4">In-depth business analytics</h5>
+            <h5 className="mb-4">Sales Navigator Insights</h5>
 
             <div className="flex flex-col gap-4">
               <div>
