@@ -1,3 +1,4 @@
+'use client';
 import logoIcon from '@public/images/shared/main-1.png';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -46,9 +47,9 @@ const Integration = () => {
 
             <RevealAnimation delay={0.3}>
               <p className="mb-8 lg:max-w-[596px]">
-                From payment gateways to customer management tools, Caartzee Snap integrates smoothly into your existing ecosystem.
+                Caartzee Snap connects seamlessly with the tools that power your daily operations — from payment gateways and delivery partners to CRM platforms and analytics tools.
 
-                Fast setup. Zero friction. Maximum efficiency.
+Fast setup. Zero friction. Maximum efficiency.
               </p>
             </RevealAnimation>
 

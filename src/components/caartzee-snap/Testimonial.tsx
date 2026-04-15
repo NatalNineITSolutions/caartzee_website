@@ -10,14 +10,14 @@ const Testimonial = () => {
       <div className="mx-auto max-w-[1440px] px-4 md:px-[67px]">
         <div className="mb-14 text-center lg:mb-[70px]">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green-v2 mb-5"> Snap Stories </span>
+            <span className="badge badge-green-v2 mb-5"> Stories </span>
           </RevealAnimation>
 
           <RevealAnimation delay={0.2}>
             <h2 className="mb-3">
-              Loved by Modern
+              Sellers across Tamil Nadu
               <br className="hidden md:block" />
-              <span className="text-primary-500 inline-block"> Brands</span>
+              <span className="text-primary-500 inline-block"> love Snap</span>
             </h2>
           </RevealAnimation>
         </div>

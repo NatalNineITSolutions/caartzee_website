@@ -7,16 +7,16 @@ const Features = () => {
       <div className="main-container">
         <div className="mb-10 text-center md:mb-[70px]">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green-v2 mb-5"> Superpowers </span>
+            <span className="badge badge-green-v2 mb-5"> How It Works </span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <h2 className="mb-3">
-              Snap. Solve. <span className="text-primary-500 inline-block">Sell.</span>
+              Set up once.{' '}<span className="text-primary-500 inline-block">Sell automatically.</span>
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto mb-8 lg:max-w-[696px]">
-              Caartzee Snap helps you showcase products, answer customer queries, automate orders, and collect payments all inside WhatsApp.
+              Getting started with Caartzee Snap takes less than 5 minutes. Add your products, set your prices, and let Snap handle the rest — orders, payments, and customer queries, all on auto-pilot.
             </p>
           </RevealAnimation>
         </div>

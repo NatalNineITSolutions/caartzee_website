@@ -21,20 +21,20 @@ const Understanding = () => {
         {/* Section header */}
         <div className="mb-10 text-center md:mb-[70px]">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green-v2 mb-5">Snap Insights</span>
+            <span className="badge badge-green-v2 mb-5">Snap Intelligence</span>
           </RevealAnimation>
 
           <RevealAnimation delay={0.2}>
             <h2 className="mb-3">
-              Smarter Data
+              Know Your Customers.
               <br className="hidden md:block" />
-              <span className="text-primary-500 inline-block">Grow Your Business.</span>
+              <span className="text-primary-500 inline-block">Grow Your Sales.</span>
             </h2>
           </RevealAnimation>
 
           <RevealAnimation delay={0.3}>
             <p className="mx-auto mb-8 lg:max-w-[562px]">
-            Get actionable insights into customer interactions, purchasing behavior, and sales performance all from your WhatsApp ecosystem.
+              Snap gives you a live dashboard of your WhatsApp conversations, order trends, and top-selling products. Make smarter decisions every day with real data from your actual customers.
 
 Real-time reporting. Clear metrics. Zero guesswork.
             </p>

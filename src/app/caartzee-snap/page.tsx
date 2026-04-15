@@ -15,11 +15,14 @@ export const metadata: Metadata = {
   description: 'Homepage of Caartzee',
 };
 
+import FeaturesGrid from '@/components/caartzee-snap/FeaturesGrid';
+
 const page = () => {
   return (
     <main className="bg-background-2 dark:bg-background-5 shadow-7">
       <Hero />
       <Features />
+      <FeaturesGrid />
       <FeaturesV2 />
       <Pricing />
       <Integration />
