@@ -2,25 +2,33 @@
     {
         "id": 1,
         "title": "Basic",
-        "description": "Essential features for small businesses",
+        "description": "Perfect for solo entrepreneurs starting on WhatsApp.",
         "priceMonth": 29,
-        "priceYear": 290,
+        "priceYear": 210,
         "variant": "basic",
         "features": [
             {
-                "label": "1 Online Store",
+                "label": "1 WhatsApp Number",
                 "enabled": true
             },
             {
-                "label": "Basic Inventory",
+                "label": "50 Product Catalogue",
                 "enabled": true
             },
             {
-                "label": "Order Management",
+                "label": "Basic Order Management",
+                "enabled": true
+            },
+            {
+                "label": "Payment Link Share",
+                "enabled": true
+            },
+            {
+                "label": "24/7 AI-Assistant",
                 "enabled": false
             },
             {
-                "label": "Email Support",
+                "label": "Priority Support",
                 "enabled": false
             }
         ]
@@ -28,52 +36,69 @@
     {
         "id": 2,
         "title": "Premium",
-        "description": "Advanced features for growing teams",
+        "description": "Best for growing stores scaling their sales volume.",
         "priceMonth": 59,
-        "priceYear": 590,
+        "priceYear": 420,
         "variant": "premium",
-        "highlight": "Popular",
+        "highlight": "Most Popular",
+        "bgImage": true,
         "features": [
             {
-                "label": "1 Online Store",
+                "label": "3 WhatsApp Numbers",
                 "enabled": true
             },
             {
-                "label": "Advanced Inventory",
+                "label": "Unlimited Catalogue",
                 "enabled": true
             },
             {
-                "label": "Order Management",
+                "label": "Advanced Order Tracking",
                 "enabled": true
             },
             {
-                "label": "Priority Email Support",
+                "label": "Payment Integration",
                 "enabled": true
+            },
+            {
+                "label": "AI Sales Assistant (V1)",
+                "enabled": true
+            },
+            {
+                "label": "Priority Support",
+                "enabled": false
             }
         ]
     },
     {
         "id": 3,
-        "title": "Enterprise",
-        "description": "Maximum power and dedicated support",
+        "title": "Business",
+        "description": "Dedicated solutions for high-volume enterprises.",
         "priceMonth": 99,
-        "priceYear": 990,
+        "priceYear": 720,
         "variant": "enterprise",
         "features": [
             {
-                "label": "Unlimited Online Stores",
+                "label": "Unlimited Numbers",
                 "enabled": true
             },
             {
-                "label": "Full Inventory Control",
+                "label": "Full API Access",
                 "enabled": true
             },
             {
-                "label": "Automated Management",
+                "label": "Pro Order Dashboard",
                 "enabled": true
             },
             {
-                "label": "Dedicated 24/7 Support",
+                "label": "Custom Payment Flows",
+                "enabled": true
+            },
+            {
+                "label": "Advanced AI Training",
+                "enabled": true
+            },
+            {
+                "label": "24/7 Priority Support",
                 "enabled": true
             }
         ]

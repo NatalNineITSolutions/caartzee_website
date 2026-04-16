@@ -9,21 +9,21 @@ const CTA = () => {
         <div className="text-center">
           <RevealAnimation delay={0.1}>
             <h2 className="mx-auto mb-3 max-w-[810px] text-center">
-              Ready to <span className="text-primary-500">Snap Forward?</span>
+              Ready to sell smarter{' '}<span className="text-primary-500">on WhatsApp?</span>
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <p className="mx-auto mb-8 lg:max-w-[390px]">
-              Join the revolution of automated business growth. Try Caartzee Snap today and watch your metrics soar.
+              Join thousands of Tamil Nadu sellers using Caartzee Snap to grow their business on WhatsApp. Start free, no credit card needed.
             </p>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <div className="text-center md:inline-block">
               <div>
                 <LinkButton
-                  href="/contact-us"
+                  href="https://cartly.zeedone.com/register"
                   className="btn btn-primary hover:btn-white-dark dark:hover:btn-white btn-md text-tagline-2 mx-auto block w-full text-center md:mx-0 md:inline-block md:w-auto">
-                  Start Snapping Free
+                  Start Your Free Trial Today
                 </LinkButton>
               </div>
             </div>
@@ -39,11 +39,11 @@ const CTA = () => {
               },
               {
                 id: '2',
-                text: 'free for 30 day trial.',
+                text: '30 days free trial',
               },
               {
                 id: '3',
-                text: 'Money back guarantee.',
+                text: 'Cancel anytime',
               },
             ]}
           />

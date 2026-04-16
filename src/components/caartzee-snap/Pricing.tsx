@@ -26,7 +26,7 @@ const Pricing = () => {
 
           <RevealAnimation delay={0.3}>
             <h2 className="mx-auto mb-8 max-w-[650px] text-white max-md:px-4">
-              Choose the plan that fits<span className="text-primary-500"><br></br>your growth stage.</span>
+              Simple pricing,<span className="text-primary-500"><br></br>no surprises.</span>
             </h2>
           </RevealAnimation>
 
