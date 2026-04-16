@@ -56,7 +56,7 @@ const PlatformMenu = ({
     <div>
       <div
         className={cn(
-          '0.3 ease ease absolute top-full left-1/2 z-40 h-3 w-[700px] -translate-x-1/2 bg-transparent transition-opacity duration-300',
+          'absolute top-full left-1/2 z-40 h-5 w-[700px] -translate-x-1/2 bg-transparent transition-opacity duration-300',
           menuDropdownId === 'platform-mega-menu'
             ? '!pointer-events-auto opacity-100'
             : 'pointer-events-none opacity-0',
