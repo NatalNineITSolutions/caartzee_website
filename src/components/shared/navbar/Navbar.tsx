@@ -57,7 +57,8 @@ const Navbar = () => {
                   data-menu="platform-mega-menu"
                   onMouseEnter={() => handleMenuHover('platform-mega-menu')}>
                   <Link
-                    href="/"
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
                     <span>Products</span>
                     <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
@@ -80,7 +81,8 @@ const Navbar = () => {
                   data-menu="company-mega-menu"
                   onMouseEnter={() => handleMenuHover('company-mega-menu')}>
                   <Link
-                    href="/"
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
                     <span>Company</span>
                     <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
@@ -105,7 +107,8 @@ const Navbar = () => {
                   data-menu="resources-dropdown-menu"
                   onMouseEnter={() => handleMenuHover('resources-dropdown-menu')}>
                   <Link
-                    href="/"
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
                     <span>Resources</span>
                     <span className="nav-arrow block origin-center translate-y-px transition-all duration-300">
