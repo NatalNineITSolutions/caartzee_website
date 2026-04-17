@@ -42,6 +42,7 @@ export interface BusinessTool {
   color: string;
   bgColor: string;
   link: string;
+  category: string;
   faqs?: FAQ[];
   howItWorks?: HowItWorksStep[];
 }
@@ -87,6 +88,7 @@ export const businessTools: BusinessTool[] = [
     color: '#00BA9D',
     bgColor: 'bg-[#E6F8F5]',
     link: '/sales-navigator',
+    category: 'Operations',
     howItWorks: [
       {
         title: 'Import Leads',
@@ -116,6 +118,7 @@ export const businessTools: BusinessTool[] = [
     color: '#6366F1',
     bgColor: 'bg-[#EEF2FF]',
     link: '/caartzee-snap',
+    category: 'Operations',
     howItWorks: [
       {
         title: 'Add Your Products',
@@ -145,6 +148,7 @@ export const businessTools: BusinessTool[] = [
     color: '#EF4444',
     bgColor: 'bg-[#FEF2F2]',
     link: '/caartzee-crewsync',
+    category: 'Operations',
     howItWorks: [
       {
         title: 'Assing Tasks',
