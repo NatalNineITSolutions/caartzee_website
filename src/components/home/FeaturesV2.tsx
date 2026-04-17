@@ -115,10 +115,10 @@ const FeaturesV2 = () => {
           </Marquee>
 
           {/* LEFT FADE */}
-          <div className="pointer-events-none absolute left-0 top-0 z-20 hidden h-full w-[120px] bg-gradient-to-r from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent md:block md:w-[180px] lg:w-[260px]" />
+          <div className="pointer-events-none absolute left-0 top-0 z-20 hidden h-full w-[70px] bg-gradient-to-r from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent md:block md:w-[100px] lg:w-[150px]" />
 
           {/* RIGHT FADE */}
-          <div className="pointer-events-none absolute right-0 top-0 z-20 hidden h-full w-[120px] bg-gradient-to-l from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent md:block md:w-[180px] lg:w-[260px]" />
+          <div className="pointer-events-none absolute right-0 top-0 z-20 hidden h-full w-[70px] bg-gradient-to-l from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent md:block md:w-[100px] lg:w-[150px]" />
         </div>
       </RevealAnimation>
     </section>

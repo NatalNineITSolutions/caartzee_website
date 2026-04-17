@@ -38,6 +38,7 @@ export interface BusinessTool {
   description: string;
   shortDescription: string;
   icon: any;
+  category: string;
   color: string;
   bgColor: string;
   link: string;
@@ -53,9 +54,10 @@ export const businessTools: BusinessTool[] = [
     description: 'The ultimate branding and identity suite. Create logos, QR codes, and brand kits that make your business unforgettable.',
     shortDescription: 'Build a world-class brand identity in minutes with Zeedone.',
     icon: Boxes,
+    category: 'Branding',
     color: '#146EB4',
     bgColor: 'bg-[#E8F1F8]',
-    link: 'https://cartly.zeedone.com/login',
+    link: 'https://zeedone.com/',
     howItWorks: [
       {
         title: 'Define your style',
@@ -81,6 +83,7 @@ export const businessTools: BusinessTool[] = [
     description: 'Scale your outreach with high-precision sales tools. Manage leads, track conversions, and close deals faster.',
     shortDescription: 'Advanced CRM and outreach tools for fast-growing retail teams.',
     icon: Compass,
+    category: 'Operations',
     color: '#00BA9D',
     bgColor: 'bg-[#E6F8F5]',
     link: '/sales-navigator',
@@ -109,6 +112,7 @@ export const businessTools: BusinessTool[] = [
     description: 'Sell more on WhatsApp without the hassle. Display products, take orders, collect payments, and provide support — all from a single WhatsApp number. No tech skills needed.',
     shortDescription: 'Your complete WhatsApp selling platform — orders, payments & support in one place.',
     icon: Camera,
+    category: 'AI Media',
     color: '#6366F1',
     bgColor: 'bg-[#EEF2FF]',
     link: '/caartzee-snap',
@@ -137,6 +141,7 @@ export const businessTools: BusinessTool[] = [
     description: 'The real-time operational hub for your entire team. Sync tasks, manage staff performance, and streamline workflows.',
     shortDescription: 'Unified team operations and real-time activity syncing.',
     icon: Activity,
+    category: 'Operations',
     color: '#EF4444',
     bgColor: 'bg-[#FEF2F2]',
     link: '/caartzee-crewsync',

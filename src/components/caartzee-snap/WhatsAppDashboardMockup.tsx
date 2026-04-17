@@ -167,7 +167,7 @@ const WhatsAppDashboardMockup = () => {
   );
 };
 
-const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false, badge = "", className = "" }) => (
+const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false, badge = "", className = "" }: { icon: React.ComponentType<{ size: number; className?: string }>; label: string; active?: boolean; hasSubmenu?: boolean; badge?: string; className?: string }) => (
   <div className={`group flex items-center justify-between rounded-2xl px-5 py-3.5 cursor-pointer transition-all duration-300 ${active ? 'bg-white shadow-[0_10px_20px_-5px_rgba(0,0,0,0.05)] translate-x-1 dark:bg-[#0F1115]' : 'text-secondary/50 hover:bg-secondary/5 hover:translate-x-1 dark:text-white/40 dark:hover:bg-white/5'} ${className}`}>
     <div className="flex items-center gap-3.5">
       <Icon size={20} className={active ? 'text-primary-500' : 'group-hover:text-secondary dark:group-hover:text-white'} />
@@ -182,7 +182,7 @@ const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false, badge 
   </div>
 );
 
-const StatCard = ({ label, value, change, icon: Icon, color }) => {
+const StatCard = ({ label, value, change, icon: Icon, color }: { label: string; value: string; change: string; icon: React.ComponentType<{ size: number; className?: string }>; color: 'green' | 'blue' | 'purple' | 'orange' }) => {
   const colorMap = {
     green: 'text-green-500 bg-green-500/10',
     blue: 'text-blue-500 bg-blue-500/10',
@@ -206,7 +206,7 @@ const StatCard = ({ label, value, change, icon: Icon, color }) => {
   );
 };
 
-const CompactOrder = ({ name, status, amount }) => (
+const CompactOrder = ({ name, status, amount }: { name: string; status: string; amount: string }) => (
   <div className="flex items-center justify-between group cursor-pointer">
     <div className="flex items-center gap-3.5">
       <div className="size-11 rounded-2xl bg-secondary/5 dark:bg-white/5 flex items-center justify-center group-hover:bg-primary-500/10 transition-colors">

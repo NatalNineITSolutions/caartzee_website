@@ -19,8 +19,6 @@ const ModernToolCard = ({ tool }: ModernToolCardProps) => {
     >
       <Link 
         href={tool.link}
-        target="_blank"
-        rel="noopener noreferrer"
         className="flex flex-col items-center text-center h-full min-h-[380px] p-8 md:p-10 bg-white dark:bg-background-7 border border-[#E6E6E6] dark:border-white/5 rounded-[40px] transition-all hover:shadow-[0_40px_80px_rgba(0,0,0,0.12)] group relative overflow-hidden"
       >
         {/* Decorative Glow */}
