@@ -1,104 +1,162 @@
 [
     {
         "id": 1,
-        "title": "Basic",
-        "description": "Perfect for solo entrepreneurs starting on WhatsApp.",
-        "priceMonth": 29,
-        "priceYear": 210,
-        "variant": "basic",
+        "title": "Starter Plan",
+        "description": "Best for beginners starting their WhatsApp store",
+        "priceMonth": 499,
+        "priceYear": 4990,
+        "variant": "starter",
+        "highlight": "Starter Plan",
+        "products": "50",
+        "footerNote": "Perfect for testing the waters",
         "features": [
             {
+                "label": "Up to 50 Products",
+                "subLabel": "Product catalog limit",
+                "enabled": true
+            },
+            {
+                "label": "Basic AI Chatbot",
+                "subLabel": "FAQs only",
+                "enabled": true
+            },
+            {
+                "label": "WhatsApp Catalog Setup",
+                "subLabel": "Complete integration",
+                "enabled": true
+            },
+            {
+                "label": "Manual Order Handling",
+                "subLabel": "Process orders yourself",
+                "enabled": true
+            },
+            {
+                "label": "Payment Integration",
+                "subLabel": "UPI support",
+                "enabled": true
+            },
+            {
+                "label": "500 Messages/month",
+                "subLabel": "Monthly message quota",
+                "enabled": true
+            },
+            {
                 "label": "1 WhatsApp Number",
+                "subLabel": "Single business account",
                 "enabled": true
             },
             {
-                "label": "50 Product Catalogue",
-                "enabled": true
-            },
-            {
-                "label": "Basic Order Management",
-                "enabled": true
-            },
-            {
-                "label": "Payment Link Share",
-                "enabled": true
-            },
-            {
-                "label": "24/7 AI-Assistant",
+                "label": "No Shipping Tracking",
+                "subLabel": "Upgrade to access",
                 "enabled": false
             },
             {
-                "label": "Priority Support",
+                "label": "No Automation",
+                "subLabel": "Upgrade to access",
                 "enabled": false
             }
         ]
     },
     {
         "id": 2,
-        "title": "Premium",
-        "description": "Best for growing stores scaling their sales volume.",
-        "priceMonth": 59,
-        "priceYear": 420,
-        "variant": "premium",
-        "highlight": "Most Popular",
-        "bgImage": true,
+        "title": "Growth Plan",
+        "description": "Best for growing sellers ready to scale",
+        "priceMonth": 999,
+        "priceYear": 9990,
+        "variant": "growth",
+        "highlight": "Growth Plan",
+        "popular": true,
+        "products": "500",
+        "bottomStats": [
+            { "label": "1 WhatsApp Number", "value": "1" },
+            { "label": "5K Messages/Month", "value": "5K", "highlight": true }
+        ],
         "features": [
             {
-                "label": "3 WhatsApp Numbers",
+                "label": "Up to 500 Products",
+                "subLabel": "Expanded catalog",
                 "enabled": true
             },
             {
-                "label": "Unlimited Catalogue",
+                "label": "Advanced AI Bot",
+                "subLabel": "Sell + Recommend",
                 "enabled": true
             },
             {
-                "label": "Advanced Order Tracking",
+                "label": "Auto Cart + Checkout",
+                "subLabel": "Full automation",
                 "enabled": true
             },
             {
-                "label": "Payment Integration",
+                "label": "All Payment Methods",
+                "subLabel": "UPI, Cards, Wallets",
                 "enabled": true
             },
             {
-                "label": "AI Sales Assistant (V1)",
+                "label": "Shipping Tracking",
+                "subLabel": "Full integration",
                 "enabled": true
             },
             {
-                "label": "Priority Support",
-                "enabled": false
+                "label": "Order Automation",
+                "subLabel": "Status updates",
+                "enabled": true
+            },
+            {
+                "label": "Broadcast Campaigns",
+                "subLabel": "Marketing tools",
+                "enabled": true
+            },
+            {
+                "label": "5000 Messages",
+                "subLabel": "Monthly quota",
+                "enabled": true
+            },
+            {
+                "label": "2 Team Members",
+                "subLabel": "Collaborate easily",
+                "enabled": true
             }
         ]
     },
     {
         "id": 3,
-        "title": "Business",
-        "description": "Dedicated solutions for high-volume enterprises.",
-        "priceMonth": 99,
-        "priceYear": 720,
-        "variant": "enterprise",
+        "title": "Pro Plan",
+        "description": "Best for scaling businesses",
+        "priceMonth": 1999,
+        "priceYear": 19990,
+        "variant": "pro",
+        "highlight": "Pro Plan",
+        "products": "∞",
         "features": [
             {
-                "label": "Unlimited Numbers",
+                "label": "Unlimited Products",
+                "subLabel": "No limits on catalog size",
                 "enabled": true
             },
             {
-                "label": "Full API Access",
+                "label": "Custom AI Training",
+                "subLabel": "Train on your store data",
                 "enabled": true
             },
             {
-                "label": "Pro Order Dashboard",
+                "label": "Priority Onboarding",
+                "subLabel": "Get started in 24 hours",
                 "enabled": true
             },
             {
-                "label": "Custom Payment Flows",
+                "label": "dedicated Manager",
+                "subLabel": "Personal account manager",
                 "enabled": true
             },
             {
-                "label": "Advanced AI Training",
+                "label": "Multi-Number Support",
+                "subLabel": "Connect multiple numbers",
                 "enabled": true
             },
             {
-                "label": "24/7 Priority Support",
+                "label": "API Access",
+                "subLabel": "Integrate with any tool",
                 "enabled": true
             }
         ]

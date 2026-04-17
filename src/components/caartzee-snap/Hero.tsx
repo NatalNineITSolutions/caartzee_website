@@ -1,11 +1,10 @@
 'use client';
 import { useParallaxEffect } from '@/hooks/useParallaxEffect';
-import heroChatInterface from '@public/images/ns-img-28.png';
-import Image from 'next/image';
+import WhatsAppDashboardMockup from './WhatsAppDashboardMockup';
+import LinkButton from '../ui/button/LinkButton';
 import RevealAnimation from '../animation/RevealAnimation';
 import HeroDotBg from '../shared/HeroDotBg';
 import HeroShapes from './HeroShapes';
-import LinkButton from '../ui/button/LinkButton';
 
 export interface HeroShapesProps {
   className?: string;
@@ -16,46 +15,56 @@ const Hero = () => {
   return (
     <section
       ref={sceneRef}
-      className="relative pt-[140px] pb-16 md:pt-[200px] md:pb-20 lg:pb-[100px] 2xl:pt-[250px]"
+      className="relative pt-[140px] pb-16 md:pt-[200px] md:pb-20 lg:pb-[140px] 2xl:pt-[250px]"
       id="scene">
       <HeroDotBg className="lg:top-[120px]" />
       <HeroShapes />
       <div className="main-container relative z-30 text-center">
         <RevealAnimation delay={0.1}>
-          <span className="badge badge-green-v2 mb-5">Caartzee Snap </span>
+          <span className="badge badge-green-v2 mb-5 px-6 py-2">Caartzee Snap </span>
         </RevealAnimation>
         <RevealAnimation delay={0.2}>
-          <h1 className="mb-4 font-medium">
-Sell More on <span className="text-primary-500">WhatsApp</span> Without the Hassle          </h1>
+          <h1 className="mb-4 font-black tracking-tight leading-none text-4xl md:text-6xl lg:text-7xl">
+            Sell More on <span className="text-primary-500 font-bold">WhatsApp</span> <br className="hidden md:block"/> Without the Hassle
+          </h1>
         </RevealAnimation>
         <RevealAnimation delay={0.3}>
-          <p className="mx-auto mb-10 max-w-[588px] md:mb-14">
-          Automate customer conversations, drive more sales, and deliver instant support — all inside WhatsApp.
-Not just automation. A smarter way to grow.
+          <p className="mx-auto mb-10 max-w-[650px] md:mb-14 text-lg md:text-xl font-medium opacity-60 leading-relaxed">
+            Automate customer conversations, drive more sales, and deliver instant support — all inside WhatsApp.
+            Not just automation. A smarter way to grow.
           </p>
         </RevealAnimation>
         <RevealAnimation delay={0.4}>
-          <form className="mx-auto flex w-full flex-col items-center justify-center gap-x-3 gap-y-4 md:mx-0 md:w-auto md:flex-row">
-            <input
-              id="cta-email"
-              type="email"
-              placeholder="Enter your email"
-              autoComplete="email"
-              className="bg-background-1 dark:bg-background-6 placeholder:text-secondary/40 text-secondary/60 dark:text-accent/60 text-tagline-1 border-stroke-3 dark:border-stroke-7 dark:shadow-1 dark:bg-dark-200 focus:border-primary-500 dark:focus:border-primary-500 h-12 w-[90%] rounded-[360px] border px-[18px] py-3 font-normal transition-all duration-300 outline-none placeholder:font-normal focus:outline-none md:max-w-[345px] md:min-w-[345px] dark:placeholder:text-white/40"
-            />
+          <div className="mx-auto flex w-full flex-col items-center justify-center gap-x-3 gap-y-4 md:flex-row mb-12">
             <LinkButton
               href="https://cartly.zeedone.com/register"
-              className="btn btn-xl btn-primary flex h-12 w-[90%] items-center justify-center md:w-auto">
-              <span>Get started</span>
+              className="btn btn-xl bg-primary-500 text-white hover:bg-primary-600 flex h-14 px-10 items-center justify-center rounded-2xl shadow-xl shadow-primary-500/20 transition-all hover:scale-105">
+              <span>Get started for free</span>
             </LinkButton>
-          </form>
+            <LinkButton
+              href="/pricing"
+              className="btn btn-xl bg-white text-black border border-black/10 hover:bg-black/5 flex h-14 px-10 items-center justify-center rounded-2xl transition-all">
+              <span>View Pricing</span>
+            </LinkButton>
+          </div>
         </RevealAnimation>
-        {/* Features images */}
-        <RevealAnimation delay={0.5} instant>
-          <figure className="mt-12 overflow-hidden rounded-xl md:mt-20 md:rounded-2xl lg:mt-[100px] lg:rounded-4xl">
-            <Image src={heroChatInterface} alt="Chat interface" className="h-full w-full object-cover" />
-          </figure>
+
+        {/* Floating Stats Bar */}
+        <RevealAnimation delay={0.5}>
+          <div className="mx-auto max-w-[900px] bg-white/80 dark:bg-white/5 rounded-[24px] shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-black/5 p-4 md:p-6 mb-16 relative z-40 backdrop-blur-xl">
+            <div className="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-black/5">
+              <StatItem value="10,000+" label="Happy Sellers" />
+              <StatItem value="2,430+" label="Stores Created" />
+              <StatItem value="92%" label="Satisfaction" />
+              <StatItem value="20 Days" label="Avg. Launch" />
+            </div>
+          </div>
         </RevealAnimation>
+
+        {/* Dashboard Mockup Integration */}
+        <div className="mt-16 md:mt-24 lg:mt-[120px]">
+           <WhatsAppDashboardMockup />
+        </div>
       </div>
       <RevealAnimation delay={1} offset={0}>
         <div className="absolute top-0 left-0 hidden h-full w-full before:absolute before:top-0 before:left-[6%] before:z-0 before:h-[98%] before:w-[1px] before:bg-[linear-gradient(180deg,#ECE8FF_0%,#FAF9FC_100%)] before:content-[''] after:absolute after:top-0 after:right-[6%] after:-z-10 after:h-[98%] after:w-[1px] after:bg-[linear-gradient(180deg,#ECE8FF_0%,#FAF9FC_100%)] after:content-[''] md:block dark:before:bg-[linear-gradient(180deg,_#1b232f_0%,#13171E_100%)] dark:after:bg-[linear-gradient(180deg,_#1b232f_0%,#13171E_100%)]">
@@ -68,4 +77,12 @@ Not just automation. A smarter way to grow.
   );
 };
 Hero.displayName = 'Hero';
+
+const StatItem = ({ value, label }: { value: string; label: string }) => (
+  <div className="flex flex-col items-center justify-center py-4 md:py-0">
+    <h3 className="text-2xl font-black text-black dark:text-white leading-none mb-1">{value}</h3>
+    <p className="text-[11px] font-bold text-black/40 uppercase tracking-widest">{label}</p>
+  </div>
+);
+
 export default Hero;
