@@ -76,23 +76,32 @@ const ToolDetailContent = ({ slug }: ToolDetailContentProps) => {
             <h2 className="text-center text-heading-3 font-bold text-secondary dark:text-accent mb-16">
               Frequently Asked Questions
             </h2>
-            <Accordion type="single" collapsible className="space-y-4">
-              {tool.faqs.map((faq, index) => (
-                <AccordionItem 
-                  key={index}
-                  value={`faq-${index}`}
-                  className="bg-gray-50 dark:bg-background-7 rounded-xl border border-stroke-1 dark:border-white/10 overflow-hidden"
-                >
-                  <AccordionTrigger className="px-6 py-4 text-lg font-bold text-secondary dark:text-accent hover:text-primary-500 transition-colors">
-                    {faq.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="px-6 pb-6 pt-0">
-                    <p className="text-secondary/60 dark:text-accent/60 leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
+            <Accordion className="space-y-4">
+              {tool.faqs.map((faq, index) => {
+                const faqValue = `faq-${index}`;
+                return (
+                  <AccordionItem 
+                    key={index}
+                    value={faqValue}
+                    className="bg-gray-50 dark:bg-background-7 rounded-xl border border-stroke-1 dark:border-white/10 overflow-hidden"
+                  >
+                    <AccordionTrigger 
+                      value={faqValue}
+                      className="px-6 py-4 text-lg font-bold text-secondary dark:text-accent hover:text-primary-500 transition-colors"
+                    >
+                      {faq.question}
+                    </AccordionTrigger>
+                    <AccordionContent 
+                      value={faqValue}
+                      className="px-6 pb-6 pt-0"
+                    >
+                      <span className="text-secondary/60 dark:text-accent/60 leading-relaxed block">
+                        {faq.answer}
+                      </span>
+                    </AccordionContent>
+                  </AccordionItem>
+                );
+              })}
             </Accordion>
           </div>
         </section>

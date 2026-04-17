@@ -189,7 +189,14 @@ const WhatsAppDashboardMockup = () => {
   );
 };
 
-const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false }) => (
+interface NavItemProps {
+  icon: React.ElementType;
+  label: string;
+  active?: boolean;
+  hasSubmenu?: boolean;
+}
+
+const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false }: NavItemProps) => (
   <div className={cn(
     "flex items-center justify-between rounded-xl px-4 py-2.5 cursor-pointer transition-all",
     active ? "bg-[#C6F56F]/10 text-primary-600 border border-[#C6F56F]/20" : "text-black/60 hover:bg-black/5 dark:text-white/60 dark:hover:bg-white/5"
@@ -202,7 +209,13 @@ const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false }) => (
   </div>
 );
 
-const QuickAction = ({ label, icon: Icon, color }) => (
+interface QuickActionProps {
+  label: string;
+  icon: React.ElementType;
+  color: string;
+}
+
+const QuickAction = ({ label, icon: Icon, color }: QuickActionProps) => (
   <div className="flex items-center gap-3 rounded-2xl bg-white p-3 shadow-sm dark:bg-white/5 transition-transform hover:scale-[1.02] cursor-pointer">
     <div className="flex size-10 items-center justify-center rounded-xl" style={{ backgroundColor: `${color}15`, color }}>
       <Icon size={20} />
@@ -211,7 +224,15 @@ const QuickAction = ({ label, icon: Icon, color }) => (
   </div>
 );
 
-const MetricCard = ({ label, value, change, icon, color }) => (
+interface MetricCardProps {
+  label: string;
+  value: string;
+  change: string;
+  icon: string | React.ReactNode;
+  color: string;
+}
+
+const MetricCard = ({ label, value, change, icon, color }: MetricCardProps) => (
   <div className="rounded-3xl bg-white p-6 shadow-sm dark:bg-white/5 border border-white">
     <div className="mb-4 flex items-center justify-between">
        <span className="text-[10px] font-bold opacity-40 uppercase tracking-wider">{label}</span>
@@ -230,7 +251,14 @@ const MetricCard = ({ label, value, change, icon, color }) => (
   </div>
 );
 
-const TopProduct = ({ rank, name, sold, price }) => (
+interface TopProductProps {
+  rank: string;
+  name: string;
+  sold: string;
+  price: string;
+}
+
+const TopProduct = ({ rank, name, sold, price }: TopProductProps) => (
   <div className="flex items-center justify-between transition-all hover:translate-x-1 cursor-pointer">
     <div className="flex items-center gap-4">
       <span className="text-xs font-black opacity-20">{rank}</span>
