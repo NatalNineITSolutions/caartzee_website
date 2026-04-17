@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import RevealAnimation from '../animation/RevealAnimation';
 import { cn } from '@/utils/cn';
+import { div } from 'framer-motion/client';
 
 const WhatsAppDashboardMockup = () => {
   return (
@@ -189,6 +190,15 @@ const WhatsAppDashboardMockup = () => {
   );
 };
 
+const QuickAction = ({ label, icon: Icon, color }: { label: string; icon: React.ComponentType<{ size: number; className?: string }>; color: string }) => (
+  <div className="group rounded-2xl bg-white p-6 shadow-sm dark:bg-white/5 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105">
+    <div className="flex size-12 items-center justify-center rounded-2xl mb-3" style={{ backgroundColor: `${color}20`, color: color }}>
+      <Icon size={24} />
+    </div>
+    <p className="text-xs font-bold dark:text-white">{label}</p>
+  </div>
+);
+
 const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false, badge = "", className = "" }: { icon: React.ComponentType<{ size: number; className?: string }>; label: string; active?: boolean; hasSubmenu?: boolean; badge?: string; className?: string }) => (
   <div className={`group flex items-center justify-between rounded-2xl px-5 py-3.5 cursor-pointer transition-all duration-300 ${active ? 'bg-white shadow-[0_10px_20px_-5px_rgba(0,0,0,0.05)] translate-x-1 dark:bg-[#0F1115]' : 'text-secondary/50 hover:bg-secondary/5 hover:translate-x-1 dark:text-white/40 dark:hover:bg-white/5'} ${className}`}>
     <div className="flex items-center gap-3.5">
@@ -220,9 +230,8 @@ const StatCard = ({ label, value, change, icon: Icon, color }: { label: string; 
       <p className="text-tagline-2 font-bold text-secondary/40 dark:text-white/30">{label}</p>
       <h3 className="text-2xl font-black tracking-tight dark:text-white mt-1">{value}</h3>
     </div>
-    <span className="text-[11px] font-black">{label}</span>
-  </div>
-);
+  );
+};
 
 interface MetricCardProps {
   label: string;
@@ -258,6 +267,19 @@ interface TopProductProps {
   price: string;
 }
 
+const TopProduct = ({ rank, name, sold, price }: TopProductProps) => (
+  <div className="flex items-center justify-between group cursor-pointer">
+    <div className="flex items-center gap-3">
+      <div className="flex size-8 items-center justify-center rounded-full bg-primary-100 text-primary-600 text-[10px] font-bold">{rank}</div>
+      <div>
+        <p className="text-[11px] font-bold leading-tight">{name}</p>
+        <p className="text-[9px] opacity-40">{sold}</p>
+      </div>
+    </div>
+    <p className="text-xs font-black">{price}</p>
+  </div>
+);
+
 const CompactOrder = ({ name, status, amount }: { name: string; status: string; amount: string }) => (
   <div className="flex items-center justify-between group cursor-pointer">
     <div className="flex items-center gap-3.5">
@@ -266,10 +288,10 @@ const CompactOrder = ({ name, status, amount }: { name: string; status: string; 
       </div>
       <div>
         <p className="text-[11px] font-bold leading-tight">{name}</p>
-        <p className="text-[9px] opacity-40">{sold}</p>
+        <p className="text-[9px] opacity-40">{status}</p>
       </div>
     </div>
-    <p className="text-xs font-black">{price}</p>
+    <p className="text-xs font-black">{amount}</p>
   </div>
 );
 
