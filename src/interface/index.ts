@@ -3,7 +3,7 @@ import { StaticImageData } from 'next/image';
 export interface IBlogPost {
   tag: string;
   author: string;
-  authorImage: string;
+
   publishDate: string;
   title: string;
   description: string;

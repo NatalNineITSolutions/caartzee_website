@@ -40,14 +40,14 @@ const FeaturedBlogSwiper = ({ featuredBlogs }: FeaturedBlogSwiperProps) => {
             {featuredBlogs?.map((blog) => (
               <SwiperSlide key={blog.slug}>
                 <article className="bg-background-1 dark:bg-background-5 scale-100 overflow-hidden rounded-[20px] transition-transform duration-500 hover:scale-[99%] hover:transition-transform hover:duration-500">
-                  <figure className="max-h-[550px] w-full overflow-hidden rounded-[20px]">
+                  <figure className="relative aspect-[16/9] w-full overflow-hidden rounded-[20px] md:aspect-[21/9]">
                     <Image
                       src={blog.thumbnail}
                       alt={blog.title}
-                      className="h-full w-full object-cover"
+                      className="h-full w-full object-cover object-center"
                       loading="lazy"
-                      width={800}
-                      height={550}
+                      width={1600}
+                      height={900}
                     />
                   </figure>
                   <div className="space-y-4 rounded-b-[20px] p-4 md:p-6 lg:p-8">
