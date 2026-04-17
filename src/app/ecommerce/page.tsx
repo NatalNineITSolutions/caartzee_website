@@ -1,5 +1,6 @@
 import EcommerceHero from '@/components/ecommerce/EcommerceHero';
 import EcommerceProcess from '@/components/ecommerce/EcommerceProcess';
+import EcommercePricing from '@/components/ecommerce/EcommercePricing';
 import CTA from '@/components/shared/cta/CTA';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
@@ -14,6 +15,7 @@ const EcommercePage = () => {
     <main className="bg-background-1 dark:bg-background-6">
       <EcommerceHero />
       <EcommerceProcess />
+      <EcommercePricing />
       <CTA
         className="dark:bg-background-8 bg-white"
         badgeText="Start Ecommerce"

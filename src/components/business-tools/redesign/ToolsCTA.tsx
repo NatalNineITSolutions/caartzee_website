@@ -1,6 +1,7 @@
 'use client';
 import workBg from '@public/images/ns-img-27.png';
 import Image from 'next/image';
+import Link from 'next/link';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 
 const ToolsCTA = () => {
@@ -24,12 +25,18 @@ const ToolsCTA = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                <button className="px-12 py-5 bg-white text-secondary rounded-full font-bold text-lg transition-all hover:scale-105 hover:shadow-2xl active:scale-95">
-                  Start Free Trial
-                </button>
-                <button className="px-12 py-5 border border-white/30 bg-white/5 text-white rounded-full font-bold text-lg backdrop-blur-md transition-all hover:bg-white/10 hover:scale-105 active:scale-95">
-                  Talk to Sales
-                </button>
+                <Link 
+                  href="https://cartly.zeedone.com/register" 
+                  className="btn btn-xl btn-primary hover:btn-white dark:hover:btn-white-dark dark:btn-white w-full sm:w-60"
+                >
+                  <span>Start Free Trial</span>
+                </Link>
+                <Link 
+                  href="/contact-us" 
+                  className="btn btn-xl border border-white/30 bg-white/5 text-white hover:bg-white/10 hover:border-white/50 w-full sm:w-60"
+                >
+                  <span>Talk to Sales</span>
+                </Link>
               </div>
             </div>
           </div>

@@ -20,14 +20,28 @@ export const mobileMenuData: MobileMenuGroup[] = [
       { id: 'about', label: 'About', href: '/about' },
     ],
   },
+// {
+  //   id: 'resources',
+  //   title: 'Resources',
+  //   submenu: [
+  //     { id: 'blog', label: 'Blog', href: '/blog' },
+  //     { id: 'community', label: 'Community', href: '/community' },
+  //     { id: 'videos', label: 'Videos', href: '/videos' },
+  //     { id: 'help-center', label: 'Help center', href: '/help-center' },
+  //   ],
+  // },
   {
-    id: 'resources',
-    title: 'Resources',
+    id: 'blog',
+    title: 'Blog',
     submenu: [
-      { id: 'blog', label: 'Blog', href: '/blog' },
-      { id: 'community', label: 'Community', href: '/community' },
-      { id: 'videos', label: 'Videos', href: '/videos' },
-      { id: 'help-center', label: 'Help center', href: '/help-center' },
+      { id: 'blog-page', label: 'Blog', href: '/blog' },
+    ],
+  },
+  {
+    id: 'launch-your-store',
+    title: 'Launch Your Store',
+    submenu: [
+      { id: 'ecommerce-page', label: 'Launch Your Store', href: '/ecommerce' },
     ],
   },
   {

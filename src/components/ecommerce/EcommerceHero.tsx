@@ -17,7 +17,7 @@ interface EcommerceHeroProps {
 const EcommerceHero = ({ className, badgeClass }: EcommerceHeroProps) => {
   return (
     <section
-      className={cn('py-14 md:py-16 lg:py-[88px] xl:py-[160px]', className)}
+      className={cn('pt-12 pb-8 md:pt-14 md:pb-10 lg:pt-[70px] lg:pb-12 xl:pt-[90px] xl:pb-14', className)}
       aria-label="Ecommerce Partners"
     >
       <div className="main-container">
