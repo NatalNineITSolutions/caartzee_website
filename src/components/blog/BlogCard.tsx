@@ -8,14 +8,14 @@ export const BlogCard = ({ blog }: { blog: IBlogPost }) => {
   return (
     <article className="group">
       <div className="bg-background-1 dark:bg-background-5 relative scale-100 overflow-hidden rounded-[20px] transition-transform duration-500 hover:scale-[102%] hover:transition-transform hover:duration-500">
-        <figure className="h-[250px] max-w-full overflow-hidden rounded-b-[20px] xl:h-[310px]">
+        <figure className="relative aspect-[3/2] w-full overflow-hidden rounded-b-[20px]">
           <Image
             src={blog.thumbnail}
-            alt="Illustration representing electronic prescription in finance sector"
+            alt={blog.title}
             loading="lazy"
             className="h-full w-full object-cover object-center"
-            width={310}
-            height={310}
+            width={600}
+            height={400}
           />
         </figure>
         <div className="space-y-4 rounded-b-[20px] p-4 md:p-6 lg:p-8">

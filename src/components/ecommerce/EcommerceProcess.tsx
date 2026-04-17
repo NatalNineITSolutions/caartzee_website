@@ -34,7 +34,7 @@ const ecommerceStepsData: EcommerceStep[] = [
 
 const EcommerceProcess = () => {
   return (
-    <section className="py-14 md:py-16 lg:py-[88px] xl:py-[100px]">
+    <section className="py-8 md:py-10 lg:py-12 xl:py-14">
       <div className="main-container">
         <div className="space-y-10 md:space-y-[70px] text-center max-w-[602px] mx-auto">
           <RevealAnimation delay={0.1}>

@@ -35,7 +35,7 @@ const CTA = ({
   checkListVariant = 'default',
 }: CTAProps) => {
   return (
-    <section className={cn('py-[50px] md:py-20 lg:py-28', className)} aria-label="cta section">
+    <section className={cn('py-8 md:py-12 lg:py-14', className)} aria-label="cta section">
       <div className="main-container">
         <div className="xl :gap-0 flex flex-col items-center justify-between gap-8 xl:flex-row">
           <div className="mx-3 max-w-[649px] space-y-3 text-center sm:mx-0 md:w-full xl:text-left">

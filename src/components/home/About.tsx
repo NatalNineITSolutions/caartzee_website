@@ -5,7 +5,7 @@ import AboutUserCard from './AboutUserCard';
 
 const About = () => {
   return (
-    <section className="bg-background-2 dark:bg-background-6 relative pt-8 pb-14 max-sm:pt-10 max-sm:pb-10 md:pt-[100px] md:pb-16 lg:pt-[60px] lg:pb-[88px] xl:pt-[80px] xl:pb-[100px]">
+    <section className="bg-background-2 dark:bg-background-6 relative pt-4 pb-14 max-sm:pt-6 max-sm:pb-10 md:pt-16 md:pb-16 lg:pt-12 lg:pb-[88px] xl:pt-16 xl:pb-[100px]">
       <div className="main-container flex flex-col gap-[70px]">
         <div className="flex flex-col items-center gap-y-2 text-center">
           <RevealAnimation delay={0.1}>

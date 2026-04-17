@@ -15,18 +15,7 @@ const BlogContent = ({ blog }: { blog: matter.GrayMatterFile<string> }) => {
             <h2 className="max-w-[884px]">{blog.data.title}</h2>
           </RevealAnimation>
           <div className="flex items-center gap-3">
-            <RevealAnimation delay={0.2}>
-              <figure className="size-12 overflow-hidden rounded-full bg-[#ECEAED]">
-                <Image
-                  src={blog.data.authorImage as string | StaticImageData}
-                  className="object-cover object-center"
-                  alt="Esther Howard's avatar"
-                  width={48}
-                  height={48}
-                  loading="lazy"
-                />
-              </figure>
-            </RevealAnimation>
+
             <div>
               <RevealAnimation delay={0.3}>
                 <h3 className="text-tagline-1 font-medium">{blog.data.author}</h3>

@@ -102,7 +102,7 @@ const Navbar = () => {
 
 
 
-                <li
+{/* <li
                   className="nav-item relative cursor-pointer py-2.5"
                   data-menu="resources-dropdown-menu"
                   onMouseEnter={() => handleMenuHover('resources-dropdown-menu')}>
@@ -124,6 +124,22 @@ const Navbar = () => {
                     </span>
                   </Link>
                   <ResourcesMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                </li> */}
+
+                <li className="nav-item relative cursor-pointer py-2.5">
+                  <Link
+                    href="/ecommerce"
+                    className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                    <span>Launch Your Store</span>
+                  </Link>
+                </li>
+
+                <li className="nav-item relative cursor-pointer py-2.5">
+                  <Link
+                    href="/blog"
+                    className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                    <span>Blog</span>
+                  </Link>
                 </li>
 
                 <li className="nav-item relative cursor-pointer py-2.5">
@@ -147,7 +163,7 @@ const Navbar = () => {
               <Link
                 href="https://cartly.zeedone.com/register"
                 className="btn btn-md btn-primary hover:btn-secondary dark:hover:btn-white-dark dark:btn-white">
-                <span>Start free</span>
+                <span>Get Started</span>
               </Link>
             </div>
             <MobileMenuButton />

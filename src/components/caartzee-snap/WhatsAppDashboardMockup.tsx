@@ -189,36 +189,36 @@ const WhatsAppDashboardMockup = () => {
   );
 };
 
-interface NavItemProps {
-  icon: React.ElementType;
-  label: string;
-  active?: boolean;
-  hasSubmenu?: boolean;
-}
-
-const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false }: NavItemProps) => (
-  <div className={cn(
-    "flex items-center justify-between rounded-xl px-4 py-2.5 cursor-pointer transition-all",
-    active ? "bg-[#C6F56F]/10 text-primary-600 border border-[#C6F56F]/20" : "text-black/60 hover:bg-black/5 dark:text-white/60 dark:hover:bg-white/5"
-  )}>
-    <div className="flex items-center gap-3">
-      <Icon size={18} className={active ? "text-[#25D366]" : ""} />
-      <span className="text-[11px] font-bold">{label}</span>
+const NavItem = ({ icon: Icon, label, active = false, hasSubmenu = false, badge = "", className = "" }: { icon: React.ComponentType<{ size: number; className?: string }>; label: string; active?: boolean; hasSubmenu?: boolean; badge?: string; className?: string }) => (
+  <div className={`group flex items-center justify-between rounded-2xl px-5 py-3.5 cursor-pointer transition-all duration-300 ${active ? 'bg-white shadow-[0_10px_20px_-5px_rgba(0,0,0,0.05)] translate-x-1 dark:bg-[#0F1115]' : 'text-secondary/50 hover:bg-secondary/5 hover:translate-x-1 dark:text-white/40 dark:hover:bg-white/5'} ${className}`}>
+    <div className="flex items-center gap-3.5">
+      <Icon size={20} className={active ? 'text-primary-500' : 'group-hover:text-secondary dark:group-hover:text-white'} />
+      <span className={`text-tagline-2 font-bold ${active ? 'text-secondary dark:text-white' : ''}`}>{label}</span>
     </div>
     {hasSubmenu && <ChevronDown size={12} className="opacity-30" />}
   </div>
 );
 
-interface QuickActionProps {
-  label: string;
-  icon: React.ElementType;
-  color: string;
-}
-
-const QuickAction = ({ label, icon: Icon, color }: QuickActionProps) => (
-  <div className="flex items-center gap-3 rounded-2xl bg-white p-3 shadow-sm dark:bg-white/5 transition-transform hover:scale-[1.02] cursor-pointer">
-    <div className="flex size-10 items-center justify-center rounded-xl" style={{ backgroundColor: `${color}15`, color }}>
-      <Icon size={20} />
+const StatCard = ({ label, value, change, icon: Icon, color }: { label: string; value: string; change: string; icon: React.ComponentType<{ size: number; className?: string }>; color: 'green' | 'blue' | 'purple' | 'orange' }) => {
+  const colorMap = {
+    green: 'text-green-500 bg-green-500/10',
+    blue: 'text-blue-500 bg-blue-500/10',
+    purple: 'text-purple-500 bg-purple-500/10',
+    orange: 'text-orange-500 bg-orange-500/10',
+  };
+  return (
+    <div className="group rounded-[28px] border border-stroke-1/50 bg-white p-7 transition-all duration-300 hover:shadow-xl hover:shadow-black/5 dark:border-white/5 dark:bg-white/[0.01]">
+      <div className="mb-5 flex items-center justify-between">
+        <div className={`flex size-11 items-center justify-center rounded-2xl bg-secondary/5 dark:bg-white/5 transition-all group-hover:scale-110`}>
+          <Icon size={22} className="text-secondary/40 dark:text-white/40" />
+        </div>
+        <div className={`flex items-center gap-1 rounded-full px-2.5 py-1 text-[10px] font-black ${colorMap[color]}`}>
+          <TrendingUp size={10} />
+          {change}
+        </div>
+      </div>
+      <p className="text-tagline-2 font-bold text-secondary/40 dark:text-white/30">{label}</p>
+      <h3 className="text-2xl font-black tracking-tight dark:text-white mt-1">{value}</h3>
     </div>
     <span className="text-[11px] font-black">{label}</span>
   </div>
@@ -258,12 +258,11 @@ interface TopProductProps {
   price: string;
 }
 
-const TopProduct = ({ rank, name, sold, price }: TopProductProps) => (
-  <div className="flex items-center justify-between transition-all hover:translate-x-1 cursor-pointer">
-    <div className="flex items-center gap-4">
-      <span className="text-xs font-black opacity-20">{rank}</span>
-      <div className="size-10 rounded-full bg-[#F8F9FA] dark:bg-white/10 flex items-center justify-center font-bold text-[10px] text-black/40">
-        {name.charAt(0)}
+const CompactOrder = ({ name, status, amount }: { name: string; status: string; amount: string }) => (
+  <div className="flex items-center justify-between group cursor-pointer">
+    <div className="flex items-center gap-3.5">
+      <div className="size-11 rounded-2xl bg-secondary/5 dark:bg-white/5 flex items-center justify-center group-hover:bg-primary-500/10 transition-colors">
+        <Package size={18} className="text-secondary/30" />
       </div>
       <div>
         <p className="text-[11px] font-bold leading-tight">{name}</p>

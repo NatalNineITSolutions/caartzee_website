@@ -15,8 +15,8 @@ const clientLogos = [
 
 const Brands = () => {
   return (
-    <section className="py-16 bg-white dark:bg-background-8 border-y border-stroke-1 dark:border-white/5 overflow-hidden">
-      <div className="main-container mb-12 text-center">
+    <section className="py-12 bg-white dark:bg-background-8 border-y border-stroke-1 dark:border-white/5 overflow-hidden">
+      <div className="main-container mb-6 text-center">
         <RevealAnimation delay={0.1}>
           <span className="text-[12px] font-bold text-secondary/40 dark:text-accent/40 uppercase tracking-[0.3em]">
             Trusted by leading brands worldwide
@@ -29,6 +29,7 @@ const Brands = () => {
           gradient={false} 
           speed={40} 
           pauseOnHover={true}
+          autoFill={true}
           className="overflow-hidden"
         >
           <div className="flex items-center gap-16 md:gap-32 pr-16 md:pr-32">
@@ -51,10 +52,10 @@ const Brands = () => {
         </Marquee>
 
         {/* LEFT FADE */}
-        <div className="pointer-events-none absolute left-0 top-0 z-20 hidden h-full w-[120px] bg-gradient-to-r from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent md:block md:w-[180px] lg:w-[260px]" />
+        <div className="pointer-events-none absolute left-0 top-0 z-20 hidden h-full w-[70px] bg-gradient-to-r from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent md:block md:w-[100px] lg:w-[150px]" />
 
         {/* RIGHT FADE */}
-        <div className="pointer-events-none absolute right-0 top-0 z-20 hidden h-full w-[120px] bg-gradient-to-l from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent md:block md:w-[180px] lg:w-[260px]" />
+        <div className="pointer-events-none absolute right-0 top-0 z-20 hidden h-full w-[70px] bg-gradient-to-l from-white via-white/80 to-transparent dark:from-[#070b10] dark:via-[#070b10]/80 dark:to-transparent md:block md:w-[100px] lg:w-[150px]" />
       </div>
     </section>
   );

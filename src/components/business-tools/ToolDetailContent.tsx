@@ -77,31 +77,22 @@ const ToolDetailContent = ({ slug }: ToolDetailContentProps) => {
               Frequently Asked Questions
             </h2>
             <Accordion className="space-y-4">
-              {tool.faqs.map((faq, index) => {
-                const faqValue = `faq-${index}`;
-                return (
-                  <AccordionItem 
-                    key={index}
-                    value={faqValue}
-                    className="bg-gray-50 dark:bg-background-7 rounded-xl border border-stroke-1 dark:border-white/10 overflow-hidden"
-                  >
-                    <AccordionTrigger 
-                      value={faqValue}
-                      className="px-6 py-4 text-lg font-bold text-secondary dark:text-accent hover:text-primary-500 transition-colors"
-                    >
-                      {faq.question}
-                    </AccordionTrigger>
-                    <AccordionContent 
-                      value={faqValue}
-                      className="px-6 pb-6 pt-0"
-                    >
-                      <span className="text-secondary/60 dark:text-accent/60 leading-relaxed block">
-                        {faq.answer}
-                      </span>
-                    </AccordionContent>
-                  </AccordionItem>
-                );
-              })}
+              {tool.faqs.map((faq, index) => (
+                <AccordionItem 
+                  key={index}
+                  value={`faq-${index}`}
+                  className="bg-gray-50 dark:bg-background-7 rounded-xl border border-stroke-1 dark:border-white/10 overflow-hidden"
+                >
+                  <AccordionTrigger value={`faq-${index}`} className="px-6 py-4 text-lg font-bold text-secondary dark:text-accent hover:text-primary-500 transition-colors">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent value={`faq-${index}`} className="px-6 pb-6 pt-0">
+                    <p className="text-secondary/60 dark:text-accent/60 leading-relaxed">
+                      {faq.answer}
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
             </Accordion>
           </div>
         </section>

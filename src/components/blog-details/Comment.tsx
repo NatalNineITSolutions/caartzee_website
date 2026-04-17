@@ -1,5 +1,5 @@
-import avatar from '@public/images/ns-avatar-6.png';
-import Image from 'next/image';
+
+
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
 
@@ -10,16 +10,7 @@ const Comment = () => {
         <div className="mb-[70px] space-y-4">
           <h5 className="text-heading-4">Comments</h5>
           <div className="flex items-center gap-3">
-            <figure className="size-14 overflow-hidden rounded-2xl bg-linear-[156deg,_#FFF_32.92%,_#A585FF_91%]">
-              <Image
-                src={avatar}
-                className="object-cover object-center"
-                alt="Esther Howard's avatar"
-                width={56}
-                height={56}
-                loading="lazy"
-              />
-            </figure>
+
             <div>
               <h3 className="text-tagline-1 font-medium">Esther Howard</h3>
               <time
