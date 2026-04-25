@@ -102,7 +102,7 @@ const Navbar = () => {
 
 
 
-{/* <li
+                {/* <li
                   className="nav-item relative cursor-pointer py-2.5"
                   data-menu="resources-dropdown-menu"
                   onMouseEnter={() => handleMenuHover('resources-dropdown-menu')}>

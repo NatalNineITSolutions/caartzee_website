@@ -7,7 +7,7 @@ import SocialIcon, { Platform } from '@/components/shared/SocialIcon';
 const teamMembers = [
   {
     name: 'Nivetha Muralidharan',
-    role: 'Co-Founder & CEO',
+    role: 'Co-Founder',
     image: '/images/nivetha-muralidharan.jpg',
     social: {
       linkedin: 'https://in.linkedin.com/in/nivethamuralidharan',
@@ -17,10 +17,10 @@ const teamMembers = [
   },
   {
     name: 'Akhil Jinu',
-    role: 'Co-Founder & CTO',
+    role: 'Founder & CTO',
     image: '/images/dummy-avatar.png',
     social: {
-      linkedin: 'https://bd.linkedin.com/company',
+      linkedin: 'https://in.linkedin.com/in/akhiljinu',
       twitter: 'https://twitter.com',
     },
     color: 'bg-[#FBE9E7]',

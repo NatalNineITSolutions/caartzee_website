@@ -9,12 +9,12 @@ import CompanyMenuLink, { type CompanyMenuLinkProps } from './CompanyMenuLink';
 type CompanyLink = Omit<CompanyMenuLinkProps, 'onClose'>;
 
 const aboutLinks: CompanyLink[] = [
-  {
-    title: 'Careers',
-    description: 'Join the team and be a part of the rocketship.',
-    href: '/career',
-    icon: CareerIcon,
-  },
+  // {
+  //   title: 'Careers',
+  //   description: 'Join the team and be a part of the rocketship.',
+  //   href: '/career',
+  //   icon: CareerIcon,
+  // },
   {
     title: 'About',
     description: 'The who, what, and why of Caartzee.',
