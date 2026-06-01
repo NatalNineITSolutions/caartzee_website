@@ -11,7 +11,7 @@ const Pricing = () => {
   const [isAnnual, setIsAnnual] = useState(false);
 
   return (
-    <section className="pt-14 pb-14 max-2xl:px-4 md:pt-16 md:pb-16 lg:pt-[88px] lg:pb-[88px] xl:pt-[100px] xl:pb-[100px] bg-background-2 overflow-hidden relative">
+    <section id="pricing" className="pt-14 pb-14 max-2xl:px-4 md:pt-16 md:pb-16 lg:pt-[88px] lg:pb-[88px] xl:pt-[100px] xl:pb-[100px] bg-background-2 overflow-hidden relative">
       {/* Background Subtle Glows */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1200px] h-[500px] bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary-500/5 via-transparent to-transparent blur-3xl pointer-events-none" />
 

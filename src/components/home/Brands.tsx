@@ -11,6 +11,8 @@ const clientLogos = [
   { id: 5, src: '/images/icons/customer5.png', alt: 'Client Logo 5' },
   { id: 6, src: '/images/icons/customer6.png', alt: 'Client Logo 6' },
   { id: 7, src: '/images/icons/customer7.png', alt: 'Client Logo 7' },
+  { id: 8, src: '/images/icons/new-mileora-logo.png', alt: 'Client Logo 8' },
+  { id: 8, src: '/images/icons/karur luxe.png', alt: 'Client Logo 8' }
 ];
 
 const Brands = () => {
@@ -25,17 +27,17 @@ const Brands = () => {
       </div>
 
       <div className="relative group">
-        <Marquee 
-          gradient={false} 
-          speed={40} 
+        <Marquee
+          gradient={false}
+          speed={40}
           pauseOnHover={true}
           autoFill={true}
           className="overflow-hidden"
         >
           <div className="flex items-center gap-16 md:gap-32 pr-16 md:pr-32">
             {clientLogos.map((logo) => (
-              <div 
-                key={logo.id} 
+              <div
+                key={logo.id}
                 className="opacity-80 transition-all duration-500 cursor-default"
               >
                 <div className="relative w-32 h-12 md:w-48 md:h-16">

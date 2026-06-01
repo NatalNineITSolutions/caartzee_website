@@ -34,7 +34,7 @@ const FeatureCard = () => {
             <PlusCircle size={32} strokeWidth={2.2} />
           </div>
           <h4 className="text-tagline-1 mb-3 font-bold text-secondary dark:text-accent group-hover:text-primary-500 transition-colors">
-            Add your products
+            View a product
           </h4>
           <p className="text-secondary/60 dark:text-accent/60 text-tagline-3 leading-relaxed">
             Upload your inventory in seconds. Snap automatically creates your WhatsApp store.

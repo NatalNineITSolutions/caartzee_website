@@ -21,23 +21,41 @@ const Understanding = () => {
         {/* Section header */}
         <div className="mb-10 text-center md:mb-[70px]">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green-v2 mb-5">Snap Intelligence</span>
+            <span className="badge badge-green-v2 mb-5">Benefits</span>
           </RevealAnimation>
 
           <RevealAnimation delay={0.2}>
-            <h2 className="mb-3">
-              Know Your Customers.
-              <br className="hidden md:block" />
-              <span className="text-primary-500 inline-block">Grow Your Sales.</span>
+            <h2 className="mb-5">
+              Why Choose <span className="text-primary-500 inline-block">SNAP?</span>
             </h2>
           </RevealAnimation>
 
           <RevealAnimation delay={0.3}>
-            <p className="mx-auto mb-8 lg:max-w-[562px]">
-              Snap gives you a live dashboard of your WhatsApp conversations, order trends, and top-selling products. Make smarter decisions every day with real data from your actual customers.
-
-Real-time reporting. Clear metrics. Zero guesswork.
-            </p>
+            <div className="mx-auto mb-8 max-w-[800px]">
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-lg font-medium opacity-80 text-left">
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-500 mt-1">✅</span> <span>Manage WhatsApp conversations in one place</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-500 mt-1">✅</span> <span>Automate customer engagement with AI</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-500 mt-1">✅</span> <span>Integrate Shopify and payment systems</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-500 mt-1">✅</span> <span>Recover abandoned carts automatically</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-500 mt-1">✅</span> <span>Create no-code automation workflows</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary-500 mt-1">✅</span> <span>Increase sales and customer satisfaction</span>
+                </li>
+                <li className="flex items-start gap-3 md:col-span-2 md:w-1/2 md:mx-auto">
+                  <span className="text-primary-500 mt-1">✅</span> <span>Run marketing campaigns directly through WhatsApp</span>
+                </li>
+              </ul>
+            </div>
           </RevealAnimation>
         </div>
 
@@ -55,17 +73,10 @@ Real-time reporting. Clear metrics. Zero guesswork.
                   />
                 </figure>
                 <figure className="mx-auto max-w-[576px]">
-                  <Image
-                    src={understandingChat}
+                  <img
+                    src="/images/image000.png"
                     alt="Understanding"
-                    className="block rounded-[25px] dark:hidden"
-                    priority
-                  />
-                  <Image
-                    src={understandingChatDark}
-                    alt="Understanding"
-                    className="hidden rounded-[25px] dark:block"
-                    priority
+                    className="block w-full h-auto rounded-[25px]"
                   />
                 </figure>
               </div>

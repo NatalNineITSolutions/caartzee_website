@@ -1,71 +1,112 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
 import { 
-  Zap, 
-  Users, 
-  ClipboardCheck, 
   MessageSquare, 
-  Mic, 
-  BarChart3,
+  Store, 
+  CreditCard, 
+  Bot, 
+  Inbox, 
+  GitBranch,
+  ShoppingCart,
+  Megaphone,
+  FileText,
+  BookOpen,
   MoveRight
 } from 'lucide-react';
 
 const features = [
   {
-    title: "Automated sales solutions",
-    description: "Scale your sales with intelligent automation that works while you sleep, handling everything from lead qualification to final closing.",
-    icon: Zap,
+    title: "WhatsApp Integration",
+    description: "Centralized customer communication. Faster response times and better customer engagement.",
+    icon: MessageSquare,
     delay: 0.1,
     colSpan: "lg:col-span-2",
     bgColor: "bg-blue-50/50 dark:bg-blue-500/5",
     iconColor: "text-blue-600 dark:text-blue-400"
   },
   {
-    title: "In-WhatsApp onboarding",
-    description: "Onboard customers directly in the chat interface.",
-    icon: Users,
+    title: "Shopify Integration",
+    description: "Real-time product synchronization and easy order management for a seamless customer experience.",
+    icon: Store,
     delay: 0.2,
     colSpan: "lg:col-span-1",
     bgColor: "bg-purple-50/50 dark:bg-purple-500/5",
     iconColor: "text-purple-600 dark:text-purple-400"
   },
   {
-    title: "Real-time orders",
-    description: "Monitor every incoming order in real-time.",
-    icon: ClipboardCheck,
+    title: "Payment Integration",
+    description: "Quick payment collection and secure transactions directly through WhatsApp for improved conversion rates.",
+    icon: CreditCard,
     delay: 0.3,
     colSpan: "lg:col-span-1",
     bgColor: "bg-green-50/50 dark:bg-green-500/5",
     iconColor: "text-green-600 dark:text-green-400"
   },
   {
-    title: "AI driven customer support",
-    description: "Leverage state-of-the-art AI to provide instant, helpful responses to your customers at any time of day or night.",
-    icon: MessageSquare,
+    title: "AI-Powered Auto Replies",
+    description: "24/7 customer support using Meta AI. Instant responses to reduce workload for support teams.",
+    icon: Bot,
     delay: 0.4,
     colSpan: "lg:col-span-2",
     bgColor: "bg-orange-50/50 dark:bg-orange-500/5",
     iconColor: "text-orange-600 dark:text-orange-400"
   },
   {
-    title: "Multimedia Support",
-    description: "Handle voice notes and product photos.",
-    icon: Mic,
+    title: "WhatsApp Inbox",
+    description: "Manage all customer chats in one organized inbox. Track conversations and assign to team members easily.",
+    icon: Inbox,
     delay: 0.5,
-    colSpan: "lg:col-span-1",
+    colSpan: "lg:col-span-2",
     bgColor: "bg-red-50/50 dark:bg-red-500/5",
     iconColor: "text-red-600 dark:text-red-400"
   },
   {
-    title: "Analytics & Growth Dashboard",
-    description: "Access powerful insights and data visualizations to understand your growth trends and optimize your WhatsApp selling strategy.",
-    icon: BarChart3,
+    title: "Flow Builder",
+    description: "Create automated customer journeys without coding for lead generation, order confirmation, and more.",
+    icon: GitBranch,
     delay: 0.6,
-    colSpan: "lg:col-span-2",
+    colSpan: "lg:col-span-1",
     bgColor: "bg-cyan-50/50 dark:bg-cyan-500/5",
     iconColor: "text-cyan-600 dark:text-cyan-400"
+  },
+  {
+    title: "Cart Abandonment Recovery",
+    description: "Automatically remind customers about items left in their cart. Recover lost sales and boost revenue.",
+    icon: ShoppingCart,
+    delay: 0.1,
+    colSpan: "lg:col-span-1",
+    bgColor: "bg-rose-50/50 dark:bg-rose-500/5",
+    iconColor: "text-rose-600 dark:text-rose-400"
+  },
+  {
+    title: "Campaign & Broadcasting",
+    description: "Reach customers instantly with promotional messages, offers, and announcements through WhatsApp.",
+    icon: Megaphone,
+    delay: 0.2,
+    colSpan: "lg:col-span-2",
+    bgColor: "bg-indigo-50/50 dark:bg-indigo-500/5",
+    iconColor: "text-indigo-600 dark:text-indigo-400"
+  },
+  {
+    title: "Meta Templates",
+    description: "Create and manage approved WhatsApp message templates for notifications, promotions, and customer updates.",
+    icon: FileText,
+    delay: 0.3,
+    colSpan: "lg:col-span-2",
+    bgColor: "bg-teal-50/50 dark:bg-teal-500/5",
+    iconColor: "text-teal-600 dark:text-teal-400"
+  },
+  {
+    title: "Knowledge Base",
+    description: "Store FAQs, product information, and business knowledge to power AI responses and support.",
+    icon: BookOpen,
+    delay: 0.4,
+    colSpan: "lg:col-span-1",
+    bgColor: "bg-yellow-50/50 dark:bg-yellow-500/5",
+    iconColor: "text-yellow-600 dark:text-yellow-400"
   }
 ];
 
@@ -106,10 +147,10 @@ const FeaturesGrid = () => {
                 </p>
 
                 <div className="mt-auto pt-10">
-                    <div className="flex items-center gap-2 text-primary-500 font-bold group-hover:gap-4 transition-all duration-300">
-                    <span className="text-sm uppercase tracking-widest">Connect Support</span>
-                    <MoveRight size={20} />
-                    </div>
+                    <Link href="/contact-us" className="flex w-fit items-center gap-2 text-primary-500 font-bold group-hover:gap-4 transition-all duration-300">
+                      <span className="text-sm uppercase tracking-widest">Connect Support</span>
+                      <MoveRight size={20} />
+                    </Link>
                 </div>
               </article>
             </RevealAnimation>

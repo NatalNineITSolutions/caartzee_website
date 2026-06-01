@@ -37,7 +37,7 @@ const teamMembers = [
   },
   {
     name: 'Lenin Royal',
-    location: 'CTO & Founder',
+    location: 'Co-Founder',
     image: '/images/dummy-avatar.png',
     social: {
       facebook: 'https://www.facebook.com',

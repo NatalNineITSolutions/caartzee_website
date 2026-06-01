@@ -21,6 +21,7 @@ interface PricingPlan {
   variant: string;
   highlight?: string;
   popular?: boolean;
+  buttonText?: string;
   features: Feature[];
 }
 
@@ -44,7 +45,7 @@ const PricingCard = ({ isAnnual }: { isAnnual: boolean }) => {
                 'mx-auto flex h-full w-full max-w-[408px] flex-col rounded-[20px] transition-all duration-500 hover:-translate-y-2 transition-all',
                 idx === 1 
                   ? "bg-[url('/images/ns-img-26.jpg')] bg-cover bg-center p-2.5 shadow-[0_30px_60px_rgba(0,0,0,0.12)]" 
-                  : "bg-background-3 p-8 border border-black/5 shadow-sm"
+                  : "bg-background-3 dark:bg-background-8 p-8 border border-black/5 dark:border-white/5 shadow-sm"
               )}>
               <div className={cn(
                 "flex flex-1 flex-col h-full",
@@ -72,7 +73,7 @@ const PricingCard = ({ isAnnual }: { isAnnual: boolean }) => {
                 {/* Prices */}
                 <div className="mb-8 flex items-baseline gap-1">
                   <h4 className="text-5xl font-black text-black dark:text-white tracking-tight leading-none">
-                    ₹<span>{isAnnual ? plan.priceYear : plan.priceMonth}</span>
+                    ₹<span>{isAnnual ? plan.priceYear.toLocaleString('en-IN') : plan.priceMonth.toLocaleString('en-IN')}</span>
                   </h4>
                   <p className="text-sm font-bold text-black/40 dark:text-accent/40 uppercase tracking-wider">
                     / {isAnnual ? 'Year' : 'Month'}
@@ -88,7 +89,7 @@ const PricingCard = ({ isAnnual }: { isAnnual: boolean }) => {
                       ? 'bg-white text-black border border-black/10 hover:bg-black/5 dark:bg-white/5 dark:text-white dark:border-white/10 dark:hover:bg-white/10'
                       : 'bg-secondary text-white hover:bg-secondary/90 shadow-lg shadow-black/10 dark:bg-accent dark:text-black dark:hover:bg-accent/90',
                   )}>
-                  Get started
+                  {plan.buttonText || 'Get started'}
                 </Link>
 
                 {/* Features */}
