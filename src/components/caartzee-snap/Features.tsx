@@ -16,7 +16,7 @@ const Features = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto mb-8 lg:max-w-[696px]">
-              Getting started with Caartzee Snap takes less than 5 minutes. Add your products, set your prices, and let Snap handle the rest — orders, payments, and customer queries, all on auto-pilot.
+              SNAP transforms WhatsApp into a complete sales, support, and automation platform for modern businesses. Getting started takes less than 5 minutes.
             </p>
           </RevealAnimation>
         </div>

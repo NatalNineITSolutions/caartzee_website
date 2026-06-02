@@ -22,7 +22,7 @@ const aboutListData = [
     id: 4,
     text: 'Unified team sync and operation hubs with CrewSync',
   },
-   {
+  {
     id: 5,
     text: 'Advanced cross-border logistics and global fulfillment',
   },
@@ -38,7 +38,7 @@ const AboutList = () => {
         <div className="grid grid-cols-2 gap-5 px-6 py-14 max-sm:grid-cols-1 max-sm:gap-10 max-sm:px-5 max-sm:py-8 md:px-11">
           <div className="about-content max-w-[500px]">
             <h5 className="text-accent max-sm:text-heading-6 mb-8">
-              The All-in-One Commerce Ecosystem 
+              The All-in-One Commerce Ecosystem
             </h5>
             <LinkButton href="/contact-us" className="btn btn-md btn-primary hover:btn-secondary">
               Get started

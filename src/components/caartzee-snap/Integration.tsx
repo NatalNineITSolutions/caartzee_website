@@ -10,22 +10,19 @@ const logos = [
   { src: '/images/icons/instagram.png', alt: 'Notion' },
   { src: '/images/icons/amazon.png', alt: 'Dropbox' },
   { src: '/images/icons/shopify.png', alt: 'Svelte' },
-  { src: '/images/icons/google.png', alt: 'Slack' },
   { src: '/images/icons/gmail.svg', alt: 'Asana' },
 ];
 
 const logosRight = [
-  { src: '/images/icons/figma.svg', alt: 'Svelte' },
   { src: '/images/icons/framer.svg', alt: 'Notion' },
-  { src: '/images/icons/facebook-v2.svg', alt: 'Reddit' },
-  { src: '/images/icons/dropbox.svg', alt: 'Dropbox' },
+  { src: '/images/icons/chatgpt3.png', alt: 'Svelte' },
+  { src: '/images/icons/shopify.png', alt: 'Svelte' },
+  { src: '/images/icons/whatsapp.png', alt: 'WhatsApp' },
 ];
 
 const logosBottom = [
   { src: '/images/icons/grok-ai.svg', alt: 'Slack' },
-  { src: '/images/icons/drive-google.svg', alt: 'Google Drive' },
   { src: '/images/icons/gemini.svg', alt: 'Spanchat' },
-  { src: '/images/icons/dropbox.svg', alt: 'Dropbox' },
   { src: '/images/icons/chatgpt3.png', alt: 'Svelte' },
 ];
 
@@ -41,15 +38,15 @@ const Integration = () => {
 
             <RevealAnimation delay={0.2}>
               <h2 className="mb-3">
-                Built to Fit  <span className="text-primary-500 lg:block">Your Workflow.</span>
+                Seamless <span className="text-primary-500 lg:block">Integrations.</span>
               </h2>
             </RevealAnimation>
 
             <RevealAnimation delay={0.3}>
               <p className="mb-8 lg:max-w-[596px]">
-                Caartzee Snap connects seamlessly with the tools that power your daily operations — from payment gateways and delivery partners to CRM platforms and analytics tools.
-
-Fast setup. Zero friction. Maximum efficiency.
+                Sync your Shopify store with SNAP to manage products, orders, and customers directly from the platform. Accept payments directly through WhatsApp conversations and automated workflows.
+                <br /><br />
+                Real-time synchronization. Secure transactions. Improved conversion rates.
               </p>
             </RevealAnimation>
 

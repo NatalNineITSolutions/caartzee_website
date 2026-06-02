@@ -21,17 +21,16 @@ const Hero = () => {
       <HeroShapes />
       <div className="main-container relative z-30 text-center">
         <RevealAnimation delay={0.1}>
-          <span className="badge badge-green-v2 mb-5 px-6 py-2">Caartzee Snap </span>
+          <span className="badge badge-green-v2 mb-5 px-6 py-2">Smart WhatsApp Commerce Platform</span>
         </RevealAnimation>
         <RevealAnimation delay={0.2}>
           <h1 className="mb-4 font-black tracking-tight leading-none text-4xl md:text-6xl lg:text-7xl">
-            Sell More on <span className="text-primary-500 font-bold">WhatsApp</span> <br className="hidden md:block"/> Without the Hassle
+            Sell More on <span className="text-primary-500 font-bold">WhatsApp</span> <br className="hidden md:block" /> Without the Hassle
           </h1>
         </RevealAnimation>
         <RevealAnimation delay={0.3}>
-          <p className="mx-auto mb-10 max-w-[650px] md:mb-14 text-lg md:text-xl font-medium opacity-60 leading-relaxed">
-            Automate customer conversations, drive more sales, and deliver instant support — all inside WhatsApp.
-            Not just automation. A smarter way to grow.
+          <p className="mx-auto mb-10 max-w-[700px] md:mb-14 text-lg md:text-xl font-medium opacity-60 leading-relaxed">
+            SNAP helps businesses connect with customers, automate conversations, manage online stores, and increase sales—all from one platform.
           </p>
         </RevealAnimation>
         <RevealAnimation delay={0.4}>
@@ -42,7 +41,7 @@ const Hero = () => {
               <span>Get started for free</span>
             </LinkButton>
             <LinkButton
-              href="/pricing"
+              href="#pricing"
               className="btn btn-xl bg-white text-black border border-black/10 hover:bg-black/5 flex h-14 px-10 items-center justify-center rounded-2xl transition-all">
               <span>View Pricing</span>
             </LinkButton>
@@ -53,17 +52,21 @@ const Hero = () => {
         <RevealAnimation delay={0.5}>
           <div className="mx-auto max-w-[900px] bg-white/80 dark:bg-white/5 rounded-[24px] shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-black/5 p-4 md:p-6 mb-16 relative z-40 backdrop-blur-xl">
             <div className="grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-black/5">
-              <StatItem value="10,000+" label="Happy Sellers" />
-              <StatItem value="2,430+" label="Stores Created" />
+              <StatItem value="100+" label="Happy Sellers" />
+              <StatItem value="200+" label="Stores Created" />
               <StatItem value="92%" label="Satisfaction" />
-              <StatItem value="20 Days" label="Avg. Launch" />
+              <StatItem value="10 Days" label="Avg. Launch" />
             </div>
           </div>
         </RevealAnimation>
 
         {/* Dashboard Mockup Integration */}
         <div className="mt-16 md:mt-24 lg:mt-[120px]">
-           <WhatsAppDashboardMockup />
+           <RevealAnimation delay={0.6} instant>
+             <div className="rounded-[24px] overflow-hidden shadow-[0_32px_64px_-16px_rgba(0,0,0,0.15)] border border-black/5 dark:border-white/5 ring-1 ring-black/5 mx-auto max-w-[1200px] transform-gpu transition-transform hover:scale-[1.01]">
+               <img src="/images/image00.png" alt="WhatsApp Commerce Dashboard" className="w-full h-auto object-cover block" />
+             </div>
+           </RevealAnimation>
         </div>
       </div>
       <RevealAnimation delay={1} offset={0}>
@@ -81,7 +84,7 @@ Hero.displayName = 'Hero';
 const StatItem = ({ value, label }: { value: string; label: string }) => (
   <div className="flex flex-col items-center justify-center py-4 md:py-0">
     <h3 className="text-2xl font-black text-black dark:text-white leading-none mb-1">{value}</h3>
-    <p className="text-[11px] font-bold text-black/40 uppercase tracking-widest">{label}</p>
+    <p className="text-[11px] font-bold text-black/40 dark:text-white/40 uppercase tracking-widest">{label}</p>
   </div>
 );
 

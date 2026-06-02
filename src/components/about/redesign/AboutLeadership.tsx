@@ -36,7 +36,7 @@ const teamMembers = [
   },
   {
     name: 'Lenin Royal',
-    role: 'Head of Engineering',
+    role: 'Co-Founder',
     image: '/images/dummy-avatar.png',
     social: {
       linkedin: 'https://bd.linkedin.com/company',

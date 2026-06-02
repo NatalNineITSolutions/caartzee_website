@@ -13,8 +13,8 @@ const CTA = () => {
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <p className="mx-auto mb-8 lg:max-w-[390px]">
-              Join thousands of Tamil Nadu sellers using Caartzee Snap to grow their business on WhatsApp. Start free, no credit card needed.
+            <p className="mx-auto mb-8 lg:max-w-[500px]">
+              SNAP transforms WhatsApp into a complete sales, support, and automation platform for modern businesses. Start free, no credit card needed.
             </p>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
@@ -37,10 +37,7 @@ const CTA = () => {
                 id: '1',
                 text: 'No credit card required',
               },
-              {
-                id: '2',
-                text: '30 days free trial',
-              },
+
               {
                 id: '3',
                 text: 'Cancel anytime',

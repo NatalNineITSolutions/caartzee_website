@@ -9,13 +9,13 @@ const About = () => {
       <div className="main-container flex flex-col gap-[70px]">
         <div className="flex flex-col items-center gap-y-2 text-center">
           <RevealAnimation delay={0.1}>
-            <h2 className="mx-auto max-w-[750px] max-sm:max-w-[320px]">
-             Whether you&apos;re a startup or an established business, here&apos;s why Caartzee is your best choice
+            <h2 className="mx-auto max-w-[800px] max-sm:max-w-[320px]">
+              Why choose Caartzee?
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <p className="max-w-[900px] max-sm:max-w-[300px]">
-              Unify your online stores, inventory, finance, and sales channels within a single intelligent dashboard—designed for businesses ready to scale with speed and control.
+            <p className="mx-auto max-w-[900px] max-sm:max-w-[300px] mt-4">
+              Unify your online stores, inventory, and sales channels within a single intelligent dashboard.
             </p>
           </RevealAnimation>
         </div>
