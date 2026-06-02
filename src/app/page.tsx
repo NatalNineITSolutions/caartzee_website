@@ -5,6 +5,7 @@ import Hero from '@/components/home/Hero';
 import Integration from '@/components/home/Integration';
 import Integ from '@/components/home/Integ';
 import Pricing from '@/components/home/Pricing';
+import VaultShieldHero from '@/components/home/VaultShieldHero';
 import Reviews from '@/components/home/Reviews';
 import Work from '@/components/home/Work';
 import VideoModal from '@/components/shared/VideoModal';
@@ -16,6 +17,7 @@ import FeaturesV2 from '@/components/home/FeaturesV2';
 import Brands from '@/components/home/Brands';
 import BlogShowcase from '@/components/blog/BlogShowcase';
 import CTA from '@/components/shared/cta/CTA';
+import FearlessSection from '@/components/home/FearlessSection';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
@@ -29,10 +31,12 @@ const page = () => {
         <Hero />
         <Brands />
         <About />
+        <FearlessSection />
         <Work />
         <Feature />
         <FeaturesV2 />
         <Pricing />
+        <VaultShieldHero />
         <Integration />
         {/* <BlogShowcase /> */}
         <Reviews />

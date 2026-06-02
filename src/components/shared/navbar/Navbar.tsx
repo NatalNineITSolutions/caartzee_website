@@ -9,6 +9,7 @@ import logoDark from '@public/images/shared/main-1.png';
 import logo from '@public/images/shared/main-1.png';
 // import logo from '@public/images/shared/logo.svg';
 import mainLogo from '@public/images/shared/logo-1.png';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -23,10 +24,16 @@ const Navbar = () => {
   const { isScrolled } = useNavbarScroll(150);
 
   const [menuDropdownId, setMenuDropdownId] = useState<string | null>(null);
+  const [logoRotation, setLogoRotation] = useState(0);
 
   const handleMenuHover = (dropdownId?: string | null) => {
     setMenuDropdownId(dropdownId || null);
   };
+
+  const handleLogoHover = () => {
+    setLogoRotation(prev => prev + 360);
+  };
+
   return (
     <MobileMenuProvider>
       <header
