@@ -1,6 +1,7 @@
 'use client';
 import { useGSAP } from '@gsap/react';
-import heroVideo from '@public/images/ns-img-56.png';
+import heroVideoDark from '@public/images/content11.png';
+import heroVideoLight from '@public/images/conlig.png';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
@@ -40,7 +41,8 @@ const HeroPerspective = () => {
   return (
     <div className="px-4 md:px-6 lg:px-8 xl:px-0">
       <figure ref={figureRef} className="opacity-0">
-        <Image src={heroVideo} alt="Hero video" className="h-auto w-full" />
+        <Image src={heroVideoLight} alt="Hero light" className="h-auto w-full dark:hidden" priority />
+        <Image src={heroVideoDark} alt="Hero dark" className="h-auto w-full hidden dark:block" priority />
       </figure>
     </div>
   );

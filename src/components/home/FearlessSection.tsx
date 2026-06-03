@@ -40,7 +40,7 @@ const FearlessSection = () => {
         loop
         muted
         playsInline
-        className="absolute inset-0 h-full w-full object-cover z-0 pointer-events-none"
+        className="absolute inset-0 h-full w-full object-cover object-[1%_center] z-0 pointer-events-none"
         src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260517_222138_3e3205be-3364-417b-a64a-bfe087acbec4.mp4"
       />
       <div className="absolute inset-0 bg-black/60 hidden dark:block z-0 pointer-events-none" />
