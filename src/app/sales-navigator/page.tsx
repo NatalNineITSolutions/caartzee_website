@@ -1,6 +1,7 @@
 import Blog from '@/components/sales-navigator/Blog1';
 import Faq from '@/components/sales-navigator/Faq1';
 import Hero from '@/components/sales-navigator/Hero';
+import DesignProHero from '@/components/sales-navigator/DesignProHero';
 import Integration from '@/components/sales-navigator/Integration';
 import Number from '@/components/sales-navigator/Number1';
 import Process from '@/components/sales-navigator/process1';
@@ -20,6 +21,7 @@ const page = () => {
   return (
     <main className="bg-background-2 dark:bg-background-5">
       <Hero />
+      <DesignProHero />
       <Feature />
       <Services />
       <Process />

@@ -16,7 +16,7 @@ const Hero = () => {
                             </RevealAnimation>
                             <RevealAnimation delay={0.3}>
                                 <p className="text-center">
-                                    CaartZee Sales Agent connects Plotforms in one smart dashboard powered by AI to enhance products and simplify selling.
+                                    Connect marketplaces, enhance products with AI, and manage everything from one intelligent platform designed to accelerate online sales.
                                 </p>
                             </RevealAnimation>
                         </div>
