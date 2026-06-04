@@ -20,7 +20,8 @@ import {
 const features = [
   {
     title: "WhatsApp Integration",
-    description: "Centralized customer communication. Faster response times and better customer engagement.",
+    subtitle: "Turn WhatsApp Into Your Best Sales Channel",
+    description: "Connect your store to WhatsApp and let AI answer customer questions, recommend products, recover abandoned carts, and drive more sales automatically.",
     icon: MessageSquare,
     delay: 0.1,
     colSpan: "lg:col-span-2",
@@ -29,7 +30,8 @@ const features = [
   },
   {
     title: "Shopify Integration",
-    description: "Real-time product synchronization and easy order management for a seamless customer experience.",
+    subtitle: "Sync Your Shopify Store in Minutes",
+    description: "Connect Shopify and manage products, orders, customers, and conversations from one powerful dashboard.",
     icon: Store,
     delay: 0.2,
     colSpan: "lg:col-span-1",
@@ -38,7 +40,8 @@ const features = [
   },
   {
     title: "Payment Integration",
-    description: "Quick payment collection and secure transactions directly through WhatsApp for improved conversion rates.",
+    subtitle: "Get Paid Faster, Anywhere",
+    description: "Share secure payment links directly in WhatsApp and let customers complete purchases without leaving the chat.",
     icon: CreditCard,
     delay: 0.3,
     colSpan: "lg:col-span-1",
@@ -47,7 +50,8 @@ const features = [
   },
   {
     title: "AI-Powered Auto Replies",
-    description: "24/7 customer support using Meta AI. Instant responses to reduce workload for support teams.",
+    subtitle: "AI That Sells While You Sleep",
+    description: "Provide instant, accurate responses 24/7, qualify leads, recommend products, and convert conversations into revenue.",
     icon: Bot,
     delay: 0.4,
     colSpan: "lg:col-span-2",
@@ -56,7 +60,8 @@ const features = [
   },
   {
     title: "WhatsApp Inbox",
-    description: "Manage all customer chats in one organized inbox. Track conversations and assign to team members easily.",
+    subtitle: "One Inbox for Every Customer Conversation",
+    description: "Manage chats, share product catalogs, send payment links, and close sales from a single WhatsApp workspace.",
     icon: Inbox,
     delay: 0.5,
     colSpan: "lg:col-span-2",
@@ -65,7 +70,8 @@ const features = [
   },
   {
     title: "Flow Builder",
-    description: "Create automated customer journeys without coding for lead generation, order confirmation, and more.",
+    subtitle: "Automate Customer Journeys Without Coding",
+    description: "Create smart WhatsApp flows for lead capture, order updates, product recommendations, and customer support in minutes.",
     icon: GitBranch,
     delay: 0.6,
     colSpan: "lg:col-span-1",
@@ -116,16 +122,16 @@ const FeaturesGrid = () => {
       <div className="main-container">
         <div className="mb-14 text-center md:mb-20">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green-v2 mb-6"> Superpowers </span>
+            <span className="badge badge-green-v2 mb-6"> Why Caartzee Snap </span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <h2 className="mb-4 font-black tracking-tight text-heading-3 md:text-heading-2">
-              Everything a seller needs – <span className="text-primary-500 leading-tight">inside WhatsApp</span>
+              Everything You Need to Sell on WhatsApp
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto mb-8 max-w-[620px] text-lg font-medium opacity-70">
-              No more switching apps. Manage your entire business lifecycle, from discovery to delivery, right from the palm of your hand.
+              No extra apps. No complicated setup. Manage customer conversations, orders, support, and sales directly through WhatsApp.
             </p>
           </RevealAnimation>
         </div>
@@ -143,6 +149,8 @@ const FeaturesGrid = () => {
                 </h4>
                 
                 <p className="text-lg font-medium leading-relaxed opacity-60">
+                  {/* @ts-ignore */}
+                  {feature.subtitle && <strong className="block mb-2 text-secondary dark:text-accent font-bold opacity-100">{feature.subtitle}</strong>}
                   {feature.description}
                 </p>
 
