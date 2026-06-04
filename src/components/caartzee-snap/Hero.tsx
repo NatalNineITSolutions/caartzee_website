@@ -25,12 +25,12 @@ const Hero = () => {
         </RevealAnimation>
         <RevealAnimation delay={0.2}>
           <h1 className="mb-4 font-black tracking-tight leading-none text-4xl md:text-6xl lg:text-7xl">
-            Sell More on <span className="text-primary-500 font-bold">WhatsApp</span> <br className="hidden md:block" /> Without the Hassle
+            Sell More on <span className="text-primary-500 font-bold">WhatsApp</span>. <br className="hidden md:block" /> Serve Customers Instantly.
           </h1>
         </RevealAnimation>
         <RevealAnimation delay={0.3}>
           <p className="mx-auto mb-10 max-w-[700px] md:mb-14 text-lg md:text-xl font-medium opacity-60 leading-relaxed">
-            SNAP helps businesses connect with customers, automate conversations, manage online stores, and increase sales—all from one platform.
+            Turn WhatsApp into your sales channel with AI-powered conversations, automated support, and seamless order management all from one place.
           </p>
         </RevealAnimation>
         <RevealAnimation delay={0.4}>
@@ -38,12 +38,12 @@ const Hero = () => {
             <LinkButton
               href="https://cartly.zeedone.com/register"
               className="btn btn-xl bg-primary-500 text-white hover:bg-primary-600 flex h-14 px-10 items-center justify-center rounded-2xl shadow-xl shadow-primary-500/20 transition-all hover:scale-105">
-              <span>Get started for free</span>
+              <span>Start Free Trial</span>
             </LinkButton>
             <LinkButton
               href="#pricing"
               className="btn btn-xl bg-white text-black border border-black/10 hover:bg-black/5 flex h-14 px-10 items-center justify-center rounded-2xl transition-all">
-              <span>View Pricing</span>
+              <span>Book a Demo</span>
             </LinkButton>
           </div>
         </RevealAnimation>

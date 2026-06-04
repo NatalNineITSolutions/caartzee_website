@@ -16,12 +16,12 @@ const FeaturesV2 = () => {
             <div className="mb-8 space-y-3 px-4 text-center sm:px-0 md:text-left lg:mb-14">
               <RevealAnimation delay={0.3}>
                 <h3 className="md:text-heading-3 lg:text-heading-2 font-black tracking-tight">
-                  Your AI-powered sales assistant,{' '}<span className="text-primary-500">active 24/7.</span>
+                  Your AI Sales Assistant,{' '}<span className="text-primary-500">Available 24/7</span>
                 </h3>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="lg:max-w-[596px] text-lg font-medium opacity-80">
-                  Snap’s built-in AI handles customer questions, product recommendations, and order follow-ups automatically — even when you’re offline. Your business never sleeps.
+                  Never miss a sales opportunity. Caartzee Snap answers customer questions, recommends products, follows up on inquiries, and helps convert conversations into orders—even while you sleep.
                 </p>
               </RevealAnimation>
             </div>
@@ -30,7 +30,7 @@ const FeaturesV2 = () => {
                 <LinkButton
                   href="https://cartly.zeedone.com/register"
                   className="btn btn-xl btn-primary rounded-2xl shadow-xl shadow-primary-500/10">
-                  Start Your Free Trial
+                  Start Selling Smarter
                 </LinkButton>
               </div>
             </RevealAnimation>

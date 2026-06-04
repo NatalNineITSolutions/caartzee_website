@@ -21,17 +21,20 @@ const Understanding = () => {
         {/* Section header */}
         <div className="mb-10 text-center md:mb-[70px]">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green-v2 mb-5">Benefits</span>
+            <span className="badge badge-green-v2 mb-5">Snap Insights</span>
           </RevealAnimation>
 
           <RevealAnimation delay={0.2}>
-            <h2 className="mb-5">
-              Why Choose <span className="text-primary-500 inline-block">SNAP?</span>
+            <h2 className="mb-5 text-heading-3 md:text-heading-2 font-black">
+              Understand Customers.<br/><span className="text-primary-500 inline-block">Increase Sales.</span>
             </h2>
           </RevealAnimation>
 
           <RevealAnimation delay={0.3}>
             <div className="mx-auto mb-8 max-w-[800px]">
+              <p className="text-lg font-medium opacity-80 max-w-[600px] mx-auto text-center mb-8">
+                Get a clear view of customer behavior, popular products, order trends, and sales performance. Make smarter decisions with real time business insights.
+              </p>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-lg font-medium opacity-80 text-left">
                 <li className="flex items-start gap-3">
                   <span className="text-primary-500 mt-1">✅</span> <span>Manage WhatsApp conversations in one place</span>
@@ -46,7 +49,7 @@ const Understanding = () => {
                   <span className="text-primary-500 mt-1">✅</span> <span>Recover abandoned carts automatically</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-primary-500 mt-1">✅</span> <span>Create no-code automation workflows</span>
+                  <span className="text-primary-500 mt-1">✅</span> <span>Create no code automation workflows</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary-500 mt-1">✅</span> <span>Increase sales and customer satisfaction</span>
