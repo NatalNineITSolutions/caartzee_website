@@ -17,36 +17,49 @@ import {
   MoveRight
 } from 'lucide-react';
 
-const features = [
+const features: Array<{
+  title: string;
+  subtitle?: string;
+  description: string;
+  icon: any;
+  delay: number;
+  colSpan: string;
+  bgColor: string;
+  iconColor: string;
+  link?: string;
+}> = [
   {
     title: "WhatsApp Integration",
     subtitle: "Turn WhatsApp Into Your Best Sales Channel",
     description: "Connect your store to WhatsApp and let AI answer customer questions, recommend products, recover abandoned carts, and drive more sales automatically.",
-    icon: MessageSquare,
+    icon: "/images/icons/whatsapp.png",
     delay: 0.1,
     colSpan: "lg:col-span-2",
     bgColor: "bg-blue-50/50 dark:bg-blue-500/5",
-    iconColor: "text-blue-600 dark:text-blue-400"
+    iconColor: "text-blue-600 dark:text-blue-400",
+    link: "/caartzee-snap/whatsapp-integration"
   },
   {
     title: "Shopify Integration",
     subtitle: "Sync Your Shopify Store in Minutes",
     description: "Connect Shopify and manage products, orders, customers, and conversations from one powerful dashboard.",
-    icon: Store,
+    icon: "/images/icons/shopify.svg",
     delay: 0.2,
     colSpan: "lg:col-span-1",
     bgColor: "bg-purple-50/50 dark:bg-purple-500/5",
-    iconColor: "text-purple-600 dark:text-purple-400"
+    iconColor: "text-purple-600 dark:text-purple-400",
+    link: "/caartzee-snap/shopify-integration"
   },
   {
     title: "Payment Integration",
-    subtitle: "Get Paid Faster, Anywhere",
-    description: "Share secure payment links directly in WhatsApp and let customers complete purchases without leaving the chat.",
+    subtitle: "Get Paid Inside the Conversation",
+    description: "Faster Checkouts. More Conversions. Share secure payment links directly in WhatsApp and let customers complete purchases without switching apps.",
     icon: CreditCard,
     delay: 0.3,
     colSpan: "lg:col-span-1",
     bgColor: "bg-green-50/50 dark:bg-green-500/5",
-    iconColor: "text-green-600 dark:text-green-400"
+    iconColor: "text-green-600 dark:text-green-400",
+    link: "/caartzee-snap/payment-integration"
   },
   {
     title: "AI-Powered Auto Replies",
@@ -56,17 +69,19 @@ const features = [
     delay: 0.4,
     colSpan: "lg:col-span-2",
     bgColor: "bg-orange-50/50 dark:bg-orange-500/5",
-    iconColor: "text-orange-600 dark:text-orange-400"
+    iconColor: "text-orange-600 dark:text-orange-400",
+    link: "/caartzee-snap/ai-powered-auto-replies"
   },
   {
     title: "WhatsApp Inbox",
     subtitle: "One Inbox for Every Customer Conversation",
     description: "Manage chats, share product catalogs, send payment links, and close sales from a single WhatsApp workspace.",
-    icon: Inbox,
+    icon: "/images/icons/whatsapp.png",
     delay: 0.5,
     colSpan: "lg:col-span-2",
     bgColor: "bg-red-50/50 dark:bg-red-500/5",
-    iconColor: "text-red-600 dark:text-red-400"
+    iconColor: "text-red-600 dark:text-red-400",
+    link: "/caartzee-snap/whatsapp-inbox"
   },
   {
     title: "Flow Builder",
@@ -76,43 +91,52 @@ const features = [
     delay: 0.6,
     colSpan: "lg:col-span-1",
     bgColor: "bg-cyan-50/50 dark:bg-cyan-500/5",
-    iconColor: "text-cyan-600 dark:text-cyan-400"
+    iconColor: "text-cyan-600 dark:text-cyan-400",
+    link: "/caartzee-snap/flow-builder"
   },
   {
     title: "Cart Abandonment Recovery",
-    description: "Automatically remind customers about items left in their cart. Recover lost sales and boost revenue.",
+    subtitle: "Recover Sales You Were About to Lose",
+    description: "Automatically remind shoppers about products left in their cart and bring them back to complete their purchase.",
     icon: ShoppingCart,
     delay: 0.1,
     colSpan: "lg:col-span-1",
     bgColor: "bg-rose-50/50 dark:bg-rose-500/5",
-    iconColor: "text-rose-600 dark:text-rose-400"
+    iconColor: "text-rose-600 dark:text-rose-400",
+    link: "/caartzee-snap/cart-abandonment-recovery"
   },
   {
     title: "Campaign & Broadcasting",
-    description: "Reach customers instantly with promotional messages, offers, and announcements through WhatsApp.",
+    subtitle: "Reach Thousands in Seconds",
+    description: "Send promotions, product launches, offers, and updates directly to your customers through WhatsApp.",
     icon: Megaphone,
     delay: 0.2,
     colSpan: "lg:col-span-2",
     bgColor: "bg-indigo-50/50 dark:bg-indigo-500/5",
-    iconColor: "text-indigo-600 dark:text-indigo-400"
+    iconColor: "text-indigo-600 dark:text-indigo-400",
+    link: "/caartzee-snap/campaign-and-broadcasting"
   },
   {
     title: "Meta Templates",
-    description: "Create and manage approved WhatsApp message templates for notifications, promotions, and customer updates.",
-    icon: FileText,
+    subtitle: "Send Messages That Get Delivered",
+    description: "Create approved WhatsApp templates for order updates, promotions, reminders, and customer engagement.",
+    icon: "/images/icons/meta.png",
     delay: 0.3,
     colSpan: "lg:col-span-2",
     bgColor: "bg-teal-50/50 dark:bg-teal-500/5",
-    iconColor: "text-teal-600 dark:text-teal-400"
+    iconColor: "text-teal-600 dark:text-teal-400",
+    link: "/caartzee-snap/meta-templates"
   },
   {
     title: "Knowledge Base",
-    description: "Store FAQs, product information, and business knowledge to power AI responses and support.",
+    subtitle: "Answers Ready Before Customers Ask",
+    description: "Train your AI with FAQs, product details, and business information to deliver accurate responses instantly.",
     icon: BookOpen,
     delay: 0.4,
     colSpan: "lg:col-span-1",
     bgColor: "bg-yellow-50/50 dark:bg-yellow-500/5",
-    iconColor: "text-yellow-600 dark:text-yellow-400"
+    iconColor: "text-yellow-600 dark:text-yellow-400",
+    link: "/caartzee-snap/knowledge-base"
   }
 ];
 
@@ -141,7 +165,11 @@ const FeaturesGrid = () => {
             <RevealAnimation key={index} delay={feature.delay} className={feature.colSpan}>
               <article className={`group flex h-full flex-col h-full w-full rounded-[32px] p-8 md:p-10 border border-stroke-1 dark:border-white/10 transition-all duration-500 hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.05)] hover:border-primary-500/30 ${feature.bgColor}`}>
                 <div className={`mb-10 flex size-16 items-center justify-center rounded-2xl bg-white shadow-sm dark:bg-black/20 ${feature.iconColor}`}>
-                  <feature.icon size={32} strokeWidth={2.5} />
+                  {typeof feature.icon === 'string' ? (
+                    <img src={feature.icon} alt={feature.title} className="w-8 h-8 object-contain" />
+                  ) : (
+                    <feature.icon size={32} strokeWidth={2.5} />
+                  )}
                 </div>
                 
                 <h4 className="text-heading-5 mb-4 font-black tracking-tight text-secondary dark:text-accent group-hover:text-primary-500 transition-colors">
@@ -155,8 +183,8 @@ const FeaturesGrid = () => {
                 </p>
 
                 <div className="mt-auto pt-10">
-                    <Link href="/contact-us" className="flex w-fit items-center gap-2 text-primary-500 font-bold group-hover:gap-4 transition-all duration-300">
-                      <span className="text-sm uppercase tracking-widest">Connect Support</span>
+                    <Link href={feature.link || '#'} className="flex w-fit items-center gap-2 text-primary-500 font-bold group-hover:gap-4 transition-all duration-300">
+                      <span className="text-sm uppercase tracking-widest">Read More</span>
                       <MoveRight size={20} />
                     </Link>
                 </div>

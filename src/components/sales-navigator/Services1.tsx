@@ -1,11 +1,69 @@
-import { IService } from '@/interface';
-import getMarkDownData from '@/utils/getMarkDownData';
+import React from 'react';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
+import { 
+  Store, 
+  TrendingUp, 
+  Boxes, 
+  Users, 
+  ClipboardList, 
+  Zap, 
+  Compass 
+} from 'lucide-react';
+
+const servicesData = [
+  {
+    title: "Marketplace Integration",
+    subtitle: "Sell Everywhere. Manage Everything.",
+    description: "Connect Amazon, Flipkart, and your CaartZee store from one unified dashboard. Sync inventory in real time, manage orders across marketplaces, and prevent overselling with automated stock updates.",
+    icon: Store,
+    slug: "marketplace-integration"
+  },
+  {
+    title: "Sales & Revenue Analytics",
+    subtitle: "Turn Data Into Growth.",
+    description: "Get a complete view of your business performance with real-time revenue, sales, and product insights. Track earnings across channels, monitor top-performing products, and make smarter decisions with powerful analytics—all in INR (₹).",
+    icon: TrendingUp,
+    slug: "sales-and-revenue-analytics"
+  },
+  {
+    title: "Smart Inventory Management",
+    subtitle: "Stay in Stock. Stay in Control.",
+    description: "Monitor inventory across every sales channel from a single dashboard. Receive low-stock alerts, automate inventory updates, and ensure smooth order fulfillment without manual effort.",
+    icon: Boxes,
+    slug: "smart-inventory-management"
+  },
+  {
+    title: "Customer Intelligence",
+    subtitle: "Know Your Customers Better.",
+    description: "Track customer behavior, purchase patterns, and engagement across every touchpoint. Build stronger relationships with data-driven insights and personalized experiences.",
+    icon: Users,
+    slug: "customer-intelligence"
+  },
+  {
+    title: "Order Management",
+    subtitle: "Every Order. One Place.",
+    description: "Manage orders from Amazon, Flipkart, Shopify, and your CaartZee store in a centralized workspace. Process faster, reduce errors, and deliver a seamless customer experience.",
+    icon: ClipboardList,
+    slug: "order-management"
+  },
+  {
+    title: "Automation Engine",
+    subtitle: "Work Less. Sell More.",
+    description: "Automate repetitive tasks, customer updates, inventory sync, and order workflows. Save time, reduce operational overhead, and focus on growing your business.",
+    icon: Zap,
+    slug: "automation-engine"
+  },
+  // {
+  //   title: "Sales Navigator",
+  //   subtitle: "Discover Opportunities. Drive Revenue.",
+  //   description: "Identify growth opportunities, track sales performance, and uncover actionable insights across every channel. Stay ahead of trends, optimize your strategy, and scale your business with confidence.",
+  //   icon: Compass,
+  //   slug: "sales-navigator-feature"
+  // }
+];
 
 const Services = () => {
-  const servicesData = getMarkDownData<IService & { [key: string]: unknown }>('src/data/services').slice(4, 9);
-
   return (
     <section className="dark:bg-background-6 bg-white pt-[50px] pb-[100px] md:pt-[85px] xl:pt-[100px] xl:pb-[200px]">
       <div className="main-container">
@@ -27,31 +85,35 @@ const Services = () => {
             </div>
           </div>
           {/* service cards  */}
-          <div className="flex flex-wrap items-center justify-center gap-8">
-            {servicesData.map((service, idx) => (
-              <RevealAnimation key={service.slug} delay={0.4 + idx * 0.1}>
-                <article>
-                  <div className="bg-background-2 dark:bg-background-5 flex w-full max-w-[403px] flex-col items-center gap-6 rounded-[20px] px-6 py-8 transition-transform duration-500 ease-in-out hover:translate-y-[-10px]">
-                    {/* logo  */}
-                    <span className={`${service.icon} text-secondary dark:text-accent text-[54px]`}> </span>
-                    {/* heading  */}
-                    <div className="space-y-2 text-center">
-                      <h3 className="text-heading-5">{service.title}</h3>
-                      <p>{service.description}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+            {servicesData.map((service, idx) => {
+              const Icon = service.icon;
+              return (
+                <RevealAnimation key={service.slug} delay={0.4 + idx * 0.1}>
+                  <article className="h-full w-full max-w-[403px]">
+                    <div className="bg-background-2 dark:bg-background-5 flex h-full w-full flex-col items-center gap-6 rounded-[20px] px-6 py-8 transition-transform duration-500 ease-in-out hover:translate-y-[-10px]">
+                      {/* logo  */}
+                      <Icon className="text-secondary dark:text-accent w-14 h-14 shrink-0" />
+                      {/* heading  */}
+                      <div className="space-y-2 text-center flex-grow flex flex-col">
+                        <h3 className="text-heading-5">{service.title}</h3>
+                        <p className="font-bold text-primary-500 dark:text-accent">{service.subtitle}</p>
+                        <p className="mt-2 text-secondary/70 dark:text-white/70 flex-grow">{service.description}</p>
+                      </div>
+                      {/* btn  */}
+                      <div className="mt-auto shrink-0">
+                        <LinkButton
+                          href={`/sales-navigator/${service.slug}`}
+                          className="btn btn-md btn-white-v2 hover:btn-secondary dark:btn-transparent dark:hover:btn-accent"
+                          rel="noopener noreferrer">
+                          Read more
+                        </LinkButton>
+                      </div>
                     </div>
-                    {/* btn  */}
-                    <div>
-                      <LinkButton
-                        href={`/our-services/${service.slug}`}
-                        className="btn btn-md btn-white-v2 hover:btn-secondary dark:btn-transparent dark:hover:btn-accent"
-                        rel="noopener noreferrer">
-                        View Services
-                      </LinkButton>
-                    </div>
-                  </div>
-                </article>
-              </RevealAnimation>
-            ))}
+                  </article>
+                </RevealAnimation>
+              );
+            })}
           </div>
         </div>
       </div>
