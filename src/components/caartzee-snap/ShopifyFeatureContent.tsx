@@ -29,11 +29,23 @@ export const ShopifyFeatureContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Why Connect... */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Why Connect Shopify with Caartzee Snap?</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>Running an online store requires more than just managing products. Customers expect instant responses, personalized recommendations, and seamless purchasing experiences.</p>
-          <p>Caartzee Snap bridges the gap between your Shopify store and WhatsApp, allowing you to engage customers, automate support, and increase sales—all from a single dashboard.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/spofify1.png" 
+            alt="Shopify Integration Overview" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Why Connect Shopify with Caartzee Snap?</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>Running an online store requires more than just managing products. Customers expect instant responses, personalized recommendations, and seamless purchasing experiences.</p>
+            <p>Caartzee Snap bridges the gap between your Shopify store and WhatsApp, allowing you to engage customers, automate support, and increase sales—all from a single dashboard.</p>
+          </div>
         </div>
       </div>
 

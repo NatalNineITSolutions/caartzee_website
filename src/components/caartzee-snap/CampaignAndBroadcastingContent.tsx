@@ -26,47 +26,60 @@ export const CampaignAndBroadcastingContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Your Customers Are Already on WhatsApp */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Your Customers Are Already on WhatsApp</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>Every day, your customers open WhatsApp dozens of times.</p>
-          <ul className="list-disc list-inside space-y-1 ml-2 font-bold text-secondary/90 dark:text-white/90">
-            <li>They chat with friends.</li>
-            <li>They share recommendations.</li>
-            <li>They discover products.</li>
-          </ul>
-          <p>Why send customers somewhere else when you can reach them where they already spend their time?</p>
-          <p className="font-medium text-secondary/90 dark:text-white/90">CaartZee Campaign & Broadcasting helps you connect with customers directly through the world's most engaging messaging platform.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/Campaign.png" 
+            alt="Campaign Dashboard Overview" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Your Customers Are Already on WhatsApp</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>Every day, your customers open WhatsApp dozens of times.</p>
+            <ul className="list-disc list-inside space-y-1 ml-2 font-bold text-secondary/90 dark:text-white/90">
+              <li>They chat with friends.</li>
+              <li>They share recommendations.</li>
+              <li>They discover products.</li>
+            </ul>
+            <p>Why send customers somewhere else when you can reach them where they already spend their time?</p>
+            <p className="font-medium text-secondary/90 dark:text-white/90">CaartZee Campaign & Broadcasting helps you connect with customers directly through the world's most engaging messaging platform.</p>
+          </div>
         </div>
       </div>
 
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Turn Announcements Into Conversations & Launch Products */}
-      <div className="space-y-6">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Start Meaningful Conversations</h4>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <div className="border border-stroke-1 dark:border-white/10 p-6 rounded-2xl">
-            <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Turn Announcements Into Conversations</h5>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">Most marketing channels are one-way. You send a message and hope customers respond.</p>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">WhatsApp is different. Every campaign creates an opportunity for customers to ask questions, explore products, and make purchases instantly.</p>
-            <p className="font-medium text-secondary/90 dark:text-white/90">Transform broadcasts into meaningful customer interactions.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Content */}
+        <div className="space-y-6 lg:col-span-4 order-2 lg:order-1">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Start Meaningful Conversations</h4>
+          <div className="space-y-5">
+            <div>
+              <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Turn Announcements Into Conversations</h5>
+              <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">Most marketing channels are one-way. You send a message and hope customers respond.</p>
+              <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">WhatsApp is different. Every campaign creates an opportunity for customers to ask questions, explore products, and make purchases instantly.</p>
+            </div>
+            <div>
+              <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Launch Products with Impact</h5>
+              <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">Introducing a new product? Don't wait for customers to find it. Put it directly in front of them.</p>
+              <p className="font-bold text-secondary/90 dark:text-white/90">Generate excitement and drive immediate action.</p>
+            </div>
           </div>
+        </div>
 
-          <div className="border border-stroke-1 dark:border-white/10 p-6 rounded-2xl">
-            <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Launch Products with Impact</h5>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">Introducing a new product? Don't wait for customers to find it. Put it directly in front of them.</p>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-2">Share:</p>
-            <ul className="list-disc list-inside space-y-1 ml-2 leading-relaxed text-secondary/70 dark:text-white/70 mb-3">
-              <li>New product launches</li>
-              <li>Exclusive collections</li>
-              <li>Limited-time releases</li>
-              <li>Seasonal promotions</li>
-              <li>Special announcements</li>
-            </ul>
-            <p className="font-bold text-secondary/90 dark:text-white/90">Generate excitement and drive immediate action.</p>
-          </div>
+        {/* Right Image */}
+        <div className="w-full lg:col-span-8 order-1 lg:order-2">
+          <img 
+            src="/images/campaign2.png" 
+            alt="Campaign Messaging Flow" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
         </div>
       </div>
 

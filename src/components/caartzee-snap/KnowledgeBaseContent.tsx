@@ -26,20 +26,32 @@ export const KnowledgeBaseContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Every Great Conversation Starts with the Right Information */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Every Great Conversation Starts with the Right Information</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>Customers ask questions before they buy. They want to know:</p>
-          <ul className="list-disc list-inside space-y-1 ml-2 font-bold text-secondary/90 dark:text-white/90">
-            <li>Product details</li>
-            <li>Pricing information</li>
-            <li>Delivery timelines</li>
-            <li>Return policies</li>
-            <li>Availability</li>
-            <li>Business information</li>
-          </ul>
-          <p>The faster they get answers, the more confident they feel.</p>
-          <p className="font-medium text-secondary/90 dark:text-white/90">CaartZee Knowledge Base gives your AI the information it needs to provide accurate, consistent, and helpful responses around the clock.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/Knowledge%20Base1.png" 
+            alt="Knowledge Base Dashboard" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Every Great Conversation Starts with the Right Information</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>Customers ask questions before they buy. They want to know:</p>
+            <ul className="list-disc list-inside space-y-1 ml-2 font-bold text-secondary/90 dark:text-white/90">
+              <li>Product details</li>
+              <li>Pricing information</li>
+              <li>Delivery timelines</li>
+              <li>Return policies</li>
+              <li>Availability</li>
+              <li>Business information</li>
+            </ul>
+            <p>The faster they get answers, the more confident they feel.</p>
+            <p className="font-medium text-secondary/90 dark:text-white/90">CaartZee Knowledge Base gives your AI the information it needs to provide accurate, consistent, and helpful responses around the clock.</p>
+          </div>
         </div>
       </div>
 

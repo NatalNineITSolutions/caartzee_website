@@ -32,12 +32,24 @@ export const FlowBuilderFeatureContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Build Smarter Customer Experiences */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Build Smarter Customer Experiences</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>Modern customers expect instant responses and seamless interactions.</p>
-          <p>With Caartzee Snap Flow Builder, you can automate every stage of the customer journey—from the first message to the final purchase—without writing a single line of code.</p>
-          <p>Create workflows that engage customers, nurture leads, answer questions, and drive sales automatically.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/flowbuilder1.png" 
+            alt="Flow Builder Interface" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Build Smarter Customer Experiences</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>Modern customers expect instant responses and seamless interactions.</p>
+            <p>With Caartzee Snap Flow Builder, you can automate every stage of the customer journey—from the first message to the final purchase—without writing a single line of code.</p>
+            <p>Create workflows that engage customers, nurture leads, answer questions, and drive sales automatically.</p>
+          </div>
         </div>
       </div>
 
@@ -65,58 +77,57 @@ export const FlowBuilderFeatureContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Create Powerful Workflows */}
-      <div className="space-y-6">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Create Powerful Workflows in Minutes</h4>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <div className="bg-black/5 dark:bg-white/5 p-6 rounded-2xl">
-            <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Drag-and-Drop Simplicity</h5>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70">Build automation flows visually with an easy-to-use interface. Simply drag, connect, and customize flow blocks to create personalized customer journeys.</p>
-            <p className="mt-3 font-medium text-secondary/90 dark:text-white/90">No developers required.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Content */}
+        <div className="space-y-6 lg:col-span-4 order-2 lg:order-1">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Create Powerful Workflows in Minutes</h4>
+          <div className="space-y-5">
+            <div>
+              <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Drag-and-Drop Simplicity</h5>
+              <p className="leading-relaxed text-secondary/70 dark:text-white/70">Build automation flows visually with an easy-to-use interface. Simply drag, connect, and customize flow blocks to create personalized customer journeys. No developers required.</p>
+            </div>
+            <div>
+              <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Customize Every Customer Path</h5>
+              <p className="leading-relaxed text-secondary/70 dark:text-white/70">Create different experiences based on customer actions and responses. Guide customers through product discovery, lead qualification, and support. Every interaction becomes smarter and more personalized.</p>
+            </div>
           </div>
+        </div>
 
-          <div className="bg-black/5 dark:bg-white/5 p-6 rounded-2xl">
-            <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Customize Every Customer Path</h5>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">Create different experiences based on customer actions and responses. Guide customers through:</p>
-            <ul className="list-disc list-inside space-y-1 ml-2 leading-relaxed text-secondary/70 dark:text-white/70">
-              <li>Product discovery</li>
-              <li>Lead qualification</li>
-              <li>Order tracking</li>
-              <li>Customer support</li>
-              <li>Appointment booking</li>
-              <li>Purchase completion</li>
-            </ul>
-            <p className="mt-3 font-medium text-secondary/90 dark:text-white/90">Every interaction becomes smarter and more personalized.</p>
-          </div>
+        {/* Right Image */}
+        <div className="w-full lg:col-span-8 order-1 lg:order-2">
+          <img 
+            src="/images/flowbuilder2.png" 
+            alt="Flow Builder Blocks" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
         </div>
       </div>
 
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Automate Lead Generation */}
-      <div className="space-y-6">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Automate Lead Generation</h4>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <div className="border border-stroke-1 dark:border-white/10 p-5 rounded-2xl">
-            <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Capture High-Quality Leads Automatically</h5>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">Collect customer information directly through WhatsApp conversations. Gather:</p>
-            <ul className="list-disc list-inside space-y-1 ml-2 leading-relaxed text-secondary/70 dark:text-white/70">
-              <li>Name</li>
-              <li>Phone number</li>
-              <li>Email address</li>
-              <li>Product interests</li>
-              <li>Budget requirements</li>
-              <li>Purchase intent</li>
-            </ul>
-            <p className="mt-3 font-medium text-secondary/90 dark:text-white/90">Automatically send qualified leads to your sales team.</p>
-          </div>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/flowbuilder3.png" 
+            alt="Automated Workflows" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
 
-          <div className="border border-stroke-1 dark:border-white/10 p-5 rounded-2xl">
-            <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Lead Qualification Workflows</h5>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">Identify serious buyers instantly.</p>
-            <p className="leading-relaxed text-secondary/70 dark:text-white/70">Ask targeted questions and automatically segment prospects based on their responses.</p>
-            <p className="mt-3 font-medium text-secondary/90 dark:text-white/90">Help your team focus on customers most likely to convert.</p>
+        {/* Right Content */}
+        <div className="space-y-6 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Automate Lead Generation</h4>
+          <div className="space-y-5">
+            <div>
+              <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Capture High-Quality Leads Automatically</h5>
+              <p className="leading-relaxed text-secondary/70 dark:text-white/70">Collect customer information directly through WhatsApp conversations. Gather names, phone numbers, and product interests effortlessly.</p>
+            </div>
+            <div>
+              <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Lead Qualification Workflows</h5>
+              <p className="leading-relaxed text-secondary/70 dark:text-white/70">Ask targeted questions and automatically segment prospects based on their responses. Help your team focus on customers most likely to convert.</p>
+            </div>
           </div>
         </div>
       </div>

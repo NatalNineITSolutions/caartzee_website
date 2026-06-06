@@ -117,42 +117,29 @@ const DesignProHero = () => {
               </div>
 
               {/* Built for Growing Businesses */}
-              <div>
+              <div className="text-center flex flex-col items-center">
                 <h3 className="text-2xl md:text-3xl font-normal text-black dark:text-white mb-4">Built for Growing Businesses</h3>
-                <p className="text-base text-black/80 dark:text-white/80 mb-8 leading-relaxed">Whether you're a startup, retailer, distributor, agency, service provider, or enterprise team, Caartzee Sales Navigator helps you:</p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-12">
-                  <div className="flex items-center gap-3">
-                    <span className="text-black dark:text-white text-lg">✅</span>
-                    <span className="text-base text-black/70 dark:text-white/70">Generate quality leads</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-black dark:text-white text-lg">✅</span>
-                    <span className="text-base text-black/70 dark:text-white/70">Improve sales productivity</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-black dark:text-white text-lg">✅</span>
-                    <span className="text-base text-black/70 dark:text-white/70">Manage customer relationships</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-black dark:text-white text-lg">✅</span>
-                    <span className="text-base text-black/70 dark:text-white/70">Track sales performance</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-black dark:text-white text-lg">✅</span>
-                    <span className="text-base text-black/70 dark:text-white/70">Increase conversion rates</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-black dark:text-white text-lg">✅</span>
-                    <span className="text-base text-black/70 dark:text-white/70">Automate repetitive tasks</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-black dark:text-white text-lg">✅</span>
-                    <span className="text-base text-black/70 dark:text-white/70">Grow revenue consistently</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-black dark:text-white text-lg">✅</span>
-                    <span className="text-base text-black/70 dark:text-white/70">Scale sales operations</span>
-                  </div>
+                <p className="text-base text-black/80 dark:text-white/80 mb-10 leading-relaxed max-w-4xl mx-auto">Whether you're a startup, retailer, distributor, agency, service provider, or enterprise team, Caartzee Sales Navigator helps you:</p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-12 md:gap-x-24 text-left max-w-3xl mx-auto">
+                  {[
+                    "Generate quality leads",
+                    "Improve sales productivity",
+                    "Manage customer relationships",
+                    "Track sales performance",
+                    "Increase conversion rates",
+                    "Automate repetitive tasks",
+                    "Grow revenue consistently",
+                    "Scale sales operations"
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-4">
+                      <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-[6px] bg-[#4ade80] text-white shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                      </div>
+                      <span className="text-base text-black/80 dark:text-white/80 font-medium">{item}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
 
