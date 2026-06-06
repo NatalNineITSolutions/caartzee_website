@@ -29,7 +29,7 @@ const EcommerceHero = ({ className, badgeClass }: EcommerceHeroProps) => {
             </RevealAnimation>
             <div className="space-y-3">
               <RevealAnimation delay={0.3}>
-                <h2>Sell smarter with Caartzee connect to top ecommerce platforms.</h2>
+                <h2>Sell Smarter Across Every Marketplace</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="mx-auto max-w-[582px]">

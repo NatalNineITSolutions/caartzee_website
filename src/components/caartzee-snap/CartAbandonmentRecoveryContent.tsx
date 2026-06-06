@@ -26,12 +26,24 @@ export const CartAbandonmentRecoveryContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Every Abandoned Cart Is a Missed Opportunity */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Every Abandoned Cart Is a Missed Opportunity</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>A customer adds products to their cart. They browse. They compare. They get ready to buy. Then they leave.</p>
-          <p>For most businesses, that's where the story ends. But it doesn't have to.</p>
-          <p className="font-medium text-secondary/90 dark:text-white/90">CaartZee helps you reconnect with shoppers at exactly the right moment, turning abandoned carts into recovered revenue.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/flowbuilder2.png" 
+            alt="Cart Abandonment Recovery Flow" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Every Abandoned Cart Is a Missed Opportunity</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>A customer adds products to their cart. They browse. They compare. They get ready to buy. Then they leave.</p>
+            <p>For most businesses, that's where the story ends. But it doesn't have to.</p>
+            <p className="font-medium text-secondary/90 dark:text-white/90">CaartZee helps you reconnect with shoppers at exactly the right moment, turning abandoned carts into recovered revenue.</p>
+          </div>
         </div>
       </div>
 

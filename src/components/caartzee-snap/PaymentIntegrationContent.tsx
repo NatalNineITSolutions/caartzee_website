@@ -29,13 +29,25 @@ export const PaymentIntegrationContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* The Sale Is Won or Lost at Checkout */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">The Sale Is Won or Lost at Checkout</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>Customers discover a product. They ask questions. They compare options. They decide to buy.</p>
-          <p className="font-bold text-secondary/90 dark:text-white/90">Then comes the most important moment. Payment.</p>
-          <p>Every extra step increases the chance of losing the sale.</p>
-          <p className="font-medium text-secondary/90 dark:text-white/90">CaartZee Payment Integration helps customers complete purchases directly from the conversation, making buying simple, fast, and convenient.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/Payment%20Integratio1.png" 
+            alt="Payment Integration Overview" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">The Sale Is Won or Lost at Checkout</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>Customers discover a product. They ask questions. They compare options. They decide to buy.</p>
+            <p className="font-bold text-secondary/90 dark:text-white/90">Then comes the most important moment. Payment.</p>
+            <p>Every extra step increases the chance of losing the sale.</p>
+            <p className="font-medium text-secondary/90 dark:text-white/90">CaartZee Payment Integration helps customers complete purchases directly from the conversation, making buying simple, fast, and convenient.</p>
+          </div>
         </div>
       </div>
 

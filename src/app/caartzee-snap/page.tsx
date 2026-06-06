@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 };
 
 import FeaturesGrid from '@/components/caartzee-snap/FeaturesGrid';
+import SentinelHero from '@/components/caartzee-snap/SentinelHero';
 
 const page = () => {
   return (
@@ -24,6 +25,7 @@ const page = () => {
       <Features />
       <FeaturesGrid />
       <FeaturesV2 />
+      <SentinelHero />
       <Pricing />
       <Integration />
       <Understanding />

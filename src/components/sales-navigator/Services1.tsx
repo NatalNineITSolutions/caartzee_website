@@ -75,7 +75,7 @@ const Services = () => {
             </RevealAnimation>
             <div className="space-y-3">
               <RevealAnimation delay={0.2}>
-                <h2>Smarter and powerful E-Commerce Solutions</h2>
+                <h2>Sell Smarter Across Every Marketplace</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <p className="mx-auto max-w-[582px] sm:w-full">

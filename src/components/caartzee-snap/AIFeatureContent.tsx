@@ -32,12 +32,24 @@ export const AIFeatureContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Never Miss a Sales Opportunity Again */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Never Miss a Sales Opportunity Again</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>Customers don't always shop during business hours.</p>
-          <p>Questions come in late at night, during weekends, and when your team is unavailable. Every unanswered message is a potential lost sale.</p>
-          <p>Caartzee Snap AI Sales Assistant works around the clock to engage customers, answer inquiries, recommend products, and guide shoppers toward purchase decisions—automatically.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/flowbuilder3.png" 
+            alt="AI-Powered Auto Replies Flow" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Never Miss a Sales Opportunity Again</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>Customers don't always shop during business hours.</p>
+            <p>Questions come in late at night, during weekends, and when your team is unavailable. Every unanswered message is a potential lost sale.</p>
+            <p>Caartzee Snap AI Sales Assistant works around the clock to engage customers, answer inquiries, recommend products, and guide shoppers toward purchase decisions—automatically.</p>
+          </div>
         </div>
       </div>
 

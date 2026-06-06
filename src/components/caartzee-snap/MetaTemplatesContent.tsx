@@ -26,12 +26,24 @@ export const MetaTemplatesContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Stay Connected Beyond the First Message */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Stay Connected Beyond the First Message</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>Customers expect timely updates. They want to know when an order is confirmed. When it's shipped. When it's delivered.</p>
-          <p>They want reminders, offers, and important information without delays.</p>
-          <p className="font-medium text-secondary/90 dark:text-white/90">Meta Templates help businesses deliver these messages reliably through WhatsApp, ensuring every communication reaches customers when it matters most.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/meta1.png" 
+            alt="Meta Templates Overview" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Stay Connected Beyond the First Message</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>Customers expect timely updates. They want to know when an order is confirmed. When it's shipped. When it's delivered.</p>
+            <p>They want reminders, offers, and important information without delays.</p>
+            <p className="font-medium text-secondary/90 dark:text-white/90">Meta Templates help businesses deliver these messages reliably through WhatsApp, ensuring every communication reaches customers when it matters most.</p>
+          </div>
         </div>
       </div>
 

@@ -32,12 +32,24 @@ export const WhatsAppInboxFeatureContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* Manage Every Customer */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Manage Every Customer Conversation from One Place</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>As your business grows, customer conversations can quickly become difficult to manage.</p>
-          <p>Caartzee Snap's WhatsApp Inbox gives your team a centralized workspace to handle inquiries, support requests, orders, and sales conversations efficiently.</p>
-          <p>No more switching between devices, numbers, or applications. Everything is organized in one powerful dashboard.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img 
+            src="/images/whatapp%20inbox1.png" 
+            alt="WhatsApp Inbox Overview" 
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain" 
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Manage Every Customer Conversation from One Place</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>As your business grows, customer conversations can quickly become difficult to manage.</p>
+            <p>Caartzee Snap's WhatsApp Inbox gives your team a centralized workspace to handle inquiries, support requests, orders, and sales conversations efficiently.</p>
+            <p>No more switching between devices, numbers, or applications. Everything is organized in one powerful dashboard.</p>
+          </div>
         </div>
       </div>
 
@@ -55,10 +67,10 @@ export const WhatsAppInboxFeatureContent = () => {
             <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Sales Management</h5>
             <p className="leading-relaxed text-secondary/70 dark:text-white/70">Convert inquiries into purchases by sharing products, payment links, and personalized recommendations directly in chat.</p>
           </div>
-          <div className="bg-black/5 dark:bg-white/5 p-5 rounded-2xl">
+          {/* <div className="bg-black/5 dark:bg-white/5 p-5 rounded-2xl">
             <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">Team Collaboration</h5>
             <p className="leading-relaxed text-secondary/70 dark:text-white/70">Assign conversations to team members, add notes, and ensure every customer receives the right support.</p>
-          </div>
+          </div> */}
         </div>
       </div>
 

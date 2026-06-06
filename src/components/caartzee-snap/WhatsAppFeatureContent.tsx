@@ -29,24 +29,33 @@ export const WhatsAppFeatureContent = () => {
         </div>
       </div>
 
-      <hr className="border-stroke-1 dark:border-white/10" />
-
-      {/* Why WhatsApp Matters */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Why WhatsApp Matters for Your Business</h4>
-        <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
-          <p>Customers prefer messaging over emails and forms. They want quick answers, personalized recommendations, and instant support.</p>
-          <p>With Caartzee Snap, your business can engage customers directly on WhatsApp, providing a seamless shopping experience that drives higher conversions and customer satisfaction.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img
+            src="/images/whatappintergration1.png"
+            alt="WhatsApp Integration Overview"
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain"
+          />
         </div>
-        <div className="pt-4">
-          <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-3">Benefits at a Glance</h5>
-          <ul className="list-disc list-inside space-y-2 ml-2 leading-relaxed text-secondary/70 dark:text-white/70">
-            <li>Faster customer responses</li>
-            <li>Higher engagement rates</li>
-            <li>Increased sales conversions</li>
-            <li>Reduced support workload</li>
-            <li>Improved customer loyalty</li>
-          </ul>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Why WhatsApp Matters for Your Business</h4>
+          <div className="space-y-4 text-lg leading-relaxed text-secondary/70 dark:text-white/70">
+            <p>Customers prefer messaging over emails and forms. They want quick answers, personalized recommendations, and instant support.</p>
+            <p>With Caartzee Snap, your business can engage customers directly on WhatsApp, providing a seamless shopping experience that drives higher conversions and customer satisfaction.</p>
+          </div>
+          <div className="pt-4">
+            <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-3">Benefits at a Glance</h5>
+            <ul className="list-disc list-inside space-y-2 ml-2 leading-relaxed text-secondary/70 dark:text-white/70">
+              <li>Faster customer responses</li>
+              <li>Higher engagement rates</li>
+              <li>Increased sales conversions</li>
+              <li>Reduced support workload</li>
+              <li>Improved customer loyalty</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -55,7 +64,7 @@ export const WhatsAppFeatureContent = () => {
       {/* Everything You Need */}
       <div className="space-y-6">
         <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">Everything You Need to Sell on WhatsApp</h4>
-        
+
         <div className="bg-black/5 dark:bg-white/5 p-6 rounded-2xl">
           <h5 className="text-heading-6 font-bold text-secondary dark:text-white mb-2">AI-Powered Conversations</h5>
           <p className="leading-relaxed text-secondary/70 dark:text-white/70 mb-3">Your AI assistant engages customers 24/7 by:</p>
@@ -116,22 +125,22 @@ export const WhatsAppFeatureContent = () => {
         <ol className="space-y-4 relative border-l border-stroke-1 dark:border-white/10 ml-3">
           <li className="pl-6 relative">
             <span className="absolute -left-[13px] top-0 flex h-6 w-6 items-center justify-center rounded-full bg-primary-500 text-xs font-bold text-white">1</span>
-            <strong className="block text-secondary dark:text-white mb-1">Connect Your WhatsApp Business Account</strong> 
+            <strong className="block text-secondary dark:text-white mb-1">Connect Your WhatsApp Business Account</strong>
             <span className="leading-relaxed text-secondary/70 dark:text-white/70">Link your WhatsApp Business number securely with Caartzee Snap.</span>
           </li>
           <li className="pl-6 relative">
             <span className="absolute -left-[13px] top-0 flex h-6 w-6 items-center justify-center rounded-full bg-primary-500 text-xs font-bold text-white">2</span>
-            <strong className="block text-secondary dark:text-white mb-1">Sync Your Store</strong> 
+            <strong className="block text-secondary dark:text-white mb-1">Sync Your Store</strong>
             <span className="leading-relaxed text-secondary/70 dark:text-white/70">Import products, inventory, and customer data automatically.</span>
           </li>
           <li className="pl-6 relative">
             <span className="absolute -left-[13px] top-0 flex h-6 w-6 items-center justify-center rounded-full bg-primary-500 text-xs font-bold text-white">3</span>
-            <strong className="block text-secondary dark:text-white mb-1">Activate AI Automation</strong> 
+            <strong className="block text-secondary dark:text-white mb-1">Activate AI Automation</strong>
             <span className="leading-relaxed text-secondary/70 dark:text-white/70">Enable AI-powered conversations, product recommendations, and support workflows.</span>
           </li>
           <li className="pl-6 relative">
             <span className="absolute -left-[13px] top-0 flex h-6 w-6 items-center justify-center rounded-full bg-primary-500 text-xs font-bold text-white">4</span>
-            <strong className="block text-secondary dark:text-white mb-1">Start Selling</strong> 
+            <strong className="block text-secondary dark:text-white mb-1">Start Selling</strong>
             <span className="leading-relaxed text-secondary/70 dark:text-white/70">Engage customers, answer questions, and generate sales directly through WhatsApp.</span>
           </li>
         </ol>
@@ -222,18 +231,30 @@ export const WhatsAppFeatureContent = () => {
       <hr className="border-stroke-1 dark:border-white/10" />
 
       {/* One Dashboard */}
-      <div className="space-y-4">
-        <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">One Dashboard for Every Conversation</h4>
-        <p className="leading-relaxed text-secondary/70 dark:text-white/70">Manage all customer interactions from a single interface. View and Manage:</p>
-        <ul className="list-disc list-inside space-y-2 mt-2 ml-2 leading-relaxed text-secondary/70 dark:text-white/70">
-          <li>Customer chats</li>
-          <li>Product inquiries</li>
-          <li>Sales conversations</li>
-          <li>Order updates</li>
-          <li>Support requests</li>
-          <li>Marketing campaigns</li>
-        </ul>
-        <p className="font-bold text-secondary dark:text-white mt-4">No switching between multiple platforms.</p>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center py-8">
+        {/* Left Image */}
+        <div className="w-full lg:col-span-8">
+          <img
+            src="/images/whatappintergration2.png"
+            alt="WhatsApp Integration Dashboard"
+            className="w-full h-auto rounded-2xl shadow-2xl border border-stroke-1 dark:border-white/10 object-contain"
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="space-y-4 lg:col-span-4">
+          <h4 className="text-heading-5 font-black tracking-tight text-secondary dark:text-white">One Dashboard for Every Conversation</h4>
+          <p className="leading-relaxed text-secondary/70 dark:text-white/70">Manage all customer interactions from a single interface. View and Manage:</p>
+          <ul className="list-disc list-inside space-y-2 mt-2 ml-2 leading-relaxed text-secondary/70 dark:text-white/70">
+            <li>Customer chats</li>
+            <li>Product inquiries</li>
+            <li>Sales conversations</li>
+            <li>Order updates</li>
+            <li>Support requests</li>
+            <li>Marketing campaigns</li>
+          </ul>
+          <p className="font-bold text-secondary dark:text-white mt-4">No switching between multiple platforms.</p>
+        </div>
       </div>
 
       <hr className="border-stroke-1 dark:border-white/10" />
