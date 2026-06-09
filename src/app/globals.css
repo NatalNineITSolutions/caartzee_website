@@ -13,3 +13,54 @@
 @import '../styles/lenis.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --animate-blink: blink 1s step-end infinite;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ── Scan line sweep ── */
+@keyframes scanMove {
+  0%   { top: -2px; opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+.animate-scan-line { animation: scanMove 3.5s ease-in-out infinite alternate; }
+
+/* ── Orb drifts ── */
+@keyframes ob1 { 0%,100%{ transform:translateZ(-60px) translate(0,0) scale(1) } 50%{ transform:translateZ(-60px) translate(30px,40px) scale(1.1) } }
+@keyframes ob2 { 0%,100%{ transform:translateZ(-40px) translate(0,0) scale(1) } 50%{ transform:translateZ(-40px) translate(-25px,20px) scale(1.08) } }
+@keyframes ob3 { 0%,100%{ transform:translateZ(-20px) translate(0,0) } 50%{ transform:translateZ(-20px) translate(15px,-28px) } }
+@keyframes ob4 { 0%,100%{ transform:translateZ(-20px) translate(0,0) } 50%{ transform:translateZ(-20px) translate(-20px,18px) } }
+.animate-ob1 { animation: ob1 9s ease-in-out infinite; }
+.animate-ob2 { animation: ob2 11s ease-in-out infinite; }
+.animate-ob3 { animation: ob3 7s ease-in-out infinite; }
+.animate-ob4 { animation: ob4 13s ease-in-out infinite; }
+
+/* ── Ring pulse ── */
+@keyframes ringPulse { 0%,100%{ opacity:0.5; transform:scale(1) } 50%{ opacity:1; transform:scale(1.04) } }
+.animate-ring-pulse { animation: ringPulse 4s ease-in-out infinite; }
+
+/* ── Floating pills ── */
+@keyframes pf1 { 0%,100%{ transform:translateZ(60px) translateY(0) } 50%{ transform:translateZ(60px) translateY(-12px) } }
+@keyframes pf2 { 0%,100%{ transform:translateZ(50px) translateY(0) } 50%{ transform:translateZ(50px) translateY(10px) } }
+@keyframes pf3 { 0%,100%{ transform:translateZ(55px) translateY(0) } 50%{ transform:translateZ(55px) translateY(-8px) } }
+@keyframes pf4 { 0%,100%{ transform:translateZ(55px) translateY(0) } 50%{ transform:translateZ(55px) translateY(8px) } }
+.animate-pf1 { animation: pf1 6s ease-in-out infinite; }
+.animate-pf2 { animation: pf2 7s ease-in-out infinite; }
+.animate-pf3 { animation: pf3 8s ease-in-out infinite; }
+.animate-pf4 { animation: pf4 9s ease-in-out infinite; }
+
+/* ── Gradient text shift ── */
+@keyframes gradShift { 0%,100%{ background-position:0% } 50%{ background-position:100% } }
+.animate-grad-shift { animation: gradShift 4s ease-in-out infinite; }
+
+/* ── Badge dot blink ── */
+@keyframes badgeBlink { 0%,100%{ opacity:1; box-shadow:0 0 10px #00f0ff } 50%{ opacity:0.3; box-shadow:0 0 4px #00f0ff } }
+.animate-badge-blink { animation: badgeBlink 2s ease-in-out infinite; }

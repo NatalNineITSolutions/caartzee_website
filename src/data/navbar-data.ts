@@ -41,7 +41,7 @@ export const mobileMenuData: MobileMenuGroup[] = [
     id: 'launch-your-store',
     title: 'Launch Your Store',
     submenu: [
-      { id: 'ecommerce-page', label: 'Launch Your Store', href: '/ecommerce' },
+      { id: 'ecommerce-page', label: 'Launch Your Store', href: '/launch-the-store' },
     ],
   },
   {
