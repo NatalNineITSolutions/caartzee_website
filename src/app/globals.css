@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
 @import 'tailwindcss';
 @import '../styles/variables.css';
 @import '../styles/icon-font.css';
@@ -17,6 +17,9 @@
 @theme {
   --animate-blink: blink 1s step-end infinite;
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-display: 'Outfit', sans-serif;
+  --color-brand-green: #9fff00;
+  --color-bg-base: #EDEEF5;
 }
 
 @keyframes blink {
@@ -42,6 +45,18 @@
 .animate-ob2 { animation: ob2 11s ease-in-out infinite; }
 .animate-ob3 { animation: ob3 7s ease-in-out infinite; }
 .animate-ob4 { animation: ob4 13s ease-in-out infinite; }
+
+/* ── Digital Epoch Marquee ── */
+@keyframes digitalMarquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-digital-marquee {
+  animation: digitalMarquee 25s linear infinite;
+}
+.animate-digital-marquee:hover {
+  animation-play-state: paused;
+}
 
 /* ── Ring pulse ── */
 @keyframes ringPulse { 0%,100%{ opacity:0.5; transform:scale(1) } 50%{ opacity:1; transform:scale(1.04) } }
