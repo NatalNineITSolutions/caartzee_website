@@ -13,7 +13,7 @@ export default function ProstheticsHero() {
       />
       
       <div className="relative z-10 flex flex-col min-h-screen">
-        <div className="flex-1 flex items-end pb-10 sm:pb-16 lg:pb-20 px-6 sm:px-12 md:px-20 lg:px-28">
+        <div className="flex-1 flex items-center px-6 sm:px-12 md:px-20 lg:px-28">
           <div className="max-w-md">
             <a href="#" className="inline-flex items-center gap-1.5 text-[11.5px] font-medium text-blue-500 hover:text-blue-600 transition-colors mb-4 group uppercase tracking-wider">
               LAUNCH YOUR STORE
