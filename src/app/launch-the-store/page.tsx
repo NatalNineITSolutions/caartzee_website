@@ -1,4 +1,5 @@
 import FuturisticHero from '@/components/ecommerce/FuturisticHero';
+import LiquidGlassHero from '@/components/ecommerce/LiquidGlassHero';
 import MentalitySection from '@/components/ecommerce/MentalitySection';
 import EcommerceHero from '@/components/ecommerce/EcommerceHero';
 import EcommerceModernHero from '@/components/ecommerce/EcommerceModernHero';
@@ -6,6 +7,7 @@ import EcommerceProcess from '@/components/ecommerce/EcommerceProcess';
 import DigitalEpochSection from '@/components/ecommerce/DigitalEpochSection';
 import EcommercePricing from '@/components/ecommerce/EcommercePricing';
 import ProstheticsHero from '@/components/ecommerce/ProstheticsHero';
+import DarkAIHero from '@/components/ecommerce/DarkAIHero';
 import CTA from '@/components/shared/cta/CTA';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
@@ -18,13 +20,16 @@ export const metadata: Metadata = {
 const EcommercePage = () => {
   return (
     <main className="bg-background-1 dark:bg-background-6">
-      <MentalitySection />
+      <LiquidGlassHero />
+      {/* <MentalitySection /> */}
       {/* <FuturisticHero /> */}
       <EcommerceHero />
-      <EcommerceModernHero />
+      <DarkAIHero />
+      {/* <EcommerceModernHero /> */}
       <EcommerceProcess />
       <DigitalEpochSection />
       <EcommercePricing />
+
       <ProstheticsHero />
       <CTA
         className="dark:bg-background-8 bg-white"
