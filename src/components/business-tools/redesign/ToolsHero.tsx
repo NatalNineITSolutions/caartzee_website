@@ -4,11 +4,20 @@ import RevealAnimation from '@/components/animation/RevealAnimation';
 const ToolsHero = () => {
   return (
     <section className="relative overflow-hidden bg-[#0A0C10] pt-40 pb-24 md:pt-48 md:pb-32 xl:pt-60 xl:pb-40">
-      {/* Background Gradients */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 overflow-hidden blur-[120px] opacity-20">
-        <div className="size-[600px] rounded-full bg-primary-500/30" />
+      {/* Background Video */}
+      <div className="absolute inset-0 z-0">
+        <video 
+          src="/video/The_Caartzee_Business_Ecosyste.mp4"
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="h-full w-full object-cover opacity-40"
+        />
+        {/* Gradient overlay to ensure text remains readable */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0C10]/80 via-[#0A0C10]/50 to-[#0A0C10]" />
       </div>
-      
+
       <div className="main-container relative z-10 text-center">
         <div className="mx-auto max-w-[900px]">
           <RevealAnimation direction="up" delay={0.1}>
