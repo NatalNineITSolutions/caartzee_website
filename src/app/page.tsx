@@ -18,6 +18,8 @@ import Brands from '@/components/home/Brands';
 import BlogShowcase from '@/components/blog/BlogShowcase';
 import CTA from '@/components/shared/cta/CTA';
 import FearlessSection from '@/components/home/FearlessSection';
+import AIChatSection from '@/components/home/AIChatSection';
+import GlobalGrowthSection from '@/components/home/GlobalGrowthSection';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
@@ -31,8 +33,10 @@ const page = () => {
         <Hero />
         <Brands />
         <About />
+        <AIChatSection />
         <FearlessSection />
         <Work />
+        <GlobalGrowthSection />
         <Feature />
         <FeaturesV2 />
         <Pricing />

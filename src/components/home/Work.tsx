@@ -1,6 +1,7 @@
 import workBg from '@public/images/ns-img-27.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
+import FlipCard from '../animation/FlipCard';
 
 // Work steps data
 const workStepsData = [
@@ -72,17 +73,26 @@ const Work = () => {
             </RevealAnimation>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:gap-4 md:grid-cols-3 md:gap-8">
+        <div className="grid grid-cols-1 gap-8 sm:gap-4 md:grid-cols-3 md:gap-8" style={{ perspective: '1000px' }}>
           {workStepsData.map((step, index) => (
             <RevealAnimation key={step.id} delay={0.4 + index * 0.1}>
-              <div className="flex flex-col items-center justify-center rounded-[20px] bg-white/14 p-8 text-center backdrop-blur-[50px] md:p-4 lg:p-8">
-                <h4
-                  className={`text-heading-6 dark:text-secondary ${step.badgeColor} mb-6 inline-block rounded-[48px] px-10 py-1.5 max-lg:mb-3`}>
-                  {step.step}
-                </h4>
-                <h5 className="text-accent mb-2 max-lg:text-lg">{step.title}</h5>
-                <p className="text-accent/60 max-lg:text-tagline-2">{step.description}</p>
-              </div>
+              <FlipCard 
+                className="h-[250px] w-full"
+                front={
+                  <div className="flex h-full w-full flex-col items-center justify-center rounded-[20px] bg-white/14 p-8 text-center backdrop-blur-[50px] shadow-[0_20px_50px_rgba(0,0,0,0.1)]">
+                    <h4
+                      className={`text-heading-6 dark:text-secondary ${step.badgeColor} mb-6 inline-block rounded-[48px] px-10 py-1.5 max-lg:mb-3`}>
+                      {step.step}
+                    </h4>
+                    <h5 className="text-accent max-lg:text-lg">{step.title}</h5>
+                  </div>
+                }
+                back={
+                  <div className="flex h-full w-full flex-col items-center justify-center rounded-[20px] bg-white/14 p-8 text-center backdrop-blur-[50px] shadow-[0_20px_50px_rgba(0,0,0,0.1)]">
+                    <p className="text-accent max-lg:text-tagline-2">{step.description}</p>
+                  </div>
+                }
+              />
             </RevealAnimation>
           ))}
         </div>

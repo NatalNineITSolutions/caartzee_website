@@ -9,10 +9,20 @@ const HeroContent = () => {
         <span className="badge badge-yellow mb-5">Powering the Next Generation of Global Commerce</span>
       </RevealAnimation>
       <RevealAnimation delay={0.2}>
-        <h1 className="max-[426px]:text-heading-5 max-sm:text-heading-4 mb-4 font-medium max-[426px]:mb-2.5 max-sm:max-w-[450px]">
-          Launch, Scale & Automate 
+        <h1 className="group max-[426px]:text-heading-5 max-sm:text-heading-4 mb-4 font-medium max-[426px]:mb-2.5 max-sm:max-w-[450px] cursor-default">
+          <span className="transition-colors duration-300 group-hover:text-gray-400 dark:group-hover:text-gray-600 hover:!text-blue-500">
+            Launch,{' '}
+          </span>
+          <span className="transition-colors duration-300 group-hover:text-gray-400 dark:group-hover:text-gray-600 hover:!text-purple-500">
+            Scale & Automate{' '}
+          </span>
           <br className="hidden md:block" />
-          Your Entire Business Ecosystem
+          <span className="transition-colors duration-300 group-hover:text-gray-400 dark:group-hover:text-gray-600 hover:!text-emerald-500">
+            Your Entire{' '}
+          </span>
+          <span className="transition-colors duration-300 group-hover:text-gray-400 dark:group-hover:text-gray-600 hover:!text-primary-500">
+            Business Ecosystem
+          </span>
         </h1>
       </RevealAnimation>
       <RevealAnimation delay={0.3}>
