@@ -29,6 +29,8 @@ All the varaiables are added here
   --color-background-10: #ebebeb;
   --color-background-11: #b5b5b9;
   --color-background-12: #eaeceb;
+  --color-background-13: #f2f5fa;
+  --color-background-14: #0d0d12;
   --color-stroke-1: #dfe4eb;
   --color-stroke-2: #e3e7ed;
   --color-stroke-3: #d7dde5;
@@ -58,6 +60,8 @@ All the varaiables are added here
   --color-gradient-8: linear-gradient(156deg, #ffffff 32.92%, #a585ff 91%);
   --color-gradient-9: linear-gradient(156deg, #dfb0ff 32.92%, #fdbedc 91%);
   --color-gradient-10: linear-gradient(135deg, #83e7ee 0%, #c6f56f 100%);
+  --color-gradient-14: linear-gradient(135deg, #864ffe 0%, #6d1fe2 100%);
+  --font-ibm-plex-mono: 'IBM Plex Mono', monospace;
   --color-gradient-11: linear-gradient(179deg, rgba(255, 255, 255, 0) 0.68%, #fff 79.47%);
   --color-gradient-12: radial-gradient(73.01% 80.77% at 19.23% 47.79%, #83e7ee 0%, rgba(134, 79, 254, 0) 100%);
 

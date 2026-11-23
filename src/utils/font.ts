@@ -1,10 +1,6 @@
-import { Inter_Tight } from 'next/font/google';
-
-const interTight = Inter_Tight({
-  subsets: ['latin'],
+// Fallback to css class / system font if google font fetch fails or during offline/turbopack
+const interTight = {
   variable: '--font-interTight',
-  display: 'swap',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-});
+};
 
 export { interTight };

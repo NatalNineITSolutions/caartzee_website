@@ -1,8 +1,7 @@
 import SmoothScrollProvider from '@/components/shared/SmoothScroll';
 import { ThemeProvider } from '@/components/shared/ThemeProvider';
 import DemoShowcase from '@/components/shared/demo-showcase';
-import Footer from '@/components/shared/footer/Footer';
-import Navbar from '@/components/shared/navbar/Navbar';
+import LayoutWrapper from '@/components/shared/LayoutWrapper';
 import { AppContextProvider } from '@/context/AppContext';
 import { interTight } from '@/utils/font';
 import { generateMetadata } from '@/utils/generateMetaData';
@@ -40,10 +39,10 @@ export default function RootLayout({
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
             <Suspense>
               <SmoothScrollProvider>
-                <Navbar />
-                {/* <DemoShowcase activeDemoId={5} /> */}
-                {children}
-                <Footer />
+                <LayoutWrapper>
+                  {/* <DemoShowcase activeDemoId={5} /> */}
+                  {children}
+                </LayoutWrapper>
               </SmoothScrollProvider>
             </Suspense>
           </ThemeProvider>
