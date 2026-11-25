@@ -12,7 +12,9 @@ import mainLogo from '@public/images/shared/logo-1.png';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+import { ButtonPrimary } from '@/components/shared/ui/button';
 import MobileMenu from '../mobile-menu/MobileMenu';
 import CompanyMenu from './CompanyMenu';
 import MobileMenuButton from './MobileMenuButton';
@@ -21,6 +23,8 @@ import PlatformMenu from './PlatformMenu';
 import ResourcesMenu from './ResourcesMenu';
 
 const Navbar = () => {
+  const pathname = usePathname();
+  const isHomepage2 = pathname?.startsWith('/homepage2');
   const { isScrolled } = useNavbarScroll(150);
 
   const [menuDropdownId, setMenuDropdownId] = useState<string | null>(null);
@@ -162,16 +166,24 @@ const Navbar = () => {
               </ul>
             </nav>
             <div className="hidden items-center justify-center gap-6 xl:flex">
-              <Link
-                href="https://cartly.zeedone.com/login"
-                className="text-tagline-1 text-secondary hover:text-primary-500 font-medium transition-all duration-300">
-                Sign in
-              </Link>
-              <Link
-                href="https://cartly.zeedone.com/register"
-                className="btn btn-md btn-primary hover:btn-secondary dark:hover:btn-white-dark dark:btn-white">
-                <span>Get Started</span>
-              </Link>
+              {isHomepage2 ? (
+                <Link href="https://cartly.zeedone.com/register" className="inline-block" aria-label="Get started">
+                  <ButtonPrimary>Get started</ButtonPrimary>
+                </Link>
+              ) : (
+                <>
+                  <Link
+                    href="https://cartly.zeedone.com/login"
+                    className="text-tagline-1 text-secondary hover:text-primary-500 font-medium transition-all duration-300">
+                    Sign in
+                  </Link>
+                  <Link
+                    href="https://cartly.zeedone.com/register"
+                    className="btn btn-md btn-primary hover:btn-secondary dark:hover:btn-white-dark dark:btn-white">
+                    <span>Get Started</span>
+                  </Link>
+                </>
+              )}
             </div>
             <MobileMenuButton />
           </div>
