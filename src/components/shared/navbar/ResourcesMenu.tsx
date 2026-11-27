@@ -70,7 +70,7 @@ const ResourcesMenu = ({
         className={cn(
           'dark:bg-background-6 border-stroke-1 ease absolute top-full left-1/2 z-50 mt-5 hidden w-[700px] -translate-x-1/2 rounded-[32px] border bg-white p-6 shadow-2xl transition-all duration-300 xl:block dark:border-white/10',
           menuDropdownId === 'resources-dropdown-menu'
-            ? 'translate-y-0 opacity-100'
+            ? '!pointer-events-auto translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-3 opacity-0',
         )}>
         <ul className="grid grid-cols-2 gap-4">

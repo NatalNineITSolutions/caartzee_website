@@ -115,7 +115,7 @@ const PlanAndSupportMenu = ({
         className={cn(
           'dark:bg-background-6 border-stroke-1 ease fixed top-full left-1/2 z-50 mt-2 hidden w-full -translate-x-1/2 space-y-6 rounded-[20px] border bg-white p-4 transition-all duration-300 md:w-[952px] xl:flex',
           menuDropdownId === 'plan-and-support-mega-menu'
-            ? 'translate-y-0 opacity-100'
+            ? '!pointer-events-auto translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
         <div className="flex items-start gap-y-6 md:gap-x-6">

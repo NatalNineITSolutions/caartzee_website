@@ -1,0 +1,29 @@
+import CancellationPolicyContent from '@/components/cancellation-policy/CancellationPolicyContent';
+import CTA from '@/components/shared/cta/CTA';
+import { defaultMetadata } from '@/utils/generateMetaData';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  ...defaultMetadata,
+  title: 'Cancellation & Refund Policy || Caartzee',
+  description: 'Cancellation and refund policy for subscriptions and services provided by Caartzee.',
+};
+
+const CancellationPolicyPage = () => {
+  return (
+    <main className="bg-background-3 dark:bg-background-7">
+      <CancellationPolicyContent />
+      <CTA
+        className="dark:bg-background-5 bg-white"
+        badgeClass="badge-yellow-v2"
+        badgeText="Get Started"
+        ctaHeading="Ready to start earning with Caartzee?"
+        description="If you have any questions, feel free to reach out to our team."
+        btnClass="hover:btn-secondary dark:hover:btn-accent"
+        ctaBtnText="Get started"
+      />
+    </main>
+  );
+};
+
+export default CancellationPolicyPage;

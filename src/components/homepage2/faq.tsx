@@ -14,40 +14,40 @@ import Link from 'next/link';
 
 const faqItems = [
   {
-    value: 'what-does-nexsas-automate',
-    question: 'What does Nexsas automate?',
+    value: 'what-does-caartzee-automate',
+    question: 'What does Caartzee automate?',
     answer:
-      'Nexsas connects your tools and automates repetitive tasks like routing requests, updating records, sending notifications, and syncing data across your stack.',
+      'Caartzee connects your online stores, marketplaces, and business tools to automate repetitive tasks like syncing inventory, routing orders, abandoned cart recovery, and customer engagement.',
   },
   {
     value: 'which-apps-can-i-connect',
     question: 'Which apps can I connect?',
     answer:
-      'Connect CRMs, project tools, email, forms, spreadsheets, and databases. Mix multiple integrations in one workflow to keep data synced across teams.',
+      'Connect Amazon, Shopify, Flipkart, WhatsApp, DHL, payment gateways, and CRM platforms. Mix multiple integrations in one ecosystem to keep data perfectly in sync.',
   },
   {
     value: 'multi-step-workflows',
     question: 'Can I build multi-step workflows?',
     answer:
-      'Yes. Create triggers, conditions, approvals, delays, and branching logic. You can also retry failed steps and route exceptions to the right person automatically.',
+      'Yes. Create triggers, smart conditions, automated customer messages, inventory alerts, and multi-channel fulfillment rules with zero complexity.',
   },
   {
     value: 'is-my-data-secure',
     question: 'Is my data secure?',
     answer:
-      'We use encryption in transit and at rest, strict access controls, and audit-friendly logs. You decide which connections and actions each workflow is allowed to run.',
+      'We use enterprise-grade encryption in transit and at rest, role-based access controls, and strict compliance standards to ensure your commerce data stays safe.',
   },
   {
     value: 'coding-skills-required',
-    question: 'Do I need coding skills to use Nexsas?',
+    question: 'Do I need coding skills to use Caartzee?',
     answer:
-      'No. Start with templates and a visual builder. If you want advanced customization, you can add rules, webhooks, and custom fields without changing your existing tools.',
+      'No. Start with visual flow builders, ready-made templates, and intuitive settings. You can launch your store and automate workflows without writing a single line of code.',
   },
   {
     value: 'monitor-runs-and-troubleshoot',
-    question: 'How do I monitor runs and troubleshoot failures?',
+    question: 'How do I track sales and manage operations?',
     answer:
-      'Every automation stores run history with timestamps, outcomes, and step-level detail. You can filter errors, set notifications when something breaks, pause a workflow safely, and replay or fix failed steps without losing context.',
+      'Every transaction and automation has real-time tracking, live sales dashboards, and error monitoring so you always have full visibility into your business growth.',
   },
 ];
 

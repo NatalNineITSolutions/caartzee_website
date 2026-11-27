@@ -12,7 +12,7 @@ import Testimonial from '@/components/homepage2/testimonial';
 import CTA from '@/components/shared/cta-nexsas';
 
 export const metadata: Metadata = {
-  title: 'Automation SaaS || Nexsas - Homepage 2',
+  title: 'Caartzee - Homepage 2',
 };
 
 const Page = () => {

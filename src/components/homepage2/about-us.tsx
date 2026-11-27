@@ -1,5 +1,5 @@
-import aboutImgPrimary from '@/public/images/ns-img-6.jpg';
-import aboutImgSecondary from '@/public/images/ns-img-7.jpg';
+import aboutImgPrimary from '@/public/images/growth.png';
+import aboutImgSecondary from '@/public/images/sales_dashboard_tablet.png';
 import CounterNumberOnScroll from '@/components/animation/counter-number-on-scroll';
 import RevealAnimation from '@/components/animation/reveal-animation';
 import { TextReveal } from '@/components/animation/text-reveal';

@@ -1,12 +1,12 @@
-import slideImg8 from '@/public/images/ns-avatar-10.jpg';
-import avatar3 from '@/public/images/ns-avatar-14.jpg';
-import slideImg2 from '@/public/images/ns-avatar-4.jpg';
-import slideImg3 from '@/public/images/ns-avatar-5.jpg';
-import slideImg4 from '@/public/images/ns-avatar-6.jpg';
-import slideImg5 from '@/public/images/ns-avatar-7.jpg';
-import { default as avatar1, default as slideImg6 } from '@/public/images/ns-avatar-8.jpg';
-import { default as avatar2, default as slideImg7 } from '@/public/images/ns-avatar-9.jpg';
-import slideImg1 from '@/public/images/ns-img-2.jpg';
+import slideImg8 from '@/public/images/flowbuilder1.png';
+import avatar3 from '@/public/images/ns-avatar-3.png';
+import slideImg2 from '@/public/images/whatapp inbox1.png';
+import slideImg3 from '@/public/images/sales_dashboard_tablet.png';
+import slideImg4 from '@/public/images/campaign2.png';
+import slideImg5 from '@/public/images/marketting1.png';
+import { default as avatar1, default as slideImg6 } from '@/public/images/ns-avatar-1.png';
+import { default as avatar2, default as slideImg7 } from '@/public/images/flowbuilder2.png';
+import slideImg1 from '@/public/images/sales_dashboard_tablet.png';
 import CounterNumberOnScroll from '@/components/animation/counter-number-on-scroll';
 import RevealAnimation from '@/components/animation/reveal-animation';
 import {
@@ -131,11 +131,11 @@ const Testimonial = () => {
                   <SlideImg src={slideImg2} alt="testimonial two" />
                   <SlideContent>
                     <p className="text-secondary">
-                      &ldquo;Our automation SaaS turned scattered handoffs into one clear pipeline
+                      &ldquo;Caartzee turned our scattered sales channels into one unified platform
                       we can monitor end to end.
                       <span className="mt-5 inline-block">
-                        Approvals, status updates, and owner changes now propagate automatically, so
-                        delivery stays on track without chasing people in chat.&rdquo;
+                        Order updates, inventory sync, and customer messages now propagate
+                        automatically, keeping deliveries on track without manual follow-ups.&rdquo;
                       </span>
                     </p>
                   </SlideContent>
@@ -145,11 +145,11 @@ const Testimonial = () => {
                   <SlideImg src={slideImg3} alt="testimonial three" />
                   <SlideContent>
                     <p className="text-secondary">
-                      &ldquo;We plugged our CRM, billing, and support stack into the platform in a
+                      &ldquo;We connected our WhatsApp, Shopify, and Amazon stores to Caartzee in a
                       single afternoon.
                       <span className="mt-5 inline-block">
-                        Triggers and webhooks keep customer records and subscription events in sync,
-                        so ops and finance always see the same live automation health.&rdquo;
+                        Automated triggers keep customer records and catalog data in sync, so our team
+                        always sees the exact same live inventory numbers.&rdquo;
                       </span>
                     </p>
                   </SlideContent>
@@ -159,11 +159,11 @@ const Testimonial = () => {
                   <SlideImg src={slideImg4} alt="testimonial four" />
                   <SlideContent>
                     <p className="text-secondary">
-                      &ldquo;No-code paths let CS and success teams ship playbooks without waiting
-                      on engineering for every tweak.
+                      &ldquo;No-code tools let our marketing and support teams launch promotions and
+                      flows without waiting on developers.
                       <span className="mt-5 inline-block">
-                        We still drop into advanced rules when we need them, but most SaaS lifecycle
-                        automation now ship in hours, not sprints.&rdquo;
+                        We still configure advanced rules when needed, but most commerce campaigns
+                        now launch in minutes rather than weeks.&rdquo;
                       </span>
                     </p>
                   </SlideContent>
@@ -173,11 +173,11 @@ const Testimonial = () => {
                   <SlideImg src={slideImg5} alt="testimonial five" />
                   <SlideContent>
                     <p className="text-secondary">
-                      &ldquo;Trial-to-paid and renewal reminders used to live in spreadsheets and
-                      side threads.
+                      &ldquo;Order confirmations and abandoned cart recovery used to require multiple
+                      disjointed tools.
                       <span className="mt-5 inline-block">
-                        The product now sequences emails, in-app nudges, and Slack alerts from one
-                        automation graph, with full run history for every account.&rdquo;
+                        Caartzee now coordinates WhatsApp notifications, customer emails, and order
+                        statuses from one centralized dashboard.&rdquo;
                       </span>
                     </p>
                   </SlideContent>
@@ -187,12 +187,10 @@ const Testimonial = () => {
                   <SlideImg src={slideImg6} alt="testimonial six" />
                   <SlideContent>
                     <p className="text-secondary">
-                      &ldquo;Security reviews were a blocker because we could not prove who touched
-                      which workflow or credential.
+                      &ldquo;Enterprise data protection was essential for our multi-channel brand.
                       <span className="mt-5 inline-block">
-                        Role-based access, audit logs, and environment separation gave our buyers
-                        confidence that our SaaS automation are production-grade, not shadow
-                        IT.&rdquo;
+                        Role-based permissions, automated audit logs, and encrypted customer data
+                        give our buyers and partners total confidence.&rdquo;
                       </span>
                     </p>
                   </SlideContent>
@@ -202,12 +200,10 @@ const Testimonial = () => {
                   <SlideImg src={slideImg7} alt="testimonial seven" />
                   <SlideContent>
                     <p className="text-secondary">
-                      &ldquo;Usage spikes used to mean overnight pager rotations whenever a batch
-                      job failed silently.
+                      &ldquo;High holiday sales volume used to lead to stockouts and missed shipments.
                       <span className="mt-5 inline-block">
-                        Retries, dead-letter queues, and dashboards in the automation layer mean our
-                        SaaS backend keeps pace with growth without heroic manual
-                        babysitting.&rdquo;
+                        Automated inventory sync and smart order routing mean our store handles spikes
+                        seamlessly without extra manual work.&rdquo;
                       </span>
                     </p>
                   </SlideContent>
@@ -217,12 +213,11 @@ const Testimonial = () => {
                   <SlideImg src={slideImg8} alt="testimonial eight" />
                   <SlideContent>
                     <p className="text-secondary">
-                      &ldquo;Executive reviews finally show one automation-backed view of MRR, churn
-                      risk, and delivery commitments.
+                      &ldquo;Executive reviews finally show a single, accurate view of GMV, customer
+                      retention, and channel performance.
                       <span className="mt-5 inline-block">
-                        Instead of reconciling five tools the night before a board meeting, we
-                        export governed dashboards fed by the same SaaS workflows our teams run
-                        every day.&rdquo;
+                        Instead of compiling reports across different marketplaces, we export unified
+                        dashboards powered directly by Caartzee.&rdquo;
                       </span>
                     </p>
                   </SlideContent>
