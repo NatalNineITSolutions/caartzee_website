@@ -1,12 +1,14 @@
-import slideImg8 from '@/public/images/flowbuilder1.png';
+import slideImg1 from '@/public/images/caartzee-ui/dashboard-main.png';
+import slideImg2 from '@/public/images/caartzee-ui/orders-management.png';
+import slideImg3 from '@/public/images/caartzee-ui/products-catalog.png';
+import slideImg4 from '@/public/images/caartzee-ui/sales-reports.png';
+import slideImg5 from '@/public/images/caartzee-ui/product-categories.png';
+import slideImg6 from '@/public/images/caartzee-ui/users-management.png';
+import slideImg7 from '@/public/images/caartzee-ui/mobile-app-featured.png';
+import slideImg8 from '@/public/images/caartzee-ui/form-builder.png';
+import avatar1 from '@/public/images/ns-avatar-1.png';
+import avatar2 from '@/public/images/flowbuilder2.png';
 import avatar3 from '@/public/images/ns-avatar-3.png';
-import slideImg2 from '@/public/images/whatapp inbox1.png';
-import slideImg3 from '@/public/images/sales_dashboard_tablet.png';
-import slideImg4 from '@/public/images/campaign2.png';
-import slideImg5 from '@/public/images/marketting1.png';
-import { default as avatar1, default as slideImg6 } from '@/public/images/ns-avatar-1.png';
-import { default as avatar2, default as slideImg7 } from '@/public/images/flowbuilder2.png';
-import slideImg1 from '@/public/images/sales_dashboard_tablet.png';
 import CounterNumberOnScroll from '@/components/animation/counter-number-on-scroll';
 import RevealAnimation from '@/components/animation/reveal-animation';
 import {

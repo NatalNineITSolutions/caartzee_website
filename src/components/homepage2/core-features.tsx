@@ -1,7 +1,7 @@
-import autoRemindersImg from '@/public/images/ns-img-19.svg';
-import scaleWithoutComplexityImg from '@/public/images/ns-img-20.svg';
-import multiStepAutomationImg from '@/public/images/flowbuilder1.png';
-import timezoneImg from '@/public/images/sales_dashboard_tablet.png';
+import autoRemindersImg from '@/public/images/caartzee-ui/orders-management.png';
+import scaleWithoutComplexityImg from '@/public/images/caartzee-ui/product-categories.png';
+import multiStepAutomationImg from '@/public/images/caartzee-ui/dashboard-main.png';
+import timezoneImg from '@/public/images/caartzee-ui/sales-reports.png';
 import RevealAnimation from '@/components/animation/reveal-animation';
 import { TextReveal } from '@/components/animation/text-reveal';
 import { GradientCircleIcon } from '@/components/shared/icon';

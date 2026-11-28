@@ -48,10 +48,8 @@ export interface FooterSocialLink {
 }
 
 export const footerSocialLinks: FooterSocialLink[] = [
-  { label: 'Facebook', href: '#', icon: '/images/icons/facebook-dark.svg' },
-  { label: 'Instagram', href: '#', icon: '/images/icons/instagram-dark.svg' },
-  { label: 'Youtube', href: '#', icon: '/images/icons/youtube-dark.svg' },
-  { label: 'LinkedIn', href: '#', icon: '/images/icons/linkedin-dark.svg' },
-  { label: 'Dribble', href: '#', icon: '/images/icons/dribble-dark.svg' },
-  { label: 'Behance', href: '#', icon: '/images/icons/behance-dark.svg' },
+  { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61551430929394#', icon: '/images/icons/facebook-dark.svg' },
+  { label: 'Instagram', href: 'https://www.instagram.com/caartzee', icon: '/images/icons/instagram-dark.svg' },
+  { label: 'Youtube', href: 'https://youtube.com/@natalnine', icon: '/images/icons/youtube-dark.svg' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/company/natal-nine-it-solution/', icon: '/images/icons/linkedin-dark.svg' },
 ];

@@ -1,16 +1,8 @@
 'use client';
 
 import bottomGradient from '@/public/images/bottom-gradient.svg';
-import avatar1 from '@/public/images/ns-avatar-1.png';
-import avatar2 from '@/public/images/ns-avatar-2.png';
-import avatar3 from '@/public/images/ns-avatar-3.png';
-import leftElement from '@/public/images/ns-img-27.svg';
-import rightElement from '@/public/images/ns-img-28.svg';
-import CounterNumberOnScroll from '@/components/animation/counter-number-on-scroll';
 import RevealAnimation from '@/components/animation/reveal-animation';
 import { TextReveal } from '@/components/animation/text-reveal';
-import AvatarItem from '@/components/shared/ui/avatar-reveal/avatar-item';
-import AvatarReveal from '@/components/shared/ui/avatar-reveal/avatar-reveal';
 import { ButtonPrimary, ButtonSecondary } from '@/components/shared/ui/button';
 import { AuthModal } from '@/components/shared/ui/modal';
 import { useSlightlyMoveOnMouseMove } from '@/hooks/use-slightly-move-on-mouse-move';
@@ -45,34 +37,6 @@ const Hero = () => {
         <div className="space-y-9 text-center md:space-y-18">
           <div className="space-y-8 md:space-y-[70px]">
             <div className="space-y-6">
-              <div className="mx-auto flex max-w-[254px] items-center justify-center gap-x-3">
-                <AvatarReveal
-                  className="flex items-center justify-center -space-x-3.5"
-                  direction="left"
-                  offset={50}
-                  stagger={0.1}
-                  markers={false}
-                >
-                  {[avatar1, avatar2, avatar3].map((avatar, index) => (
-                    <AvatarItem
-                      key={avatar.src}
-                      className="outline-background-2 size-11 overflow-hidden rounded-full outline-2"
-                    >
-                      <Image
-                        src={avatar}
-                        alt={`avatar-${index + 1}`}
-                        className="size-full rounded-full object-cover"
-                      />
-                    </AvatarItem>
-                  ))}
-                </AvatarReveal>
-                <RevealAnimation delay={0.2} direction="right" offset={50} instant>
-                  <p className="text-tagline-2 text-background-14/80 mx-auto max-w-[142px] shrink-0 text-left">
-                    <CounterNumberOnScroll value={2000} delay={0.4} />+ teams shipping faster this
-                    week.
-                  </p>
-                </RevealAnimation>
-              </div>
               <div className="space-y-4">
                 <TextReveal delay={0.3}>
                   <h1 className="mx-auto max-w-[950px]">
@@ -90,7 +54,12 @@ const Hero = () => {
 
             <RevealAnimation delay={0.3} instant>
               <div className="flex flex-col items-center justify-center gap-y-3 md:flex-row md:gap-x-5">
-                <Link href="/pricing" className="w-[70%] md:w-auto">
+                <Link
+                  href="https://app.caartzee.com/signup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-[70%] md:w-auto"
+                >
                   <ButtonPrimary
                     className="w-full md:w-auto"
                     textClassName="text-center text-nowrap max-sm:flex-1 max-sm:pr-8!"
@@ -98,13 +67,19 @@ const Hero = () => {
                     Start free trial
                   </ButtonPrimary>
                 </Link>
-                <ButtonSecondary
-                  className="w-[70%] outline-0! md:w-auto"
-                  textClassName="text-center text-nowrap max-sm:flex-1 max-sm:pr-8!"
-                  onClick={() => setAuthModalOpen(true)}
+                <Link
+                  href="https://app.caartzee.com/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-[70%] md:w-auto"
                 >
-                  Book demo
-                </ButtonSecondary>
+                  <ButtonSecondary
+                    className="w-full outline-0! md:w-auto"
+                    textClassName="text-center text-nowrap max-sm:flex-1 max-sm:pr-8!"
+                  >
+                    Book demo
+                  </ButtonSecondary>
+                </Link>
               </div>
             </RevealAnimation>
           </div>
@@ -125,22 +100,56 @@ const Hero = () => {
 
         <figure
           ref={leftRef}
-          className="absolute top-[57%] left-[2%] z-30 hidden h-14 will-change-transform md:block xl:top-[50%] xl:left-[-5%] 2xl:left-[-8%]"
+          className="absolute top-[57%] left-[2%] z-30 hidden will-change-transform md:block xl:top-[50%] xl:left-[-5%] 2xl:left-[-8%]"
         >
           <RevealAnimation delay={0.5} direction="left" offset={50}>
-            <div className="size-full">
-              <Image src={leftElement} alt="left-elements" className="size-full object-cover" />
+            <div className="relative inline-flex items-center">
+              <div className="flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-300 to-yellow-400 px-4 py-2 shadow-lg backdrop-blur-md border border-yellow-200/50">
+                <span className="flex h-2 w-2 rounded-full bg-amber-600 animate-pulse" />
+                <span className="text-sm font-semibold tracking-tight text-neutral-900">
+                  Orders &amp; Inventory
+                </span>
+              </div>
+              {/* Pointer cursor indicator */}
+              <div className="absolute -top-3.5 -right-3">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" className="drop-shadow-md">
+                  <path
+                    d="M3 3L10.07 19.97L12.58 12.58L19.97 10.07L3 3Z"
+                    fill="#1A1A1C"
+                    stroke="#ffffff"
+                    strokeWidth="1.5"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
             </div>
           </RevealAnimation>
         </figure>
 
         <figure
           ref={rightRef}
-          className="absolute top-[59%] right-[8%] z-30 hidden h-14 will-change-transform md:block xl:top-[42%] xl:right-[-3%] 2xl:right-[-5%]"
+          className="absolute top-[59%] right-[8%] z-30 hidden will-change-transform md:block xl:top-[42%] xl:right-[-3%] 2xl:right-[-5%]"
         >
           <RevealAnimation delay={0.6} direction="right" offset={50}>
-            <div className="size-full">
-              <Image src={rightElement} alt="right-elements" className="size-full object-cover" />
+            <div className="relative inline-flex items-center">
+              {/* Pointer cursor indicator */}
+              <div className="absolute -top-3.5 -left-3">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" className="drop-shadow-md">
+                  <path
+                    d="M21 3L13.93 19.97L11.42 12.58L4.03 10.07L21 3Z"
+                    fill="#635BFF"
+                    stroke="#ffffff"
+                    strokeWidth="1.5"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+              <div className="flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-500 via-indigo-500 to-purple-600 px-4 py-2 shadow-lg shadow-purple-500/20 backdrop-blur-md border border-purple-400/30 text-white">
+                <span className="flex h-2 w-2 rounded-full bg-white animate-pulse" />
+                <span className="text-sm font-semibold tracking-tight text-white">
+                  WhatsApp Commerce
+                </span>
+              </div>
             </div>
           </RevealAnimation>
         </figure>
