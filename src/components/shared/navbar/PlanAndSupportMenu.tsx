@@ -29,13 +29,13 @@ const accountLinks: PlanSupportLink[] = [
   {
     title: 'Login',
     description: 'Access your account',
-    href: 'https://cartly.zeedone.com/login',
+    href: 'https://app.caartzee.com/login',
     icon: LoginIcon,
   },
   {
     title: 'Create Account',
     description: 'Learn more about this',
-    href: 'https://cartly.zeedone.com/register',
+    href: 'https://app.caartzee.com/signup',
     icon: SignUpIcon,
   },
   {

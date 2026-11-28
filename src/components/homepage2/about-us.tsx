@@ -1,5 +1,5 @@
-import aboutImgPrimary from '@/public/images/growth.png';
-import aboutImgSecondary from '@/public/images/sales_dashboard_tablet.png';
+import aboutImgPrimary from '@/public/images/caartzee-ui/dashboard-main.png';
+import aboutImgSecondary from '@/public/images/caartzee-ui/orders-management.png';
 import CounterNumberOnScroll from '@/components/animation/counter-number-on-scroll';
 import RevealAnimation from '@/components/animation/reveal-animation';
 import { TextReveal } from '@/components/animation/text-reveal';

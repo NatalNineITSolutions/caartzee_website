@@ -71,7 +71,9 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
           </ul>
           <div className="mt-8 flex flex-col gap-4">
             <Link
-              href="https://cartly.zeedone.com/login"
+              href="https://app.caartzee.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => {
                 closeMenu();
                 document.body.style.overflow = '';
@@ -80,7 +82,9 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
               Sign in
             </Link>
             <Link
-              href="https://cartly.zeedone.com/register"
+              href="https://app.caartzee.com/signup"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => {
                 closeMenu();
                 document.body.style.overflow = '';

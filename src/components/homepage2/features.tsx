@@ -1,7 +1,7 @@
-import smartConditionsImg from '@/public/images/ns-img-10.svg';
-import multiStepAutomationImg from '@/public/images/ns-img-11.svg';
-import realTimeTriggersImg from '@/public/images/ns-img-8.svg';
-import appIntegrationsImg from '@/public/images/ns-img-9.svg';
+import smartConditionsImg from '@/public/images/caartzee-ui/products-catalog.png';
+import multiStepAutomationImg from '@/public/images/caartzee-ui/product-categories.png';
+import realTimeTriggersImg from '@/public/images/caartzee-ui/sales-reports.png';
+import appIntegrationsImg from '@/public/images/caartzee-ui/orders-management.png';
 import RevealAnimation from '@/components/animation/reveal-animation';
 import { TextReveal } from '@/components/animation/text-reveal';
 import { BadgePrimary } from '@/components/shared/ui/badge';

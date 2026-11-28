@@ -166,24 +166,16 @@ const Navbar = () => {
               </ul>
             </nav>
             <div className="hidden items-center justify-center gap-6 xl:flex">
-              {isHomepage2 ? (
-                <Link href="https://cartly.zeedone.com/register" className="inline-block" aria-label="Get started">
-                  <ButtonPrimary>Get started</ButtonPrimary>
-                </Link>
-              ) : (
-                <>
-                  <Link
-                    href="https://cartly.zeedone.com/login"
-                    className="text-tagline-1 text-secondary hover:text-primary-500 font-medium transition-all duration-300">
-                    Sign in
-                  </Link>
-                  <Link
-                    href="https://cartly.zeedone.com/register"
-                    className="btn btn-md btn-primary hover:btn-secondary dark:hover:btn-white-dark dark:btn-white">
-                    <span>Get Started</span>
-                  </Link>
-                </>
-              )}
+              <Link
+                href="https://app.caartzee.com/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-tagline-1 text-secondary hover:text-primary-500 font-medium transition-all duration-300">
+                Sign in
+              </Link>
+              <Link href="https://app.caartzee.com/signup" target="_blank" rel="noopener noreferrer" className="inline-block" aria-label="Get started">
+                <ButtonPrimary>Get started</ButtonPrimary>
+              </Link>
             </div>
             <MobileMenuButton />
           </div>
