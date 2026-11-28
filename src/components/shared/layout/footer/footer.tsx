@@ -21,8 +21,8 @@ const Footer = () => {
                   </figure>
                 </Link>
                 <p className="text-background-14/60 text-tagline-1 mt-4 mb-7 font-normal">
-                  Nexsas helps teams automate workflows, connect the apps they already use, and ship
-                  faster—without piling on complexity.
+                  Caartzee helps brands automate operations, connect their commerce channels, and
+                  scale faster—without extra complexity.
                 </p>
                 <FooterSocialLinks />
               </div>

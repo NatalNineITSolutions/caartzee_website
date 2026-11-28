@@ -1,4 +1,4 @@
-import benefitImage from '@/public/images/ns-img-24.jpg';
+import benefitImage from '@/public/images/whatappintergration1.png';
 import { cn } from '@/utils/cn';
 import Image from 'next/image';
 import type { HTMLAttributes } from 'react';

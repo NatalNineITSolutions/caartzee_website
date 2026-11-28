@@ -1,12 +1,11 @@
 'use client';
 
 import bottomGradient from '@/public/images/bottom-gradient.svg';
-import avatar1 from '@/public/images/ns-avatar-11.jpg';
-import avatar2 from '@/public/images/ns-avatar-13.jpg';
-import avatar3 from '@/public/images/ns-avatar-14.jpg';
+import avatar1 from '@/public/images/ns-avatar-1.png';
+import avatar2 from '@/public/images/ns-avatar-2.png';
+import avatar3 from '@/public/images/ns-avatar-3.png';
 import leftElement from '@/public/images/ns-img-27.svg';
 import rightElement from '@/public/images/ns-img-28.svg';
-import heroBanner from '@/public/images/ns-img-3.png';
 import CounterNumberOnScroll from '@/components/animation/counter-number-on-scroll';
 import RevealAnimation from '@/components/animation/reveal-animation';
 import { TextReveal } from '@/components/animation/text-reveal';

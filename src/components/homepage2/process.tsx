@@ -1,11 +1,11 @@
-import processCardOneImg from '@/public/images/ns-img-1.png';
+import processCardOneImg from '@/public/images/flowbuilder1.png';
 import processCardOneOverlay from '@/public/images/ns-img-12.svg';
 import processCardTwoOverlay from '@/public/images/ns-img-13.png';
 import processCardThreeOverlay from '@/public/images/ns-img-14.svg';
 import processCardFourOverlay from '@/public/images/ns-img-15.svg';
-import processCardFourImg from '@/public/images/ns-img-16.jpg';
-import processCardThreeImg from '@/public/images/ns-img-17.jpg';
-import processCardTwoImg from '@/public/images/ns-img-18.jpg';
+import processCardFourImg from '@/public/images/whatapp inbox1.png';
+import processCardThreeImg from '@/public/images/campaign2.png';
+import processCardTwoImg from '@/public/images/sales_dashboard_tablet.png';
 import {
   CardRevealWithProcess,
   CardsWrapper,

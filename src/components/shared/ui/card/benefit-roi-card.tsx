@@ -1,6 +1,6 @@
 'use client';
 
-import benefitRoiImg from '@/public/images/ns-img-23.jpg';
+import benefitRoiImg from '@/public/images/growth.png';
 import CounterNumberOnScroll from '@/components/animation/counter-number-on-scroll';
 import { ArrowUpIcon } from '@/components/shared/icon';
 import { cn } from '@/utils/cn';

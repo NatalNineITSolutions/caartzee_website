@@ -6,8 +6,7 @@ export const FooterBottom = () => {
       <div className="relative pt-[26px] pb-[42px] text-center">
         <div className="bg-stroke-3 absolute top-0 right-0 left-0 mx-auto h-px origin-center" />
         <p className="text-tagline-1 text-secondary font-normal">
-          Copyright &copy; <span>{new Date().getFullYear()}</span> Pixels71. Nexsas – smart
-          application for modern business
+          Copyright &copy; <span>{new Date().getFullYear()}</span> Caartzee. All rights reserved.
         </p>
       </div>
     </RevealAnimation>
